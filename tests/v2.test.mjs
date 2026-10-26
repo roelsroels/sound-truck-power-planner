@@ -33,3 +33,11 @@ assert.equal(circuits.length,6);
 assert.equal(circuits[0].phase,'L1');
 assert(circuits[0].estimated_a>20);
 console.log('V2 measurement, fuel and circuit tests passed');
+
+
+const html=readFileSync(new URL('../web/index.html',import.meta.url),'utf8');
+const view=readFileSync(new URL('../web/v2.mjs',import.meta.url),'utf8');
+const references=[...view.matchAll(/\$\('([a-zA-Z][a-zA-Z0-9]+)'\)/g)].map(x=>x[1]);
+for(const id of new Set(references))assert(html.includes('id="'+id+'"'),'Missing V2 UI control: '+id);
+assert.equal(new Set(references).size>10,true);
+console.log('V2 interface element contract passed');
