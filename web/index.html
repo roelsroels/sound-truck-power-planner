@@ -31,11 +31,11 @@
     </div>
     <p class="hint">Programme multiplier accounts for how your actual set differs from the published reference test conditions. Start at 1× and replace with metered data.</p>
   </section>
-  <section class="results" aria-label="Live power calculation">
+  <section id="powerResults" class="results" aria-label="Live power calculation">
     <div class="metric"><span>REFERENCE AC LOAD</span><strong id="referenceLoad">—</strong><small>Reference programme demand</small></div>
     <div class="metric"><span>DESIGN AC ENVELOPE</span><strong id="designLoad">—</strong><small>Provisional coincident apparent load</small></div>
     <div class="metric emphasized"><span>SUGGESTED GENERATOR</span><strong id="suggestedGenerator">—</strong><small>Includes headroom and phase loading</small></div>
-    <div class="metric"><span>BATTERY CAPACITY</span><strong id="batteryCapacity">—</strong><small>Standalone nominal kWh, reference scenario</small></div>
+    <div class="metric" data-battery-only><span>BATTERY CAPACITY</span><strong id="batteryCapacity">—</strong><small>Standalone nominal kWh, reference scenario</small></div>
   </section>
   <section class="cols">
     <article class="panel" id="inventory"><div class="panel-heading"><div><div class="section-caption">02 / SOUND SYSTEM</div><h2>Equipment inventory</h2><p>Each speaker cabinet or auxiliary group represents one separately supplied AC load. Allocate it to a phase.</p></div><div class="count" id="unitCount">—</div></div>
@@ -57,25 +57,25 @@
       <p id="venueVerdict" class="verdict" role="status" aria-live="polite"></p>
       <p class="hint">Confirm connectors, distribution, protection and transient capability with the venue electrician. Requirements include the entered headroom; they are not breaker or cable selections.</p>
     </div>
-    <h3 id="generatorTitle">Generator option</h3><div class="form-grid"><label>Generator rating (kVA)<select id="generatorRating"></select></label><label>Generator PF rating<input id="generatorPF" type="number" min="0.5" max="1" step="0.05"></label><label>Design headroom (%)<input id="headroom" type="number" min="0" max="100" step="5"></label><label>Cabinet supply voltage (V)<input id="voltage" type="number" min="100" max="260" step="1"></label><label>Usable battery fraction<input id="batteryFraction" type="number" min="0.1" max="1" step="0.05"></label><label>Inverter efficiency<input id="inverterEfficiency" type="number" min="0.1" max="1" step="0.01"></label></div>
+    <h3 id="generatorTitle">Generator option</h3><div class="form-grid"><label>Generator rating (kVA)<select id="generatorRating"></select></label><label>Generator PF rating<input id="generatorPF" type="number" min="0.5" max="1" step="0.05"></label><label>Design headroom (%)<input id="headroom" type="number" min="0" max="100" step="5"></label><label>Cabinet supply voltage (V)<input id="voltage" type="number" min="100" max="260" step="1"></label><label data-battery-only>Usable battery fraction<input id="batteryFraction" type="number" min="0.1" max="1" step="0.05"></label><label data-battery-only>Inverter efficiency<input id="inverterEfficiency" type="number" min="0.1" max="1" step="0.01"></label></div>
     <div id="powerVerdict" class="verdict"></div>
     <div class="subsection"><h3>Three-phase distribution</h3><p class="hint">High-load estimate by phase, against the selected generator's nominal one-third-per-phase share.</p><div id="phaseBars"></div></div>
     <div class="subsection"><h3>Generator / battery / hybrid comparison</h3>
       <div class="form-grid">
         <label><span id="scenarioLabel">Planning scenario</span><select id="powerMode"><option value="generator">Generator-only</option><option value="battery">Battery-only</option><option value="hybrid">Hybrid (screening)</option></select></label>
-        <label>Installed battery (kWh)<input id="batteryInstalled" type="number" min="0" max="5000" step="5"></label>
-        <label>Three-phase inverter (kVA)<input id="inverterKVA" type="number" min="0" max="10000" step="5"></label>
+        <label data-battery-only>Installed battery (kWh)<input id="batteryInstalled" type="number" min="0" max="5000" step="5"></label>
+        <label data-battery-only>Three-phase inverter (kVA)<input id="inverterKVA" type="number" min="0" max="10000" step="5"></label>
         <label>Manual constant-rate fallback (L/h)<input id="fuelRate" type="number" min="0" max="500" step="0.1" placeholder="Supplier data"></label>
       </div>
-      <p id="batteryNote" class="hint"></p><div id="storageVerdict" class="verdict"></div>
+      <p data-battery-only id="batteryNote" class="hint"></p><div id="storageVerdict" class="verdict"></div>
       <p id="fuelNote" class="hint"></p>
-      <p class="hint">Hybrid screening does not assume generator and battery ratings can simply be added; it requires manufacturer-approved synchronisation, transfer and protection.</p></div>
+      <p class="hint" data-hybrid-only>Hybrid screening does not assume generator and battery ratings can simply be added; it requires manufacturer-approved synchronisation, transfer and protection.</p></div>
     </article>
   </section>
   <section class="cols lower">
     <article class="panel" id="vehicle"><div class="section-caption">04 / VEHICLE</div><h2>Truck & deck</h2><div class="form-grid"><label class="wide">Vehicle type<input id="vehicleType" placeholder="Truck / low-loader"></label><label>Deck length (m)<input id="deckLength" type="number" min="0" max="50" step="0.1" placeholder="Unknown"></label><label>Deck width (m)<input id="deckWidth" type="number" min="0" max="10" step="0.1" placeholder="Unknown"></label><label>Usable payload (kg)<input id="payload" type="number" min="0" step="10" placeholder="Unknown"></label>
       <label>Generator weight (kg)<input id="generatorWeight" type="number" min="0" step="1" placeholder="Supplier data"></label>
-      <label>Battery system weight (kg)<input id="batteryWeight" type="number" min="0" step="1" placeholder="If fitted"></label>
+      <label data-battery-only>Battery system weight (kg)<input id="batteryWeight" type="number" min="0" step="1" placeholder="If fitted"></label>
       <label>Other payload / crew (kg)<input id="otherWeight" type="number" min="0" step="1" placeholder="Additional loads"></label>
       </div><p id="vehicleNote" class="hint"></p></article>
     <article class="panel" id="assumptions"><div class="section-caption">05 / EVIDENCE</div><h2>Assumptions & sources</h2><div id="sourceList" class="source-list"></div><p class="hint">Audio-output peak ratings are deliberately not used as continuous generator loads. Equipment figures may mix different test conditions. Never treat this report as breaker/cable sizing approval.</p></article>

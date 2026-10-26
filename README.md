@@ -134,3 +134,8 @@ preference is saved; an explicit English selection is retained. Controls, calcul
 text summaries and engineering PDFs follow the selected language. Equipment names,
 user-entered text and manufacturer evidence retain their original wording. Built-in
 reference and design explanations in step 5 are translated.
+
+In **Generator-only** mode, battery/inverter controls and battery capacity results
+are hidden. Battery weight is excluded from vehicle totals and battery values are
+omitted from text/PDF reports. Saved battery settings remain in the project so
+switching to Battery-only or Hybrid restores them.

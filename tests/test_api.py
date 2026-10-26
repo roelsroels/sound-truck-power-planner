@@ -65,3 +65,24 @@ def test_pdf_typography():
     from app.report import plain
     assert '?' not in plain('Rave truck — first test system')
     assert plain('2 × 15-inch') == '2 x 15-inch'
+
+@pytest.mark.parametrize('mode,uses_battery', [('generator',False),('battery',True),('hybrid',True)])
+def test_report_battery_values_follow_scenario(client,monkeypatch,mode,uses_battery):
+    import app.report as report
+    recorded=[]
+    original=report.table
+    def record(headers,rows,widths=None):
+        recorded.extend(rows)
+        return original(headers,rows,widths)
+    monkeypatch.setattr(report,'table',record)
+    project=client.get('/api/v1/example').json()
+    project.update(power_mode=mode,battery_installed_kwh=120,inverter_kva=40)
+    project['vehicle'].update(generator_weight_kg=1200,battery_weight_kg=2200,other_weight_kg=300)
+    equipment=client.get('/api/v1/catalog').json()
+    response=client.post('/api/v1/reports/engineering.pdf',json={'project':project,'equipment':equipment})
+    assert response.status_code==200
+    labels={row[0] for row in recorded}
+    for label in ('Standalone battery requirement','Battery configured','Inverter configured'):
+        assert (label in labels)==uses_battery
+    weight=next(row[1] for row in recorded if row[0]=='Known equipment / source weight')
+    assert weight.startswith('3700.0 kg' if uses_battery else '1500.0 kg')

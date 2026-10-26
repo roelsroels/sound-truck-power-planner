@@ -191,7 +191,8 @@ def _build_pdf(project, equipment):
     if not isinstance(v, dict):
         raise ValueError("Invalid vehicle details")
     gen_weight=optional_number(v.get("generator_weight_kg"))
-    battery_weight=optional_number(v.get("battery_weight_kg"))
+    uses_battery=project.get("power_mode") in ("battery", "hybrid")
+    battery_weight=optional_number(v.get("battery_weight_kg")) if uses_battery else None
     other_weight=optional_number(v.get("other_weight_kg"))
     total_known=weight+sum(x for x in (gen_weight,battery_weight,other_weight) if x is not None)
     deck_l=optional_number(v.get("deck_length_m"))
@@ -222,9 +223,9 @@ def _build_pdf(project, equipment):
         ("Model requirement",f"{required_kva:.1f} kVA incl. {round((headroom-1)*100)}% nominal headroom and worst-phase proxy"),
         ("Provisional rating check","ABOVE model threshold" if selected>=required_kva else "BELOW model threshold - revise source / balance"),
         ("Typical programme estimate",f"{average_kw:.2f} kW at {multiplier:.2f}x programme multiplier"),
-        ("Standalone battery requirement",f"{nominal_battery:.1f} kWh nominal for {duration:g} hours"),
+        *([("Standalone battery requirement",f"{nominal_battery:.1f} kWh nominal for {duration:g} hours"),
         ("Battery configured",f"{installed_battery:.1f} kWh nominal; estimated {runtime:.1f} h at reference load" if runtime is not None and installed_battery>0 else "No installed capacity specified"),
-        ("Inverter configured",f"{inverter:.0f} kVA (per-phase and transient limits NOT assessed)" if inverter>0 else "Not specified"),
+        ("Inverter configured",f"{inverter:.0f} kVA (per-phase and transient limits NOT assessed)" if inverter>0 else "Not specified")] if uses_battery else []),
         ("Fuel allowance",f"{number(project.get('fuel_rate_lph'))*duration:.1f} L at entered {number(project.get('fuel_rate_lph')):.1f} L/h, before reserve" if project.get('fuel_rate_lph') is not None else "Not estimated - requires supplier fuel rate"),
     ],[WIDTH*.44,WIDTH*.56]))
     parts.append(section("02 / Three-phase demand"))
