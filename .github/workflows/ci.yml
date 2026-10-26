@@ -20,6 +20,11 @@ jobs:
       - run: node --check web/app.mjs && node --check web/calc.mjs && node --check web/v2.mjs && node --check web/v2calc.mjs && node --check web/supply.mjs && node --check web/i18n.mjs && node --check web/planner.mjs && node --check web/notifications.mjs
       - run: node tests/calc.test.mjs && node tests/v2.test.mjs && node tests/lookup.test.mjs && node tests/supply.test.mjs && node tests/i18n.test.mjs && node tests/planner.test.mjs && node tests/notifications.test.mjs
       - run: docker build -t sound-truck-power-planner:test .
+      - name: Verify embedded source revision
+        run: >-
+          docker run --rm --entrypoint python sound-truck-power-planner:test
+          -c 'import sys; from pathlib import Path; from app.revision import build_revision; assert build_revision()["revision"] == sys.argv[1], build_revision(); assert not Path("/opt/planner/.git").exists()'
+          "$GITHUB_SHA"
       - uses: actions/upload-artifact@v4
         if: success()
         with:

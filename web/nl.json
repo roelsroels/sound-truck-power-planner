@@ -491,5 +491,8 @@
   "Close notification": "Melding sluiten",
   "Buy me a beer": "Trakteer me op een biertje",
   "(or coffee)": "(of koffie)",
-  "Support the project on Buy Me a Coffee": "Steun het project via Buy Me a Coffee"
+  "Support the project on Buy Me a Coffee": "Steun het project via Buy Me a Coffee",
+  "GitHub source": "Broncode op GitHub",
+  "Branch": "Branch",
+  "Revision": "Revisie"
 }

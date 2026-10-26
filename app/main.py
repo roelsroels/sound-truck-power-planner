@@ -3,6 +3,8 @@ import hashlib
 import json
 import os
 import secrets
+from html import escape
+from urllib.parse import quote
 from contextlib import asynccontextmanager
 from pathlib import Path
 
@@ -13,6 +15,7 @@ from pydantic import BaseModel, Field, ConfigDict, field_validator
 
 from . import storage, spec_lookup
 from .report import build_pdf
+from .revision import build_revision
 
 WEB = Path(__file__).resolve().parent.parent / 'web'
 
@@ -64,7 +67,15 @@ def create_app(db_path=None, admin_token=None):
             digest.update(b'\0')
     frontend_revision = digest.hexdigest()[:16]
     asset_prefix = f'/assets/{frontend_revision}'
+    source = build_revision()
+    repository = 'https://github.com/roelsroels/sound-truck-power-planner'
+    source_link = repository + '/tree/' + quote(source['branch'], safe='') if source['branch'] not in ('unknown', 'detached') else repository
+    revision_link = repository + '/commit/' + source['revision'] if source['revision'] != 'unknown' else repository
     index_html = (web / 'index.html').read_text().replace('/assets/', asset_prefix + '/')
+    index_html = index_html.replace('__SOURCE_LINK__', escape(source_link, quote=True))
+    index_html = index_html.replace('__REVISION_LINK__', escape(revision_link, quote=True))
+    index_html = index_html.replace('__SOURCE_BRANCH__', escape(source['branch']))
+    index_html = index_html.replace('__SOURCE_REVISION__', escape(source['revision'][:7]))
 
     @asynccontextmanager
     async def lifespan(_app):
@@ -102,7 +113,7 @@ def create_app(db_path=None, admin_token=None):
 
     @app.get('/api/health')
     def health():
-        return {'status':'ok', 'schema':1, 'frontend_revision':frontend_revision}
+        return {'status':'ok', 'schema':1, 'frontend_revision':frontend_revision, 'source':source}
 
     @app.get('/api/v2/specs/search')
     def specs_search(model: str):
