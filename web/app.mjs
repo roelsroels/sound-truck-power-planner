@@ -140,7 +140,6 @@ function render(){
   $('vehicle').hidden=fixed;$('vehicleNav').hidden=fixed||view==='basic';
   $('sourceTitle').textContent=fixed?'Venue supply & generator fallback':view==='basic'?'Power source':'Generator & storage';
   $('scenarioLabel').textContent=fixed?'Fallback power source':'Power source';
-  $('powerMode').querySelector('option[value=hybrid]').hidden=view==='basic'&&project.power_mode!=='hybrid';
   $('generatorTitle').textContent=fixed?'Generator fallback if venue supply is unavailable or insufficient':'Generator option';
   $('venueRequirements').replaceChildren();
   if(fixed){
