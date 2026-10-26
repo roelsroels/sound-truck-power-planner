@@ -62,7 +62,13 @@ def allowed_url(url):
             or not parts.path.startswith("/en/products/")):
         raise ValueError("Only official HTTPS manufacturer product pages are accepted")
     # Guard against accidental private-address DNS results.
-    for result in socket.getaddrinfo(parts.hostname,443,type=socket.SOCK_STREAM):
+    try:
+        addresses = socket.getaddrinfo(parts.hostname,443,type=socket.SOCK_STREAM)
+    except OSError as exc:
+        raise ValueError("Official manufacturer hostname could not be resolved") from exc
+    if not addresses:
+        raise ValueError("Official manufacturer hostname could not be resolved")
+    for result in addresses:
         addr = ip_address(result[4][0])
         if not addr.is_global:
             raise ValueError("Manufacturer host did not resolve to a public address")
