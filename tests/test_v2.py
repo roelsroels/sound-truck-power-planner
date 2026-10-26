@@ -42,3 +42,23 @@ def test_v2_search_and_read_only_api(tmp_path):
         assert any("M-Drive"==x["model"] for x in r.json()["items"])
         assert c.get("/api/v2/specs/search",params={"model":"a"}).status_code==422
         assert c.post("/api/v2/specs/inspect",json={"url":"https://example.com/en/products/foo"}).status_code in (422,502)
+
+
+def test_v2_pdf_appendix(tmp_path):
+    with TestClient(create_app(str(tmp_path/"pdf.sqlite3"), admin_token="")) as c:
+        project=c.get("/api/v1/example").json()
+        equipment=c.get("/api/v1/catalog").json()
+        project["meter_summary"]={
+            "kind":"measured-ac-real-power","average_kw":12.5,"observed_peak_kw":16,
+            "energy_kwh":6.25,"minutes":30,"samples":61,"largest_gap_min":1
+        }
+        project["generator_fuel_curve"]={
+            "model":"Generic 40 kVA prime set","source":"supplier datasheet",
+            "p25":3.1,"p50":5.2,"p75":7.3,"p100":9.6
+        }
+        project["circuit_notes"]={"0":{"length_m":15,"breaker_a":32,"cable_mm2":6,"engineer_reviewed":False}}
+        response=c.post("/api/v1/reports/engineering.pdf",json={"project":project,"equipment":equipment})
+        assert response.status_code==200
+        assert response.content.startswith(b"%PDF-")
+        assert len(response.content)>6000
+        assert b"/Type /Page" in response.content
