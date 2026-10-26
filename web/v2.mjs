@@ -14,7 +14,7 @@ function profileList(){
 function setProjectValue(key,value){current()[key]=value;ctx.refresh();}
 function previewSearch(items){
   $('specResults').replaceChildren();
-  if(!items.length){notice('No indexed model match. Paste an official product URL below.');return;}
+  if(!items.length)return;
   for(const item of items){
     const div=document.createElement('div');
     div.className='source-row';
@@ -160,14 +160,27 @@ export function renderV2(){
 export function initV2(context){
   ctx=context;
   $('searchModel').addEventListener('click',async ()=>{
+    const button=$('searchModel'),status=$('specSearchStatus');
+    if(button.disabled)return;
     const model=$('specModel').value.trim();
-    notice('Searching curated manufacturer models…');
+    $('specResults').replaceChildren();
+    if(model.replace(/\s+/g,' ').length<2 || model.length>100){
+      status.textContent='Enter between 2 and 100 characters.';return;
+    }
+    button.disabled=true;
+    status.textContent='Searching curated manufacturer models…';
     try{
-      const response=await fetch('/api/v2/specs/search?model='+encodeURIComponent(model));
-      const json=await response.json();
-      if(!response.ok)throw Error(json.detail||'Model search failed');
-      previewSearch(json.items);notice(json.items.length+' official models matched.');
-    }catch(e){notice(e.message)}
+      const response=await fetch('/api/v2/specs/search?model='+encodeURIComponent(model),
+        {signal:AbortSignal.timeout(10000)});
+      let json;
+      try{json=await response.json()}catch{throw Error('Search service returned HTTP '+response.status+' without valid JSON')}
+      if(!response.ok)throw Error(typeof json.detail==='string'?json.detail:'Search service returned HTTP '+response.status);
+      if(!Array.isArray(json.items))throw Error('Search service returned invalid model results');
+      previewSearch(json.items);
+      status.textContent=json.items.length?json.items.length+' official models matched.':
+        'No indexed model match. Paste an official product URL below.';
+    }catch(e){status.textContent='Could not search models: '+e.message}
+    finally{button.disabled=false}
   });
   $('inspectSpecs').addEventListener('click',inspectURL);
   $('approveSpecs').addEventListener('click',applyManufacturer);

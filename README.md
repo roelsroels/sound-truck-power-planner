@@ -91,7 +91,7 @@ The precise Compose volume name depends on your Compose project name; check `doc
 ```sh
 python -m pip install -r requirements.txt pytest httpx
 python -m pytest -q
-node --test tests/calc.test.mjs tests/v2.test.mjs
+node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs
 ```
 
 ## Calculation policy

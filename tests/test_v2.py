@@ -40,7 +40,10 @@ def test_v2_search_and_read_only_api(tmp_path):
         r=c.get("/api/v2/specs/search",params={"model":"M-Drive"})
         assert r.status_code==200
         assert any("M-Drive"==x["model"] for x in r.json()["items"])
-        assert c.get("/api/v2/specs/search",params={"model":"a"}).status_code==422
+        assert c.get("/api/v2/specs/search",params={"model":" B&C 12NDL88 "}).json()["items"][0]["model"]=="12NDL88"
+        assert c.get("/api/v2/specs/search",params={"model":"does-not-exist"}).json()=={"items":[]}
+        for model in ("", "a", "x"*101):
+            assert c.get("/api/v2/specs/search",params={"model":model}).status_code==422
         assert c.post("/api/v2/specs/inspect",json={"url":"https://example.com/en/products/foo"}).status_code in (422,502)
 
 
