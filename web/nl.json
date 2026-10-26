@@ -403,5 +403,17 @@
   "published avg mains w": "gepubliceerd gemiddeld netvermogen W",
   "mains va at eighth audio power": "netvermogen VA bij 1/8 audiovermogen",
   "{0}. {1} / {2} / ref {3} VA / design {4} VA": "{0}. {1} / {2} / referentie {3} VA / ontwerp {4} VA",
-  "unknown": "onbekend"
+  "unknown": "onbekend",
+  "Manufacturer average 1,500 W, converted to ~1,580 VA using assumed 0.95 PF": "Gemiddeld fabrieksverbruik 1.500 W, omgerekend naar circa 1.580 VA bij een aangenomen arbeidsfactor van 0,95",
+  "Manufacturer maximum continuous mains capability 5,500 W at 240 V; ~5,790 VA using assumed 0.95 PF; NOT a cabinet inlet rating": "Maximaal continu opgenomen netvermogen volgens fabrikant 5.500 W bij 240 V; circa 5.790 VA bij een aangenomen arbeidsfactor van 0,95; GEEN aansluitwaarde van de kast",
+  "Manufacturer 600 VA AC consumption at one-eighth maximum output into 4 ohms": "Netverbruik volgens fabrikant 600 VA bij een achtste van het maximale uitgangsvermogen in 4 ohm",
+  "Manufacturer 600 VA AC consumption at one-eighth maximum output into 8 ohms": "Netverbruik volgens fabrikant 600 VA bij een achtste van het maximale uitgangsvermogen in 8 ohm",
+  "Provisional 4 kVA planning allowance, NOT a manufacturer's maximum input rating": "Voorlopige ontwerpbelasting van 4 kVA, NIET het maximale opgenomen vermogen volgens de fabrikant",
+  "Provisional 3 kVA planning allowance, NOT a manufacturer's maximum input rating": "Voorlopige ontwerpbelasting van 3 kVA, NIET het maximale opgenomen vermogen volgens de fabrikant",
+  "Provisional allowance; measure actual input": "Voorlopige ontwerpwaarde; meet het werkelijke verbruik",
+  "Provisional allowance; includes UPS losses only if measured": "Voorlopige ontwerpwaarde; UPS-verliezen alleen inbegrepen als deze zijn gemeten",
+  "User-entered reference estimate": "Zelf ingevoerde referentieschatting",
+  "User-entered high-load estimate": "Zelf ingevoerde schatting van de ontwerpbelasting",
+  "Manufacturer page inspected (NOT validated as mains consumption). {0}": "Fabrikantpagina gecontroleerd (NIET gevalideerd als netverbruik). {0}",
+  "Axle loads, stack geometry, tie-downs, running-in-motion approval and pedestrian safety require separate assessment.": "Aslasten, stapeling, ladingzekering, toestemming voor gebruik tijdens het rijden en voetgangersveiligheid moeten afzonderlijk worden beoordeeld."
 }

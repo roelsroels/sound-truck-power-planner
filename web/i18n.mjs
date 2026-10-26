@@ -1,4 +1,4 @@
-let language='en';
+let language='nl';
 let dictionary={};
 let patterns=[];
 const originals=new WeakMap();
@@ -26,7 +26,7 @@ export function translate(text,depth=0){
   }
   return text;
 }
-export function setLanguage(value){language=value==='nl'?'nl':'en'}
+export function setLanguage(value){language=value==='en'?'en':'nl'}
 function localizeDOM(){
   document.documentElement.lang=language;
   document.title=language==='nl'?'Sound Truck / Stroomplanner':'Sound Truck / Power Planner';
@@ -60,7 +60,7 @@ export async function initLanguage(){
   configureTranslations(await response.json());
   // Option text may be translated, but submitted project category values must stay stable.
   for(const option of document.querySelectorAll('option:not([value])'))option.value=option.textContent;
-  try{setLanguage(localStorage.getItem('soundtruck.language'))}catch{setLanguage('en')}
+  try{setLanguage(localStorage.getItem('soundtruck.language'))}catch{setLanguage('nl')}
   const selector=document.getElementById('languageSelect');
   selector.value=language;
   selector.addEventListener('change',()=>{

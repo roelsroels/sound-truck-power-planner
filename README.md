@@ -129,6 +129,8 @@ Venue requirements are not breaker/cable selections or installation approvals.
 ## Language
 
 Use the **English / Nederlands** selector at the top right. The browser remembers
-the language separately from saved project data. Controls, calculated messages,
+the language separately from saved project data. Dutch is the default when no valid
+preference is saved; an explicit English selection is retained. Controls, calculated messages,
 text summaries and engineering PDFs follow the selected language. Equipment names,
-user-entered text and manufacturer evidence retain their original wording.
+user-entered text and manufacturer evidence retain their original wording. Built-in
+reference and design explanations in step 5 are translated.

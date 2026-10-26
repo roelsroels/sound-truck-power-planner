@@ -9,6 +9,14 @@ assert.equal(translate('Could not search models: Enter between 2 and 100 charact
 assert.match(translate('Venue assessment: Venue supply is insufficient. Arrange a generator or reduce/rebalance the load.'),/^Beoordeling locatievoeding: De locatievoeding is onvoldoende/);
 assert.equal(translate('L1: require 47.8 A; venue available not confirmed'),'L1: benodigd 47.8 A; beschikbaar op locatie niet bevestigd');
 assert.equal(translate('B&C 12NDL88'),'B&C 12NDL88');
+const seed=JSON.parse(readFileSync(new URL('../app/seed.json',import.meta.url)));
+for(const item of seed)for(const key of ['reference_basis','design_basis']){
+  assert.notEqual(translate(item[key]),item[key],`Missing Dutch assumption: ${item[key]}`);
+}
+const view=readFileSync(new URL('../web/app.mjs',import.meta.url),'utf8');
+assert(view.includes('esc(t(e.reference_basis))'));
+assert(view.includes('esc(t(e.design_basis))'));
+assert.equal(translate('Custom note for my own rig'),'Custom note for my own rig');
 setLanguage('en');
 assert.equal(translate('Find model'),'Find model');
 
@@ -19,7 +27,7 @@ const option={textContent:'other',value:''};
 const selector={value:'en',addEventListener(type,handler){this.change=handler}};
 const attrs={placeholder:'Not confirmed','aria-label':'Venue L1 available (A)'};
 const field={closest:()=>null,hasAttribute:k=>k in attrs,getAttribute:k=>attrs[k],setAttribute:(k,v)=>attrs[k]=v};
-let stored='nl',observer;
+let stored=null,observer;
 globalThis.NodeFilter={SHOW_TEXT:4};
 globalThis.MutationObserver=class{constructor(callback){observer=callback}observe(){}};
 globalThis.localStorage={getItem:()=>stored,setItem:(key,value)=>{assert.equal(key,'soundtruck.language');stored=value}};
@@ -43,4 +51,11 @@ assert.match(label.nodeValue,/Geen model in de index/);
 selector.value='en';selector.change();
 assert.equal(label.nodeValue,'No indexed model match. Paste an official product URL below.');
 assert.equal(getLanguage(),'en');
+await initLanguage();
+assert.equal(getLanguage(),'en','Explicit English choice survives initialization');
+stored='unsupported-language';await initLanguage();
+assert.equal(getLanguage(),'nl','Invalid saved preference defaults to Dutch');
+localStorage.getItem=()=>{throw Error('Storage blocked')};
+await initLanguage();
+assert.equal(getLanguage(),'nl','Blocked storage defaults to Dutch');
 console.log('English/Dutch messages, DOM switching, user content, option values and persistence passed');
