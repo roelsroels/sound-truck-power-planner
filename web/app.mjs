@@ -1,3 +1,4 @@
+import {notify,initNotifications} from './notifications.mjs';
 import {estimateFuel} from './v2calc.mjs';
 import {normalizeView,groupedUnits,setQuantity,inputConfidence,supplyRequest} from './planner.mjs';
 import {initLanguage,getLanguage,translate as t} from './i18n.mjs';
@@ -13,10 +14,10 @@ const createId=()=> 'user-'+(globalThis.crypto?.randomUUID?.()??Date.now().toStr
 let catalogue=[],example=null,project=null,editingUnitIndex=null;
 let view='basic';
 try{view=normalizeView(localStorage.getItem('soundtruck.view'))}catch{/* Default to the basic view. */}
-function notify(message){$('notice').textContent=message;setTimeout(()=>{if($('notice').textContent===message)$('notice').textContent='';},6000)}
 function update(prop,value){project[prop]=value;render();}
 function dateNumber(id,pathFn,key,nullWhenEmpty=false){const el=$(id);el.addEventListener('change',()=>{const raw=el.value;pathFn()[key]=(nullWhenEmpty&&raw==='')?null:Number(raw);render()})}
 function bind(){
+  initNotifications();
   $('viewMode').value=view;
   $('viewMode').addEventListener('change',e=>{
     view=normalizeView(e.target.value);

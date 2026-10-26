@@ -137,9 +137,15 @@
     <h3>Still to confirm</h3><p id="basicConfidence" class="hint"></p><p id="basicMissing" class="hint"></p>
     <details class="disclosure"><summary>Calculation assumptions</summary><p id="basicAssumptions" class="hint"></p><p class="hint">Basic and Advanced use the same saved settings. Open Advanced to review or change them.</p></details>
   </section>
-  <p data-advanced-only id="v2Status" class="hint" role="status" aria-live="polite"></p>
-  <section class="bottom-actions"><button id="downloadRequest" class="primary">Download supply request</button><button id="downloadPDF" class="secondary">Download engineering PDF</button><button data-advanced-only id="downloadSummary" class="secondary">Export text summary</button><span id="notice" role="status" aria-live="polite"></span></section>
+  <section class="bottom-actions"><button id="downloadRequest" class="primary">Download supply request</button><button id="downloadPDF" class="secondary">Download engineering PDF</button><button data-advanced-only id="downloadSummary" class="secondary">Export text summary</button></section>
 </main>
 <footer>Sound Truck Power Planner · MIT licensed · No cloud project tracking · Power figures must be validated in the field.</footer>
+<dialog id="notificationDialog" class="notification-dialog" aria-labelledby="notificationTitle" aria-describedby="notificationMessage">
+  <div class="notification-card">
+    <button id="notificationClose" class="notification-close secondary" type="button" aria-label="Close notification" autofocus>×</button>
+    <h2 id="notificationTitle">Notification</h2>
+    <p id="notificationMessage" aria-live="polite"></p>
+  </div>
+</dialog>
 </body>
 </html>

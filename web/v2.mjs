@@ -1,3 +1,4 @@
+import {notify} from './notifications.mjs';
 import {translate as t,getLanguage} from './i18n.mjs';
 import {parseMeterCSV,estimateFuel,provisionalCircuits} from './v2calc.mjs';
 const $=id=>document.getElementById(id);
@@ -6,7 +7,7 @@ const fmt=(n,p=1)=>Number(n).toLocaleString(getLanguage()==='nl'?'nl-NL':'en-GB'
 let ctx=null;
 let inspection=null;
 
-const notice=t=>{$('v2Status').textContent=t;};
+const notice=notify;
 const current=()=>ctx.project();
 function profileList(){
   const p=current();
@@ -168,10 +169,10 @@ export function initV2(context){
     const model=$('specModel').value.trim();
     $('specResults').replaceChildren();
     if(model.replace(/\s+/g,' ').length<2 || model.length>100){
-      status.textContent='Enter between 2 and 100 characters.';return;
+      status.textContent='Enter between 2 and 100 characters.';notify(status.textContent);return;
     }
     button.disabled=true;
-    status.textContent='Searching curated manufacturer models…';
+    status.textContent='Searching curated manufacturer models…';notify(status.textContent);
     try{
       const response=await fetch('/api/v2/specs/search?model='+encodeURIComponent(model),
         {signal:AbortSignal.timeout(10000)});
@@ -182,7 +183,8 @@ export function initV2(context){
       previewSearch(json.items);
       status.textContent=json.items.length?json.items.length+' official models matched.':
         'No indexed model match. Paste an official product URL below.';
-    }catch(e){status.textContent='Could not search models: '+e.message}
+      notify(status.textContent);
+    }catch(e){status.textContent='Could not search models: '+e.message;notify(status.textContent)}
     finally{button.disabled=false}
   });
   $('inspectSpecs').addEventListener('click',inspectURL);

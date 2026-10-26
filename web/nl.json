@@ -486,5 +486,7 @@
   "Dedicated capacity must remain available after other venue loads. Confirm connectors, distribution, protection and transient capability with the venue electrician. The fallback source needs separate approval; do not parallel with venue mains.": "De capaciteit moet beschikbaar blijven na aftrek van andere locatieverbruikers. Stem aansluitingen, verdeling, beveiliging en piekbelastbaarheid af met de locatie-elektricien. De alternatieve bron moet afzonderlijk worden goedgekeurd; sluit deze niet parallel op het locatienet aan.",
   "Confirm connectors, distribution, protection and transient capability with the venue electrician. These are supply requirements, not breaker or cable selections. The fallback source needs separate approval; do not parallel with venue mains.": "Stem aansluitingen, verdeling, beveiliging en piekbelastbaarheid af met de locatie-elektricien. Dit zijn voedingsvereisten, geen keuzeadvies voor automaten of kabels. De alternatieve bron moet afzonderlijk worden goedgekeurd; sluit deze niet parallel op het locatienet aan.",
   "Power source: {0}": "Voeding: {0}",
-  "Fallback power source: {0}": "Alternatieve voeding: {0}"
+  "Fallback power source: {0}": "Alternatieve voeding: {0}",
+  "Notification": "Melding",
+  "Close notification": "Melding sluiten"
 }

@@ -91,7 +91,7 @@ The precise Compose volume name depends on your Compose project name; check `doc
 ```sh
 python -m pip install -r requirements.txt pytest httpx
 python -m pytest -q
-node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs tests/supply.test.mjs tests/i18n.test.mjs tests/planner.test.mjs
+node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs tests/supply.test.mjs tests/i18n.test.mjs tests/planner.test.mjs tests/notifications.test.mjs
 ```
 
 ## Calculation policy
@@ -161,3 +161,9 @@ approval.
 **Download supply request / Stroomaanvraag downloaden** exports a short text
 request for a venue or supplier in the selected language. The detailed engineering
 PDF remains available. Exporting a request never sends it to anyone.
+
+
+Action notifications appear in a centred modal pop-up instead of at the bottom of
+the page. Dismiss with the close button, a click outside the pop-up, or Escape.
+Messages remain until dismissed; progress/results update the same pop-up and
+keyboard focus returns to the originating control when it is still present.

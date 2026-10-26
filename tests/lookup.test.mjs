@@ -9,6 +9,8 @@ class Element {
   replaceChildren(){this.children=[]}
   append(...children){this.children.push(...children)}
   get options(){return this.children}
+  showModal(){this.open=true}
+  close(){this.open=false;this.listeners.close?.()}
 }
 const html=readFileSync(new URL('../web/index.html',import.meta.url),'utf8');
 const elements=new Map([...html.matchAll(/id="([^"]+)"/g)].map(([,id])=>[id,new Element()]));
