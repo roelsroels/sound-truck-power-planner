@@ -38,6 +38,9 @@ styles = {
 
 def plain(value, limit=180):
     text = str(value if value is not None else "")[:limit]
+    for before, after in (("\\u2014", " - "), ("\\u2013", "-"), ("\\u00d7", "x"),
+                          ("\\u2018", "'"), ("\\u2019", "'"), ("\\u2022", "-")):
+        text = text.replace(before, after)
     return unicodedata.normalize("NFKD", text).encode("ascii", "replace").decode("ascii")
 
 def para(value, kind="cell", limit=180):
@@ -204,7 +207,7 @@ def build_pdf(project, equipment):
     parts.append(Spacer(1,9))
     parts.append(section("01 / Supply assessment"))
     parts.append(table(["Parameter","Calculated / selected"],[
-        ("Power scenario",plain(project.get("power_mode","generator"),30)),
+        ("Power scenario",{"generator":"Generator-only","battery":"Battery-only","hybrid":"Hybrid screening"}.get(project.get("power_mode"),"Generator-only")),
         ("Generator selected",f"{selected:.0f} kVA (prime rating must be verified)"),
         ("Model requirement",f"{required_kva:.1f} kVA incl. {round((headroom-1)*100)}% nominal headroom and worst-phase proxy"),
         ("Provisional rating check","ABOVE model threshold" if selected>=required_kva else "BELOW model threshold - revise source / balance"),
