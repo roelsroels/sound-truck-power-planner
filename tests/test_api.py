@@ -46,6 +46,10 @@ def test_pdf_report_export(client):
     assert response.headers['cache-control']=='no-store'
     assert response.content.startswith(b'%PDF-')
     assert len(response.content)>3500
+    from pathlib import Path
+    out=Path('artifacts')
+    out.mkdir(exist_ok=True)
+    (out/'sample-engineering-report.pdf').write_bytes(response.content)
     assert b'/Type /Page' in response.content
 
 def test_pdf_report_rejects_missing_or_excessive_equipment(client):
