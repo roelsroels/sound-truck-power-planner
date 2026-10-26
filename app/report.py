@@ -251,5 +251,69 @@ def build_pdf(project, equipment):
         parts.append(para(f"{plain(item.get('name'))}: {source}", "small",270))
         parts.append(para("Reference: "+plain(item.get("reference_basis"),200)+"; Design: "+plain(item.get("design_basis"),220),"small",440))
         parts.append(Spacer(1,5))
+    # Optional V2 field evidence is a historical measurement snapshot, not a transient test.
+    measurement=project.get("meter_summary")
+    parts.append(section("07 / Measured programme data"))
+    if isinstance(measurement,dict) and measurement.get("kind")=="measured-ac-real-power":
+        parts.append(table(["Measured parameter","Observation"], [
+            ("Average real input",f"{number(measurement.get('average_kw')):.2f} kW"),
+            ("Highest sampled real input",f"{number(measurement.get('observed_peak_kw')):.2f} kW (NOT an instantaneous surge measurement)"),
+            ("Energy observed",f"{number(measurement.get('energy_kwh')):.2f} kWh"),
+            ("Observation window",f"{number(measurement.get('minutes')):.1f} minutes, {int(number(measurement.get('samples')))} samples"),
+            ("Largest sample gap",f"{number(measurement.get('largest_gap_min')):.1f} minutes"),
+        ],[WIDTH*.45,WIDTH*.55]))
+    else:
+        parts.append(para("No imported three-phase meter summary; nominal reference consumption is used.","small"))
+
+    parts.append(section("08 / Supplier generator fuel curve"))
+    fuel=project.get("generator_fuel_curve")
+    if isinstance(fuel,dict):
+        pts=[25,50,75,100]
+        raw=[fuel.get("p"+str(p)) for p in pts]
+        rate=[number(n,0) if n is not None else 0 for n in raw]
+        parts.append(para("Generator model: "+plain(fuel.get("model","Unspecified"),130),"normal"))
+        parts.append(para("Supplier/source: "+plain(fuel.get("source","Unspecified"),200),"small"))
+        parts.append(table(["Load","Fuel L/h"], [(f"{p}%",f"{rate[i]:.2f}" if rate[i]>0 else "Missing") for i,p in enumerate(pts)],[WIDTH*.45,WIDTH*.55]))
+        if all(v>0 for v in rate) and all(rate[i]>=rate[i-1] for i in range(1,4)):
+            measured_avg=number(measurement.get("average_kw")) if isinstance(measurement,dict) and measurement.get("kind")=="measured-ac-real-power" else average_kw
+            target=100*measured_avg/(selected*gen_pf)
+            if 25<=target<=100:
+                j=1
+                while j<3 and target>pts[j]:j+=1
+                frac=(target-pts[j-1])/(pts[j]-pts[j-1])
+                lph=rate[j-1]+frac*(rate[j]-rate[j-1])
+                parts.append(para(f"At {target:.1f}% estimated prime load: {lph:.2f} L/h; {lph*duration:.1f} L over {duration:g} h before reserve. Linear interpolation, NOT a guarantee.","normal",380))
+            else:
+                parts.append(para(f"Estimated load {target:.1f}% falls outside published 25-100% curve; no extrapolation is made.","small",250))
+        else:
+            parts.append(para("Fuel data are missing or inconsistent; estimate withheld.","small"))
+    else:
+        parts.append(para("No generator supplier fuel curve entered.","small"))
+
+    parts.append(section("09 / Cable and protection handoff"))
+    parts.append(para("Values below are user-entered planning notes, not computed cable or breaker requirements. Engineer review flag is not an electrical certificate.","small",400))
+    circuit_notes=project.get("circuit_notes")
+    if not isinstance(circuit_notes,dict): circuit_notes={}
+    cable_rows=[]
+    for i,unit in enumerate(units):
+        if not isinstance(unit,dict):continue
+        item=by_id.get(unit.get("equipment_id")) or {}
+        note=circuit_notes.get(str(i)) or {}
+        if not isinstance(note,dict):note={}
+        length=note.get("length_m")
+        breaker=note.get("breaker_a")
+        area=note.get("cable_mm2")
+        cable_rows.append((
+            f"{i+1}. {plain(item.get('name','Unknown'),36)}",
+            plain(unit.get("phase",""),5),
+            f"{number(item.get('design_va'))/230:.1f}",
+            f"{number(length):g}" if length is not None else "-",
+            f"{number(breaker):g}" if breaker is not None else "-",
+            f"{number(area):g}" if area is not None else "-",
+            "Marked" if note.get("engineer_reviewed") is True else "Pending"
+        ))
+    parts.append(table(["Load","Phase","Est A*","m","Breaker A","mm2","Review"],cable_rows,
+                       [WIDTH*.32,WIDTH*.09,WIDTH*.11,WIDTH*.09,WIDTH*.15,WIDTH*.10,WIDTH*.14]))
+    parts.append(para("*Phase current is an indicative 230 V apparent-current equivalent, NOT conductor ampacity. Confirm actual voltage, protective devices, fault-loop and installation standards.","small",500))
     doc.build(parts,onFirstPage=page,onLaterPages=page)
     return buffer.getvalue()
