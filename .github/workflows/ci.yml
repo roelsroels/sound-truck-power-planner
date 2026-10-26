@@ -19,3 +19,9 @@ jobs:
       - run: python -m pytest -q
       - run: node tests/calc.test.mjs
       - run: docker build -t sound-truck-power-planner:test .
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: sample-engineering-report
+          path: artifacts/sample-engineering-report.pdf
+          retention-days: 7
