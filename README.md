@@ -16,7 +16,7 @@ docker compose up -d --build
 
 Visit `http://127.0.0.1:8080`. Bind your own HTTPS reverse proxy to `127.0.0.1:8080`. No reverse proxy or TLS settings are hard-coded; existing hosting stays unchanged across upgrades. The app uses the named `planner_data` volume for `/data/planner.sqlite3`.
 
-## What V1 includes
+## What V1.1 includes
 
 - Powersoft M-Force/M-Drive infra, DigiMod 3004PFC2 dual-kick, DigiMod 3004PFC4 three-way B&C top example.
 - Adjustable numbers and types of cabinet, with independent 230 V L1/L2/L3 assignment.
@@ -25,11 +25,16 @@ Visit `http://127.0.0.1:8080`. Bind your own HTTPS reverse proxy to `127.0.0.1:8
 - Battery-only nominal energy estimate with duration, usable fraction, inverter efficiency and a programme-demand multiplier.
 - Vehicle type, deck dimensions and payload fields; unknown weights/footprints are reported instead of guessed.
 - Browser-local project save, JSON import/export and text summary download.
+- Project-specific cabinet profile edits without changing the public shared catalogue.
+- One-click high-load phase redistribution (must be verified against actual measured currents).
+- Generator-only, battery-only and hybrid scenario screening, installed BESS/inverter capacity, runtime and optional supplier fuel-rate estimates.
+- Truck payload screen with optional generator, battery and other load masses. Missing weights remain explicit.
+- Designed multi-page **engineering PDF export** with KPI summary, per-phase load visualisation, equipment schedule, vehicle assessment and source/assumption disclosure.
 - SQLite-backed shared catalogue with admin-protected create/update/delete API. API reference at `/docs`.
 
 ## Project privacy and storage
 
-Saved projects are in your own browser (`localStorage`); JSON export makes them portable. SQLite currently stores the common equipment catalogue only. This avoids anonymous visitors overwriting each other's projects on a public website. Equipment profiles created in a project remain project-local unless an administrator adds them to the shared SQLite catalogue.
+Saved projects are in your own browser (`localStorage`); JSON export makes them portable. When you request a PDF, the browser sends the current project and its active equipment profiles to the self-hosted report endpoint; the PDF is generated in memory and returned without saving a project or report to SQLite. SQLite currently stores the common equipment catalogue only. This avoids anonymous visitors overwriting each other's projects on a public website. Equipment profiles created in a project remain project-local unless an administrator adds them to the shared SQLite catalogue.
 
 ### Managing the shared catalogue
 
@@ -43,6 +48,10 @@ curl -X PUT 'http://127.0.0.1:8080/api/v1/catalog/my-cabinet' \
 ```
 
 `my-cabinet.json` must match the `/api/v1/catalog` equipment schema. Don't expose admin access through an untrusted public proxy without HTTPS, rate-limiting and appropriate access control. A future V2/V3 admin UI can be added while preserving the `/api/v1` contract.
+
+## V1.1 PDF export
+
+Use **Download engineering PDF** from the browser. This creates a report with deliberately prominent planning-only warnings. There is no external PDF service, CDN, account, or new persistent volume. The server-side PDF endpoint is `POST /api/v1/reports/engineering.pdf`, with bounded input validation; it is public so normal visitors can export their own projects. Nginx can enforce its existing request-size and rate limits. The values are independent calculations from the submitted equipment profiles, not browser-supplied result totals.
 
 ## Version upgrades / backup
 
@@ -77,12 +86,12 @@ The input library stores **AC reference consumption in VA**, **provisional high-
 
 Battery energy = reference estimated kW × programme multiplier × event hours ÷ (usable battery fraction × inverter efficiency). Generator surge response, battery power (kW), inverter unbalanced-phase output, harmonics, cable sizing and fuel use are explicitly not certified or automated in this release.
 
-All library values and source links appear in `app/seed.json`; inspect `web/calc.mjs` for the auditable formula implementation. The application deliberately flags missing cabinet weights; it cannot certify axle loads, trailer fit or speaker-stack restraint.
+All library values and source links appear in `app/seed.json`; inspect `web/calc.mjs` for the auditable formula implementation. The application deliberately flags missing cabinet weights; it cannot certify axle loads, trailer fit or speaker-stack restraint. Battery inverter sizing is a numerical screening only and never guarantees phase-unbalance, fault protection, surge capability or BESS/generator synchronisation.
 
 ## Roadmap
 
-- **V1.1:** Manufacturer maximum AC input data, measured performance logs, generator fuel profiles and cable schedules (engineer-reviewed only).
-- **V2:** Human-reviewed manufacturer lookup, OEM datasheet parsing via optional backend/provider, with provenance and revision history.
+- **V1.1 (implemented):** Project-local cabinet editing, power-source screening, phase distribution helper, source/vehicle weight inputs and PDF reports.
+- **V2:** Human-reviewed manufacturer lookup, measured performance logs, source-specific generator fuel curves, and optional engineer-reviewed cable schedules.
 - **V3:** Shared multi-user projects, role-based administration, hybrid generator/BESS time simulations, versioned engineering reports, and source-specific transient models.
 
 Hosting contract remains one Docker Compose application, a persistent volume, and an HTTPS reverse proxy. No external database required until concurrency or scale warrants it.
