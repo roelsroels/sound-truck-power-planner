@@ -18,8 +18,8 @@ from reportlab.platypus import (
 )
 
 INK = colors.HexColor("#16232d")
-MINT = colors.HexColor("#0c977d")
-PALE = colors.HexColor("#eaf7f3")
+ACCENT = colors.HexColor("#0c4d97")
+PALE = colors.HexColor("#eaf0f7")
 MUTED = colors.HexColor("#526473")
 LINE = colors.HexColor("#dae3e7")
 LIGHT = colors.HexColor("#f3f6f8")
@@ -27,7 +27,7 @@ PAGE_W, PAGE_H = A4
 WIDTH = PAGE_W - 84
 
 styles = {
-    "label": ParagraphStyle("label", fontName="Helvetica-Bold", fontSize=8, leading=11, textColor=MINT, spaceAfter=8),
+    "label": ParagraphStyle("label", fontName="Helvetica-Bold", fontSize=8, leading=11, textColor=ACCENT, spaceAfter=8),
     "title": ParagraphStyle("title", fontName="Helvetica-Bold", fontSize=25, leading=30, textColor=INK, spaceAfter=7),
     "subtitle": ParagraphStyle("subtitle", fontSize=10, leading=15, textColor=MUTED, spaceAfter=16),
     "section": ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=12, leading=17, textColor=INK, spaceBefore=16, spaceAfter=8, keepWithNext=True),
@@ -80,7 +80,7 @@ class PhaseBars(Flowable):
             c.drawRightString(WIDTH - 2, y + 8, f"{value/1000:.2f} kVA")
             c.setFillColor(LIGHT)
             c.roundRect(30, y-2, WIDTH-33, 8, 3, fill=1, stroke=0)
-            c.setFillColor(MINT if value <= self.limit else colors.HexColor("#cf603b"))
+            c.setFillColor(ACCENT if value <= self.limit else colors.HexColor("#cf603b"))
             c.roundRect(30, y-2, max(1, (WIDTH-33)*min(1,value/self.limit)), 8, 3, fill=1, stroke=0)
 
 def page(canvas, doc):
