@@ -6,12 +6,12 @@ from datetime import datetime, timezone
 from html import escape
 
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER, TA_LEFT
+from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import mm
 from reportlab.platypus import (
-    HRFlowable, KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle, Flowable,
+    Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle, Flowable,
 )
 
 INK = colors.HexColor("#16232d")
@@ -176,6 +176,8 @@ def build_pdf(project, equipment):
     inverter=number(project.get("inverter_kva"),0)
     runtime=(installed_battery*usable*eff/average_kw) if average_kw>0 else None
     v=project.get("vehicle") or {}
+    if not isinstance(v, dict):
+        raise ValueError("Invalid vehicle details")
     gen_weight=optional_number(v.get("generator_weight_kg"))
     battery_weight=optional_number(v.get("battery_weight_kg"))
     other_weight=optional_number(v.get("other_weight_kg"))
@@ -202,6 +204,7 @@ def build_pdf(project, equipment):
     parts.append(Spacer(1,9))
     parts.append(section("01 / Supply assessment"))
     parts.append(table(["Parameter","Calculated / selected"],[
+        ("Power scenario",plain(project.get("power_mode","generator"),30)),
         ("Generator selected",f"{selected:.0f} kVA (prime rating must be verified)"),
         ("Model requirement",f"{required_kva:.1f} kVA incl. {round((headroom-1)*100)}% nominal headroom and worst-phase proxy"),
         ("Provisional rating check","ABOVE model threshold" if selected>=required_kva else "BELOW model threshold - revise source / balance"),
@@ -209,6 +212,7 @@ def build_pdf(project, equipment):
         ("Standalone battery requirement",f"{nominal_battery:.1f} kWh nominal for {duration:g} hours"),
         ("Battery configured",f"{installed_battery:.1f} kWh nominal; estimated {runtime:.1f} h at reference load" if runtime is not None and installed_battery>0 else "No installed capacity specified"),
         ("Inverter configured",f"{inverter:.0f} kVA (per-phase and transient limits NOT assessed)" if inverter>0 else "Not specified"),
+        ("Fuel allowance",f"{number(project.get('fuel_rate_lph'))*duration:.1f} L at entered {number(project.get('fuel_rate_lph')):.1f} L/h, before reserve" if project.get('fuel_rate_lph') is not None else "Not estimated - requires supplier fuel rate"),
     ],[WIDTH*.44,WIDTH*.56]))
     parts.append(section("02 / Three-phase demand"))
     parts.append(Paragraph("Per-phase apparent high-load allowance. Bars compare against one third of selected generator rating; this does not certify alternator imbalance tolerance.",styles["small"]))
