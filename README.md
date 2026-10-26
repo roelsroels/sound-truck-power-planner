@@ -91,7 +91,7 @@ The precise Compose volume name depends on your Compose project name; check `doc
 ```sh
 python -m pip install -r requirements.txt pytest httpx
 python -m pytest -q
-node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs tests/supply.test.mjs tests/i18n.test.mjs
+node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs tests/supply.test.mjs tests/i18n.test.mjs tests/planner.test.mjs
 ```
 
 ## Calculation policy
@@ -139,3 +139,25 @@ In **Generator-only** mode, battery/inverter controls and battery capacity resul
 are hidden. Battery weight is excluded from vehicle totals and battery values are
 omitted from text/PDF reports. Saved battery settings remain in the project so
 switching to Battery-only or Hybrid restores them.
+
+## Basic and Advanced views
+
+The top selector starts in **Basic / Eenvoudig** and remembers an explicit view
+choice in this browser. Both views edit the same project and use the same saved
+calculation settings. Switching views never resets quantities, phase allocations,
+custom profiles, measurements, fuel curves or source settings.
+
+Basic groups identical equipment into quantities. New cabinets are provisionally
+allocated to the least-loaded phase; existing units keep their phase assignments.
+Its result highlights venue requirements for a fixed setup, or the generator or
+battery requirement for a mobile setup, with input confidence and outstanding
+confirmations. Calculation assumptions remain visible in an expandable summary.
+Advanced provides individual phases, electrical assumptions, custom profiles,
+manufacturer lookup, meter imports, fuel curves, vehicle details and the cable
+worksheet. Battery-only mode excludes generator fuel and weight; generator-only
+mode excludes battery values and weight. Hybrid shows both and requires supplier
+approval.
+
+**Download supply request / Stroomaanvraag downloaden** exports a short text
+request for a venue or supplier in the selected language. The detailed engineering
+PDF remains available. Exporting a request never sends it to anyone.

@@ -167,11 +167,12 @@ def _build_pdf(project, equipment):
         rows.append((plain(profile.get("name"),50),phase,f"{reference/1000:.2f}",f"{demand/1000:.2f}",plain(profile.get("confidence","estimate"),15)))
     if not rows:
         raise ValueError("At least one valid cabinet is required")
+    uses_generator=project.get("power_mode")!="battery"
     selected=number(project.get("generator_kva"),40,.01,10000)
     gen_pf=number(project.get("generator_pf"),.8,.1,1)
     headroom=1+number(project.get("headroom_pct"),25,0,300)/100
     phase_max=max(phases.values())
-    required=max(design_va*headroom, design_kw*1000/gen_pf*headroom,phase_max*3*1.1)
+    required=max(design_va*headroom, design_kw*1000/gen_pf*headroom if uses_generator else 0,phase_max*3*1.1)
     required_kva=required/1000
     fixed=project.get("setup_mode")=="fixed"
     voltage=number(project.get("voltage_v"),230,1,1000)
@@ -190,8 +191,8 @@ def _build_pdf(project, equipment):
     v=project.get("vehicle") or {}
     if not isinstance(v, dict):
         raise ValueError("Invalid vehicle details")
-    gen_weight=optional_number(v.get("generator_weight_kg"))
     uses_battery=project.get("power_mode") in ("battery", "hybrid")
+    gen_weight=optional_number(v.get("generator_weight_kg")) if uses_generator else None
     battery_weight=optional_number(v.get("battery_weight_kg")) if uses_battery else None
     other_weight=optional_number(v.get("other_weight_kg"))
     total_known=weight+sum(x for x in (gen_weight,battery_weight,other_weight) if x is not None)
@@ -219,19 +220,20 @@ def _build_pdf(project, equipment):
     parts.append(table(["Parameter","Calculated / selected"],[
         ("Setup", "Fixed / venue" if fixed else "Mobile / truck"),
         ("Fallback scenario" if fixed else "Power scenario",{"generator":"Generator-only","battery":"Battery-only","hybrid":"Hybrid screening"}.get(project.get("power_mode"),"Generator-only")),
-        ("Generator selected",f"{selected:.0f} kVA (prime rating must be verified)"),
+        *([("Generator selected",f"{selected:.0f} kVA (prime rating must be verified)")] if uses_generator else []),
         ("Model requirement",f"{required_kva:.1f} kVA incl. {round((headroom-1)*100)}% nominal headroom and worst-phase proxy"),
-        ("Provisional rating check","ABOVE model threshold" if selected>=required_kva else "BELOW model threshold - revise source / balance"),
+        *([("Provisional rating check","ABOVE model threshold" if selected>=required_kva else "BELOW model threshold - revise source / balance")] if uses_generator else []),
         ("Typical programme estimate",f"{average_kw:.2f} kW at {multiplier:.2f}x programme multiplier"),
         *([("Standalone battery requirement",f"{nominal_battery:.1f} kWh nominal for {duration:g} hours"),
         ("Battery configured",f"{installed_battery:.1f} kWh nominal; estimated {runtime:.1f} h at reference load" if runtime is not None and installed_battery>0 else "No installed capacity specified"),
         ("Inverter configured",f"{inverter:.0f} kVA (per-phase and transient limits NOT assessed)" if inverter>0 else "Not specified")] if uses_battery else []),
-        ("Fuel allowance",f"{number(project.get('fuel_rate_lph'))*duration:.1f} L at entered {number(project.get('fuel_rate_lph')):.1f} L/h, before reserve" if project.get('fuel_rate_lph') is not None else "Not estimated - requires supplier fuel rate"),
+        *([("Fuel allowance",f"{number(project.get('fuel_rate_lph'))*duration:.1f} L at entered {number(project.get('fuel_rate_lph')):.1f} L/h, before reserve" if project.get('fuel_rate_lph') is not None else "Not estimated - requires supplier fuel rate")] if uses_generator else []),
     ],[WIDTH*.44,WIDTH*.56]))
     parts.append(section("02 / Three-phase demand"))
-    parts.append(Paragraph(translate("Per-phase apparent high-load allowance. Bars compare against one third of selected generator rating; this does not certify alternator imbalance tolerance."),styles["small"]))
+    phase_note="Per-phase apparent high-load allowance. Bars compare against one third of selected generator rating; this does not certify alternator imbalance tolerance." if uses_generator else "High-load estimate by phase, against one third of the entered inverter capacity. Supplier must confirm per-phase limits."
+    parts.append(Paragraph(translate(phase_note),styles["small"]))
     parts.append(Spacer(1,8))
-    parts.append(PhaseBars(phases,selected*1000/3))
+    parts.append(PhaseBars(phases,(selected if uses_generator else inverter)*1000/3))
     parts.append(section("03 / Equipment schedule"))
     parts.append(table(["Cabinet / load","Phase","Ref kVA","High kVA","Data"], rows, [WIDTH*.43,WIDTH*.10,WIDTH*.14,WIDTH*.16,WIDTH*.17]))
     if fixed:
@@ -243,12 +245,15 @@ def _build_pdf(project, equipment):
             value="not confirmed" if available is None else f"{available:g} A"
             venue_rows.append((phase,f"Require {venue['required_a'][phase]:.1f} A; venue available {value}"))
         verdict={"covered":"Entered supply covers the numerical planning envelope; electrician confirmation required.",
-                 "insufficient":"Venue supply is insufficient. Arrange a generator or reduce/rebalance the load.",
-                 "unknown":"Venue supply is not fully confirmed. Confirm with the venue or arrange a generator."}[venue['status']]
-        venue_rows += [("Venue assessment",verdict),
-                       ("Generator fallback",f"{suggested:g} kVA minimum suggested class; selected {selected:g} kVA " + ("covers" if selected>=required_kva else "is below") + " the generator planning envelope.")]
+                 "insufficient":"Venue supply is insufficient. Arrange a suitable fallback source or reduce/rebalance the load.",
+                 "unknown":"Venue supply is not fully confirmed. Confirm with the venue or arrange a suitable fallback source."}[venue['status']]
+        venue_rows.append(("Venue assessment",verdict))
+        if uses_generator:
+            venue_rows.append(("Generator fallback",f"{suggested:g} kVA minimum suggested class; selected {selected:g} kVA " + ("covers" if selected>=required_kva else "is below") + " the generator planning envelope."))
+        if uses_battery:
+            venue_rows.append(("Battery fallback",f"{nominal_battery:.1f} kWh nominal; inverter planning capacity at least {required_kva:.1f} kVA."))
         parts.append(table(["Venue supply","Planning requirement"],venue_rows,[WIDTH*.40,WIDTH*.60]))
-        parts.append(para("Confirm connectors, distribution, protection and transient capability with the venue electrician. These are supply requirements, not breaker or cable selections. Generator fallback is a separate source; do not parallel with venue mains.","small",450))
+        parts.append(para("Confirm connectors, distribution, protection and transient capability with the venue electrician. These are supply requirements, not breaker or cable selections. The fallback source needs separate approval; do not parallel with venue mains.","small",450))
     else:
         parts.append(section("04 / Vehicle planning"))
         parts.append(table(["Parameter","Planning value"],[
@@ -292,30 +297,31 @@ def _build_pdf(project, equipment):
     else:
         parts.append(para("No imported three-phase meter summary; nominal reference consumption is used.","small"))
 
-    parts.append(section("08 / Supplier generator fuel curve"))
-    fuel=project.get("generator_fuel_curve")
-    if isinstance(fuel,dict):
-        pts=[25,50,75,100]
-        raw=[fuel.get("p"+str(p)) for p in pts]
-        rate=[number(n,0) if n is not None else 0 for n in raw]
-        parts.append(para("Generator model: "+plain(fuel.get("model","Unspecified"),130),"normal"))
-        parts.append(para("Supplier/source: "+plain(fuel.get("source","Unspecified"),200),"small"))
-        parts.append(table(["Load","Fuel L/h"], [(f"{p}%",f"{rate[i]:.2f}" if rate[i]>0 else "Missing") for i,p in enumerate(pts)],[WIDTH*.45,WIDTH*.55]))
-        if all(v>0 for v in rate) and all(rate[i]>=rate[i-1] for i in range(1,4)):
-            measured_avg=number(measurement.get("average_kw")) if isinstance(measurement,dict) and measurement.get("kind")=="measured-ac-real-power" else average_kw
-            target=100*measured_avg/(selected*gen_pf)
-            if 25<=target<=100:
-                j=1
-                while j<3 and target>pts[j]:j+=1
-                frac=(target-pts[j-1])/(pts[j]-pts[j-1])
-                lph=rate[j-1]+frac*(rate[j]-rate[j-1])
-                parts.append(para(f"At {target:.1f}% estimated prime load: {lph:.2f} L/h; {lph*duration:.1f} L over {duration:g} h before reserve. Linear interpolation, NOT a guarantee.","normal",380))
+    if uses_generator:
+        parts.append(section("08 / Supplier generator fuel curve"))
+        fuel=project.get("generator_fuel_curve")
+        if isinstance(fuel,dict):
+            pts=[25,50,75,100]
+            raw=[fuel.get("p"+str(p)) for p in pts]
+            rate=[number(n,0) if n is not None else 0 for n in raw]
+            parts.append(para("Generator model: "+plain(fuel.get("model","Unspecified"),130),"normal"))
+            parts.append(para("Supplier/source: "+plain(fuel.get("source","Unspecified"),200),"small"))
+            parts.append(table(["Load","Fuel L/h"], [(f"{p}%",f"{rate[i]:.2f}" if rate[i]>0 else "Missing") for i,p in enumerate(pts)],[WIDTH*.45,WIDTH*.55]))
+            if all(v>0 for v in rate) and all(rate[i]>=rate[i-1] for i in range(1,4)):
+                measured_avg=number(measurement.get("average_kw")) if isinstance(measurement,dict) and measurement.get("kind")=="measured-ac-real-power" else average_kw
+                target=100*measured_avg/(selected*gen_pf)
+                if 25<=target<=100:
+                    j=1
+                    while j<3 and target>pts[j]:j+=1
+                    frac=(target-pts[j-1])/(pts[j]-pts[j-1])
+                    lph=rate[j-1]+frac*(rate[j]-rate[j-1])
+                    parts.append(para(f"At {target:.1f}% estimated prime load: {lph:.2f} L/h; {lph*duration:.1f} L over {duration:g} h before reserve. Linear interpolation, NOT a guarantee.","normal",380))
+                else:
+                    parts.append(para(f"Estimated load {target:.1f}% falls outside published 25-100% curve; no extrapolation is made.","small",250))
             else:
-                parts.append(para(f"Estimated load {target:.1f}% falls outside published 25-100% curve; no extrapolation is made.","small",250))
+                parts.append(para("Fuel data are missing or inconsistent; estimate withheld.","small"))
         else:
-            parts.append(para("Fuel data are missing or inconsistent; estimate withheld.","small"))
-    else:
-        parts.append(para("No generator supplier fuel curve entered.","small"))
+            parts.append(para("No generator supplier fuel curve entered.","small"))
 
     parts.append(section("09 / Cable and protection handoff"))
     parts.append(para("Values below are user-entered planning notes, not computed cable or breaker requirements. Engineer review flag is not an electrical certificate.","small",400))

@@ -22,7 +22,7 @@ export function supplySummary(project,result){
   return ['Setup: Fixed / venue',
     `Venue requirement: ${fmt(v.requiredKVA,2)} kVA / ${fmt(v.requiredKW,2)} kW including headroom, three-phase with neutral and protective earth at ${v.voltage} V phase-to-neutral.`,
     ...PHASES.map(p=>`${p}: require ${fmt(v.requiredA[p],1)} A; venue available ${v.availableA[p]===null?'not confirmed':v.availableA[p]+' A'}`),
-    `Venue assessment: ${v.status==='covered'?'Entered supply covers the numerical planning envelope; electrician confirmation required.':v.status==='insufficient'?'Venue supply is insufficient. Arrange a generator or reduce/rebalance the load.':'Venue supply is not fully confirmed. Confirm with the venue or arrange a generator.'}`,
-    `Generator fallback: ${result.suggestedKVA} kVA minimum suggested class; selected ${result.selectedKVA} kVA ${result.generatorOK?'covers':'is below'} the generator planning envelope.`,
-    'Dedicated capacity must remain available after other venue loads. Confirm connectors, distribution, protection and transient capability with the venue electrician. Generator fallback is a separate source; do not parallel with venue mains.'];
+    `Venue assessment: ${v.status==='covered'?'Entered supply covers the numerical planning envelope; electrician confirmation required.':v.status==='insufficient'?'Venue supply is insufficient. Arrange a suitable fallback source or reduce/rebalance the load.':'Venue supply is not fully confirmed. Confirm with the venue or arrange a suitable fallback source.'}`,
+    ...(project.power_mode==='battery'?[`Battery fallback: ${fmt(result.batteryNominalKWh,1)} kWh nominal; inverter planning capacity at least ${fmt(result.requiredVA/1000,1)} kVA.`]:[`Generator fallback: ${result.suggestedKVA} kVA minimum suggested class; selected ${result.selectedKVA} kVA ${result.generatorOK?'covers':'is below'} the generator planning envelope.`]),
+    'Dedicated capacity must remain available after other venue loads. Confirm connectors, distribution, protection and transient capability with the venue electrician. The fallback source needs separate approval; do not parallel with venue mains.'];
 }

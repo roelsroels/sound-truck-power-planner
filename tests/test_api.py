@@ -85,4 +85,6 @@ def test_report_battery_values_follow_scenario(client,monkeypatch,mode,uses_batt
     for label in ('Standalone battery requirement','Battery configured','Inverter configured'):
         assert (label in labels)==uses_battery
     weight=next(row[1] for row in recorded if row[0]=='Known equipment / source weight')
-    assert weight.startswith('3700.0 kg' if uses_battery else '1500.0 kg')
+    assert weight.startswith({'generator':'1500.0 kg','battery':'2500.0 kg','hybrid':'3700.0 kg'}[mode])
+    assert ('Generator selected' in labels)==(mode!='battery')
+    assert ('Fuel allowance' in labels)==(mode!='battery')

@@ -9,16 +9,16 @@
   <link rel="stylesheet" href="/assets/style.css">
   <script src="/assets/app.mjs" type="module"></script>
 </head>
-<body>
+<body data-view="basic">
 <header class="site-header">
   <div class="brand"><span class="brand-mark">◉</span><span><strong>SOUND TRUCK</strong><small>POWER PLANNER / V2</small></span></div>
-  <nav aria-label="Site navigation"><a href="#inventory">Inventory</a><a href="#source">Power</a><a href="#vehicle" id="vehicleNav">Vehicle</a></nav>
-  <div class="header-tools"><label class="language-control"><span class="sr-only">Taal / Language</span><select id="languageSelect" aria-label="Taal / Language"><option value="en">English</option><option value="nl" selected>Nederlands</option></select></label><span class="header-status"><span class="status-dot"></span>LOCAL-FIRST</span></div>
+  <nav aria-label="Site navigation"><a href="#inventory">Inventory</a><a href="#source">Power</a><a href="#vehicle" data-advanced-only id="vehicleNav">Vehicle</a></nav>
+  <div class="header-tools"><label class="view-control"><span class="sr-only">View</span><select id="viewMode" aria-label="View"><option value="basic" selected>Basic</option><option value="advanced">Advanced</option></select></label><label class="language-control"><span class="sr-only">Taal / Language</span><select id="languageSelect" aria-label="Taal / Language"><option value="en">English</option><option value="nl" selected>Nederlands</option></select></label><span class="header-status"><span class="status-dot"></span>LOCAL-FIRST</span></div>
 </header>
 <main class="shell">
   <section class="hero">
     <div><p class="eyebrow">MOBILE EVENT SYSTEMS · POWER ENGINEERING</p><h1>Build the rig.<br><em>Know the load.</em></h1><p class="lead">Estimate power demand, generator capacity, battery runtime, and phase balance. Start from a real high-output rave-truck configuration, then tailor every parameter.</p></div>
-    <div class="hero-actions"><button id="save" class="primary">Save in browser</button><button id="export" class="secondary">Export JSON</button><button id="import" class="secondary">Import JSON</button><input id="importfile" type="file" accept="application/json,.json" hidden><button id="reset" class="quiet">Reset example</button></div>
+    <div class="hero-actions"><button id="save" class="primary">Save in browser</button><button data-advanced-only id="export" class="secondary">Export JSON</button><button data-advanced-only id="import" class="secondary">Import JSON</button><input id="importfile" type="file" accept="application/json,.json" hidden><button id="reset" class="quiet">Reset example</button></div>
   </section>
   <div class="disclaimer"><strong>Engineering estimate, not an installation approval.</strong> Unverified high-load allowances are used until cabinet input ratings and measurements are available. A competent event-power electrician must approve electrical distribution, earthing, cable protection and operation in motion.</div>
   <section class="panel project-panel">
@@ -27,24 +27,25 @@
       <label><span class="field-label">Setup</span><select id="setupMode"><option value="mobile">Mobile / truck</option><option value="fixed">Fixed / venue</option></select></label>
       <label><span class="field-label">Project name</span><input id="projectName" maxlength="120"></label>
       <label><span class="field-label">Event duration <span class="unit">hours</span></span><input id="duration" type="number" min="0.5" max="72" step="0.5"></label>
-      <label><span class="field-label">Programme load multiplier <span class="unit">×</span></span><input id="programMultiplier" type="number" min="0.25" max="5" step="0.05" title="Applied only to reference average power for battery runtime"></label>
+      <label data-advanced-only><span class="field-label">Programme load multiplier <span class="unit">×</span></span><input id="programMultiplier" type="number" min="0.25" max="5" step="0.05" title="Applied only to reference average power for battery runtime"></label>
     </div>
-    <p class="hint">Programme multiplier accounts for how your actual set differs from the published reference test conditions. Start at 1× and replace with metered data.</p>
+    <p data-advanced-only class="hint">Programme multiplier accounts for how your actual set differs from the published reference test conditions. Start at 1× and replace with metered data.</p>
   </section>
-  <section id="powerResults" class="results" aria-label="Live power calculation">
+  <section data-advanced-only id="powerResults" class="results" aria-label="Live power calculation">
     <div class="metric"><span>REFERENCE AC LOAD</span><strong id="referenceLoad">—</strong><small>Reference programme demand</small></div>
     <div class="metric"><span>DESIGN AC ENVELOPE</span><strong id="designLoad">—</strong><small>Provisional coincident apparent load</small></div>
-    <div class="metric emphasized"><span>SUGGESTED GENERATOR</span><strong id="suggestedGenerator">—</strong><small>Includes headroom and phase loading</small></div>
+    <div data-generator-only class="metric emphasized"><span>SUGGESTED GENERATOR</span><strong id="suggestedGenerator">—</strong><small>Includes headroom and phase loading</small></div>
     <div class="metric" data-battery-only><span>BATTERY CAPACITY</span><strong id="batteryCapacity">—</strong><small>Standalone nominal kWh, reference scenario</small></div>
   </section>
   <section class="cols">
-    <article class="panel" id="inventory"><div class="panel-heading"><div><div class="section-caption">02 / SOUND SYSTEM</div><h2>Equipment inventory</h2><p>Each speaker cabinet or auxiliary group represents one separately supplied AC load. Allocate it to a phase.</p></div><div class="count" id="unitCount">—</div></div>
-      <div class="inline-form"><select id="equipmentType" aria-label="Cabinet type"></select><button id="addEquipment" class="primary">+ Add cabinet</button><button id="balancePhases" class="secondary" title="Reassign phases greedily based on high-load allowances">Balance phases</button></div>
-      <div id="unitList" class="unit-list" aria-live="polite"></div>
-      <p class="hint">Values are per cabinet, in VA (apparent electrical power), without thousands separators. Reference is the estimated reference operating demand; planning is the higher allowance used to size the supply. Planning values are not verified continuous consumption or audio output power.</p>
-      <details class="disclosure" id="customFormWrap"><summary>Add a custom cabinet / amplifier profile</summary><form id="customForm" class="form-grid"><label>Name<input name="name" required maxlength="120" placeholder="My new bass cabinet"></label><label>Category<select name="category"><option>infra</option><option>kick</option><option>top</option><option>auxiliary</option><option>other</option></select></label><label>Drivers<input name="drivers" maxlength="250" placeholder="2 × 18-inch"></label><label>Amplifier<input name="amplifier" maxlength="250" placeholder="Manufacturer and model"></label><label>Reference consumption (VA)<input name="reference_va" required type="number" min="0" max="1000000" value="600"></label><label>High-load allowance (VA)<input name="design_va" required type="number" min="0" max="1000000" value="3000"></label><label>Power factor<input name="power_factor" type="number" min="0.1" max="1" step="0.01" value="0.95"></label><label>Cabinet weight (kg, optional)<input name="weight_kg" type="number" min="0" step="0.1"></label><label>Width (m, optional)<input name="width_m" type="number" min="0" step="0.01"></label><label>Depth (m, optional)<input name="depth_m" type="number" min="0" step="0.01"></label><label class="wide">Datasheet URL<input name="source_url" type="url" placeholder="https://manufacturer.example/datasheet"></label><label class="wide">Basis / assumptions<input name="design_basis" maxlength="500" placeholder="Measured at maximum intended level, or provisional estimate"></label><div class="form-actions"><button type="submit" class="primary">Add to project catalogue</button></div></form><p class="hint">New profiles are saved with the project and JSON export; they are not automatically made public in the shared catalogue.</p></details>
+    <article class="panel" id="inventory"><div class="panel-heading"><div><div class="section-caption">02 / SOUND SYSTEM</div><h2>Equipment inventory</h2><p data-advanced-only>Each speaker cabinet or auxiliary group represents one separately supplied AC load. Allocate it to a phase.</p><p data-basic-only>Choose equipment and quantities. New cabinets are provisionally allocated across phases; existing phase assignments are retained.</p></div><div class="count" id="unitCount">—</div></div>
+      <div class="inline-form"><select id="equipmentType" aria-label="Cabinet type"></select><label data-basic-only class="add-quantity"><span class="sr-only">Quantity to add</span><input id="addQuantity" type="number" min="1" max="100" value="1" aria-label="Quantity to add"></label><button id="addEquipment" class="primary">+ Add cabinet</button><button data-advanced-only id="balancePhases" class="secondary" title="Reassign phases greedily based on high-load allowances">Balance phases</button></div>
+      <div id="basicUnitList" class="basic-unit-list" data-basic-only></div>
+      <div data-advanced-only id="unitList" class="unit-list" aria-live="polite"></div>
+      <p data-advanced-only class="hint">Values are per cabinet, in VA (apparent electrical power), without thousands separators. Reference is the estimated reference operating demand; planning is the higher allowance used to size the supply. Planning values are not verified continuous consumption or audio output power.</p>
+      <details data-advanced-only class="disclosure" id="customFormWrap"><summary>Add a custom cabinet / amplifier profile</summary><form id="customForm" class="form-grid"><label>Name<input name="name" required maxlength="120" placeholder="My new bass cabinet"></label><label>Category<select name="category"><option>infra</option><option>kick</option><option>top</option><option>auxiliary</option><option>other</option></select></label><label>Drivers<input name="drivers" maxlength="250" placeholder="2 × 18-inch"></label><label>Amplifier<input name="amplifier" maxlength="250" placeholder="Manufacturer and model"></label><label>Reference consumption (VA)<input name="reference_va" required type="number" min="0" max="1000000" value="600"></label><label>High-load allowance (VA)<input name="design_va" required type="number" min="0" max="1000000" value="3000"></label><label>Power factor<input name="power_factor" type="number" min="0.1" max="1" step="0.01" value="0.95"></label><label>Cabinet weight (kg, optional)<input name="weight_kg" type="number" min="0" step="0.1"></label><label>Width (m, optional)<input name="width_m" type="number" min="0" step="0.01"></label><label>Depth (m, optional)<input name="depth_m" type="number" min="0" step="0.01"></label><label class="wide">Datasheet URL<input name="source_url" type="url" placeholder="https://manufacturer.example/datasheet"></label><label class="wide">Basis / assumptions<input name="design_basis" maxlength="500" placeholder="Measured at maximum intended level, or provisional estimate"></label><div class="form-actions"><button type="submit" class="primary">Add to project catalogue</button></div></form><p class="hint">New profiles are saved with the project and JSON export; they are not automatically made public in the shared catalogue.</p></details>
     </article>
-    <article class="panel" id="source"><div class="section-caption">03 / POWER SOURCE</div><h2 id="sourceTitle">Generator & storage</h2>
+    <article class="panel" id="source"><div class="section-caption">03 / POWER SOURCE</div><h2 id="sourceTitle">Generator & storage</h2><div class="form-grid"><label><span id="scenarioLabel">Planning scenario</span><select id="powerMode"><option value="generator">Generator-only</option><option value="battery">Battery-only</option><option value="hybrid">Hybrid (screening)</option></select></label></div>
     <div id="venuePanel" hidden>
       <h3>Venue power requirements</h3>
       <p class="hint">Dedicated three-phase supply with neutral and protective earth. Enter amps available to this rig on each phase, after other venue loads. Leave unconfirmed capacity blank; enter 0 for an unavailable phase.</p>
@@ -53,35 +54,35 @@
         <label>Venue L2 available (A)<input id="venueL2" type="number" min="0" step="any" placeholder="Not confirmed"></label>
         <label>Venue L3 available (A)<input id="venueL3" type="number" min="0" step="any" placeholder="Not confirmed"></label>
       </div>
-      <div id="venueRequirements" class="source-list"></div>
-      <p id="venueVerdict" class="verdict" role="status" aria-live="polite"></p>
+      <div data-advanced-only id="venueRequirements" class="source-list"></div>
+      <p data-advanced-only id="venueVerdict" class="verdict" role="status" aria-live="polite"></p>
       <p class="hint">Confirm connectors, distribution, protection and transient capability with the venue electrician. Requirements include the entered headroom; they are not breaker or cable selections.</p>
     </div>
-    <h3 id="generatorTitle">Generator option</h3><div class="form-grid"><label>Generator rating (kVA)<select id="generatorRating"></select></label><label>Generator PF rating<input id="generatorPF" type="number" min="0.5" max="1" step="0.05"></label><label>Design headroom (%)<input id="headroom" type="number" min="0" max="100" step="5"></label><label>Cabinet supply voltage (V)<input id="voltage" type="number" min="100" max="260" step="1"></label><label data-battery-only>Usable battery fraction<input id="batteryFraction" type="number" min="0.1" max="1" step="0.05"></label><label data-battery-only>Inverter efficiency<input id="inverterEfficiency" type="number" min="0.1" max="1" step="0.01"></label></div>
-    <div id="powerVerdict" class="verdict"></div>
-    <div class="subsection"><h3>Three-phase distribution</h3><p class="hint">High-load estimate by phase, against the selected generator's nominal one-third-per-phase share.</p><div id="phaseBars"></div></div>
-    <div class="subsection"><h3>Generator / battery / hybrid comparison</h3>
+    <h3 data-generator-only id="generatorTitle">Generator option</h3><div class="form-grid"><label data-generator-only>Generator rating (kVA)<select id="generatorRating"></select></label><label data-generator-only data-advanced-only>Generator PF rating<input id="generatorPF" type="number" min="0.5" max="1" step="0.05"></label><label data-advanced-only>Design headroom (%)<input id="headroom" type="number" min="0" max="100" step="5"></label><label data-advanced-only>Cabinet supply voltage (V)<input id="voltage" type="number" min="100" max="260" step="1"></label><label data-advanced-only data-battery-only>Usable battery fraction<input id="batteryFraction" type="number" min="0.1" max="1" step="0.05"></label><label data-advanced-only data-battery-only>Inverter efficiency<input id="inverterEfficiency" type="number" min="0.1" max="1" step="0.01"></label></div>
+    <div data-advanced-only data-generator-only id="powerVerdict" class="verdict"></div>
+    <div data-advanced-only class="subsection"><h3>Three-phase distribution</h3><p id="phaseDescription" class="hint">High-load estimate by phase, against the selected generator's nominal one-third-per-phase share.</p><div id="phaseBars"></div></div>
+    <div class="subsection"><h3>Source capacity and running time</h3>
       <div class="form-grid">
-        <label><span id="scenarioLabel">Planning scenario</span><select id="powerMode"><option value="generator">Generator-only</option><option value="battery">Battery-only</option><option value="hybrid">Hybrid (screening)</option></select></label>
+
         <label data-battery-only>Installed battery (kWh)<input id="batteryInstalled" type="number" min="0" max="5000" step="5"></label>
         <label data-battery-only>Three-phase inverter (kVA)<input id="inverterKVA" type="number" min="0" max="10000" step="5"></label>
-        <label>Manual constant-rate fallback (L/h)<input id="fuelRate" type="number" min="0" max="500" step="0.1" placeholder="Supplier data"></label>
+        <label data-generator-only>Manual constant-rate fallback (L/h)<input id="fuelRate" type="number" min="0" max="500" step="0.1" placeholder="Supplier data"></label>
       </div>
-      <p data-battery-only id="batteryNote" class="hint"></p><div id="storageVerdict" class="verdict"></div>
-      <p id="fuelNote" class="hint"></p>
+      <p data-advanced-only data-battery-only id="batteryNote" class="hint"></p><div data-advanced-only id="storageVerdict" class="verdict"></div>
+      <p data-advanced-only data-generator-only id="fuelNote" class="hint"></p>
       <p class="hint" data-hybrid-only>Hybrid screening does not assume generator and battery ratings can simply be added; it requires manufacturer-approved synchronisation, transfer and protection.</p></div>
     </article>
   </section>
-  <section class="cols lower">
+  <section data-advanced-only class="cols lower">
     <article class="panel" id="vehicle"><div class="section-caption">04 / VEHICLE</div><h2>Truck & deck</h2><div class="form-grid"><label class="wide">Vehicle type<input id="vehicleType" placeholder="Truck / low-loader"></label><label>Deck length (m)<input id="deckLength" type="number" min="0" max="50" step="0.1" placeholder="Unknown"></label><label>Deck width (m)<input id="deckWidth" type="number" min="0" max="10" step="0.1" placeholder="Unknown"></label><label>Usable payload (kg)<input id="payload" type="number" min="0" step="10" placeholder="Unknown"></label>
-      <label>Generator weight (kg)<input id="generatorWeight" type="number" min="0" step="1" placeholder="Supplier data"></label>
+      <label data-generator-only>Generator weight (kg)<input id="generatorWeight" type="number" min="0" step="1" placeholder="Supplier data"></label>
       <label data-battery-only>Battery system weight (kg)<input id="batteryWeight" type="number" min="0" step="1" placeholder="If fitted"></label>
       <label>Other payload / crew (kg)<input id="otherWeight" type="number" min="0" step="1" placeholder="Additional loads"></label>
       </div><p id="vehicleNote" class="hint"></p></article>
     <article class="panel" id="assumptions"><div class="section-caption">05 / EVIDENCE</div><h2>Assumptions & sources</h2><div id="sourceList" class="source-list"></div><p class="hint">Audio-output peak ratings are deliberately not used as continuous generator loads. Equipment figures may mix different test conditions. Never treat this report as breaker/cable sizing approval.</p></article>
   </section>
 
-  <section class="cols lower" id="measurements">
+  <section data-advanced-only class="cols lower" id="measurements">
     <article class="panel">
       <div class="section-caption">06 / MANUFACTURER LOOKUP</div>
       <h2>Find & review specifications</h2>
@@ -104,8 +105,8 @@
       <p class="hint">The observed peak is limited by the meter sampling interval. It cannot establish amplifier inrush or generator transient performance.</p>
     </article>
   </section>
-  <section class="cols lower">
-    <article class="panel">
+  <section data-advanced-only class="cols lower">
+    <article data-generator-only class="panel">
       <div class="section-caption">08 / GENERATOR FUEL PROFILE</div>
       <h2>Supplier fuel curve</h2>
       <p class="hint">Enter published generator L/h rates at 25%, 50%, 75% and 100% prime real-power load. The estimate interpolates only within this range.</p>
@@ -127,8 +128,16 @@
       <p class="hint">Cable sizing, voltage drop, fault-loop impedance, RCD coordination, protective earth and mobile installation approval remain outside the calculator.</p>
     </article>
   </section>
-  <p id="v2Status" class="hint" role="status" aria-live="polite"></p>
-  <section class="bottom-actions"><button id="downloadPDF" class="primary">Download engineering PDF</button><button id="downloadSummary" class="secondary">Export text summary</button><span id="notice" role="status" aria-live="polite"></span></section>
+  <section data-basic-only class="panel basic-result" id="basicResult">
+    <div class="section-caption">RESULT</div><h2>Your power plan</h2>
+    <h3 id="basicLead"></h3><p id="basicNeed"></p><p id="basicEnergy" class="hint"></p>
+    <p id="basicVerdict" class="verdict" role="status" aria-live="polite"></p>
+    <p id="basicFallback" class="hint"></p>
+    <h3>Still to confirm</h3><p id="basicConfidence" class="hint"></p><p id="basicMissing" class="hint"></p>
+    <details class="disclosure"><summary>Calculation assumptions</summary><p id="basicAssumptions" class="hint"></p><p class="hint">Basic and Advanced use the same saved settings. Open Advanced to review or change them.</p></details>
+  </section>
+  <p data-advanced-only id="v2Status" class="hint" role="status" aria-live="polite"></p>
+  <section class="bottom-actions"><button id="downloadRequest" class="primary">Download supply request</button><button id="downloadPDF" class="secondary">Download engineering PDF</button><button data-advanced-only id="downloadSummary" class="secondary">Export text summary</button><span id="notice" role="status" aria-live="polite"></span></section>
 </main>
 <footer>Sound Truck Power Planner · MIT licensed · No cloud project tracking · Power figures must be validated in the field.</footer>
 </body>
