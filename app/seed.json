@@ -1,0 +1,41 @@
+[
+  {
+    "id":"infra-mforce-301p01", "name":"30-inch M-Force infra", "category":"infra",
+    "drivers":"Powersoft M-Force 301P01 × 1", "amplifier":"Powersoft M-Drive × 1",
+    "reference_va":1580, "design_va":5790, "power_factor":0.95, "weight_kg":null,
+    "width_m":null, "depth_m":null,
+    "source_url":"https://www.powersoft.com/en/products/amp-modules/m-drive",
+    "reference_basis":"Manufacturer average 1,500 W, converted to ~1,580 VA using assumed 0.95 PF",
+    "design_basis":"Manufacturer maximum continuous mains capability 5,500 W at 240 V; ~5,790 VA using assumed 0.95 PF; NOT a cabinet inlet rating",
+    "confidence":"mixed"
+  },
+  {
+    "id":"kick-2x15-pfc2", "name":"Dual 15-inch kick", "category":"kick",
+    "drivers":"B&C 15-inch LF × 2 (models to be determined)", "amplifier":"Powersoft DigiMod 3004PFC2 × 1",
+    "reference_va":600, "design_va":4000, "power_factor":0.95, "weight_kg":null,
+    "width_m":null, "depth_m":null,
+    "source_url":"https://www.powersoft.com/en/products/amp-modules/digimod-3004pfc2",
+    "reference_basis":"Manufacturer 600 VA AC consumption at one-eighth maximum output into 4 ohms",
+    "design_basis":"Provisional 4 kVA planning allowance, NOT a manufacturer's maximum input rating",
+    "confidence":"mixed"
+  },
+  {
+    "id":"top-12ndl88-dcx464", "name":"Three-way top", "category":"top",
+    "drivers":"B&C 12NDL88 × 1 + DCX464-8 × 1 (independent MF/HF)", "amplifier":"Powersoft DigiMod 3004PFC4 × 1",
+    "reference_va":600, "design_va":3000, "power_factor":0.95, "weight_kg":null,
+    "width_m":null, "depth_m":null,
+    "source_url":"https://www.powersoft.com/en/products/amp-modules/digimod-3004pfc4",
+    "reference_basis":"Manufacturer 600 VA AC consumption at one-eighth maximum output into 8 ohms",
+    "design_basis":"Provisional 3 kVA planning allowance, NOT a manufacturer's maximum input rating",
+    "confidence":"mixed"
+  },
+  {
+    "id":"aux-control", "name":"DJ / DSP / network / UPS", "category":"auxiliary",
+    "drivers":"Audio controls and supporting electronics", "amplifier":"N/A",
+    "reference_va":700, "design_va":1000, "power_factor":0.95, "weight_kg":null,
+    "width_m":null, "depth_m":null,
+    "source_url":"", "reference_basis":"Provisional allowance; measure actual input",
+    "design_basis":"Provisional allowance; includes UPS losses only if measured",
+    "confidence":"estimate"
+  }
+]

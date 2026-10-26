@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "name": "Rave truck \u2014 first test system",
+  "duration_h": 8,
+  "generator_kva": 40,
+  "voltage_v": 230,
+  "generator_pf": 0.8,
+  "headroom_pct": 25,
+  "battery_use_fraction": 0.8,
+  "inverter_efficiency": 0.92,
+  "vehicle": {
+    "type": "low-loader / truck",
+    "deck_length_m": null,
+    "deck_width_m": null,
+    "payload_kg": null
+  },
+  "units": [
+    {
+      "equipment_id": "infra-mforce-301p01",
+      "phase": "L1"
+    },
+    {
+      "equipment_id": "infra-mforce-301p01",
+      "phase": "L2"
+    },
+    {
+      "equipment_id": "kick-2x15-pfc2",
+      "phase": "L3"
+    },
+    {
+      "equipment_id": "kick-2x15-pfc2",
+      "phase": "L3"
+    },
+    {
+      "equipment_id": "top-12ndl88-dcx464",
+      "phase": "L1"
+    },
+    {
+      "equipment_id": "aux-control",
+      "phase": "L2"
+    }
+  ],
+  "custom_equipment": [],
+  "program_multiplier": 1.0
+}
