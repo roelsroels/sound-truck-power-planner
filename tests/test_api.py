@@ -35,3 +35,24 @@ def test_reject_bad_payload(client):
     assert client.put('/api/v1/catalog/'+item['id'],json=item,headers={'X-Admin-Token':'test-secret'}).status_code==422
     item['power_factor']=0.95
     assert client.put('/api/v1/catalog/different',json=item,headers={'X-Admin-Token':'test-secret'}).status_code==400
+
+def test_pdf_report_export(client):
+    project=client.get('/api/v1/example').json()
+    equipment=client.get('/api/v1/catalog').json()
+    response=client.post('/api/v1/reports/engineering.pdf',
+                         json={'project':project,'equipment':equipment})
+    assert response.status_code==200, response.text[:250] if response.status_code!=200 else ''
+    assert response.headers['content-type']=='application/pdf'
+    assert response.headers['cache-control']=='no-store'
+    assert response.content.startswith(b'%PDF-')
+    assert len(response.content)>3500
+    assert b'/Type /Page' in response.content
+
+def test_pdf_report_rejects_missing_or_excessive_equipment(client):
+    project=client.get('/api/v1/example').json()
+    assert client.post('/api/v1/reports/engineering.pdf',
+                       json={'project':project,'equipment':[]}).status_code==422
+    project['units']*=40
+    equipment=client.get('/api/v1/catalog').json()
+    assert client.post('/api/v1/reports/engineering.pdf',
+                       json={'project':project,'equipment':equipment}).status_code==422
