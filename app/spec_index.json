@@ -1,0 +1,44 @@
+[
+  {
+    "model": "12NDL88",
+    "manufacturer": "B&C Speakers",
+    "kind": "driver",
+    "description": "12-inch LF driver 8 ohm; electrical audio power is not AC input",
+    "url": "https://www.bcspeakers.com/en/products/lf-driver/12/8/12NDL88"
+  },
+  {
+    "model": "DCX464",
+    "manufacturer": "B&C Speakers",
+    "kind": "driver",
+    "description": "Coaxial MF/HF driver 8 ohm",
+    "url": "https://bcspeakers.com/en/products/coaxial_hf/1.4/8/DCX464"
+  },
+  {
+    "model": "M-Force 301P01",
+    "manufacturer": "Powersoft",
+    "kind": "driver",
+    "description": "30-inch moving-magnet transducer, not an AC-powered cabinet",
+    "url": "https://www.powersoft.com/en/products/transducers/m-system/m-force-301p01"
+  },
+  {
+    "model": "DigiMod 3004PFC2",
+    "manufacturer": "Powersoft",
+    "kind": "amplifier",
+    "description": "Two-channel OEM amplifier module",
+    "url": "https://www.powersoft.com/en/products/amp-modules/digimod-3004pfc2"
+  },
+  {
+    "model": "DigiMod 3004PFC4",
+    "manufacturer": "Powersoft",
+    "kind": "amplifier",
+    "description": "Four-channel OEM amplifier module",
+    "url": "https://www.powersoft.com/en/products/amp-modules/digimod-3004pfc4"
+  },
+  {
+    "model": "M-Drive",
+    "manufacturer": "Powersoft",
+    "kind": "amplifier",
+    "description": "Power amplifier for M-Force driver",
+    "url": "https://www.powersoft.com/en/products/amp-modules/m-drive"
+  }
+]

@@ -11,7 +11,7 @@
 </head>
 <body>
 <header class="site-header">
-  <div class="brand"><span class="brand-mark">◉</span><span><strong>SOUND TRUCK</strong><small>POWER PLANNER / V1.1</small></span></div>
+  <div class="brand"><span class="brand-mark">◉</span><span><strong>SOUND TRUCK</strong><small>POWER PLANNER / V2</small></span></div>
   <nav aria-label="Site navigation"><a href="#inventory">Inventory</a><a href="#source">Power</a><a href="#vehicle">Vehicle</a></nav>
   <span class="header-status"><span class="status-dot"></span>LOCAL-FIRST</span>
 </header>
@@ -42,7 +42,7 @@
         <label>Planning scenario<select id="powerMode"><option value="generator">Generator-only</option><option value="battery">Battery-only</option><option value="hybrid">Hybrid (screening)</option></select></label>
         <label>Installed battery (kWh)<input id="batteryInstalled" type="number" min="0" max="5000" step="5"></label>
         <label>Three-phase inverter (kVA)<input id="inverterKVA" type="number" min="0" max="10000" step="5"></label>
-        <label>Estimated fuel rate (L/h, optional)<input id="fuelRate" type="number" min="0" max="500" step="0.1" placeholder="Supplier data"></label>
+        <label>Manual constant-rate fallback (L/h)<input id="fuelRate" type="number" min="0" max="500" step="0.1" placeholder="Supplier data"></label>
       </div>
       <p id="batteryNote" class="hint"></p><div id="storageVerdict" class="verdict"></div>
       <p id="fuelNote" class="hint"></p>
@@ -57,6 +57,53 @@
       </div><p id="vehicleNote" class="hint"></p></article>
     <article class="panel" id="assumptions"><div class="section-caption">05 / EVIDENCE</div><h2>Assumptions & sources</h2><div id="sourceList" class="source-list"></div><p class="hint">Audio-output peak ratings are deliberately not used as continuous generator loads. Equipment figures may mix different test conditions. Never treat this report as breaker/cable sizing approval.</p></article>
   </section>
+
+  <section class="cols lower" id="measurements">
+    <article class="panel">
+      <div class="section-caption">06 / MANUFACTURER LOOKUP</div>
+      <h2>Find & review specifications</h2>
+      <p class="hint">Search known official B&C and Powersoft models, or inspect an exact official product URL. No imported driver wattage automatically changes the electrical load.</p>
+      <div class="inline-form"><input id="specModel" placeholder="e.g. 12NDL88 or M-Drive" aria-label="Manufacturer model"><button id="searchModel" class="secondary">Find model</button></div>
+      <div id="specResults" class="source-list"></div>
+      <label class="v2-wide">Official product URL<input id="specURL" type="url" placeholder="https://www.powersoft.com/en/products/..."></label>
+      <button id="inspectSpecs" class="secondary">Inspect source</button>
+      <div id="specPreview" class="source-list"></div>
+      <div class="inline-form v2-controls"><select id="specTarget" aria-label="Choose cabinet to annotate"></select><button id="approveSpecs" class="primary" disabled>Apply reviewed source to cabinet</button></div>
+    </article>
+    <article class="panel">
+      <div class="section-caption">07 / FIELD MEASUREMENTS</div>
+      <h2>Three-phase power log</h2>
+      <p class="hint">Import measured real power in kW per phase. CSV header: <code>timestamp,l1_kw,l2_kw,l3_kw</code>, ISO 8601 timestamps with timezones, two to 5,000 chronological readings. Stored as a summary in your browser project; raw measurements are not uploaded.</p>
+      <label class="v2-wide">Meter CSV (max 1 MB)<input type="file" id="meterFile" accept=".csv,text/csv"></label>
+      <div id="meterSummary" class="verdict"></div>
+      <div class="inline-form"><button id="applyMeter" class="secondary" disabled>Use measured average for multiplier</button><button id="clearMeter" class="quiet">Clear measurement</button></div>
+      <p class="hint">The observed peak is limited by the meter sampling interval. It cannot establish amplifier inrush or generator transient performance.</p>
+    </article>
+  </section>
+  <section class="cols lower">
+    <article class="panel">
+      <div class="section-caption">08 / GENERATOR FUEL PROFILE</div>
+      <h2>Supplier fuel curve</h2>
+      <p class="hint">Enter published generator L/h rates at 25%, 50%, 75% and 100% prime real-power load. The estimate interpolates only within this range.</p>
+      <div class="form-grid">
+        <label>Generator model<input id="fuelModel" placeholder="Model / fuel profile"></label>
+        <label>Source / datasheet<input id="fuelSource" placeholder="Supplier, model and test conditions"></label>
+        <label>25% load (L/h)<input id="fuelP25" type="number" min="0" max="1000" step=".1"></label>
+        <label>50% load (L/h)<input id="fuelP50" type="number" min="0" max="1000" step=".1"></label>
+        <label>75% load (L/h)<input id="fuelP75" type="number" min="0" max="1000" step=".1"></label>
+        <label>100% load (L/h)<input id="fuelP100" type="number" min="0" max="1000" step=".1"></label>
+      </div>
+      <div id="fuelCurveResult" class="verdict"></div>
+    </article>
+    <article class="panel">
+      <div class="section-caption">09 / CABLE WORKSHEET</div>
+      <h2>Distribution review</h2>
+      <p class="hint">This is an engineering handoff worksheet, NOT an automated conductor or breaker recommendation. Enter your proposed cable data and only mark it reviewed after professional assessment.</p>
+      <div id="circuitsList"></div>
+      <p class="hint">Cable sizing, voltage drop, fault-loop impedance, RCD coordination, protective earth and mobile installation approval remain outside the calculator.</p>
+    </article>
+  </section>
+  <p id="v2Status" class="hint" role="status" aria-live="polite"></p>
   <section class="bottom-actions"><button id="downloadPDF" class="primary">Download engineering PDF</button><button id="downloadSummary" class="secondary">Export text summary</button><span id="notice" role="status" aria-live="polite"></span></section>
 </main>
 <footer>Sound Truck Power Planner · MIT licensed · No cloud project tracking · Power figures must be validated in the field.</footer>

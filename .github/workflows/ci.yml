@@ -17,8 +17,8 @@ jobs:
           node-version: '22'
       - run: pip install -r requirements.txt pytest httpx
       - run: python -m pytest -q
-      - run: node --check web/app.mjs && node --check web/calc.mjs
-      - run: node tests/calc.test.mjs
+      - run: node --check web/app.mjs && node --check web/calc.mjs && node --check web/v2.mjs && node --check web/v2calc.mjs
+      - run: node tests/calc.test.mjs && node tests/v2.test.mjs
       - run: docker build -t sound-truck-power-planner:test .
       - uses: actions/upload-artifact@v4
         if: success()

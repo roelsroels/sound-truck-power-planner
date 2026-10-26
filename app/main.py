@@ -5,12 +5,12 @@ import secrets
 from contextlib import asynccontextmanager
 from pathlib import Path
 
-from fastapi import FastAPI, Header, HTTPException
+from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ConfigDict, field_validator
 
-from . import storage
+from . import storage, spec_lookup
 from .report import build_pdf
 
 WEB = Path(__file__).resolve().parent.parent / 'web'
@@ -41,6 +41,10 @@ class Equipment(BaseModel):
         return value
 
 
+class InspectInput(BaseModel):
+    url: str = Field(min_length=12,max_length=750)
+
+
 class ReportInput(BaseModel):
     project: dict
     equipment: list[Equipment] = Field(max_length=250)
@@ -55,7 +59,7 @@ def create_app(db_path=None, admin_token=None):
         storage.initialize(path)
         yield
 
-    app = FastAPI(title='Sound Truck Power Planner', version='1.1.0', lifespan=lifespan)
+    app = FastAPI(title='Sound Truck Power Planner', version='2.0.0', lifespan=lifespan)
 
     @app.middleware('http')
     async def security_headers(request, call_next):
@@ -78,6 +82,23 @@ def create_app(db_path=None, admin_token=None):
     @app.get('/api/health')
     def health():
         return {'status':'ok', 'schema':1}
+
+    @app.get('/api/v2/specs/search')
+    def specs_search(model: str):
+        try:
+            return {"items": spec_lookup.search_models(model)}
+        except ValueError as exc:
+            raise HTTPException(status_code=422,detail=str(exc))
+
+    @app.post('/api/v2/specs/inspect')
+    def specs_inspect(body: InspectInput, request: Request):
+        try:
+            spec_lookup.rate_limit(request.client.host if request.client else None)
+            return spec_lookup.inspect(body.url)
+        except ValueError as exc:
+            message=str(exc)
+            code=429 if "limit reached" in message else (422 if "Only official" in message or "Invalid" in message else 502)
+            raise HTTPException(status_code=code,detail=message)
 
     @app.get('/api/v1/catalog',response_model=list[Equipment])
     def catalogue():
