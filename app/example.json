@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "name": "Rave truck \u2014 first test system",
+  "name": "Rave truck — first test system",
   "duration_h": 8,
   "generator_kva": 40,
   "voltage_v": 230,
@@ -12,7 +12,10 @@
     "type": "low-loader / truck",
     "deck_length_m": null,
     "deck_width_m": null,
-    "payload_kg": null
+    "payload_kg": null,
+    "generator_weight_kg": null,
+    "battery_weight_kg": null,
+    "other_weight_kg": null
   },
   "units": [
     {
@@ -41,5 +44,9 @@
     }
   ],
   "custom_equipment": [],
-  "program_multiplier": 1.0
+  "program_multiplier": 1,
+  "power_mode": "generator",
+  "battery_installed_kwh": 120,
+  "inverter_kva": 40,
+  "fuel_rate_lph": null
 }

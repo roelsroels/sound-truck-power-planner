@@ -6,11 +6,12 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ConfigDict, field_validator
 
 from . import storage
+from .report import build_pdf
 
 WEB = Path(__file__).resolve().parent.parent / 'web'
 
@@ -40,6 +41,11 @@ class Equipment(BaseModel):
         return value
 
 
+class ReportInput(BaseModel):
+    project: dict
+    equipment: list[Equipment] = Field(max_length=250)
+
+
 def create_app(db_path=None, admin_token=None):
     path = db_path or os.environ.get('DB_PATH','/data/planner.sqlite3')
     token = admin_token if admin_token is not None else os.environ.get('ADMIN_TOKEN','')
@@ -49,7 +55,7 @@ def create_app(db_path=None, admin_token=None):
         storage.initialize(path)
         yield
 
-    app = FastAPI(title='Sound Truck Power Planner', version='1.0.0', lifespan=lifespan)
+    app = FastAPI(title='Sound Truck Power Planner', version='1.1.0', lifespan=lifespan)
 
     @app.middleware('http')
     async def security_headers(request, call_next):
@@ -95,6 +101,18 @@ def create_app(db_path=None, admin_token=None):
         if not storage.delete_equipment(path,id):
             raise HTTPException(status_code=404,detail='Not found')
         return {'ok':True}
+
+    @app.post('/api/v1/reports/engineering.pdf', include_in_schema=False)
+    def engineering_report(body: ReportInput):
+        try:
+            document = build_pdf(body.project, [e.model_dump() for e in body.equipment])
+        except (ValueError, TypeError, KeyError) as exc:
+            raise HTTPException(status_code=422, detail=str(exc)[:180])
+        return Response(
+            content=document, media_type='application/pdf',
+            headers={'Content-Disposition': 'attachment; filename="engineering-report.pdf"',
+                     'Cache-Control': 'no-store'}
+        )
 
     @app.get('/',include_in_schema=False)
     def index():
