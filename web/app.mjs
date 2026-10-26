@@ -1,4 +1,5 @@
 import {calculate, PHASES, GENERATORS} from './calc.mjs';
+import {venueSupply,supplySummary} from './supply.mjs';
 import {initV2,renderV2} from './v2.mjs';
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -11,6 +12,8 @@ function notify(message){$('notice').textContent=message;setTimeout(()=>{if($('n
 function update(prop,value){project[prop]=value;render();}
 function dateNumber(id,pathFn,key,nullWhenEmpty=false){const el=$(id);el.addEventListener('change',()=>{const raw=el.value;pathFn()[key]=(nullWhenEmpty&&raw==='')?null:Number(raw);render()})}
 function bind(){
+  $('setupMode').addEventListener('change',e=>update('setup_mode',e.target.value));
+  for(const phase of PHASES)dateNumber('venue'+phase,()=>project.venue_supply??={},phase,true);
   $('save').addEventListener('click',()=>{localStorage.setItem('soundtruck.project.v1',JSON.stringify(project));notify('Project saved in this browser.')});
   $('export').addEventListener('click',()=>download(`${fileBase()}.json`,JSON.stringify(project,null,2),'application/json'));
   $('import').addEventListener('click',()=>$('importfile').click());
@@ -81,6 +84,8 @@ function bind(){
     const btn=e.target.closest('[data-remove]');if(!btn)return;project.units.splice(Number(btn.dataset.remove),1);render()});
 }
 function populateControls(){
+  $('setupMode').value=project.setup_mode==='fixed'?'fixed':'mobile';
+  for(const phase of PHASES)$('venue'+phase).value=project.venue_supply?.[phase]??'';
   $('projectName').value=project.name??'';
   project.vehicle??={};
   for(const [id,key] of [['batteryInstalled','battery_installed_kwh'],['inverterKVA','inverter_kva']])$(id).value=project[key]??0;
@@ -98,6 +103,21 @@ function validateProject(p){if(!p||p.version!==1||typeof p.name!=='string'||!Arr
 function allEquipment(){return [...catalogue,...(project.custom_equipment||[])]}
 function render(){
   const all=allEquipment(),byId=new Map(all.map(e=>[e.id,e])),r=calculate(project,catalogue);
+  const fixed=project.setup_mode==='fixed',venue=venueSupply(project,r);
+  $('venuePanel').hidden=!fixed;
+  $('vehicle').hidden=fixed;$('vehicleNav').hidden=fixed;
+  $('sourceTitle').textContent=fixed?'Venue supply & generator fallback':'Generator & storage';
+  $('scenarioLabel').textContent=fixed?'Fallback planning scenario':'Planning scenario';
+  $('generatorTitle').textContent=fixed?'Generator fallback if venue supply is unavailable or insufficient':'Generator option';
+  $('venueRequirements').replaceChildren();
+  if(fixed){
+    const lines=supplySummary(project,r);
+    for(const line of lines.slice(1,5)){
+      const item=document.createElement('p');item.textContent=line;$('venueRequirements').append(item);
+    }
+    $('venueVerdict').textContent=lines[5];
+    $('venueVerdict').className='verdict'+(venue.status==='covered'?'':' warn');
+  }
   $('equipmentType').innerHTML=all.map(e=>`<option value="${esc(e.id)}">${esc(e.name)} · ${esc(e.amplifier)}</option>`).join('');
   $('unitCount').textContent=(project.units||[]).filter(u=>byId.has(u.equipment_id)).length;
   $('unitList').innerHTML=(project.units||[]).map((u,i)=>{const e=byId.get(u.equipment_id);if(!e)return `<div class="unit-row"><div>Missing: ${esc(u.equipment_id)}</div><div></div><div></div><button class="remove" data-remove="${i}" aria-label="Remove missing item">×</button></div>`;return `<div class="unit-row"><div class="unit-main"><strong>${esc(e.name)}</strong><small>${esc(e.drivers)} · ${num(e.reference_va,0)} VA ref / ${num(e.design_va,0)} VA design</small></div><select aria-label="Phase for ${esc(e.name)}" data-phase="${i}">${PHASES.map(p=>`<option value="${p}" ${u.phase===p?'selected':''}>${p}</option>`).join('')}</select><button class="secondary edit-unit" data-edit="${i}" aria-label="Customise ${esc(e.name)}">Edit</button><button class="remove" data-remove="${i}" aria-label="Remove ${esc(e.name)}">×</button></div>`}).join('')||'<p class="hint">No cabinets. Add equipment above.</p>';
@@ -127,6 +147,6 @@ function render(){
 function fileBase(){return (project.name||'sound-truck').toLowerCase().replace(/[^a-z0-9-]+/g,'-').slice(0,70)||'sound-truck'}
 function downloadBlob(name,blob){const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000)}
 function download(name,content,type){const blob=new Blob([content],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),2000)}
-function summary(){const r=calculate(project,catalogue);return [`Sound Truck Power Planner — preliminary engineering summary`, `Project: ${project.name}`,`Date: ${new Date().toISOString()}`,`Duration: ${r.duration} h`,``, `Reference AC load: ${num(r.referenceKW,2)} kW (${num(r.referenceVA/1000,2)} kVA)`,`High-load planning envelope: ${num(r.designVA/1000,2)} kVA / ${num(r.designKW,2)} kW`,`Minimum suggested generator class: ${r.suggestedKVA} kVA`,`Selected generator: ${r.selectedKVA} kVA (${r.generatorOK?'provisional coverage':'undersized for illustrative envelope'})`,`Battery-only nominal: ${num(r.batteryNominalKWh,1)} kWh at program multiplier ${project.program_multiplier||1}`,``,...PHASES.map(p=>`${p}: ${num(r.phases[p].design_va/1000,2)} kVA / ${num(r.phaseCurrents[p],1)} A`),``,`Cabinets:`,...project.units.map((u,i)=>{const e=allEquipment().find(e=>e.id===u.equipment_id);return `${i+1}. ${e?.name||u.equipment_id} / ${u.phase} / ref ${e?.reference_va??'unknown'} VA / design ${e?.design_va??'unknown'} VA`}),``,`Warning: design allowances are estimates. Verify cabinet ratings, inrush, harmonics, dynamic loads, power-factor characteristics and phase imbalance.`, `Mobile generator/BESS operation, protection, bonding, RCD coordination, cables, vehicle payload and sound exposure must be professionally checked.`,``,`Sources:`,...allEquipment().filter(e=>project.units.some(u=>u.equipment_id===e.id)).map(e=>`${e.name}: ${e.source_url||'No source'} | ${e.reference_basis}; ${e.design_basis}`)].join('\n')+'\n'}
+function summary(){const r=calculate(project,catalogue);return [`Sound Truck Power Planner — preliminary engineering summary`, `Project: ${project.name}`,...supplySummary(project,r),`Date: ${new Date().toISOString()}`,`Duration: ${r.duration} h`,``, `Reference AC load: ${num(r.referenceKW,2)} kW (${num(r.referenceVA/1000,2)} kVA)`,`High-load planning envelope: ${num(r.designVA/1000,2)} kVA / ${num(r.designKW,2)} kW`,`Minimum suggested generator class: ${r.suggestedKVA} kVA`,`Selected generator: ${r.selectedKVA} kVA (${r.generatorOK?'provisional coverage':'undersized for illustrative envelope'})`,`Battery-only nominal: ${num(r.batteryNominalKWh,1)} kWh at program multiplier ${project.program_multiplier||1}`,``,...PHASES.map(p=>`${p}: ${num(r.phases[p].design_va/1000,2)} kVA / ${num(r.phaseCurrents[p],1)} A`),``,`Cabinets:`,...project.units.map((u,i)=>{const e=allEquipment().find(e=>e.id===u.equipment_id);return `${i+1}. ${e?.name||u.equipment_id} / ${u.phase} / ref ${e?.reference_va??'unknown'} VA / design ${e?.design_va??'unknown'} VA`}),``,`Warning: design allowances are estimates. Verify cabinet ratings, inrush, harmonics, dynamic loads, power-factor characteristics and phase imbalance.`, project.setup_mode==='fixed'?`Venue supply, generator fallback, protection, bonding, RCD coordination, cables and sound exposure must be professionally checked.`:`Mobile generator/BESS operation, protection, bonding, RCD coordination, cables, vehicle payload and sound exposure must be professionally checked.`,``,`Sources:`,...allEquipment().filter(e=>project.units.some(u=>u.equipment_id===e.id)).map(e=>`${e.name}: ${e.source_url||'No source'} | ${e.reference_basis}; ${e.design_basis}`)].join('\n')+'\n'}
 async function start(){try{const [catalogResponse,exampleResponse]=await Promise.all([fetch('/api/v1/catalog'),fetch('/api/v1/example')]);if(!catalogResponse.ok||!exampleResponse.ok)throw Error('API not responding');catalogue=await catalogResponse.json();example=await exampleResponse.json();const saved=localStorage.getItem('soundtruck.project.v1');try{project=saved?JSON.parse(saved):structuredClone(example);validateProject(project)}catch{project=structuredClone(example)}project.program_multiplier??=1;project.vehicle??={};bind();populateControls();initV2({project:()=>project,catalogue:()=>catalogue,refresh:render,calculate:()=>calculate(project,catalogue)});render()}catch(e){document.querySelector('.shell').insertAdjacentHTML('afterbegin',`<div class="disclaimer">Unable to load equipment catalogue: ${esc(e.message)}</div>`)}}
 start();

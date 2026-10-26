@@ -1,4 +1,6 @@
 """Self-contained, bounded engineering PDF export. Estimates are not installation approvals."""
+from .supply import venue_assessment
+
 import io
 import math
 import unicodedata
@@ -169,6 +171,11 @@ def build_pdf(project, equipment):
     phase_max=max(phases.values())
     required=max(design_va*headroom, design_kw*1000/gen_pf*headroom,phase_max*3*1.1)
     required_kva=required/1000
+    fixed=project.get("setup_mode")=="fixed"
+    voltage=number(project.get("voltage_v"),230,1,1000)
+    venue=venue_assessment(project,phases,design_va,design_kw,headroom,voltage)
+    generator_classes=[10,15,20,25,30,40,50,60,80,100,125,150,200,250,300,400,500]
+    suggested=next((k for k in generator_classes if k>=required_kva),math.ceil(required_kva/50)*50)
     duration=number(project.get("duration_h"),8,.1,100)
     multiplier=number(project.get("program_multiplier"),1,.1,5)
     usable=number(project.get("battery_use_fraction"),.8,.01,1)
@@ -207,7 +214,8 @@ def build_pdf(project, equipment):
     parts.append(Spacer(1,9))
     parts.append(section("01 / Supply assessment"))
     parts.append(table(["Parameter","Calculated / selected"],[
-        ("Power scenario",{"generator":"Generator-only","battery":"Battery-only","hybrid":"Hybrid screening"}.get(project.get("power_mode"),"Generator-only")),
+        ("Setup", "Fixed / venue" if fixed else "Mobile / truck"),
+        ("Fallback scenario" if fixed else "Power scenario",{"generator":"Generator-only","battery":"Battery-only","hybrid":"Hybrid screening"}.get(project.get("power_mode"),"Generator-only")),
         ("Generator selected",f"{selected:.0f} kVA (prime rating must be verified)"),
         ("Model requirement",f"{required_kva:.1f} kVA incl. {round((headroom-1)*100)}% nominal headroom and worst-phase proxy"),
         ("Provisional rating check","ABOVE model threshold" if selected>=required_kva else "BELOW model threshold - revise source / balance"),
@@ -223,15 +231,31 @@ def build_pdf(project, equipment):
     parts.append(PhaseBars(phases,selected*1000/3))
     parts.append(section("03 / Equipment schedule"))
     parts.append(table(["Cabinet / load","Phase","Ref kVA","High kVA","Data"], rows, [WIDTH*.43,WIDTH*.10,WIDTH*.14,WIDTH*.16,WIDTH*.17]))
-    parts.append(section("04 / Vehicle planning"))
-    parts.append(table(["Parameter","Planning value"],[
-        ("Vehicle",plain(v.get("type","Not specified"),120)),
-        ("Deck",f"{deck_l:g} x {deck_w:g} m = {deck_area:.2f} m2" if deck_area else "Dimensions not provided"),
-        ("Known equipment / source weight",f"{total_known:.1f} kg (speaker: {weight:.1f} kg; source/accessories: {total_known-weight:.1f} kg)"),
-        ("Payload",f"{payload:.1f} kg; preliminary remaining {payload-total_known:.1f} kg" if payload is not None else "Unknown"),
-        ("Incomplete measurements",f"{unknown_weights} speaker weights; {unknown_footprints} cabinet footprints unknown"),
-        ("Known cabinet footprint",f"{footprint:.2f} m2 (not a fit / stack check)"),
-    ],[WIDTH*.40,WIDTH*.60]))
+    if fixed:
+        parts.append(section("04 / Venue requirements and generator fallback"))
+        parts.append(para(f"Request dedicated three-phase supply with neutral and protective earth at {voltage:g} V phase-to-neutral. Capacity below includes {round((headroom-1)*100)}% headroom and must remain available after other venue loads.","normal",450))
+        venue_rows=[("Total apparent / real capacity",f"{venue['required_kva']:.2f} kVA / {venue['required_kw']:.2f} kW")]
+        for phase in phases:
+            available=venue['available_a'][phase]
+            value="not confirmed" if available is None else f"{available:g} A"
+            venue_rows.append((phase,f"Require {venue['required_a'][phase]:.1f} A; venue available {value}"))
+        verdict={"covered":"Entered supply covers the numerical planning envelope; electrician confirmation required.",
+                 "insufficient":"Venue supply is insufficient. Arrange a generator or reduce/rebalance the load.",
+                 "unknown":"Venue supply is not fully confirmed. Confirm with the venue or arrange a generator."}[venue['status']]
+        venue_rows += [("Venue assessment",verdict),
+                       ("Generator fallback",f"{suggested:g} kVA minimum suggested class; selected {selected:g} kVA " + ("covers" if selected>=required_kva else "is below") + " the generator planning envelope.")]
+        parts.append(table(["Venue supply","Planning requirement"],venue_rows,[WIDTH*.40,WIDTH*.60]))
+        parts.append(para("Confirm connectors, distribution, protection and transient capability with the venue electrician. These are supply requirements, not breaker or cable selections. Generator fallback is a separate source; do not parallel with venue mains.","small",450))
+    else:
+        parts.append(section("04 / Vehicle planning"))
+        parts.append(table(["Parameter","Planning value"],[
+            ("Vehicle",plain(v.get("type","Not specified"),120)),
+            ("Deck",f"{deck_l:g} x {deck_w:g} m = {deck_area:.2f} m2" if deck_area else "Dimensions not provided"),
+            ("Known equipment / source weight",f"{total_known:.1f} kg (speaker: {weight:.1f} kg; source/accessories: {total_known-weight:.1f} kg)"),
+            ("Payload",f"{payload:.1f} kg; preliminary remaining {payload-total_known:.1f} kg" if payload is not None else "Unknown"),
+            ("Incomplete measurements",f"{unknown_weights} speaker weights; {unknown_footprints} cabinet footprints unknown"),
+            ("Known cabinet footprint",f"{footprint:.2f} m2 (not a fit / stack check)"),
+        ],[WIDTH*.40,WIDTH*.60]))
     parts.append(section("05 / Evidence and engineering limitations"))
     parts.append(Paragraph("Published audio output power is not mains consumption. High-load design values may be estimates derived from different manufacturer test conditions. Verify real cabinet inlet ratings, inrush, generator transients, phase limits, earthing/bonding, RCD selection, conductor protection, fuel, noise and operation while moving before use.",styles["normal"]))
     parts.append(Spacer(1,8))

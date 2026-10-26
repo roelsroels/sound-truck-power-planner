@@ -91,7 +91,7 @@ The precise Compose volume name depends on your Compose project name; check `doc
 ```sh
 python -m pip install -r requirements.txt pytest httpx
 python -m pytest -q
-node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs
+node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs tests/supply.test.mjs
 ```
 
 ## Calculation policy
@@ -113,3 +113,15 @@ Hosting contract remains one Docker Compose application, a persistent volume, an
 ## Licensing
 
 MIT. See [LICENSE](LICENSE).
+
+## Mobile and fixed setups
+
+Choose **Mobile / truck** or **Fixed / venue** in the project controls. Existing
+projects default to Mobile. Fixed setups replace vehicle planning with a venue
+supply request: total kVA/kW and amps on L1/L2/L3 at the entered phase-to-neutral
+voltage, including planning headroom. Enter dedicated venue capacity per phase
+after other loads; blank means unconfirmed and zero means unavailable. Every
+phase must cover its own requirement. The generator option remains available as
+a separate fallback, sized using the existing generator and imbalance checks.
+Venue capacity and setup choice are retained in browser saves, JSON and reports.
+Venue requirements are not breaker/cable selections or installation approvals.

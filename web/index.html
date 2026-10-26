@@ -12,7 +12,7 @@
 <body>
 <header class="site-header">
   <div class="brand"><span class="brand-mark">◉</span><span><strong>SOUND TRUCK</strong><small>POWER PLANNER / V2</small></span></div>
-  <nav aria-label="Site navigation"><a href="#inventory">Inventory</a><a href="#source">Power</a><a href="#vehicle">Vehicle</a></nav>
+  <nav aria-label="Site navigation"><a href="#inventory">Inventory</a><a href="#source">Power</a><a href="#vehicle" id="vehicleNav">Vehicle</a></nav>
   <span class="header-status"><span class="status-dot"></span>LOCAL-FIRST</span>
 </header>
 <main class="shell">
@@ -21,7 +21,7 @@
     <div class="hero-actions"><button id="save" class="primary">Save in browser</button><button id="export" class="secondary">Export JSON</button><button id="import" class="secondary">Import JSON</button><input id="importfile" type="file" accept="application/json,.json" hidden><button id="reset" class="quiet">Reset example</button></div>
   </section>
   <div class="disclaimer"><strong>Engineering estimate, not an installation approval.</strong> Unverified high-load allowances are used until cabinet input ratings and measurements are available. A competent event-power electrician must approve electrical distribution, earthing, cable protection and operation in motion.</div>
-  <section class="panel project-panel"><div class="section-caption">01 / PROJECT</div><div class="project-grid"><label>Project name<input id="projectName" maxlength="120"></label><label>Event duration <span class="unit">hours</span><input id="duration" type="number" min="0.5" max="72" step="0.5"></label><label>Programme load multiplier <span class="unit">×</span><input id="programMultiplier" type="number" min="0.25" max="5" step="0.05" title="Applied only to reference average power for battery runtime"></label></div><p class="hint">Programme multiplier accounts for how your actual set differs from the published reference test conditions. Start at 1× and replace with metered data.</p></section>
+  <section class="panel project-panel"><div class="section-caption">01 / PROJECT</div><div class="project-grid"><label>Setup<select id="setupMode"><option value="mobile">Mobile / truck</option><option value="fixed">Fixed / venue</option></select></label><label>Project name<input id="projectName" maxlength="120"></label><label>Event duration <span class="unit">hours</span><input id="duration" type="number" min="0.5" max="72" step="0.5"></label><label>Programme load multiplier <span class="unit">×</span><input id="programMultiplier" type="number" min="0.25" max="5" step="0.05" title="Applied only to reference average power for battery runtime"></label></div><p class="hint">Programme multiplier accounts for how your actual set differs from the published reference test conditions. Start at 1× and replace with metered data.</p></section>
   <section class="results" aria-label="Live power calculation">
     <div class="metric"><span>REFERENCE AC LOAD</span><strong id="referenceLoad">—</strong><small>Reference programme demand</small></div>
     <div class="metric"><span>DESIGN AC ENVELOPE</span><strong id="designLoad">—</strong><small>Provisional coincident apparent load</small></div>
@@ -34,12 +34,25 @@
       <div id="unitList" class="unit-list" aria-live="polite"></div>
       <details class="disclosure" id="customFormWrap"><summary>Add a custom cabinet / amplifier profile</summary><form id="customForm" class="form-grid"><label>Name<input name="name" required maxlength="120" placeholder="My new bass cabinet"></label><label>Category<select name="category"><option>infra</option><option>kick</option><option>top</option><option>auxiliary</option><option>other</option></select></label><label>Drivers<input name="drivers" maxlength="250" placeholder="2 × 18-inch"></label><label>Amplifier<input name="amplifier" maxlength="250" placeholder="Manufacturer and model"></label><label>Reference consumption (VA)<input name="reference_va" required type="number" min="0" max="1000000" value="600"></label><label>High-load allowance (VA)<input name="design_va" required type="number" min="0" max="1000000" value="3000"></label><label>Power factor<input name="power_factor" type="number" min="0.1" max="1" step="0.01" value="0.95"></label><label>Cabinet weight (kg, optional)<input name="weight_kg" type="number" min="0" step="0.1"></label><label>Width (m, optional)<input name="width_m" type="number" min="0" step="0.01"></label><label>Depth (m, optional)<input name="depth_m" type="number" min="0" step="0.01"></label><label class="wide">Datasheet URL<input name="source_url" type="url" placeholder="https://manufacturer.example/datasheet"></label><label class="wide">Basis / assumptions<input name="design_basis" maxlength="500" placeholder="Measured at maximum intended level, or provisional estimate"></label><div class="form-actions"><button type="submit" class="primary">Add to project catalogue</button></div></form><p class="hint">New profiles are saved with the project and JSON export; they are not automatically made public in the shared catalogue.</p></details>
     </article>
-    <article class="panel" id="source"><div class="section-caption">03 / POWER SOURCE</div><h2>Generator & storage</h2><div class="form-grid"><label>Generator rating (kVA)<select id="generatorRating"></select></label><label>Generator PF rating<input id="generatorPF" type="number" min="0.5" max="1" step="0.05"></label><label>Design headroom (%)<input id="headroom" type="number" min="0" max="100" step="5"></label><label>Cabinet supply voltage (V)<input id="voltage" type="number" min="100" max="260" step="1"></label><label>Usable battery fraction<input id="batteryFraction" type="number" min="0.1" max="1" step="0.05"></label><label>Inverter efficiency<input id="inverterEfficiency" type="number" min="0.1" max="1" step="0.01"></label></div>
+    <article class="panel" id="source"><div class="section-caption">03 / POWER SOURCE</div><h2 id="sourceTitle">Generator & storage</h2>
+    <div id="venuePanel" hidden>
+      <h3>Venue power requirements</h3>
+      <p class="hint">Dedicated three-phase supply with neutral and protective earth. Enter amps available to this rig on each phase, after other venue loads. Leave unconfirmed capacity blank; enter 0 for an unavailable phase.</p>
+      <div class="form-grid">
+        <label>Venue L1 available (A)<input id="venueL1" type="number" min="0" step="any" placeholder="Not confirmed"></label>
+        <label>Venue L2 available (A)<input id="venueL2" type="number" min="0" step="any" placeholder="Not confirmed"></label>
+        <label>Venue L3 available (A)<input id="venueL3" type="number" min="0" step="any" placeholder="Not confirmed"></label>
+      </div>
+      <div id="venueRequirements" class="source-list"></div>
+      <p id="venueVerdict" class="verdict" role="status" aria-live="polite"></p>
+      <p class="hint">Confirm connectors, distribution, protection and transient capability with the venue electrician. Requirements include the entered headroom; they are not breaker or cable selections.</p>
+    </div>
+    <h3 id="generatorTitle">Generator option</h3><div class="form-grid"><label>Generator rating (kVA)<select id="generatorRating"></select></label><label>Generator PF rating<input id="generatorPF" type="number" min="0.5" max="1" step="0.05"></label><label>Design headroom (%)<input id="headroom" type="number" min="0" max="100" step="5"></label><label>Cabinet supply voltage (V)<input id="voltage" type="number" min="100" max="260" step="1"></label><label>Usable battery fraction<input id="batteryFraction" type="number" min="0.1" max="1" step="0.05"></label><label>Inverter efficiency<input id="inverterEfficiency" type="number" min="0.1" max="1" step="0.01"></label></div>
     <div id="powerVerdict" class="verdict"></div>
     <div class="subsection"><h3>Three-phase distribution</h3><p class="hint">High-load estimate by phase, against the selected generator's nominal one-third-per-phase share.</p><div id="phaseBars"></div></div>
     <div class="subsection"><h3>Generator / battery / hybrid comparison</h3>
       <div class="form-grid">
-        <label>Planning scenario<select id="powerMode"><option value="generator">Generator-only</option><option value="battery">Battery-only</option><option value="hybrid">Hybrid (screening)</option></select></label>
+        <label><span id="scenarioLabel">Planning scenario</span><select id="powerMode"><option value="generator">Generator-only</option><option value="battery">Battery-only</option><option value="hybrid">Hybrid (screening)</option></select></label>
         <label>Installed battery (kWh)<input id="batteryInstalled" type="number" min="0" max="5000" step="5"></label>
         <label>Three-phase inverter (kVA)<input id="inverterKVA" type="number" min="0" max="10000" step="5"></label>
         <label>Manual constant-rate fallback (L/h)<input id="fuelRate" type="number" min="0" max="500" step="0.1" placeholder="Supplier data"></label>
