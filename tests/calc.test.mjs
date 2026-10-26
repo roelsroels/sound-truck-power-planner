@@ -18,3 +18,17 @@ assert.equal(calculate(small,cat).generatorOK,false);
 const unbalanced={...project, units:project.units.map(u=>({...u,phase:'L1'}))};
 assert(calculate(unbalanced,cat).suggestedKVA>40);
 console.log('Calculator test passed: reference, design, phases, batteries, undersizing and imbalance');
+
+const storage={...project,battery_installed_kwh:120,inverter_kva:40,fuel_rate_lph:5.5,vehicle:{...project.vehicle,generator_weight_kg:1200,battery_weight_kg:2200,other_weight_kg:300,payload_kg:5000}};
+const sr=calculate(storage,cat);
+assert.equal(sr.inverterCapacityOK,true);
+assert(sr.batteryRuntimeH>8);
+assert.equal(sr.fuelLitres,44);
+assert.equal(sr.totalKnownWeight,3700);
+assert.equal(sr.unknownSourceWeights,0);
+assert.equal(sr.payloadRemaining,1300);
+assert.equal(sr.unknownWeights,6);
+const tooSmall=calculate({...storage,inverter_kva:15,battery_installed_kwh:20},cat);
+assert.equal(tooSmall.inverterCapacityOK,false);
+assert(tooSmall.batteryRuntimeH<8);
+console.log('V1.1 source, storage and vehicle screening passed');
