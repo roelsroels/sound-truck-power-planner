@@ -21,7 +21,16 @@
     <div class="hero-actions"><button id="save" class="primary">Save in browser</button><button id="export" class="secondary">Export JSON</button><button id="import" class="secondary">Import JSON</button><input id="importfile" type="file" accept="application/json,.json" hidden><button id="reset" class="quiet">Reset example</button></div>
   </section>
   <div class="disclaimer"><strong>Engineering estimate, not an installation approval.</strong> Unverified high-load allowances are used until cabinet input ratings and measurements are available. A competent event-power electrician must approve electrical distribution, earthing, cable protection and operation in motion.</div>
-  <section class="panel project-panel"><div class="section-caption">01 / PROJECT</div><div class="project-grid"><label>Setup<select id="setupMode"><option value="mobile">Mobile / truck</option><option value="fixed">Fixed / venue</option></select></label><label>Project name<input id="projectName" maxlength="120"></label><label>Event duration <span class="unit">hours</span><input id="duration" type="number" min="0.5" max="72" step="0.5"></label><label>Programme load multiplier <span class="unit">×</span><input id="programMultiplier" type="number" min="0.25" max="5" step="0.05" title="Applied only to reference average power for battery runtime"></label></div><p class="hint">Programme multiplier accounts for how your actual set differs from the published reference test conditions. Start at 1× and replace with metered data.</p></section>
+  <section class="panel project-panel">
+    <div class="section-caption">01 / PROJECT</div>
+    <div class="project-grid">
+      <label><span class="field-label">Setup</span><select id="setupMode"><option value="mobile">Mobile / truck</option><option value="fixed">Fixed / venue</option></select></label>
+      <label><span class="field-label">Project name</span><input id="projectName" maxlength="120"></label>
+      <label><span class="field-label">Event duration <span class="unit">hours</span></span><input id="duration" type="number" min="0.5" max="72" step="0.5"></label>
+      <label><span class="field-label">Programme load multiplier <span class="unit">×</span></span><input id="programMultiplier" type="number" min="0.25" max="5" step="0.05" title="Applied only to reference average power for battery runtime"></label>
+    </div>
+    <p class="hint">Programme multiplier accounts for how your actual set differs from the published reference test conditions. Start at 1× and replace with metered data.</p>
+  </section>
   <section class="results" aria-label="Live power calculation">
     <div class="metric"><span>REFERENCE AC LOAD</span><strong id="referenceLoad">—</strong><small>Reference programme demand</small></div>
     <div class="metric"><span>DESIGN AC ENVELOPE</span><strong id="designLoad">—</strong><small>Provisional coincident apparent load</small></div>

@@ -133,11 +133,11 @@ function renderCircuits(){
     const data=p.circuit_notes[key]||{};
     const row=document.createElement('div');row.className='circuit-row';
     const title=document.createElement('strong');
-    title.textContent=`${circuit.index+1}. ${circuit.name} · ${circuit.phase} · ~${circuit.estimated_a} A high-load apparent equivalent`;
+    title.textContent=`${circuit.index+1}. ${circuit.name} · ${circuit.phase} · ~${fmt(circuit.estimated_a,1)} A high-load apparent equivalent`;
     row.append(title);
     for(const [field,placeholder] of [['length_m','Cable length m'],['breaker_a','Protective device A'],['cable_mm2','Cable area mm²']]){
       const input=document.createElement('input');
-      input.type='number';input.min='0';input.step='any';input.placeholder=placeholder;
+      input.type='number';input.min='0';input.step='any';
       input.value=data[field]??'';
       input.title=placeholder;input.setAttribute('aria-label',placeholder+' for '+circuit.name);
       input.addEventListener('change',()=>{
@@ -145,7 +145,9 @@ function renderCircuits(){
         p.circuit_notes[key]??={};
         p.circuit_notes[key][field]=Number.isFinite(num)&&num>=0?num:null;
       });
-      row.append(input);
+      const fieldLabel=document.createElement('label');
+      const caption=document.createElement('span');caption.textContent=placeholder;
+      fieldLabel.append(caption,input);row.append(fieldLabel);
     }
     const label=document.createElement('label');label.className='circuit-reviewed';
     const cb=document.createElement('input');cb.type='checkbox';cb.checked=!!data.engineer_reviewed;

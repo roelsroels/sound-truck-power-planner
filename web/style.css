@@ -26,3 +26,18 @@
 
 #inventory>.inline-form{flex-wrap:wrap}#inventory>.inline-form select{flex:1 1 200px}#inventory>.inline-form button{flex:0 0 auto}
 .unit-power{margin-top:4px;font-variant-numeric:tabular-nums}
+
+/* Keep project controls aligned and give translated worksheet labels room. */
+.project-grid{grid-template-columns:minmax(0,1.2fr) minmax(0,2fr) minmax(0,1fr) minmax(0,1.4fr);align-items:start}
+.project-grid>label{display:grid;grid-template-rows:minmax(2.9em,auto) 44px;gap:6px;min-width:0}
+.project-grid .field-label{display:block;align-self:end;overflow-wrap:anywhere}
+.field-label .unit{display:inline;margin-left:4px;white-space:nowrap}
+.circuit-row{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:14px;margin:12px 0;border:1px solid #2c3d4b;border-radius:10px;background:#101922;align-items:end}
+.circuit-row>strong{grid-column:1/-1;font-size:13px;line-height:1.5}
+.circuit-row>label:not(.circuit-reviewed){min-width:0;align-self:stretch;justify-content:space-between}
+.circuit-row>label>span{overflow-wrap:anywhere}
+.circuit-row input[type=number]{min-height:40px}
+.circuit-row .circuit-reviewed{grid-column:1/-1;justify-self:start;min-width:0;line-height:1.5;font-size:12px}
+.circuit-reviewed input{flex:0 0 auto;width:18px;height:18px;margin:0}
+@media(max-width:900px){.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:550px){.project-grid{grid-template-columns:1fr}.project-grid>label{grid-template-rows:auto 44px}.circuit-row{grid-template-columns:1fr}}
