@@ -60,3 +60,8 @@ def test_pdf_report_rejects_missing_or_excessive_equipment(client):
     equipment=client.get('/api/v1/catalog').json()
     assert client.post('/api/v1/reports/engineering.pdf',
                        json={'project':project,'equipment':equipment}).status_code==422
+
+def test_pdf_typography():
+    from app.report import plain
+    assert '?' not in plain('Rave truck — first test system')
+    assert plain('2 × 15-inch') == '2 x 15-inch'
