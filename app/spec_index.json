@@ -14,6 +14,13 @@
     "url": "https://bcspeakers.com/en/products/coaxial_hf/1.4/8/DCX464"
   },
   {
+    "model": "M-Force 301P01",
+    "manufacturer": "Powersoft",
+    "kind": "driver",
+    "description": "30-inch moving-magnet transducer, not an AC-powered cabinet",
+    "url": "https://www.powersoft.com/en/products/transducers/m-system/m-force-301p01"
+  },
+  {
     "model": "DigiMod 3004PFC2",
     "manufacturer": "Powersoft",
     "kind": "amplifier",
