@@ -38,8 +38,8 @@ styles = {
 
 def plain(value, limit=180):
     text = str(value if value is not None else "")[:limit]
-    for before, after in (("\\u2014", " - "), ("\\u2013", "-"), ("\\u00d7", "x"),
-                          ("\\u2018", "'"), ("\\u2019", "'"), ("\\u2022", "-")):
+    for before, after in (("—", " - "), ("–", "-"), ("×", "x"),
+                          ("‘", "'"), ("’", "'"), ("•", "-")):
         text = text.replace(before, after)
     return unicodedata.normalize("NFKD", text).encode("ascii", "replace").decode("ascii")
 
