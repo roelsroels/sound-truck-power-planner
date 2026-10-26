@@ -91,7 +91,7 @@ The precise Compose volume name depends on your Compose project name; check `doc
 ```sh
 python -m pip install -r requirements.txt pytest httpx
 python -m pytest -q
-node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs tests/supply.test.mjs
+node --test tests/calc.test.mjs tests/v2.test.mjs tests/lookup.test.mjs tests/supply.test.mjs tests/i18n.test.mjs
 ```
 
 ## Calculation policy
@@ -125,3 +125,10 @@ phase must cover its own requirement. The generator option remains available as
 a separate fallback, sized using the existing generator and imbalance checks.
 Venue capacity and setup choice are retained in browser saves, JSON and reports.
 Venue requirements are not breaker/cable selections or installation approvals.
+
+## Language
+
+Use the **English / Nederlands** selector at the top right. The browser remembers
+the language separately from saved project data. Controls, calculated messages,
+text summaries and engineering PDFs follow the selected language. Equipment names,
+user-entered text and manufacturer evidence retain their original wording.

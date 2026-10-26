@@ -1,5 +1,6 @@
 """Self-contained, bounded engineering PDF export. Estimates are not installation approvals."""
 from .supply import venue_assessment
+from .i18n import LANGUAGE, translate
 
 import io
 import math
@@ -29,7 +30,7 @@ styles = {
     "label": ParagraphStyle("label", fontName="Helvetica-Bold", fontSize=8, leading=11, textColor=MINT, spaceAfter=8),
     "title": ParagraphStyle("title", fontName="Helvetica-Bold", fontSize=25, leading=30, textColor=INK, spaceAfter=7),
     "subtitle": ParagraphStyle("subtitle", fontSize=10, leading=15, textColor=MUTED, spaceAfter=16),
-    "section": ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=12, leading=17, textColor=INK, spaceBefore=16, spaceAfter=8),
+    "section": ParagraphStyle("section", fontName="Helvetica-Bold", fontSize=12, leading=17, textColor=INK, spaceBefore=16, spaceAfter=8, keepWithNext=True),
     "normal": ParagraphStyle("normal", fontSize=8.7, leading=13, textColor=INK),
     "small": ParagraphStyle("small", fontSize=7.4, leading=11, textColor=MUTED),
     "cell": ParagraphStyle("cell", fontSize=8, leading=11, textColor=INK),
@@ -43,10 +44,11 @@ def plain(value, limit=180):
     for before, after in (("—", " - "), ("–", "-"), ("×", "x"),
                           ("‘", "'"), ("’", "'"), ("•", "-")):
         text = text.replace(before, after)
-    return unicodedata.normalize("NFKD", text).encode("ascii", "replace").decode("ascii")
+    normalized = unicodedata.normalize("NFKD", text)
+    return "".join(c for c in normalized if not unicodedata.combining(c)).encode("ascii", "replace").decode("ascii")
 
 def para(value, kind="cell", limit=180):
-    return Paragraph(escape(plain(value, limit)).replace("\n", "<br/>"), styles[kind])
+    return Paragraph(escape(plain(translate(value), limit)).replace("\n", "<br/>"), styles[kind])
 
 def number(value, default=0.0, minimum=0.0, maximum=1e7):
     try:
@@ -93,12 +95,12 @@ def page(canvas, doc):
     canvas.line(42, 33, PAGE_W-42, 33)
     canvas.setFont("Helvetica", 7)
     canvas.setFillColor(MUTED)
-    canvas.drawString(42, 22, "PRELIMINARY PLANNING REPORT - NOT AN ELECTRICAL DESIGN CERTIFICATE")
-    canvas.drawRightString(PAGE_W-42, 22, f"Page {doc.page}")
+    canvas.drawString(42, 22, translate("PRELIMINARY PLANNING REPORT - NOT AN ELECTRICAL DESIGN CERTIFICATE"))
+    canvas.drawRightString(PAGE_W-42, 22, translate(f"Page {doc.page}"))
     canvas.restoreState()
 
 def section(label):
-    return Paragraph(label.upper(), styles["section"])
+    return Paragraph(translate(label).upper(), styles["section"])
 
 def table(headers, rows, widths=None):
     cells = [[para(x, "tablehead") for x in headers]]
@@ -124,7 +126,7 @@ def metrics(cards):
     ]))
     return t
 
-def build_pdf(project, equipment):
+def _build_pdf(project, equipment):
     if not isinstance(project,dict) or not isinstance(equipment,list) or len(equipment)>250:
         raise ValueError("Invalid report project")
     units=project.get("units",[])
@@ -202,10 +204,10 @@ def build_pdf(project, equipment):
                           title=f"Sound Truck - {plain(project.get('name','Project'),90)}",
                           author="Sound Truck Power Planner")
     parts=[]
-    parts.append(Paragraph("ENGINEERING / 01",styles["label"]))
+    parts.append(Paragraph(translate("ENGINEERING / 01"),styles["label"]))
     parts.append(Paragraph(escape(plain(project.get("name","Mobile sound project"),110)),styles["title"]))
     timestamp=datetime.now(timezone.utc).strftime("%d %b %Y / %H:%M UTC")
-    parts.append(Paragraph(f"Power planning snapshot  |  {timestamp}  |  {len(rows)} connected loads",styles["subtitle"]))
+    parts.append(Paragraph(translate(f"Power planning snapshot  |  {timestamp}  |  {len(rows)} connected loads"),styles["subtitle"]))
     parts.append(metrics([
         (f"{ref_kw:.1f} kW","REFERENCE DEMAND"),
         (f"{design_va/1000:.1f} kVA","HIGH-LOAD ENVELOPE"),
@@ -226,7 +228,7 @@ def build_pdf(project, equipment):
         ("Fuel allowance",f"{number(project.get('fuel_rate_lph'))*duration:.1f} L at entered {number(project.get('fuel_rate_lph')):.1f} L/h, before reserve" if project.get('fuel_rate_lph') is not None else "Not estimated - requires supplier fuel rate"),
     ],[WIDTH*.44,WIDTH*.56]))
     parts.append(section("02 / Three-phase demand"))
-    parts.append(Paragraph("Per-phase apparent high-load allowance. Bars compare against one third of selected generator rating; this does not certify alternator imbalance tolerance.",styles["small"]))
+    parts.append(Paragraph(translate("Per-phase apparent high-load allowance. Bars compare against one third of selected generator rating; this does not certify alternator imbalance tolerance."),styles["small"]))
     parts.append(Spacer(1,8))
     parts.append(PhaseBars(phases,selected*1000/3))
     parts.append(section("03 / Equipment schedule"))
@@ -257,7 +259,7 @@ def build_pdf(project, equipment):
             ("Known cabinet footprint",f"{footprint:.2f} m2 (not a fit / stack check)"),
         ],[WIDTH*.40,WIDTH*.60]))
     parts.append(section("05 / Evidence and engineering limitations"))
-    parts.append(Paragraph("Published audio output power is not mains consumption. High-load design values may be estimates derived from different manufacturer test conditions. Verify real cabinet inlet ratings, inrush, generator transients, phase limits, earthing/bonding, RCD selection, conductor protection, fuel, noise and operation while moving before use.",styles["normal"]))
+    parts.append(Paragraph(translate("Published audio output power is not mains consumption. High-load design values may be estimates derived from different manufacturer test conditions. Verify real cabinet inlet ratings, inrush, generator transients, phase limits, earthing/bonding, RCD selection, conductor protection, fuel, noise and operation while moving before use."),styles["normal"]))
     parts.append(Spacer(1,8))
     for i,issue in enumerate(dict.fromkeys(issues)):
         if i>=18:
@@ -341,3 +343,11 @@ def build_pdf(project, equipment):
     parts.append(para("*Phase current is an indicative 230 V apparent-current equivalent, NOT conductor ampacity. Confirm actual voltage, protective devices, fault-loop and installation standards.","small",500))
     doc.build(parts,onFirstPage=page,onLaterPages=page)
     return buffer.getvalue()
+
+
+def build_pdf(project, equipment):
+    token = LANGUAGE.set('nl' if isinstance(project, dict) and project.get('language') == 'nl' else 'en')
+    try:
+        return _build_pdf(project, equipment)
+    finally:
+        LANGUAGE.reset(token)

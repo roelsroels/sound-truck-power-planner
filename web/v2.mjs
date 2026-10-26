@@ -1,7 +1,8 @@
+import {translate as t,getLanguage} from './i18n.mjs';
 import {parseMeterCSV,estimateFuel,provisionalCircuits} from './v2calc.mjs';
 const $=id=>document.getElementById(id);
 const escapeHTML=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const fmt=(n,p=1)=>Number(n).toFixed(p);
+const fmt=(n,p=1)=>Number(n).toLocaleString(getLanguage()==='nl'?'nl-NL':'en-GB',{minimumFractionDigits:p,maximumFractionDigits:p});
 let ctx=null;
 let inspection=null;
 
@@ -197,7 +198,7 @@ export function initV2(context){
   $('applyMeter').addEventListener('click',()=>{
     const p=current(),ref=ctx.calculate().referenceKW,actual=p.meter_summary?.average_kw;
     if(!Number.isFinite(actual)||!ref){notice('Need measured average and non-zero reference load.');return}
-    if(!confirm('Replace programme multiplier with measured-to-reference ratio? Verify that the measured rig matches the current project.'))return;
+    if(!confirm(t('Replace programme multiplier with measured-to-reference ratio? Verify that the measured rig matches the current project.')))return;
     p.program_multiplier=Number((actual/ref).toFixed(3));
     $('programMultiplier').value=p.program_multiplier;ctx.refresh();
     notice('Multiplier updated from measured average. Meter log remains a historical snapshot.');
