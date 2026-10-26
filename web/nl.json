@@ -415,5 +415,7 @@
   "User-entered reference estimate": "Zelf ingevoerde referentieschatting",
   "User-entered high-load estimate": "Zelf ingevoerde schatting van de ontwerpbelasting",
   "Manufacturer page inspected (NOT validated as mains consumption). {0}": "Fabrikantpagina gecontroleerd (NIET gevalideerd als netverbruik). {0}",
-  "Axle loads, stack geometry, tie-downs, running-in-motion approval and pedestrian safety require separate assessment.": "Aslasten, stapeling, ladingzekering, toestemming voor gebruik tijdens het rijden en voetgangersveiligheid moeten afzonderlijk worden beoordeeld."
+  "Axle loads, stack geometry, tie-downs, running-in-motion approval and pedestrian safety require separate assessment.": "Aslasten, stapeling, ladingzekering, toestemming voor gebruik tijdens het rijden en voetgangersveiligheid moeten afzonderlijk worden beoordeeld.",
+  "Reference: {0} VA · Planning: {1} VA": "Referentie: {0} VA · Ontwerp: {1} VA",
+  "Values are per cabinet, in VA (apparent electrical power), without thousands separators. Reference is the estimated reference operating demand; planning is the higher allowance used to size the supply. Planning values are not verified continuous consumption or audio output power.": "Waarden zijn per kast, in VA (schijnbaar elektrisch vermogen), zonder scheidingsteken voor duizendtallen. Referentie is het geschatte verbruik onder referentieomstandigheden; ontwerp is de hogere planningswaarde voor de stroomvoorziening. Ontwerpwaarden zijn geen bevestigd continu verbruik en geen audio-uitgangsvermogen."
 }
