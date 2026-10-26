@@ -60,3 +60,10 @@ body[data-view=basic] .cols{grid-template-columns:1fr}
 .notification-card h2{font-size:20px;line-height:1.4;margin:0 48px 14px 0;color:#86b7ee}
 .notification-card p{font-size:15px;line-height:1.65;margin:0;overflow-wrap:anywhere}
 .notification-close{position:absolute;top:12px;right:12px;min-width:44px;min-height:44px;padding:6px;font-size:24px;line-height:1}
+
+footer{display:flex;align-items:center;flex-wrap:wrap;gap:18px;padding:24px max(24px,calc((100vw - 1260px)/2))}
+.footer-note{flex:1 1 420px;min-width:0;margin:0;text-align:left}
+.support-badge{display:inline-flex;align-items:center;gap:10px;margin-left:auto;max-width:100%;padding:11px 16px;border:1px solid #83b0e4;border-radius:12px;background:#6aa5e9;color:#091420;text-align:left;font-size:13px;font-weight:700;line-height:1.4;box-shadow:0 6px 20px #0002}
+.support-badge:hover{text-decoration:none;filter:brightness(1.08)}
+.support-badge:focus-visible{outline:2px solid #98c2f3;outline-offset:4px}
+.support-badge img{flex:0 0 36px}.support-badge span{min-width:0}.support-badge small{display:block;font-size:11px;font-weight:500}

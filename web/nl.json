@@ -488,5 +488,8 @@
   "Power source: {0}": "Voeding: {0}",
   "Fallback power source: {0}": "Alternatieve voeding: {0}",
   "Notification": "Melding",
-  "Close notification": "Melding sluiten"
+  "Close notification": "Melding sluiten",
+  "Buy me a beer": "Trakteer me op een biertje",
+  "(or coffee)": "(of koffie)",
+  "Support the project on Buy Me a Coffee": "Steun het project via Buy Me a Coffee"
 }
