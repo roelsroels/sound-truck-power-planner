@@ -39,11 +39,24 @@ export function calculate(project,catalogue){
   const efficiency=Math.max(.01,Math.min(1,finite(project.inverter_efficiency,.92)));
   const averageKW=referenceKW*multiplier;
   const batteryNominalKWh=averageKW*duration/(usable*efficiency);
+  const batteryInstalled=nonnegative(project.battery_installed_kwh,0);
+  const inverterKVA=nonnegative(project.inverter_kva,0);
+  const batteryRuntimeH=averageKW>0 ? batteryInstalled*usable*efficiency/averageKW : null;
+  const inverterCapacityOK=inverterKVA*1000>=requiredVA;
+  const estimatedFuelLPH=project.fuel_rate_lph==null || project.fuel_rate_lph==='' ? null : nonnegative(project.fuel_rate_lph);
+  const fuelLitres=estimatedFuelLPH===null?null:estimatedFuelLPH*duration;
   const payload=project.vehicle?.payload_kg;
-  const payloadRemaining=(payload===null||payload===undefined||payload==='')?null:nonnegative(payload)-weight;
+  const v=project.vehicle||{};
+  const sourceWeightFields=['generator_weight_kg','battery_weight_kg','other_weight_kg'];
+  const knownSourceWeight=sourceWeightFields.reduce((sum,key)=>sum+(v[key]==null || v[key]===''?0:nonnegative(v[key])),0);
+  const totalKnownWeight=weight+knownSourceWeight;
+  const unknownSourceWeights=sourceWeightFields.filter(key=>v[key]==null||v[key]==='').length;
+  const payloadRemaining=(payload===null||payload===undefined||payload==='')?null:nonnegative(payload)-totalKnownWeight;
   const deckArea=(project.vehicle?.deck_length_m>0&&project.vehicle?.deck_width_m>0)?Number(project.vehicle.deck_length_m)*Number(project.vehicle.deck_width_m):null;
   return {phases,referenceVA,designVA,referenceKW,designKW,requiredVA,suggestedKVA,selectedKVA,
     generatorOK,maxPhaseAvailableVA,totalCurrentEquivalentA:designVA/(3*voltage),
-    duration,averageKW,batteryNominalKWh,weight,unknownWeights,deckArea,knownFootprint,unknownFootprint,payloadRemaining,
+    duration,averageKW,batteryNominalKWh,batteryInstalled,batteryRuntimeH,inverterKVA,inverterCapacityOK,
+    fuelLitres,estimatedFuelLPH,weight,knownSourceWeight,totalKnownWeight,unknownSourceWeights,
+    unknownWeights,deckArea,knownFootprint,unknownFootprint,payloadRemaining,
     phaseCurrents:Object.fromEntries(PHASES.map(p=>[p,phases[p].design_va/voltage])),warnings:[...new Set(unknown)]};
 }
