@@ -88,3 +88,44 @@ def test_report_battery_values_follow_scenario(client,monkeypatch,mode,uses_batt
     assert weight.startswith({'generator':'1500.0 kg','battery':'2500.0 kg','hybrid':'3700.0 kg'}[mode])
     assert ('Generator selected' in labels)==(mode!='battery')
     assert ('Fuel allowance' in labels)==(mode!='battery')
+
+
+def test_frontend_uses_versioned_assets_and_fresh_html(client):
+    import re
+    from urllib.parse import urljoin
+    page=client.get('/')
+    assert page.headers.get('cache-control')=='no-store'
+    revision=client.get('/api/health').json()['frontend_revision']
+    script=re.search(r'<script src="([^"]+)"',page.text).group(1)
+    assert script==f'/assets/{revision}/app.mjs'
+    assert 'id="notificationDialog"' in page.text
+    assert 'id="notice"' not in page.text
+    module=client.get(script)
+    assert module.status_code==200
+    assert 'immutable' in module.headers['cache-control']
+    notifications=client.get(urljoin(script,'./notifications.mjs'))
+    assert notifications.status_code==200
+    assert 'showModal()' in notifications.text
+    locale=client.get(urljoin(script,'./nl.json'))
+    assert locale.status_code==200
+    assert 'Phases reallocated' in locale.text
+    legacy=client.get('/assets/app.mjs')
+    assert legacy.status_code==200
+    assert legacy.headers['cache-control']=='no-store'
+
+
+def test_frontend_revision_changes_when_only_a_module_changes(tmp_path,monkeypatch):
+    import shutil
+    import app.main as main
+    web=tmp_path/'web'
+    shutil.copytree(main.WEB,web)
+    monkeypatch.setattr(main,'WEB',web)
+    with TestClient(main.create_app(str(tmp_path/'first.sqlite3'))) as first:
+        old_revision=first.get('/api/health').json()['frontend_revision']
+    module=web/'notifications.mjs'
+    module.write_text(module.read_text()+'\n// New frontend release\n')
+    with TestClient(main.create_app(str(tmp_path/'next.sqlite3'))) as updated:
+        revision=updated.get('/api/health').json()['frontend_revision']
+        assert revision!=old_revision
+        assert f'/assets/{revision}/app.mjs' in updated.get('/').text
+        assert updated.get(f'/assets/{revision}/notifications.mjs').status_code==200

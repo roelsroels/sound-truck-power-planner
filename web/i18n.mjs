@@ -55,7 +55,7 @@ function localizeDOM(){
   }
 }
 export async function initLanguage(){
-  const response=await fetch('/assets/nl.json');
+  const response=await fetch(new URL('./nl.json',import.meta.url));
   if(!response.ok)throw Error('Language resources unavailable');
   configureTranslations(await response.json());
   // Option text may be translated, but submitted project category values must stay stable.

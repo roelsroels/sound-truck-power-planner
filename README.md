@@ -167,3 +167,12 @@ Action notifications appear in a centred modal pop-up instead of at the bottom o
 the page. Dismiss with the close button, a click outside the pop-up, or Escape.
 Messages remain until dismissed; progress/results update the same pop-up and
 keyboard focus returns to the originating control when it is still present.
+
+
+Frontend releases use content-versioned asset paths, including relative JavaScript
+imports and the translation catalogue. The entry page is served with `no-store`;
+legacy unversioned assets also use `no-store`. The read-only health endpoint
+includes `frontend_revision` to identify the frontend in the running container.
+After pulling an update, rebuild and recreate the app with
+`docker compose up -d --build`, then reload the page. A container restart alone
+does not rebuild the application image.

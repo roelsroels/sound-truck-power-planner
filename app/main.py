@@ -1,4 +1,5 @@
 """Mobile sound-truck planner: read-only public catalogue, optional admin writes."""
+import hashlib
 import json
 import os
 import secrets
@@ -6,7 +7,7 @@ from contextlib import asynccontextmanager
 from pathlib import Path
 
 from fastapi import FastAPI, Header, HTTPException, Request
-from fastapi.responses import FileResponse, Response
+from fastapi.responses import HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, ConfigDict, field_validator
 
@@ -53,6 +54,17 @@ class ReportInput(BaseModel):
 def create_app(db_path=None, admin_token=None):
     path = db_path or os.environ.get('DB_PATH','/data/planner.sqlite3')
     token = admin_token if admin_token is not None else os.environ.get('ADMIN_TOKEN','')
+    web = WEB
+    digest = hashlib.sha256()
+    for asset in sorted(web.rglob('*')):
+        if asset.is_file():
+            digest.update(asset.relative_to(web).as_posix().encode())
+            digest.update(b'\0')
+            digest.update(asset.read_bytes())
+            digest.update(b'\0')
+    frontend_revision = digest.hexdigest()[:16]
+    asset_prefix = f'/assets/{frontend_revision}'
+    index_html = (web / 'index.html').read_text().replace('/assets/', asset_prefix + '/')
 
     @asynccontextmanager
     async def lifespan(_app):
@@ -64,6 +76,15 @@ def create_app(db_path=None, admin_token=None):
     @app.middleware('http')
     async def security_headers(request, call_next):
         response = await call_next(request)
+        request_path = request.url.path
+        if request_path in ('/', '/api/health'):
+            response.headers['Cache-Control'] = 'no-store'
+        elif request_path.startswith('/assets/'):
+            response.headers['Cache-Control'] = (
+                'public, max-age=31536000, immutable'
+                if request_path.startswith(asset_prefix + '/') and response.status_code in (200,304)
+                else 'no-store'
+            )
         response.headers['X-Content-Type-Options'] = 'nosniff'
         response.headers['X-Frame-Options'] = 'DENY'
         response.headers['Referrer-Policy'] = 'no-referrer'
@@ -81,7 +102,7 @@ def create_app(db_path=None, admin_token=None):
 
     @app.get('/api/health')
     def health():
-        return {'status':'ok', 'schema':1}
+        return {'status':'ok', 'schema':1, 'frontend_revision':frontend_revision}
 
     @app.get('/api/v2/specs/search')
     def specs_search(model: str):
@@ -137,9 +158,12 @@ def create_app(db_path=None, admin_token=None):
 
     @app.get('/',include_in_schema=False)
     def index():
-        return FileResponse(WEB / 'index.html')
+        return HTMLResponse(index_html)
 
-    app.mount('/assets',StaticFiles(directory=WEB),name='assets')
+    # Relative module imports stay inside this content-versioned directory.
+    app.mount(asset_prefix,StaticFiles(directory=web),name='assets')
+    # Existing links remain usable, but must not retain an older release in cache.
+    app.mount('/assets',StaticFiles(directory=web),name='legacy-assets')
     return app
 
 app = create_app()
