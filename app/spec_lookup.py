@@ -105,6 +105,8 @@ def inspect(url):
         "continuous_program_w":r"Continuous Power Handling\s*(\d+(?:[.,]\d+)?)\s*W",
         "nominal_diameter_mm":r"Nominal Diameter\s*(\d+(?:[.,]\d+)?)\s*mm",
         "weight_kg":r"Net Weight\s*(\d+(?:[.,]\d+)?)\s*kg",
+        "published_avg_mains_w":r"Average power consumption\s*(\d+(?:[.,]\d+)?)\s*W",
+        "mains_va_at_eighth_audio_power":r"1/8 of max output power.{0,100}?\b(\d{2,5})\s*VA",
     }
     for key,pattern in patterns.items():
         found=re.search(pattern,cleaned,re.I)
