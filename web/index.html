@@ -14,7 +14,17 @@
 <header class="site-header">
   <div class="brand"><span class="brand-mark">◉</span><span><strong>SOUND SYSTEM</strong><small>POWER PLANNER</small></span></div>
   <nav aria-label="Site navigation"><a href="#inventory">Inventory</a><a href="#source">Power</a><a href="#vehicle" data-advanced-only id="vehicleNav">Vehicle</a></nav>
-  <div class="header-tools"><label class="view-control"><span class="sr-only">View</span><select id="viewMode" aria-label="View"><option value="basic" selected>Basic</option><option value="advanced">Advanced</option></select></label><label class="language-control"><span class="sr-only">Taal / Language</span><select id="languageSelect" aria-label="Taal / Language"><option value="en">English</option><option value="nl" selected>Nederlands</option></select></label><span class="header-status"><span class="status-dot"></span>LOCAL-FIRST</span></div>
+  <div class="header-tools">
+    <div id="viewMode" class="choice-group view-control" role="radiogroup" aria-label="View">
+      <label><input class="sr-only" type="radio" name="viewMode" value="basic" checked><span>Basic</span></label>
+      <label><input class="sr-only" type="radio" name="viewMode" value="advanced"><span>Advanced</span></label>
+    </div>
+    <div id="languageSelect" class="choice-group language-control" role="radiogroup" aria-label="Taal / Language">
+      <label><input class="sr-only" type="radio" name="language" value="nl" checked><span>Nederlands</span></label>
+      <label><input class="sr-only" type="radio" name="language" value="en"><span>English</span></label>
+    </div>
+    <span class="header-status"><span class="status-dot"></span>LOCAL-FIRST</span>
+  </div>
 </header>
 <main class="shell">
   <section class="hero">

@@ -62,9 +62,9 @@ export async function initLanguage(){
   for(const option of document.querySelectorAll('option:not([value])'))option.value=option.textContent;
   try{setLanguage(localStorage.getItem('soundtruck.language'))}catch{setLanguage('nl')}
   const selector=document.getElementById('languageSelect');
-  selector.value=language;
-  selector.addEventListener('change',()=>{
-    setLanguage(selector.value);
+  for(const input of selector.querySelectorAll('input'))input.checked=input.value===language;
+  selector.addEventListener('change',event=>{
+    setLanguage(event.target.value);
     try{localStorage.setItem('soundtruck.language',language)}catch{/* Browser storage is optional. */}
     localizeDOM();
     document.dispatchEvent(new Event('languagechange'));
