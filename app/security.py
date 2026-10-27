@@ -95,7 +95,7 @@ class SecurityMiddleware:
                 headers['X-Frame-Options'] = 'DENY'
                 headers['Referrer-Policy'] = 'no-referrer'
                 headers['Permissions-Policy'] = 'camera=(), microphone=(), geolocation=()'
-                headers['Content-Security-Policy'] = ("default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; object-src 'none'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'")
+                headers['Content-Security-Policy'] = ("default-src 'self'; script-src 'self'; style-src 'self'; style-src-attr 'none'; img-src 'self' data:; object-src 'none'; connect-src 'self'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'")
                 if path.startswith('/api/') or path == '/' or message['status'] >= 400:
                     headers['Cache-Control'] = 'no-store'
                 elif path.startswith('/assets/'):

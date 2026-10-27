@@ -69,7 +69,13 @@ Leave it empty to allow any syntactically valid Host; configure it at the real
 proxy/application boundary for a specific production site. Loopback names remain
 accepted for health checks when a host allowlist is configured.
 
-CSP blocks inline scripts and object embeds; framing, content sniffing, referrer,
+CSP blocks inline scripts, inline style text/attributes and object embeds. Phase
+bars use individual CSSOM width assignments from the trusted external module;
+there are no inline style blocks, style attributes in templates, or cssText writes.
+The style policy is `style-src 'self'; style-src-attr 'none';`. If a proxy overrides
+CSP, update its policy after deploying this frontend.
+
+Frame denial, content sniffing, referrer,
 and permission controls are applied to errors as well as successful responses.
 API responses are no-store. Only the current content-versioned asset path is
 immutable. API documentation is off by default; enable it only when needed with

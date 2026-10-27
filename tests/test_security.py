@@ -108,6 +108,8 @@ def test_malformed_hosts_tokens_and_validation_errors(tmp_path):
         assert client.get('/docs').status_code==404
         assert client.get('/api/health').headers['cache-control']=='no-store'
         assert "object-src 'none'" in response.headers['content-security-policy']
+        assert "style-src-attr 'none'" in response.headers['content-security-policy']
+        assert "unsafe-inline" not in response.headers['content-security-policy']
     assert not valid_token(TOKEN,b'\xff')
     with pytest.raises(ValueError):create_app(str(tmp_path/'bad'),admin_token='short')
 

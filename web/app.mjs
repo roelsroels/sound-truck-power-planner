@@ -1,3 +1,4 @@
+import {renderPhaseBars} from './phase-bars.mjs';
 import {initLibrary} from './library.mjs';
 import {notify,initNotifications} from './notifications.mjs';
 import {estimateFuel} from './v2calc.mjs';
@@ -165,7 +166,10 @@ function render(){
   $('batteryCapacity').textContent=num(r.batteryNominalKWh,0)+' kWh';
   $('powerVerdict').className='verdict'+(r.generatorOK?'':' warn');
   $('powerVerdict').textContent=r.generatorOK?`Selected ${r.selectedKVA} kVA generator covers the illustrative envelope. Verify input ratings, load response, phase imbalance and protection with your supplier.`:`Selected ${r.selectedKVA} kVA may be undersized: provisional minimum ${r.suggestedKVA} kVA. Rebalance phases and validate the inputs.`;
-  $('phaseBars').innerHTML=PHASES.map(p=>{const va=r.phases[p].design_va,budget=project.power_mode==='battery'?r.inverterKVA*1000/3:r.maxPhaseAvailableVA,percent=budget?100*va/budget:0;return `<div class="phase-row"><div class="phase-title"><span>${p}: ${num(va/1000,2)} kVA / ${num(r.phaseCurrents[p],1)} A</span><span>${num(percent,0)}% of per-phase budget</span></div><div class="bar"><div class="bar-fill ${percent>100?'over':''}" style="width:${Math.min(100,percent)}%"></div></div></div>`}).join('');
+  renderPhaseBars($('phaseBars'),PHASES.map(phase=>({
+    phase,va:r.phases[phase].design_va,current:r.phaseCurrents[phase],
+    budget:project.power_mode==='battery'?r.inverterKVA*1000/3:r.maxPhaseAvailableVA
+  })),num,t);
   $('phaseDescription').textContent=project.power_mode==='battery'?'High-load estimate by phase, against one third of the entered inverter capacity. Supplier must confirm per-phase limits.':"High-load estimate by phase, against the selected generator's nominal one-third-per-phase share.";
   const powerMode=project.power_mode||'generator';
   const modeWords={generator:'Generator-only',battery:'Battery-only',hybrid:'Hybrid'};
