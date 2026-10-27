@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "example-audio",
+      "name": "Example Audio",
+      "website": "https://example.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "example-audio-passive-cabinet-8",
+      "manufacturer_id": "example-audio",
+      "model": "Replace with actual model",
+      "variant": "8 Ω",
+      "kind": "passive_cabinet",
+      "category": "top",
+      "power_input": "none",
+      "status": "unknown",
+      "source_url": "https://example.com/replace-with-official-product",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "nominal-impedance",
+          "section": "Acoustic specifications",
+          "label": "Nominal impedance",
+          "value": "8 Ω",
+          "notes": "Example only: replace all fields with manufacturer data."
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

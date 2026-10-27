@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "powersoft",
+      "name": "Powersoft",
+      "website": "https://www.powersoft.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "powersoft-nota-142",
+      "manufacturer_id": "powersoft",
+      "model": "NOTA 142",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "pocket-sized-amps",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/pocket-sized-amps/nota",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate-NL-118234.pdf?v=ms9fkng8",
+        "https://www.powersoft.com/api/media/file/CSA-Certificate_80263554_EN.pdf?v=ms9fk9as",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-NOTA-Series_July-2025-1.pdf?v=ms9fknfp",
+        "https://www.powersoft.com/api/media/file/FCC-Suppliers-Declaration-of-Conformity-SDoC-Powersoft-NOTA-Series_July-2025.pdf?v=ms9fknf2",
+        "https://www.powersoft.com/api/media/file/PS_AN_Dynamic_Music_Distribution_Design_Guide.pdf?v=ms9fjz3j",
+        "https://www.powersoft.com/api/media/file/PS_AN_Powersoft_Amplifiers_and_AoIP_Dante_AES67.pdf?v=ms9fk8y9",
+        "https://www.powersoft.com/api/media/file/PS_AN_Views_Host.pdf?v=ms9fk8sa",
+        "https://www.powersoft.com/api/media/file/PS_AN_Views_Host_RackAmps.pdf?v=ms9fk8rr",
+        "https://www.powersoft.com/api/media/file/PS_AN_WEB_VIEWS_RackAmps.pdf?v=ms9fk8r9",
+        "https://www.powersoft.com/api/media/file/PS_DMD_Scheduler_Using_Bitfocus_Companion.pdf?v=msa4lxsx",
+        "https://www.powersoft.com/api/media/file/PS_NOTA142_MD.pdf?v=ms9fjyx7",
+        "https://www.powersoft.com/api/media/file/PS_NOTA_DS.pdf?v=ms9fk97s",
+        "https://www.powersoft.com/api/media/file/PS_NOTA_UG.pdf?v=ms9fk9a3",
+        "https://www.powersoft.com/api/media/file/Powersoft_AN_Backup-Strategy-Startup-Times.pdf?v=ms9fkl66",
+        "https://www.powersoft.com/api/media/file/Powersoft_AN_DMD_SYSTEMSTANDBY_PRIORITYINPUT_RackAmps.pdf?v=ms9fk90d",
+        "https://www.powersoft.com/api/media/file/Powersoft_AN_HealthPlus_RackAmps.pdf?v=ms9fkl6o",
+        "https://www.powersoft.com/api/media/file/Powersoft_AN_Integrating_NOTA142_in_a_Dante_network-1.pdf?v=mtldq72t",
+        "https://www.powersoft.com/api/media/file/Powersoft_AN_Power_Sharing_RackAmps.pdf?v=ms9fkjyb",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-Conformity-DoC-Powersoft-NOTA-Series_July-2025-1.pdf?v=ms9fknej",
+        "https://www.powersoft.com/api/media/file/UL2043-4791844102-Fire-Report.pdf?v=ms9fkne0",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "table.0.0",
+          "section": "Published table 1",
+          "label": "Model",
+          "value": "Power per channel | Total Power",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "NOTA 142",
+          "value": "70 W @ 4 Ω (PoE+) | 140 W",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "dc"
+    }
+  ]
+}

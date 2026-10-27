@@ -1,0 +1,5432 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "bc-speakers",
+      "name": "B&C Speakers",
+      "website": "https://www.bcspeakers.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "bc-speakers-000000000000000700000001",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME102+400",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1/8/ME102%2B400",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.7 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "50 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "100 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1.2 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1.5 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "44 mm (1.7 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.8 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Polyimide",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "92.5 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "140 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "102x25 mm (4x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "1.98 kg (4.35 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "2.13 kg (4.68 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "175x115x90 mm (6.89x4.53x3.54 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "86 mm (3.3 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "111x87x155 mm (4.4x3.5x6.1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: two M6x10 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000002",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME242+800",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME242%2B800",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "8.6 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 17 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.8 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "75 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.85 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Composite Polyimide/Titanium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.7 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "153x25 mm (6x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "3.2 kg (7.05 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "3.3 kg (7.28 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "245x140x175 mm (9.65x5.51x6.89 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "124 mm (4.9 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "163x130x235 mm (6.4x5.1x9.3 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x14 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000003",
+      "manufacturer_id": "bc-speakers",
+      "model": "WG7+7",
+      "variant": "4 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/0.75/4/WG7%2B7",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "3.6 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "20 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "40 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "107 dB",
+          "notes": "Applied RMS Voltage is set to 2 V for 4 ohm Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "2 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "2 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.65 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Mylar",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "94.7 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "150 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Data measured with two 8 ohm drivers in parallel connection",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "138x19 mm (5.43x0.75 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.49 kg (1.07 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.55 kg (1.2 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "150x130x90 mm (5.91x5.12x3.54 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "46 mm (1.8 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "144x114x80 mm (5.7x4.5x3.2 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: two M4x18 screws, nuts, and washers.",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000005",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME242+880TN",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME242%2B880TN",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "8.1 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "0.5 kHz - 17 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.8 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "75 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.85 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Titanium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.7 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "153x25 mm (6x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "3.1 kg (6.83 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "3.2 kg (7.05 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "245x140x175 mm (9.6x5.5x6.9 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "124 mm (4.9 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "163x130x235 mm (6.4x5.1x9.3 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x14 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000006",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME242+980TN",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME242%2B980TN",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.8 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "75 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "CCAW",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "2.05 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Titanium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.7 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "153x25 mm (6x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "3.35 kg (7.39 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "3.45 kg (7.61 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "245x140x175 mm (9.65x5.51x6.89 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "131 mm (5.16 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "163x130x235 mm (6.4x5.1x9.3 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x14 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000008",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME242+1090TN",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME242%2B1090TN",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "120 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "240 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "0.5 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.8 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Titanium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.7 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "153x25 mm (6x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "2.9 kg (6.39 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "3 kg (6.61 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "245x140x175 mm (9.6x5.5x6.9 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "127 mm (5 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "163x130x234 mm (6.42x5.12x9.21 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000009",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME242+990TN",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "archived",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/archive/1.4/8/ME242+990TN",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "100 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "200 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "107.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "500 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "86 mm (3.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "CCAW",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Titanium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.7 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "153x25 mm (6x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "2.95 kg (6.5 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "3.05 kg (6.72 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "245x140x175 mm (9.6x5.5x6.9 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "115 mm (4.53 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "163x130x243 mm (6.42x5.12x9.57 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000011",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME148+780TN",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME148%2B780TN",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "107.6 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "500 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "75 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "CCAW",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.95 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Titanium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.3 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "225x25.6 mm (8.9x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "2.38 kg (5.25 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "112 mm (4.41 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "230.6x240x120.1 mm (9.08x9.45x4.73 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x14 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000012",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME148+991TN",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME148%2B991TN",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "100 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "200 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "800 kHz - 17 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "86 mm (3.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "CCAW",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.94 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Titanium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.3 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "225x25.6 mm (8.9x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "2.78 kg (6.13 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "115 mm (4.53 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "240.6x240x120.1 mm (9.47x9.45x4.73 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x14 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000016",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME148+464",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME148%2B464",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "109.1 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V with FB4648 crossover filter"
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.3 kHz - 5.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.3 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.21 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "9.1 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "80 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "160 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "107.6 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms impedance"
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "3.5 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "65 mm (2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "2.14 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.3 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "225x25.6 mm (8.9x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "4.48 kg (9.88 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "152 mm (5.98 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "251.9x240x120.1 mm (9.92x9.45x4.73 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000018",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME148+464",
+      "variant": "16 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/16/ME148%2B464",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "8.2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "AES Standard"
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "111.6 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.3 kHz - 5.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.3 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.28 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "11.7 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "80 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "160 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "110.1 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "3.5 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "65 mm (2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.14 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "2.14 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.3 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "225x25.6 mm (8.9x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "4.48 kg (9.88 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "152 mm (5.98 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "251.9x240x120.1 mm (9.92x9.45x4.73 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000019",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME148+354",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME148%2B354",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.9 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "90 W",
+          "notes": "AES Standard"
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "180 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "108.7 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.4 kHz - 6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "76 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.26 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.93 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "50 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "100 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "110.1 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "5 kHz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4.5 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "51 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.96 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.3 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "225x25.6 mm (8.9x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "3.28 kg (7.23 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "130 mm (5.12 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "250.3x240x120.1 mm (9.85x9.45x4.73 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000020",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME148+354",
+      "variant": "16 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/16/ME148%2B354",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "11.9 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "90 W",
+          "notes": "AES Standard"
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "180 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "109.3 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.4 kHz - 6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "76 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.33 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.93 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "10.3 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "50 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "100 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "111.4 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "5 kHz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4.5 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "51 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.15 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.96 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.3 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "225x25.6 mm (8.9x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "3.28 kg (7.23 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "130 mm (5.12 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "250.3x240x120.1 mm (9.85x9.45x4.73 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000021",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME464+464",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME464%2B464",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.3 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "AES Standard"
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "109.4 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.3 kHz - 5.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.3 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.21 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "9.3 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "80 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "160 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "105.8 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "3.5 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "65 mm (2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "2.14 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "80 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.3 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "538 mm (21.18 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "8.5 kg (18.74 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "152 mm (5.98 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "575x505x539 mm (22.64x19.88x21.22 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000022",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME464+464",
+      "variant": "16 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/16/ME464%2B464",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "8.3 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "AES Standard"
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "113 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.3 kHz - 5.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.3 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.21 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "11.8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "80 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "160 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "107.5 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "3.5 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "65 mm (2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "2.14 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "80 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.3 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "538 mm (21.18 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "8.5 kg (18.74 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "152 mm (5.98 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "575x505x539 mm (22.64x19.88x21.22 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000023",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME464+354",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME464%2B354",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.9 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "90 W",
+          "notes": "AES Standard"
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "180 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "110.1 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.4 kHz - 6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "76 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminum",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.26 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.93 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "50 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "100 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "107 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "5 kHz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4.5 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "51 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.96 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "80 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.3 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "538 mm (21.18 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "7.3 kg (16.09 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "130 mm (5.12 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "575x505x535 mm (22.64x19.88x21.06 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000700000024",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME464+354",
+      "variant": "16 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/16/ME464%2B354",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "12 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "90 W",
+          "notes": "AES Standard"
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "180 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "111.2 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.4 kHz - 6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.4 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "76 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.26 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.93 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "10.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "50 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "100 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "5 kHz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4.5 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "51 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.96 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "80 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.3 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "538 mm (21.18 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "7.3 kg (16.09 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "130 mm (5.12 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "575x505x535 mm (22.64x19.88x21.06 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-6798a1a573b60bbe1a0f1964",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME10V3-DH350H",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1/8/ME10V3-DH350H",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.9 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "30 W",
+          "notes": "2 hour test made with continuous pink noise signal within the\nrange from the recommended crossover frequency to 20 kHz.\nPower calculated on rated minimum impedance"
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "60 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 17 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1.5 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.09 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.8 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "ABS",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Hyperbolic Cosine Flare",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "152 mm (5.98 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.47 kg (1.04 lb)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-6798aa6d73b60bbe1a10a265",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME10V3-DH450H",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1/8/ME10V3-DH450H",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.6 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "40 W",
+          "notes": "2 hour test made with continuous pink noise signal within the\nrange from the recommended crossover frequency to 20 kHz.\nPower calculated on rated minimum impedance.\nSmall heat sink required for full power application."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "80 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "109 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1.5 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "44 mm (1.7 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.16 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "ABS",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Hyperbolic Cosine Flare",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "154.4 mm (6.08 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.77 kg (1.7 lb)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-67a0e4380a1b6d52cb8bc735",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME146+354",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME146%2B354",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.7 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "90 W",
+          "notes": "AES Standard"
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "180 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "108.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.4 kHz - 6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "76 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.26 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.93 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "50 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "100 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "111 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "5 kHz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4.5 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "51 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.96 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "92 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "120 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on lab flare",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "165x25.6 mm (6.5x1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "3.07 kg (6.77 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "130 mm (5.12 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "﻿Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-67bd7f1c0dc684892d06ba0d",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME148+464+HF148",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME148%2B464%2BHF148",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.3 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "110.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V with FB4648 crossover filter"
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.3 kHz - 5.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.7 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.21 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "9.1 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "80 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "160 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "109 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms impedance"
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "3.5 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "65 mm (2.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "2.14 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "93.3 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "100 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "5.06 kg (11.16 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "152 mm (5.98 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "260x260x327.6 mm (10.2x10.2x12.9 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x18 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-6965196390856911ae064c1e",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME146+354+HF146",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "horn_driver_combination",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn_driver_combination/1.4/8/ME146%2B354%2BHF146",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "8.2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "90 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "180 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "109.2 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V with FB4648 crossover filter"
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.4 kHz - 6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.7 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "76 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.26 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.93 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "50 W",
+          "notes": "2 hour test made with continuous pink noise signal (6 dB crest factor) within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "100 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater then the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "110.3 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms impedance"
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "4 kHz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4.5 kHz",
+          "notes": "12 dB/oct. Or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "51 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.96 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalImpedance",
+          "section": "hornSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.activeRadiatingFactor",
+          "section": "hornSpecs",
+          "label": "Active Radiating Factor",
+          "value": "92 %",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.horizontalCoverage",
+          "section": "hornSpecs",
+          "label": "Horizontal Coverage",
+          "value": "100 ° Max",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Waveguide mounted on 90°x10° bell horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.waveguideBaffleCutout",
+          "section": "shippingMounting",
+          "label": "Exit Size",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "3.52 kg (7.76 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.driverDiameter",
+          "section": "shippingMounting",
+          "label": "Driver Diameter",
+          "value": "130 mm (5.12 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Recommended hardware for horn mounting: four M6x12 screws",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    }
+  ]
+}

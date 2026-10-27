@@ -1,0 +1,1521 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "bc-speakers",
+      "name": "B&C Speakers",
+      "website": "https://www.bcspeakers.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "bc-speakers-000000000000000200000131",
+      "manufacturer_id": "bc-speakers",
+      "model": "DH450",
+      "variant": "16 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/1/16/DH450",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "12.3 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "20 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "40 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "110 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "44 mm (1.7 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.22 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME 45 horn.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "One M5 threaded hole on the back of the magnet structure is available for the installation of an optional heat sink",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "69 mm (2.72 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "48 mm (1.89 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.53 kg (1.16 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.56 kg (1.23 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "105x105x65 mm (4.1x4.1x2.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Two M5 holes 180° on 57 mm (2.24 in) diameter.Diameter is 90mm at widest point (driver rotated, across mounting studs).",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-679b3b2a1fd2ef752b6a4318",
+      "manufacturer_id": "bc-speakers",
+      "model": "DH350H",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/1/8/DH350H",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "30 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "60 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 17 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.09 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.8 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME 45 horn.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "One M5 threaded hole on the back of the magnet structure is available for the installation of an optional heat sink",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "48 mm (1.89 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "62 mm (2.44 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.27 kg (0.6 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.295 kg (0.65 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "105x105x65 mm (4.13x4.13x2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Two M5 holes 180° on 53 mm (2.09 in) diameter. Diameter is 64mm at widest point (driver rotated, across mounting studs)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-679b43f61fd2ef752b6cd3b1",
+      "manufacturer_id": "bc-speakers",
+      "model": "DH450H",
+      "variant": "16 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/1/16/DH450H",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "12.3 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "40 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "80 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "110 dB",
+          "notes": "Applied RMS Voltage is set to 4 V for 16 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "44 mm (1.7 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.22 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minFrequencyRange",
+          "section": "hfSpecs",
+          "label": "Min frequency range",
+          "value": "1",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.maxFrequencyRange",
+          "section": "hfSpecs",
+          "label": "Max frequency range",
+          "value": "18",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME 45 horn.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "One M5 threaded hole on the back of the magnet structure is available for the installation of an optional heat sink",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "69 mm (2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "65 mm (2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.6 kg (1.32 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.64 kg (1.41 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x120x65 mm (4.72x4.72x2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Two M5 holes 180° on 57 mm (2.24 in) diameterDiameter is 90mm at widest point (driver rotated, across mounting studs).",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-679b9cf31fd2ef752b84f9b8",
+      "manufacturer_id": "bc-speakers",
+      "model": "DH450H",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/1/8/DH450H",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "40 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "80 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "109 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "44 mm (1.7 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.16 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minFrequencyRange",
+          "section": "hfSpecs",
+          "label": "Min frequency range",
+          "value": "1",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.maxFrequencyRange",
+          "section": "hfSpecs",
+          "label": "Max frequency range",
+          "value": "18",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME 45 horn.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "One M5 threaded hole on the back of the magnet structure is available for the installation of an optional heat sink",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "69 mm (2.72 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "65 mm (2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.6 kg (1.32 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.64 kg (1.41 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x120x65 mm (4.72x4.72x2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Two M5 holes 180° on 57 mm (2.24 in) diameter.Diameter is 90mm at widest point (driver rotated, across mounting studs).",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-67b5f8e1b68b51bd1f4a481c",
+      "manufacturer_id": "bc-speakers",
+      "model": "DH350H",
+      "variant": "4 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/1/4/DH350H",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "4.1 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "30 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "60 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 17 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.06 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.8 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME 45 horn.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "One M5 threaded hole on the back of the magnet structure is available for the installation of an optional heat sink",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "48 mm (1.89 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "62 mm (2.44 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.27 kg (0.6 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.295 kg (0.65 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "105x105x65 mm (4.13x4.13x2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Two M5 holes 180° on 53 mm (2.09 in) diameter. Diameter is 64mm at widest point (driver rotated, across mounting studs)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-67b5f9cbb68b51bd1f4a93e7",
+      "manufacturer_id": "bc-speakers",
+      "model": "DH350H",
+      "variant": "16 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/1/16/DH350H",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "10.4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "30 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "60 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "109.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 17 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.15 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.8 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME 45 horn.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "One M5 threaded hole on the back of the magnet structure is available for the installation of an optional heat sink",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "48 mm (1.89 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "62 mm (2.44 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.27 kg (0.6 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.295 kg (0.65 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "105x105x65 mm (4.13x4.13x2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Two M5 holes 180° on 53 mm (2.09 in) diameter. Diameter is 64mm at widest point (driver rotated, across mounting studs)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-68b6ba63562bb436087a77e8",
+      "manufacturer_id": "bc-speakers",
+      "model": "DE120TN",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "archived",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/archive/1/8/DE120TN",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "30 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "60 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "105.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1.2 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "2 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.14 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Titanium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME 45 horn.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "71 mm (2.8 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "34 mm (1.34 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.45 kg (0.98 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.48 kg (1.05 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "105x105x65 mm (4.13x4.13x2.56 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Three M5 holes 120° on 57 mm (2.2 in) diameterTwo M5 holes 180° on 57 mm (2.2 in) diameter",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-69675c869203bb264f5b07a1",
+      "manufacturer_id": "bc-speakers",
+      "model": "DE640P",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/1.4/8/DE640P",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.6 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "70 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "140 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "109 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1.2 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "65 mm (2.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.14 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.95 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME90 horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "110 mm (4.33 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "51 mm (2.01 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "1.4 kg (3.09 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Four M6 holes 90° on 76 mm (3 in) diameter",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-696762f69203bb264f5ca2cf",
+      "manufacturer_id": "bc-speakers",
+      "model": "DE640U",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "hf-driver",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/hf-driver/1.4/8/DE640U",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.6 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "70 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "140 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "109 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "1 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "1.2 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "65 mm (2.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.14 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.95 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Polyimide",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.notes",
+          "section": "hfSpecs",
+          "label": "Notes",
+          "value": "Driver mounted on B&C ME90 horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "110 mm (4.33 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "51 mm (2.01 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "1.4 kg (3.09 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.notes",
+          "section": "shippingMounting",
+          "label": "Notes",
+          "value": "Four M6 holes 90° on 76 mm (3 in) diameter",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    }
+  ]
+}

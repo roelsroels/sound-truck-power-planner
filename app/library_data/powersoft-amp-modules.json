@@ -1,0 +1,3153 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "powersoft",
+      "name": "Powersoft",
+      "website": "https://www.powersoft.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "powersoft-d-cell-504",
+      "manufacturer_id": "powersoft",
+      "model": "D-Cell 504",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/d-cell-504",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate-NL-33379.pdf?v=ms9fkj0r",
+        "https://www.powersoft.com/api/media/file/CSAus-Certificate-2361014.pdf?v=ms9fkfwn",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-D-CELL504-Series.pdf?v=ms9fklvo",
+        "https://www.powersoft.com/api/media/file/GOST-Certificate-POCCITAIO77B10470-3.pdf?v=ms9fkg8m",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/powersoft_DCell504DSP_quickguide_en_v2.1.pdf?v=ms9fkdpx",
+        "https://www.powersoft.com/api/media/file/powersoft_DCell504_DCPS_quickguide_en_v2.2.pdf?v=ms9fkdos",
+        "https://www.powersoft.com/api/media/file/powersoft_DCell504_data_en_v2.0.pdf?v=ms9fkbdy",
+        "https://www.powersoft.com/api/media/file/powersoft_DCell504_quickguide_en_v1.1.pdf?v=ms9fkdpe",
+        "https://www.powersoft.com/api/media/file/powersoft_TN022_TurnISModulesToSTEREO_en_v1.0.pdf?v=ms9fke96",
+        "https://www.powersoft.com/api/media/file/powersoft_dcell504_uguide_en_v4.2.pdf?v=ms9fkcgz",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single-Ended Mode (SE)",
+          "value": "350 W @ 4 Ω | 190 W @ 8 Ω | 95 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge Mode (BTL)",
+          "value": "700 W @ 8 Ω | 380 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single Ended Mode (SE)",
+          "value": "55 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Bridge Mode (BTL)",
+          "value": "110 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Power consumption",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 122 W - 1.08 A | 230 V: 121 W - 0.6 A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Power consumption",
+          "label": "I/4 of max output power @ 4 Ω",
+          "value": "115 V: 229 W - 2.04 A | 230 V: 225 W - 1.04 A",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Thermal dissipation",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 119.2 BTU/h - 30.0 kcal/h | 230 V: 119.2 BTU/h - 30.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Thermal dissipation",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 184.4 BTU/h - 46.5 kcal/h | 230 V: 184.4 BTU/h - 46.5 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "350 W @ 4 Ω | 190 W @ 8 Ω | 95 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "700 W @ 8 Ω | 380 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single Ended Mode (SE)",
+          "value": "55 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "110 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 122 W - 1.08 A | 230 V: 121 W - 0.6 A",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "I/4 of max output power @ 4 Ω",
+          "value": "115 V: 229 W - 2.04 A | 230 V: 225 W - 1.04 A",
+          "notes": ""
+        },
+        {
+          "key": "table.0.14",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.16",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 119.2 BTU/h - 30.0 kcal/h | 230 V: 119.2 BTU/h - 30.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.17",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 184.4 BTU/h - 46.5 kcal/h | 230 V: 184.4 BTU/h - 46.5 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-d-cell504-is",
+      "manufacturer_id": "powersoft",
+      "model": "D-Cell504 IS",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/d-cell504-is",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/powersoft_DCell504DSP_quickguide_en_v2.1.pdf?v=ms9fkdpx",
+        "https://www.powersoft.com/api/media/file/powersoft_DCell504IS_data_en_v2.0.pdf?v=ms9fkdci",
+        "https://www.powersoft.com/api/media/file/powersoft_DCell504_DCPS_quickguide_en_v2.2.pdf?v=ms9fkdos",
+        "https://www.powersoft.com/api/media/file/powersoft_DCell504_quickguide_en_v1.1.pdf?v=ms9fkdpe",
+        "https://www.powersoft.com/api/media/file/powersoft_TN022_TurnISModulesToSTEREO_en_v1.0.pdf?v=ms9fke96",
+        "https://www.powersoft.com/api/media/file/powersoft_dcell504_uguide_en_v4.2.pdf?v=ms9fkcgz",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power in single-channel mode",
+          "label": "Single-Ended Mode (SE)",
+          "value": "350 W @ 4 Ω | 190 W @ 8 Ω | 95 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power in single-channel mode",
+          "label": "Bridge Mode (BTL)",
+          "value": "700 W @ 8 Ω | 380 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single-Ended Mode (SE)",
+          "value": "55 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Bridge Mode (BTL)",
+          "value": "110 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "AC main power",
+          "label": "Operating Voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Power consumption",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 122 W - 1.08 A 230 V: 121 W - 0.6 A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Power consumption",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 229 W - 2.04 A | 230 V: 225 W - 1.04 A",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Thermal dissipation*",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "230 V: 119.2 BTU/h - 30.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Thermal dissipation*",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "230 V: 184.4 BTU/h - 46.5 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "350 W @ 4 Ω | 190 W @ 8 Ω | 95 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "700 W @ 8 Ω | 380 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "55 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "110 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating Voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 122 W - 1.08 A 230 V: 121 W - 0.6 A",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 229 W - 2.04 A | 230 V: 225 W - 1.04 A",
+          "notes": ""
+        },
+        {
+          "key": "table.0.14",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.16",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "230 V: 119.2 BTU/h - 30.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.17",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "230 V: 184.4 BTU/h - 46.5 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-digimod-1000",
+      "manufacturer_id": "powersoft",
+      "model": "DigiMod 1000",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/digimod-series/digimod-1000",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/AT-EMC-838-0322A.pdf?v=ms9fkmos",
+        "https://www.powersoft.com/api/media/file/CB-Certificate-IT-11746.pdf?v=ms9fkfx5",
+        "https://www.powersoft.com/api/media/file/CSA-Certificate-1807695.pdf?v=ms9fkfxn",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-Series.pdf?v=ms9fklw8",
+        "https://www.powersoft.com/api/media/file/GOST-Certificate-POCCITAIO77B10470-3.pdf?v=ms9fkg8m",
+        "https://www.powersoft.com/api/media/file/powersoft_DM1000_data_en_v3.0.pdf?v=ms9fkbcc",
+        "https://www.powersoft.com/api/media/file/powersoft_DM1000_quickguide_v2.0.pdf?v=ms9fkdqz",
+        "https://www.powersoft.com/api/media/file/powersoft_connect_DM1000NPS_to_DM500_1000_1000IS_en_v1.0.pdf?v=ms9fkdf2",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power in single channel mode",
+          "label": "Single channel mode",
+          "value": "500 W @ 2 Ω | 260 W @ 4 Ω | 130 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power in single channel mode",
+          "label": "Bridge mode",
+          "value": "1000 W @ 8 Ω | 520 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single channel mode",
+          "value": "72 Vpeak / 28 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Idle",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 150 BTU/h - 37.8 kcal/h | 230 V: 150 BTU/h - 37.8 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Idle",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 246 BTU/h - 62.8 kcal/h | 230 V: 246 BTU/h - 62.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "500 W @ 2 Ω | 260 W @ 4 Ω | 130 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge mode",
+          "value": "1000 W @ 8 Ω | 520 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "72 Vpeak / 28 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.10",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 150 BTU/h - 37.8 kcal/h | 230 V: 150 BTU/h - 37.8 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 246 BTU/h - 62.8 kcal/h | 230 V: 246 BTU/h - 62.0 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-digimod-1000nps",
+      "manufacturer_id": "powersoft",
+      "model": "DigiMod 1000NPS",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/digimod-series/digimod-1000nps",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-Series.pdf?v=ms9fklw8",
+        "https://www.powersoft.com/api/media/file/GOST-Certificate-POCCITAIO77B10470-3.pdf?v=ms9fkg8m",
+        "https://www.powersoft.com/api/media/file/powersoft_DM1000NPS_data_en_v3.0.pdf?v=ms9fkbdd",
+        "https://www.powersoft.com/api/media/file/powersoft_DM1000NPS_quickguide_v2.0.pdf?v=ms9fkdri",
+        "https://www.powersoft.com/api/media/file/powersoft_connect_DM1000NPS_to_DM500_1000_1000IS_en_v1.0.pdf?v=ms9fkdf2",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power in single channel mode",
+          "label": "Single channel mode",
+          "value": "500 W @ 2 Ω | 260 W @ 4 Ω | 130 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power in single channel mode",
+          "label": "Bridge mode",
+          "value": "1000 W @ 8 Ω | 520 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single channel mode",
+          "value": "72 Vpeak / 28 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Power provided by DigiMod 1000 or DigiMod 500",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Idle",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 150 BTU/h - 37.8 kcal/h | 230 V: 150 BTU/h - 37.8 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Idle",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 246 BTU/h - 62.8 kcal/h | 230 V: 246 BTU/h - 62.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "500 W @ 2 Ω | 260 W @ 4 Ω | 130 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge mode",
+          "value": "1000 W @ 8 Ω | 520 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "72 Vpeak / 28 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Power provided by DigiMod 1000 or DigiMod 500",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.10",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 150 BTU/h - 37.8 kcal/h | 230 V: 150 BTU/h - 37.8 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 246 BTU/h - 62.8 kcal/h | 230 V: 246 BTU/h - 62.0 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-digimod-1500",
+      "manufacturer_id": "powersoft",
+      "model": "DigiMod 1500",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/digimod-series/digimod-1500",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/AT-EMC-838-0322A.pdf?v=ms9fkmos",
+        "https://www.powersoft.com/api/media/file/CB-Certificate-IT-11746.pdf?v=ms9fkfx5",
+        "https://www.powersoft.com/api/media/file/CSA-Certificate-1807695.pdf?v=ms9fkfxn",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-Series.pdf?v=ms9fklw8",
+        "https://www.powersoft.com/api/media/file/GOST-Certificate-POCCITAIO77B10470-3.pdf?v=ms9fkg8m",
+        "https://www.powersoft.com/api/media/file/powersoft_DM1500_data_en_v3.0.pdf?v=ms9fkbbt",
+        "https://www.powersoft.com/api/media/file/powersoft_DM1500_quickguide_v2.0.pdf?v=ms9fkds0",
+        "https://www.powersoft.com/api/media/file/powersoft_DMIK_data_en_v1.0.pdf?v=ms9fkeu2",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power in single channel mode",
+          "label": "Single channel mode",
+          "value": "750 W @ 4 Ω | 370 W @ 8 Ω | 190 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power in single channel mode",
+          "label": "Bridge mode",
+          "value": "1500 W @ 8 Ω | 740 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single channel mode",
+          "value": "92 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Bridge mode",
+          "value": "184 Vpeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Idle",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 213 BTU/h - 53.7 kcal/h | 230 V: 213 BTU/h - 53.7 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Idle",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 403 BTU/h - 101.6 kcal/h | 230 V: 403 BTU/h - 101.6 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "750 W @ 4 Ω | 370 W @ 8 Ω | 190 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge mode",
+          "value": "1500 W @ 8 Ω | 740 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "92 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Bridge mode",
+          "value": "184 Vpeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 213 BTU/h - 53.7 kcal/h | 230 V: 213 BTU/h - 53.7 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 403 BTU/h - 101.6 kcal/h | 230 V: 403 BTU/h - 101.6 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-digimod-2000-hv",
+      "manufacturer_id": "powersoft",
+      "model": "DigiMod 2000 HV",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/digimod-series/digimod-2000hv",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/AT-EMC-838-0322A.pdf?v=ms9fkmos",
+        "https://www.powersoft.com/api/media/file/CB-Certificate-IT-11746.pdf?v=ms9fkfx5",
+        "https://www.powersoft.com/api/media/file/CSA-Certificate-1807695.pdf?v=ms9fkfxn",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-Series.pdf?v=ms9fklw8",
+        "https://www.powersoft.com/api/media/file/GOST-Certificate-POCCITAIO77B10470-3.pdf?v=ms9fkg8m",
+        "https://www.powersoft.com/api/media/file/powersoft_DM2000HV_data_en_v3.1.pdf?v=ms9fkbb9",
+        "https://www.powersoft.com/api/media/file/powersoft_DM2000HV_quickguide_v2.0.pdf?v=ms9fkdsi",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power in single channel mode",
+          "label": "Single channel mode",
+          "value": "1050 W @ 8 Ω | 570 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power in single channel mode",
+          "label": "Bridge mode",
+          "value": "2100 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single channel mode",
+          "value": "129 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Bridge mode",
+          "value": "258 Vpeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Idle",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 282 BTU/h - 71.1 kcal/h | 230 V: 282 BTU/h - 71.1 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Idle",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 464 BTU/h - 116.9 kcal/h | 230 V: 464 BTU/h - 116.9 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "1050 W @ 8 Ω | 570 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge mode",
+          "value": "2100 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "129 Vpeak / 35 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Bridge mode",
+          "value": "258 Vpeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 282 BTU/h - 71.1 kcal/h | 230 V: 282 BTU/h - 71.1 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 464 BTU/h - 116.9 kcal/h | 230 V: 464 BTU/h - 116.9 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-digimod-3000pfc",
+      "manufacturer_id": "powersoft",
+      "model": "DigiMod 3000PFC",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/digimod-3000pfc",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/AT-EMC-838-0222A.pdf?v=ms9fkmo9",
+        "https://www.powersoft.com/api/media/file/CB-Certificate-NL-15430_A1.pdf?v=ms9fkfz7",
+        "https://www.powersoft.com/api/media/file/CSAuc-Certificate-2164646.pdf?v=ms9fkj1a",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-Series.pdf?v=ms9fklw8",
+        "https://www.powersoft.com/api/media/file/GOST-Certificate-POCCITAIO77B10470-3.pdf?v=ms9fkg8m",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/powersoft_DM3000PFC_data_en_v3.1.pdf?v=ms9fkban",
+        "https://www.powersoft.com/api/media/file/powersoft_DM3000_PS_AMP_quickguide_v2.0.pdf?v=ms9fkdt1",
+        "https://www.powersoft.com/api/media/file/powersoft_DM3000_SU_quickguide_v2.0.pdf?v=ms9fkdto",
+        "https://www.powersoft.com/api/media/file/powersoft_DigiModIK_uguide_en_v2.3.pdf?v=ms9fkj7r",
+        "https://www.powersoft.com/api/media/file/powersoft_dm3000su_uguide_en_v1.2.pdf?v=ms9fkbv0",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single ended mode (SE)",
+          "value": "1700 W @ 4 Ω | 1100 W @ 8 Ω | 600 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge mode (BTL)",
+          "value": "3400 W @ 8 Ω | 2200 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single ended mode (SE)",
+          "value": "135 Vpeak / 52 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Bridge mode (BTL)",
+          "value": "270 Vpeak / 52 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Power consumption",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "600 VA",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Thermal dissipation",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 464 BTU/h - 116.9 kcal/h | 230 V: 464 BTU/h - 116.9 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Thermal dissipation",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 850 BTU/h - 214.2 kcal/h | 230 V: 850 BTU/h - 214.2 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single ended mode (SE)",
+          "value": "1700 W @ 4 Ω | 1100 W @ 8 Ω | 600 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge mode (BTL)",
+          "value": "3400 W @ 8 Ω | 2200 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single ended mode (SE)",
+          "value": "135 Vpeak / 52 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Bridge mode (BTL)",
+          "value": "270 Vpeak / 52 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "600 VA",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 464 BTU/h - 116.9 kcal/h | 230 V: 464 BTU/h - 116.9 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.16",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 850 BTU/h - 214.2 kcal/h | 230 V: 850 BTU/h - 214.2 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": {
+        "reference_va": 600.0,
+        "design_va": null,
+        "power_factor": null,
+        "basis": "Power consumption: 1/8 of max output power @ 4 Ω: 600 VA"
+      },
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-digimod-3004pfc2",
+      "manufacturer_id": "powersoft",
+      "model": "DigiMod 3004PFC2",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/digimod-3004pfc2",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate_IT-22366.pdf?v=ms9fkfy7",
+        "https://www.powersoft.com/api/media/file/CE-Verification-of-Conformity-AT-EMC-838-01A.pdf?v=ms9fkmnr",
+        "https://www.powersoft.com/api/media/file/CSA-Certificate-70001525.pdf?v=ms9fkfyp",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-PFC2-PFC4-Series_January-2022.pdf?v=ms9fkmmq",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/Interactive-Tuning-Guide-v1.0.pdf?v=ms9fkgxg",
+        "https://www.powersoft.com/api/media/file/PS_DM3004PFC2_DS.pdf?v=ms9fk7jh",
+        "https://www.powersoft.com/api/media/file/PS_DigimodPFC2_UG.pdf?v=ms9fk7jz",
+        "https://www.powersoft.com/api/media/file/Powersoft_AN_DSP_ADAPTER_BOARD_OEM.pdf?v=ms9fk8oq",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-PFC2-PFC4-Series_January-2022.pdf?v=ms9fkm2x",
+        "https://www.powersoft.com/api/media/file/powersoft_DM3004PFC2_uguide_en_v0.1_WEB.pdf?v=ms9fkdmo",
+        "https://www.powersoft.com/api/media/file/powersoft_DigiModIK_uguide_en_v2.3.pdf?v=ms9fkj7r",
+        "https://www.powersoft.com/api/media/file/powersoft_TN022_TurnISModulesToSTEREO_en_v1.0.pdf?v=ms9fke96",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single ended mode (SE)",
+          "value": "1600 W @ 4 Ω | 1100 W @ 8 Ω | 600 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge mode (BTL)",
+          "value": "3200 W @ 8 Ω | 1600 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single ended mode (SE)",
+          "value": "150 Vpeak / 54 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Bridge mode (BTL)",
+          "value": "300 Vpeak / 54 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Power consumption",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "600 VA",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Thermal dissipation",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 297 BTU/h - 74.8 kcal/h | 230 V: 293 BTU/h - 73.8 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Thermal dissipation",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 587 BTU/h - 147.9 kcal/h | 230 V: 556 BTU/h - 140.1 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single ended mode (SE)",
+          "value": "1600 W @ 4 Ω | 1100 W @ 8 Ω | 600 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge mode (BTL)",
+          "value": "3200 W @ 8 Ω | 1600 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single ended mode (SE)",
+          "value": "150 Vpeak / 54 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Bridge mode (BTL)",
+          "value": "300 Vpeak / 54 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "600 VA",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 297 BTU/h - 74.8 kcal/h | 230 V: 293 BTU/h - 73.8 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.16",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 587 BTU/h - 147.9 kcal/h | 230 V: 556 BTU/h - 140.1 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": {
+        "reference_va": 600.0,
+        "design_va": null,
+        "power_factor": null,
+        "basis": "Power consumption: 1/8 of max output power @ 4 Ω: 600 VA"
+      },
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-digimod-3004pfc4",
+      "manufacturer_id": "powersoft",
+      "model": "DigiMod 3004PFC4",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/digimod-3004pfc4",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate_IT-22367.pdf?v=ms9fkfzp",
+        "https://www.powersoft.com/api/media/file/CE-Verification-of-Conformity-AT-EMC-838-01A.pdf?v=ms9fkmnr",
+        "https://www.powersoft.com/api/media/file/CSAus-Certificate-70001523.pdf?v=ms9fkj1v",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-PFC2-PFC4-Series_January-2022.pdf?v=ms9fkmmq",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/Interactive-Tuning-Guide-v1.0.pdf?v=ms9fkgxg",
+        "https://www.powersoft.com/api/media/file/PS_DM3004PFC4_DS.pdf?v=ms9fk6wu",
+        "https://www.powersoft.com/api/media/file/PS_DigimodPFC4_UG.pdf?v=ms9fk71j",
+        "https://www.powersoft.com/api/media/file/Powersoft_AN_DSP_ADAPTER_BOARD_OEM.pdf?v=ms9fk8oq",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-PFC2-PFC4-Series_January-2022.pdf?v=ms9fkm2x",
+        "https://www.powersoft.com/api/media/file/powersoft_DM3004PFC4_quickguide_en_v2.2_WEB.pdf?v=ms9fkdn6",
+        "https://www.powersoft.com/api/media/file/powersoft_DigiModIK_uguide_en_v2.3.pdf?v=ms9fkj7r",
+        "https://www.powersoft.com/api/media/file/powersoft_TN022_TurnISModulesToSTEREO_en_v1.0.pdf?v=ms9fke96",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single Ended mode (SE)",
+          "value": "2000 W @ 4 Ω | 1000 W @ 8 Ω | 600 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge mode (BTL)",
+          "value": "3000 W @ 8 Ω | 2000 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single Ended mode (SE)",
+          "value": "150 Vpeak / 54 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Bridge mode (BTL)",
+          "value": "300 Vpeak / 54 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Power consumption",
+          "label": "1/8 of max output power @ 8 Ω",
+          "value": "600 VA",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Idle",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 621 BTU/h - 156.5 kcal/h | 230 V: 615 BTU/h - 155.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Idle",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 1154 BTU/h - 290.8 kcal/h | 230 V: 1123 BTU/h - 283.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single Ended mode (SE)",
+          "value": "2000 W @ 4 Ω | 1000 W @ 8 Ω | 600 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge mode (BTL)",
+          "value": "3000 W @ 8 Ω | 2000 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single Ended mode (SE)",
+          "value": "150 Vpeak / 54 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Bridge mode (BTL)",
+          "value": "300 Vpeak / 54 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 8 Ω",
+          "value": "600 VA",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 621 BTU/h - 156.5 kcal/h | 230 V: 615 BTU/h - 155.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.16",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 1154 BTU/h - 290.8 kcal/h | 230 V: 1123 BTU/h - 283.0 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": {
+        "reference_va": 600.0,
+        "design_va": null,
+        "power_factor": null,
+        "basis": "Power consumption: 1/8 of max output power @ 8 Ω: 600 VA"
+      },
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-digimod-500",
+      "manufacturer_id": "powersoft",
+      "model": "DigiMod 500",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/digimod-500",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/AT-EMC-838-0322A.pdf?v=ms9fkmos",
+        "https://www.powersoft.com/api/media/file/CB-Certificate-IT-11746.pdf?v=ms9fkfx5",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DIGIMOD-Series.pdf?v=ms9fklw8",
+        "https://www.powersoft.com/api/media/file/GOST-Certificate-POCCITAIO77B10470-3.pdf?v=ms9fkg8m",
+        "https://www.powersoft.com/api/media/file/powersoft_DM500_data_en_v3.0.pdf?v=ms9fkbcu",
+        "https://www.powersoft.com/api/media/file/powersoft_DM500_quickguide_v2.0.pdf?v=ms9fkdqh",
+        "https://www.powersoft.com/api/media/file/powersoft_connect_DM1000NPS_to_DM500_1000_1000IS_en_v1.0.pdf?v=ms9fkdf2",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power in single channel mode",
+          "label": "Single channel mode",
+          "value": "530 W @ 4 Ω | 280 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Max output voltage / current",
+          "label": "Single channel mode",
+          "value": "72 Vpeak / 28 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "AC main power",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Idle",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 150 BTU/h - 37.8 kcal/h | 230 V: 150 BTU/h - 37.8 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Idle",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 246 BTU/h - 62.8 kcal/h | 230 V: 246 BTU/h - 62.0 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "530 W @ 4 Ω | 280 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Single channel mode",
+          "value": "72 Vpeak / 28 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Nominal power requirement",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 150 BTU/h - 37.8 kcal/h | 230 V: 150 BTU/h - 37.8 kcal/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "1/4 of max output power @ 4 Ω",
+          "value": "115 V: 246 BTU/h - 62.8 kcal/h | 230 V: 246 BTU/h - 62.0 kcal/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-ipalmod",
+      "manufacturer_id": "powersoft",
+      "model": "IpalMod",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/ipalmod",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate-DK-96078-M1-UL.pdf?v=ms9fklo6",
+        "https://www.powersoft.com/api/media/file/CSAus-Certificate-2164648.pdf?v=ms9fkj2d",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-IPALMOD-Series.pdf?v=ms9fklws",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/Interactive-Tuning-Guide-v1.0.pdf?v=ms9fkgxg",
+        "https://www.powersoft.com/api/media/file/PS_IPALMOD_DS.pdf?v=ms9fk7rn",
+        "https://www.powersoft.com/api/media/file/PS_IPALMOD_UG.pdf?v=ms9fk6w7",
+        "https://www.powersoft.com/api/media/file/Powersoft_AN_DSP_ADAPTER_BOARD_OEM.pdf?v=ms9fk8oq",
+        "https://www.powersoft.com/api/media/file/Powersoft_ipal-loudspeaker-syste-EighteenSound.pdf?v=ms9fkj9u",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/UL-Certificate-of-Compliance-E513799.pdf?v=ms9fkm17",
+        "https://www.powersoft.com/api/media/file/powersoft_tech_dpc_en_v1.2.pdf?v=ms9fkbui",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power in single-channel mode",
+          "label": "Single-Ended Mode (SE)",
+          "value": "8500 W @ 1 Ω | 4500 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Max output voltage / current",
+          "label": "Single-Ended Mode (SE)",
+          "value": "180 Vpeak / 110 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Operating Voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Power factor",
+          "value": "cosθ > 0.95 @ full power",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "AC main power",
+          "label": "Average power consumption",
+          "value": "400 VA",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "PROCESSING",
+          "label": "Equalizer",
+          "value": "Parametric equalizers: peaking, hi/lo-shelving, all-pass, band-pass, band-stop, hi/lo-pass",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "PROCESSING",
+          "label": "Crossover",
+          "value": "Butterworth, Linkwitz-Riley, Bessel: 6 dB/oct to 48 dB/oct (IIR)",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "PROCESSING",
+          "label": "Limiters and protections",
+          "value": "Excursion limiter, current& power limiter, current clamp, clip limiter, Brownout limiter, thermal",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "8500 W @ 1 Ω | 4500 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "180 Vpeak / 110 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Operating Voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Power factor",
+          "value": "cosθ > 0.95 @ full power",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Average power consumption",
+          "value": "400 VA",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Equalizer",
+          "value": "Parametric equalizers: peaking, hi/lo-shelving, all-pass, band-pass, band-stop, hi/lo-pass",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Crossover",
+          "value": "Butterworth, Linkwitz-Riley, Bessel: 6 dB/oct to 48 dB/oct (IIR)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Limiters and protections",
+          "value": "Excursion limiter, current& power limiter, current clamp, clip limiter, Brownout limiter, thermal",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-litemod",
+      "manufacturer_id": "powersoft",
+      "model": "LiteMod",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/litemod",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate-IT-20978.pdf?v=ms9fkj2v",
+        "https://www.powersoft.com/api/media/file/CSA-Certificate-770095893.pdf?v=ms9fkg0q",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-LITEMOD-Series.pdf?v=ms9fkly1",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/Interactive-Tuning-Guide-v1.0.pdf?v=ms9fkgxg",
+        "https://www.powersoft.com/api/media/file/PS_LITEMOD_UG.pdf?v=ms9fk744",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-ConformityDoCPowersoft-LITEMODSeries.pdf?v=ms9fkmwc",
+        "https://www.powersoft.com/api/media/file/powersoft_LiteModIK_uguide_en_v1.0.pdf?v=ms9fkfa9",
+        "https://www.powersoft.com/api/media/file/powersoft_LiteMod_data_en_v3.1.pdf?v=ms9fketi",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single-Ended Mode (SE)",
+          "value": "600 W @ 4 Ω | 400 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge Mode (BTL)",
+          "value": "1200 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Max output voltage",
+          "value": "43 Vpeak / 31 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Max output current",
+          "value": "85 Vpeak / 31 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Power consumption",
+          "label": "Standby",
+          "value": "0.5 W",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Power consumption",
+          "label": "Idle",
+          "value": "13.5 W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Power consumption",
+          "label": "1/8 of max output power @ 8 Ω",
+          "value": "220 W",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "600 W @ 4 Ω | 400 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "1200 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Max output voltage",
+          "value": "43 Vpeak / 31 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Max output current",
+          "value": "85 Vpeak / 31 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Standby",
+          "value": "0.5 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Idle",
+          "value": "13.5 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 8 Ω",
+          "value": "220 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-litemod-4hc",
+      "manufacturer_id": "powersoft",
+      "model": "LiteMod 4HC",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/litemod-4hc",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate-NL-76551.pdf?v=ms9fkmko",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-LITEMOD-4HC_January-2022.pdf?v=ms9fklxi",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/Interactive-Tuning-Guide-v1.0.pdf?v=ms9fkgxg",
+        "https://www.powersoft.com/api/media/file/PS_LITEMOD4HC_DS.pdf?v=ms9fk7ql",
+        "https://www.powersoft.com/api/media/file/PS_LITEMOD4HC_UG.pdf?v=ms9fk7u8",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-Conformity-DoC-Powersoft-LITEMOD-4HC_January-2022.pdf?v=ms9fkm2c",
+        "https://www.powersoft.com/api/media/file/VC-AT-EMC-838-0118A.pdf?v=ms9fklqd",
+        "https://www.powersoft.com/api/media/file/powersoft_litemod4hc_evaluationkit_userguide_V0.3.pdf?v=ms9fkgwx",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single-Ended Mode (SE)",
+          "value": "750 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge Mode (BTL)",
+          "value": "1400 W @ 8 Ω | 800 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Output power",
+          "label": "Parallel Mode (PTL)",
+          "value": "1400 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Output power",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "2400 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Max output voltage / current",
+          "label": "Single-Ended Mode (SE)",
+          "value": "78 Vpeak / 30 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Max output voltage / current",
+          "label": "Bridge Mode (BTL)",
+          "value": "156 Vpeak / 30 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Max output voltage / current",
+          "label": "Parallel Mode (PTL)",
+          "value": "78 Vpeak / 60 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Max output voltage / current",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "156 Vpeak / 60 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Power consumption",
+          "label": "Standby",
+          "value": "< 1 W (with an aux load < 100 mW)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Power consumption",
+          "label": "Idle",
+          "value": "≤ 10.2 W @ 100-240 V AC",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Power consumption",
+          "label": "Rated Load (1/4 Max Power @ 8 Ω)",
+          "value": "700 W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Thermal dissipation",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 251 BTU/h | 230 V: 241 BTU/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "750 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "1400 W @ 8 Ω | 800 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Parallel Mode (PTL)",
+          "value": "1400 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "2400 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "78 Vpeak / 30 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "156 Vpeak / 30 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Parallel Mode (PTL)",
+          "value": "78 Vpeak / 60 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "156 Vpeak / 60 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "Standby",
+          "value": "< 1 W (with an aux load < 100 mW)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.16",
+          "section": "Published table 1",
+          "label": "Idle",
+          "value": "≤ 10.2 W @ 100-240 V AC",
+          "notes": ""
+        },
+        {
+          "key": "table.0.17",
+          "section": "Published table 1",
+          "label": "Rated Load (1/4 Max Power @ 8 Ω)",
+          "value": "700 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.19",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.21",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 251 BTU/h | 230 V: 241 BTU/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-litemod-4hv",
+      "manufacturer_id": "powersoft",
+      "model": "LiteMod 4HV",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/litemod-4hv",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CBCetificateIT-21490.pdf?v=ms9fkme9",
+        "https://www.powersoft.com/api/media/file/CE-Vertification-of-Conformity-AT-EMC-838-0120A.pdf?v=ms9fkmdo",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-LITEMOD-4HV_January-2022.pdf?v=ms9fkmes",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/PS_LITEMOD4HV_DS.pdf?v=ms9fk8m4",
+        "https://www.powersoft.com/api/media/file/PS_LITEMOD4HV_UG.pdf?v=ms9fk8lj",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-Conformity-DoC-Powersoft-LITEMOD-4HV_January-2022.pdf?v=ms9fjz4o",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single-Ended Mode (SE)",
+          "value": "1000 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge Mode (BTL)",
+          "value": "2000 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Output power",
+          "label": "Parallel Mode (PTL)",
+          "value": "2000 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Output power",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "4000 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Max output voltage / current",
+          "label": "Single-Ended Mode (SE)",
+          "value": "135 Vpeak / 50 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Max output voltage / current",
+          "label": "Bridge Mode (BTL)",
+          "value": "270 Vpeak / 50 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Max output voltage / current",
+          "label": "Parallel Mode (PTL)",
+          "value": "135 Vpeak / 100 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Max output voltage / current",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "270 Vpeak / 100 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Power consumption",
+          "label": "Standby",
+          "value": "< 1 W (with an aux load < 100 mW)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Power consumption",
+          "label": "Idle",
+          "value": "14 W @ 100-240 V AC",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Power consumption",
+          "label": "Rated Load (1/4 Max Power @ 8 Ω)",
+          "value": "600 W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Thermal dissipation",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 420 BTU/h | 230 V: 400 BTU/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "1000 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "2000 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Parallel Mode (PTL)",
+          "value": "2000 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "4000 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "135 Vpeak / 50 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "270 Vpeak / 50 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Parallel Mode (PTL)",
+          "value": "135 Vpeak / 100 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "270 Vpeak / 100 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "Standby",
+          "value": "< 1 W (with an aux load < 100 mW)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.16",
+          "section": "Published table 1",
+          "label": "Idle",
+          "value": "14 W @ 100-240 V AC",
+          "notes": ""
+        },
+        {
+          "key": "table.0.17",
+          "section": "Published table 1",
+          "label": "Rated Load (1/4 Max Power @ 8 Ω)",
+          "value": "600 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.19",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.21",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 420 BTU/h | 230 V: 400 BTU/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-litemod-hv",
+      "manufacturer_id": "powersoft",
+      "model": "LiteMod HV",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/litemod-hv",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate-IT-20978.pdf?v=ms9fkj2v",
+        "https://www.powersoft.com/api/media/file/CSA-Certificate-770095893.pdf?v=ms9fkg0q",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-LITEMOD-Series.pdf?v=ms9fkly1",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/Interactive-Tuning-Guide-v1.0.pdf?v=ms9fkgxg",
+        "https://www.powersoft.com/api/media/file/PS_LITEMOD_UG.pdf?v=ms9fk744",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-ConformityDoCPowersoft-LITEMODSeries.pdf?v=ms9fkmwc",
+        "https://www.powersoft.com/api/media/file/powersoft_LiteModHV_data_en_v2.5.pdf?v=ms9fkfas",
+        "https://www.powersoft.com/api/media/file/powersoft_LiteModIK_uguide_en_v1.0.pdf?v=ms9fkfa9",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single-Ended Mode (SE)",
+          "value": "700 W @ 8 Ω | 400 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge Mode (BTL)",
+          "value": "1400 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Max output voltage / current",
+          "label": "Single-Ended Mode (SE)",
+          "value": "120 Vpeak / 31 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Max output voltage / current",
+          "label": "Bridge Mode (BTL)",
+          "value": "240 Vpeak / 31 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Power consumption",
+          "label": "Standby",
+          "value": "0.5 W",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Power consumption",
+          "label": "Idle",
+          "value": "18 W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Power consumption",
+          "label": "1/8 of max output power @ 8 Ω",
+          "value": "260 W",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "700 W @ 8 Ω | 400 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "1400 W @ 16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "120 Vpeak / 31 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "240 Vpeak / 31 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Standby",
+          "value": "0.5 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Idle",
+          "value": "18 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 8 Ω",
+          "value": "260 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-m-drive",
+      "manufacturer_id": "powersoft",
+      "model": "M-Drive",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/m-drive",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate-NL-35014.pdf?v=ms9fkg18",
+        "https://www.powersoft.com/api/media/file/CSA-Certificate-70025184.pdf?v=ms9fkj3w",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-MDrive-Series.pdf?v=ms9fklyk",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/Interactive-Tuning-Guide-v1.0.pdf?v=ms9fkgxg",
+        "https://www.powersoft.com/api/media/file/PS_MDRIVE_UG.pdf?v=ms9fk74m",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/powersoft_MDriveIK_UG_EN.pdf?v=ms9fkk8u",
+        "https://www.powersoft.com/api/media/file/powersoft_MDrive_data_en_v1.0.pdf?v=ms9fkew6",
+        "https://www.powersoft.com/api/media/file/powersoft_tech_dpc_en_v1.2.pdf?v=ms9fkbui",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power in single-channel mode",
+          "label": "Single-Ended Mode (SE)",
+          "value": "4930 W @ 8 Ω | 9167 W @ 4 Ω | 14970 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Max output voltage / current",
+          "label": "Single-Ended Mode (SE)",
+          "value": "310 Vpeak / 200 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "AC main power",
+          "label": "Operating Voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "AC main power",
+          "label": "Average power consumption",
+          "value": "1500 W",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "PROCESSING",
+          "label": "Equalizer",
+          "value": "Parametric equalizers: peaking, hi/lo-shelving, all-pass, band-pass, band-stop, hi/lo-pass",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "PROCESSING",
+          "label": "Crossover",
+          "value": "Butterworth, Linkwitz-Riley, Bessel: 6 dB/oct to 48 dB/oct (IIR)",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "PROCESSING",
+          "label": "Limiters and protections",
+          "value": "Excursion limiter, current& power limiter, current clamp, clip limiter, Brownout limiter, thermal",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "4930 W @ 8 Ω | 9167 W @ 4 Ω | 14970 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "310 Vpeak / 200 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Operating Voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Average power consumption",
+          "value": "1500 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.10",
+          "section": "Published table 1",
+          "label": "Equalizer",
+          "value": "Parametric equalizers: peaking, hi/lo-shelving, all-pass, band-pass, band-stop, hi/lo-pass",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Crossover",
+          "value": "Butterworth, Linkwitz-Riley, Bessel: 6 dB/oct to 48 dB/oct (IIR)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Limiters and protections",
+          "value": "Excursion limiter, current& power limiter, current clamp, clip limiter, Brownout limiter, thermal",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    },
+    {
+      "id": "powersoft-minimod-4",
+      "manufacturer_id": "powersoft",
+      "model": "MiniMod 4",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "amp-modules",
+      "status": "archived",
+      "source_url": "https://www.powersoft.com/en/products/amp-modules/minimod-4",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CB-Certificate-IT-20449-IEC62368-1.pdf?v=ms9fkkps",
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-MINIMOD-Series_January-2022.pdf?v=ms9fklz2",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/Interactive-Tuning-Guide-v1.0.pdf?v=ms9fkgxg",
+        "https://www.powersoft.com/api/media/file/PS_MiniMod4_UG.pdf?v=ms9fk7us",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/TR2842018_1_02.pdf?v=ms9fklqv",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-Conformity-DoC-Powersoft-MINIMOD-Series_January-2022.pdf?v=ms9fkm3i",
+        "https://www.powersoft.com/api/media/file/powersoft_MINIMOD4_EVBOARD_userguide.pdf?v=ms9fkhzi",
+        "https://www.powersoft.com/api/media/file/powersoft_Minimod4_DS.pdf?v=ms9fkguc",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Output power",
+          "label": "Single-Ended Mode (SE)",
+          "value": "150 W @ 4 Ω | 75 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Output power",
+          "label": "Bridge Mode (BTL)",
+          "value": "300 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Output power",
+          "label": "Parallel Mode (PTL)",
+          "value": "300 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Output power",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "600 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Max output voltage / current",
+          "label": "Single-Ended Mode (SE)",
+          "value": "35 Vpeak / 10 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Max output voltage / current",
+          "label": "Bridge Mode (BTL)",
+          "value": "70 Vpeak / 10 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Max output voltage / current",
+          "label": "Parallel Mode (PTL)",
+          "value": "35 Vpeak / 20 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Max output voltage / current",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "70 Vpeak / 20 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "AC main power",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "AC main power",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "AC main power",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Power consumption",
+          "label": "Standby",
+          "value": "< 0.5 W",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Power consumption",
+          "label": "Idle",
+          "value": "< 10 W",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Power consumption",
+          "label": "Rated Load (1/4 Max Power @ 8 Ω)",
+          "value": "150 W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "THERMAL",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Thermal dissipation",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 112 BTU/h | 230 V: 127 BTU/h",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "150 W @ 4 Ω | 75 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "300 W @ 8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Parallel Mode (PTL)",
+          "value": "300 W @ 2 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "600 W @ 4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Single-Ended Mode (SE)",
+          "value": "35 Vpeak / 10 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Bridge Mode (BTL)",
+          "value": "70 Vpeak / 10 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Parallel Mode (PTL)",
+          "value": "35 Vpeak / 20 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Parallel Bridged Mode (PBTL)",
+          "value": "70 Vpeak / 20 Apeak",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Power supply",
+          "value": "Universal, regulated switch mode with PFC (Power Factor Correction)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Rated Power Supply Voltage",
+          "value": "100-240 V ±10%, 50-60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Operating voltage",
+          "value": "90 V - 264 V",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "Standby",
+          "value": "< 0.5 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.16",
+          "section": "Published table 1",
+          "label": "Idle",
+          "value": "< 10 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.17",
+          "section": "Published table 1",
+          "label": "Rated Load (1/4 Max Power @ 8 Ω)",
+          "value": "150 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.19",
+          "section": "Published table 1",
+          "label": "Operating temperature range",
+          "value": "0° - 45° C - 32° - 113° F",
+          "notes": ""
+        },
+        {
+          "key": "table.0.21",
+          "section": "Published table 1",
+          "label": "1/8 of max output power @ 4 Ω",
+          "value": "115 V: 112 BTU/h | 230 V: 127 BTU/h",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "ac"
+    }
+  ]
+}

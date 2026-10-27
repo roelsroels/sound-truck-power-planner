@@ -41,6 +41,7 @@
   <section class="cols">
     <article class="panel" id="inventory"><div class="panel-heading"><div><div class="section-caption">02 / SOUND SYSTEM</div><h2>Equipment inventory</h2><p data-advanced-only>Each speaker cabinet or auxiliary group represents one separately supplied AC load. Allocate it to a phase.</p><p data-basic-only>Choose equipment and quantities. New cabinets are provisionally allocated across phases; existing phase assignments are retained.</p></div><div class="count" id="unitCount">—</div></div>
       <div class="inline-form"><select id="equipmentType" aria-label="Cabinet type"></select><label data-basic-only class="add-quantity"><span class="sr-only">Quantity to add</span><input id="addQuantity" type="number" min="1" max="100" value="1" aria-label="Quantity to add"></label><button id="addEquipment" class="primary">+ Add cabinet</button><button data-advanced-only id="balancePhases" class="secondary" title="Reassign phases greedily based on high-load allowances">Balance phases</button></div>
+      <p><button type="button" id="openLibrary" class="secondary">Browse product library</button></p>
       <div id="basicUnitList" class="basic-unit-list" data-basic-only></div>
       <div data-advanced-only id="unitList" class="unit-list" aria-live="polite"></div>
       <p data-advanced-only class="hint">Values are per cabinet, in VA (apparent electrical power), without thousands separators. Reference is the estimated reference operating demand; planning is the higher allowance used to size the supply. Planning values are not verified continuous consumption or audio output power.</p>
@@ -149,6 +150,31 @@
     <span>Buy me a beer<small>(or coffee)</small></span>
   </a>
 </footer>
+<dialog id="libraryDialog" class="library-dialog" aria-labelledby="libraryTitle">
+  <div class="library-heading"><div><h2 id="libraryTitle">Product library</h2><p class="hint">Find components, inspect specifications, and build a reusable mains profile.</p></div><button id="libraryClose" type="button" class="secondary" aria-label="Close library">×</button></div>
+  <div class="library-filters">
+    <label>Search model<input id="libraryQuery" type="search" maxlength="100" placeholder="Model, series or driver size"></label>
+    <label>Manufacturer<select id="libraryManufacturer"><option value="">All manufacturers</option></select></label>
+    <label>Product type<select id="libraryKind"><option value="">All product types</option><option value="driver">Driver / transducer</option><option value="amplifier">Amplifier</option><option value="passive_cabinet">Passive cabinet</option><option value="active_cabinet">Active cabinet</option><option value="accessory">Accessory</option></select></label>
+  </div>
+  <label class="library-checkbox"><input id="libraryArchived" type="checkbox">Include archived models</label>
+  <p id="libraryCount" class="hint" role="status"></p>
+  <div class="library-columns"><section aria-label="Library products"><div id="libraryResults"></div><button id="libraryMore" type="button" class="secondary" hidden>Show more products</button></section><section id="libraryDetail" class="library-detail" aria-label="Product details"></section></div>
+  <section id="libraryBuilder" class="library-builder" hidden>
+    <h3>Build a power profile</h3><div id="libraryComponents"></div><p id="libraryPowerHint" class="hint"></p>
+    <form id="libraryProfileForm" class="form-grid">
+      <label>Profile name<input id="libraryProfileName" required maxlength="120"></label>
+      <label>Category<select id="libraryCategory"><option value="other">other</option><option value="infra">infra</option><option value="kick">kick</option><option value="top">top</option><option value="auxiliary">auxiliary</option></select></label>
+      <p class="hint wide">Mains consumption is separate from speaker power handling and amplifier output. Enter measured or documented electrical values for the complete profile.</p>
+      <label>Reference consumption (VA)<input id="libraryReference" required type="number" min="0" max="1000000" step="any"></label>
+      <label>High-load allowance (VA)<input id="libraryPlanning" required type="number" min="0.01" max="1000000" step="any"></label>
+      <label>Power factor<input id="libraryPF" required type="number" min="0.01" max="1" step="any"></label>
+      <label class="wide">Basis / assumptions<input id="libraryBasis" required maxlength="500" placeholder="Source, voltage, load and operating conditions"></label>
+      <div class="form-actions"><button type="submit" class="primary">Add power profile to project</button></div>
+    </form>
+  </section>
+  <details data-advanced-only class="disclosure"><summary>Import another manufacturer</summary><p class="hint">Import a version-1 JSON library. It is validated and saved in this browser; it does not change the public catalogue. Export it to back it up or move it to another browser.</p><label>Library JSON (max 8 MB)<input id="libraryImport" type="file" accept=".json,application/json"></label><p><button id="libraryExport" type="button" class="secondary">Export browser library</button> <a href="/assets/library-template.json" download>Download import template</a></p></details>
+</dialog>
 <dialog id="notificationDialog" class="notification-dialog" aria-labelledby="notificationTitle" aria-describedby="notificationMessage">
   <div class="notification-card">
     <button id="notificationClose" class="notification-close secondary" type="button" aria-label="Close notification" autofocus>×</button>

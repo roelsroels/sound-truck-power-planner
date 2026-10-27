@@ -28,6 +28,10 @@ def initialize(path):
         con.execute('''CREATE TABLE IF NOT EXISTS schema_migrations (
             version INTEGER PRIMARY KEY, applied_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
         )''')
+        con.execute('''CREATE TABLE IF NOT EXISTS library_records (
+            record_type TEXT NOT NULL, id TEXT NOT NULL, data TEXT NOT NULL,
+            PRIMARY KEY (record_type,id)
+        )''')
         first_run = con.execute('SELECT count(*) FROM schema_migrations').fetchone()[0] == 0
         con.execute('INSERT OR IGNORE INTO schema_migrations(version) VALUES (1)')
         if first_run:
@@ -54,3 +58,20 @@ def delete_equipment(path, id):
         cur=con.execute('DELETE FROM equipment WHERE id=?',(id,))
         con.commit()
         return cur.rowcount != 0
+
+
+def library_records(path):
+    with closing(connect(path)) as con:
+        return [{'id': row['id'], 'record_type': row['record_type'], 'data': json.loads(row['data'])}
+                for row in con.execute('SELECT id,record_type,data FROM library_records')]
+
+
+def put_library_pack(path, pack):
+    # One transaction: malformed packs are rejected before any write occurs.
+    with _lock, closing(connect(path)) as con:
+        for record_type, key in [('manufacturer','manufacturers'), ('product','products')]:
+            for item in pack[key]:
+                con.execute('''INSERT INTO library_records(record_type,id,data) VALUES (?,?,?)
+                    ON CONFLICT(record_type,id) DO UPDATE SET data=excluded.data''',
+                    (record_type, item['id'], json.dumps(item)))
+        con.commit()

@@ -1,0 +1,2029 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "bc-speakers",
+      "name": "B&C Speakers",
+      "website": "https://www.bcspeakers.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "bc-speakers-000000000000000800000001",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME10",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "archived",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/archive/1/0/ME10",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "ABS",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "130.5x130.5x90 mm (5.1x5.1x3.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 10 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4x 5.5 mm (0.22 in) holes 90° on 76 mm (3 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "104 mm (4.1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.15 dm³ (0.01 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.17 kg (0.37 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.23 kg (0.5 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "165x165x100 mm (6.50x6.50x3.94 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000002",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME20",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1/0/ME20",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "145x145x90 mm (5.7x5.7x3.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 500 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "2x 6.3 mm (0.25 in) holes 180° on 76 mm (3 in) diameter --- 2x 5.1 mm (0.2 in) holes 180° on 57 mm (2.24 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "118 mm (4.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.1 dm³",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.37 kg (0.81 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.38 kg (0.83 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "165x165x100 mm (6.50x6.50x3.94 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000003",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME45",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1/0/ME45",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "40 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "310x140x124 mm (12.2x5.6x4.9  in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 750 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "2x 6.5 mm (0.255 in) holes 180° on 76 mm (3 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "260 mm (10.2 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.26 dm³ (0.01 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.86 kg (1.9 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.96 kg (2.12 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "320x150x125 mm (12.60x5.91x4.92 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000004",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME90",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1.4/0/ME90",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "80 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.9 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "270x270x138 mm (10.6x10.6x5.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE900 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4x 6.5 mm (0.255 in) holes 90° on 102 mm (4 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "225 mm (8.86 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.42 dm³ (0.01 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "1.45 kg (3.19 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "2.05 kg (4.52 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "295x314x175 mm (11.61x12.36x6.89 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000005",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME60",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/2/0/ME60",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "50 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "40 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.8 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "270x237x202 mm (10.6x9.3x7.9 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 750 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4x 6.5 mm (0.255 in) holes 90° on 102 mm (4 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "232 mm (9.1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.45 dm³ (0.02 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "1.69 kg (3.73 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "2.29 kg (5.06 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "290x260x260 mm (11.42x10.24x10.24 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000006",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME7",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/0.75/0/ME7",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "19 mm (0.75 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "40 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "2 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "ABS",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "122x122x102 mm (4.8x4.8x4  in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 7 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "2x 4.1 mm (0.16 in) holes 180° on 53 mm (2.1 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "102.7 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.1 dm³",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.11 kg (0.25 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.23 kg (0.51 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x117x110 mm (4.72x4.61x4.33 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000007",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME15",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "archived",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/archive/1/0/ME15",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Constant Directivity",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "151x138x91 mm (5.9x5.4x3.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 25 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "2x 6.3 mm (0.25 in) holes 180° on 76 mm (3 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.1 dm³",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.4 kg (0.9 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000008",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME75",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "archived",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/archive/2/0/ME75",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "50 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "40 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Constant Directivity",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "435x268x230 mm (17.2x10.5x9 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 750 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4x 6.5 mm (0.255 in) holes 90° on 102 mm (4 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0 dm3 / 0 ft3",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "2.7 kg (5.9 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "3.5 kg (7.7 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "450x280x260 mm (17.7x11x10.2 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000009",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME10V2",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "archived",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/archive/1/0/ME10V2",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "ABS",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Hyperbolic Cosine Flare",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "130.5x130.5x90 mm (5.1x5.1x3.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 750 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4x 5.5 mm (0.22 in) holes 90° on 76 mm (3 in) diameter --- 2x 6.3 mm (0.25 in) holes 180° on 57.2 mm (2.26 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "104 mm (4.1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.15 dm³ (0.01 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.17 kg (0.37 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.23 kg (0.5 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "165x165x100 mm (6.50x6.50x3.94 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000010",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME464",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1.4/0/ME464",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "80 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.3 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Polyurethane",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Constant Directivity",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "575x505x460 mm (22.64x19.88x18.11 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 750 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4x 6.5 mm (0.255 in) holes 90° on 102 mm (4 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "538 mm (21.18 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "35.5 dm³ (1.25 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "4.75 kg (10.47 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "7.66 kg (16.89 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "610x533x508 mm (24.02x20.98x20.00 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000011",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME102",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1/0/ME102",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "140 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Line Array Optimized Waveguide",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "110.6x87x111.6 mm (4.35x3.43x4.39 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 750 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "Two 6 mm (0.25 in) holes on 76 mm (3 in) diameter - Two 6 mm (0.25 in) holes on 57.2 mm (2.25 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "102.4 mm (4.03 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.15 dm³ (0.01 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.43 kg (0.95 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.49 kg (1.08 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "165x165x100 mm (6.50x6.50x3.94 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000012",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME142",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1.4/0/ME142",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "120 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.8 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Line Array Optimized Waveguide",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "163x130x180 mm (6.42x5.12x7.09 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 750 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "Four 6.5 mm holes at 90° on 102 mm (4 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "153 mm (6 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.34 dm³ (0.01 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "1.05 kg (2.31 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "1.15 kg (2.53 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "190x135x165 mm (7.48x5.31x6.50 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000014",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME242",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1.4/0/ME242",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "120 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.8 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Cast Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Line Array Optimized Waveguide",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "163x130x180 mm (6.42x5.12x7.09 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE 750 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "Four 6.5 mm holes at 90° on 102 mm (4 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "153 mm (6 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.34 dm³ (0.01 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.94 kg (2.08 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "1.04 kg (2.3 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "190x135x165 mm (7.48x5.31x6.50 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000800000015",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME146",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1.4/0/ME146",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "120 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Polycarbonate",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Line Array Optimized Waveguide",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0 dm3 / 0 ft3",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.64 kg (1.65 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.dimensions",
+          "section": "shippingMounting",
+          "label": "Dimensions",
+          "value": "180x80x176 mm (7.1x3.15x6.9 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-66616c38284a7a14763497d8",
+      "manufacturer_id": "bc-speakers",
+      "model": "HF148",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1.4/0/HF148",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.customField",
+          "section": "hornSpecs",
+          "label": "Frequency response and Impedance measured with",
+          "value": "DRV464-8+ME148+HF148",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "0 in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "100 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.7 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "PC/ABS/GF blend",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Constant Directivity",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "260x260x75 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0 dm3 / 0 ft3",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.58 kg (1.28 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.85 kg (1.87 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "280x270x100 mm",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-679a50531fd2ef752b30e81c",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME10V3",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1/0/ME10V3",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "25 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "90 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageVertical",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Vertical",
+          "value": "60 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "ABS",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Hyperbolic Cosine Flare",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "130.5x130.5x90 mm (5.1x5.1x3.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DE10 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Driver Mounting",
+          "value": "4x 5.5 mm (0.22 in) holes 90° on 76 mm (3 in) diameter --- 2x 6.3 mm (0.25 in) holes 180° on 57.2 mm (2.26 in) diameter --- 2x 6.3 mm (0.25 in) holes 180° on 53 mm (2.09 in) diameter",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "104 mm (4.1 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0.15 dm³ (0.01 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.17 kg (0.37 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.23 kg (0.5 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "165x165x100 mm (6.50x6.50x3.94 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-679b80151fd2ef752b7c96b3",
+      "manufacturer_id": "bc-speakers",
+      "model": "ME148",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1.4/0/ME148",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "36 mm (1.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "120 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "Polycarbonate",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Line Array Optimized Waveguide",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "240x80x174.5 mm (9.4x3.15x6.9 in)",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.notes",
+          "section": "hornSpecs",
+          "label": "Notes",
+          "value": "Horn mounted on B&C DCX464 compression driver.",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0 dm3 / 0 ft3",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.75 kg (1.65 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "1.2 kg (2.65 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "255x255x150 mm (10x10x5.9 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-68b6f5e59c22c134d12e9015",
+      "manufacturer_id": "bc-speakers",
+      "model": "HF146",
+      "variant": "",
+      "kind": "accessory",
+      "category": "horn",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/horn/1.4/0/HF146",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hornSpecs.customField",
+          "section": "hornSpecs",
+          "label": "Frequency response and Impedance measured with",
+          "value": "DCX354-8+ME146+HF146",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.throatDiameter",
+          "section": "hornSpecs",
+          "label": "Throat Diameter",
+          "value": "0 in",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.nominalCoverageHorizontal",
+          "section": "hornSpecs",
+          "label": "Nominal Coverage Horizontal",
+          "value": "100 °",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.cutoffFrequency",
+          "section": "hornSpecs",
+          "label": "Cutoff Frequency",
+          "value": "0.7 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.material",
+          "section": "hornSpecs",
+          "label": "Material",
+          "value": "PC/ABS/GF blend",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.design",
+          "section": "hornSpecs",
+          "label": "Design",
+          "value": "Constant Directivity",
+          "notes": ""
+        },
+        {
+          "key": "hornSpecs.dimensions",
+          "section": "hornSpecs",
+          "label": "Dimensions",
+          "value": "260x200x75 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDimension",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Dimension",
+          "value": "0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.airVolumeOccupiedByDriver",
+          "section": "shippingMounting",
+          "label": "Air Volume Occupied by Driver",
+          "value": "0 dm3 / 0 ft3",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.45 kg (0.99 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.72 kg (1.59 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "280x270x100 mm",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    }
+  ]
+}

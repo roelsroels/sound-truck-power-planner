@@ -17,8 +17,8 @@ jobs:
           node-version: '22'
       - run: pip install -r requirements.txt pytest httpx
       - run: python -m pytest -q
-      - run: node --check web/app.mjs && node --check web/calc.mjs && node --check web/v2.mjs && node --check web/v2calc.mjs && node --check web/supply.mjs && node --check web/i18n.mjs && node --check web/planner.mjs && node --check web/notifications.mjs
-      - run: node tests/calc.test.mjs && node tests/v2.test.mjs && node tests/lookup.test.mjs && node tests/supply.test.mjs && node tests/i18n.test.mjs && node tests/planner.test.mjs && node tests/notifications.test.mjs
+      - run: node --check web/app.mjs && node --check web/calc.mjs && node --check web/v2.mjs && node --check web/v2calc.mjs && node --check web/supply.mjs && node --check web/i18n.mjs && node --check web/planner.mjs && node --check web/notifications.mjs && node --check web/library.mjs
+      - run: node tests/calc.test.mjs && node tests/v2.test.mjs && node tests/lookup.test.mjs && node tests/supply.test.mjs && node tests/i18n.test.mjs && node tests/planner.test.mjs && node tests/notifications.test.mjs && node tests/library.test.mjs
       - run: docker build -t sound-truck-power-planner:test .
       - name: Verify embedded source revision
         run: >-

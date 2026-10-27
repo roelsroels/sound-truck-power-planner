@@ -1,0 +1,961 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "powersoft",
+      "name": "Powersoft",
+      "website": "https://www.powersoft.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "powersoft-m-force-01",
+      "manufacturer_id": "powersoft",
+      "model": "M-Force 01",
+      "variant": "",
+      "kind": "driver",
+      "category": "transducers",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/transducers/m-system/m-force01",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/powersoft_M-Force_data_en_v3.0.pdf?v=ms9fjz44",
+        "https://www.powersoft.com/api/media/file/powersoft_MForceEK_UG_EN-1.pdf?v=ms9fkkbm",
+        "https://www.powersoft.com/api/media/file/powersoft_MForce_uguide_en.pdf?v=ms9fkf1d",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Construction",
+          "label": "Dimensions (L x H x W)",
+          "value": "266 mm x 126 mm x 280 mm (10.5 in x 5.0 in x 11.0 in)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Construction",
+          "label": "Weight",
+          "value": "21.5 kg (47.4 lb)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Dimensions (L x H x W)",
+          "value": "266 mm x 126 mm x 280 mm (10.5 in x 5.0 in x 11.0 in)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Weight",
+          "value": "21.5 kg (47.4 lb)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "powersoft-m-force-02",
+      "manufacturer_id": "powersoft",
+      "model": "M-Force 02",
+      "variant": "",
+      "kind": "driver",
+      "category": "transducers",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/transducers/m-system/m-force-02",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/powersoft_M-Force_data_en_v3.0.pdf?v=ms9fjz44",
+        "https://www.powersoft.com/api/media/file/powersoft_MForceEK_UG_EN-1.pdf?v=ms9fkkbm",
+        "https://www.powersoft.com/api/media/file/powersoft_MForce_uguide_en.pdf?v=ms9fkf1d",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Construction",
+          "label": "Dimensions (L x H x W)",
+          "value": "266 mm x 126 mm x 280 mm (10.5 in x 5.0 in x 11.0 in)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Construction",
+          "label": "Weight",
+          "value": "21.5 kg (47.4 lb)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Dimensions (L x H x W)",
+          "value": "266 mm x 126 mm x 280 mm (10.5 in x 5.0 in x 11.0 in)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Weight",
+          "value": "21.5 kg (47.4 lb)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "powersoft-m-force-301p01",
+      "manufacturer_id": "powersoft",
+      "model": "M-Force 301P01",
+      "variant": "",
+      "kind": "driver",
+      "category": "transducers",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/transducers/m-system/m-force-301p01",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/powersoft_M-Force_data_en_v3.0.pdf?v=ms9fjz44",
+        "https://www.powersoft.com/api/media/file/powersoft_MForce301P01_UG_EN.pdf?v=ms9fkk8c",
+        "https://www.powersoft.com/api/media/file/powersoft_MForceEK_UG_EN-1.pdf?v=ms9fkkbm",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Construction",
+          "label": "Dimensions (L x H x W)",
+          "value": "294 mm x 764 mm x 294 mm (11.6 in x 30.1 in x 11.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Construction",
+          "label": "Weight",
+          "value": "34.5 kg (76.1 lb)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Dimensions (L x H x W)",
+          "value": "294 mm x 764 mm x 294 mm (11.6 in x 30.1 in x 11.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Weight",
+          "value": "34.5 kg (76.1 lb)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "powersoft-m-force-301p02",
+      "manufacturer_id": "powersoft",
+      "model": "M-Force 301P02",
+      "variant": "",
+      "kind": "driver",
+      "category": "transducers",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/transducers/m-system/m-force-301p02",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/PS_MFORCE301P02_DS.pdf?v=ms9fk8ct",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/api/media/file/powersoft_tech_dpc_en_v1.2.pdf?v=ms9fkbui",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Construction",
+          "label": "Dimensions (L x H x W)",
+          "value": "294 mm x 764 mm x 294 mm (11.6 in x 30.1 in x 11.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Construction",
+          "label": "Weight",
+          "value": "34.5 kg (76.1 lb)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Dimensions (L x H x W)",
+          "value": "294 mm x 764 mm x 294 mm (11.6 in x 30.1 in x 11.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Weight",
+          "value": "34.5 kg (76.1 lb)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "powersoft-mm-force",
+      "manufacturer_id": "powersoft",
+      "model": "MM-FORCE",
+      "variant": "",
+      "kind": "driver",
+      "category": "transducers",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/transducers/mmforce",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/MM-FORCE_New-Design-Opportunities-for-Low-Frequency-Loudspeakers.pdf?v=ms9fjzc7",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf",
+        "https://www.powersoft.com/files/2026/07/MM-FORCE_New-Design-Opportunities-for-Low-Frequency-Loudspeakers.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Specifications",
+          "label": "Nominal impedance",
+          "value": "8 Ω series / 2 Ω parallel",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Specifications",
+          "label": "Minimum impedance",
+          "value": "5.5 Ω series / 1.4 Ω parallel",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Specifications",
+          "label": "Re",
+          "value": "3.2 Ω series / 0.8 Ω parallel",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Specifications",
+          "label": "Frequency range",
+          "value": "20 Hz - 160 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Specifications",
+          "label": "Motor strength (beta)",
+          "value": "500 N²/W",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Specifications",
+          "label": "Xlin",
+          "value": "± 8 mm",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Specifications",
+          "label": "Xmech",
+          "value": "± 12 mm",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Specifications",
+          "label": "Continuous power handling",
+          "value": "300 VA",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Specifications",
+          "label": "Active power handling (typ.)",
+          "value": "90 W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Specifications",
+          "label": "Depth",
+          "value": "70 mm",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Specifications",
+          "label": "Flange and gasket",
+          "value": "11.7 mm",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Specifications",
+          "label": "Piston material",
+          "value": "Carbon Fiber Reinforced Polymer",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Specifications",
+          "label": "Magnet material",
+          "value": "NeFeB",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Specifications",
+          "label": "Typical unbalanced",
+          "value": "< 10 g",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Specifications",
+          "label": "Peak force",
+          "value": "± 500 N",
+          "notes": ""
+        },
+        {
+          "key": "table.0.0",
+          "section": "Published table 1",
+          "label": "Nominal impedance",
+          "value": "8 Ω series / 2 Ω parallel",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Minimum impedance",
+          "value": "5.5 Ω series / 1.4 Ω parallel",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Re",
+          "value": "3.2 Ω series / 0.8 Ω parallel",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Frequency range",
+          "value": "20 Hz - 160 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Motor strength (beta)",
+          "value": "500 N²/W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Xlin",
+          "value": "± 8 mm",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Xmech",
+          "value": "± 12 mm",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Continuous power handling",
+          "value": "300 VA",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Active power handling (typ.)",
+          "value": "90 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Depth",
+          "value": "70 mm",
+          "notes": ""
+        },
+        {
+          "key": "table.0.10",
+          "section": "Published table 1",
+          "label": "Flange and gasket",
+          "value": "11.7 mm",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Piston material",
+          "value": "Carbon Fiber Reinforced Polymer",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Magnet material",
+          "value": "NeFeB",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Typical unbalanced",
+          "value": "< 10 g",
+          "notes": ""
+        },
+        {
+          "key": "table.0.14",
+          "section": "Published table 1",
+          "label": "Peak force",
+          "value": "± 500 N",
+          "notes": ""
+        },
+        {
+          "key": "table.1.1",
+          "section": "Published table 2",
+          "label": "Nominal diameter",
+          "value": "8\" | 10\"",
+          "notes": ""
+        },
+        {
+          "key": "table.1.2",
+          "section": "Published table 2",
+          "label": "Fs",
+          "value": "26 Hz | 31 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.1.3",
+          "section": "Published table 2",
+          "label": "Qes / Qms / Qts",
+          "value": "0.14 / 3.2 / 0.13 | 0.17 / 4.0 / 0.16",
+          "notes": ""
+        },
+        {
+          "key": "table.1.4",
+          "section": "Published table 2",
+          "label": "Vas",
+          "value": "8.9 L | 19.8 L",
+          "notes": ""
+        },
+        {
+          "key": "table.1.5",
+          "section": "Published table 2",
+          "label": "Sd",
+          "value": "270 cm² | 483 cm²",
+          "notes": ""
+        },
+        {
+          "key": "table.1.6",
+          "section": "Published table 2",
+          "label": "Overall dimensions",
+          "value": "208 × 208 mm, R 57.2 mm | 262 × 262 mm, R 57.5 mm",
+          "notes": ""
+        },
+        {
+          "key": "table.1.7",
+          "section": "Published table 2",
+          "label": "Bolt circle diameter",
+          "value": "167 × 167 mm | 221 × 221 mm",
+          "notes": ""
+        },
+        {
+          "key": "table.1.8",
+          "section": "Published table 2",
+          "label": "Baffle cutout",
+          "value": "193 × 193 mm, R 60 mm | 246 × 246 mm, R 60 mm",
+          "notes": ""
+        },
+        {
+          "key": "table.1.9",
+          "section": "Published table 2",
+          "label": "Minimum enclosure",
+          "value": "2.5 L | 6 L",
+          "notes": ""
+        },
+        {
+          "key": "table.1.10",
+          "section": "Published table 2",
+          "label": "Net weight",
+          "value": "2.5 kg | 2.8 kg",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "powersoft-mover",
+      "manufacturer_id": "powersoft",
+      "model": "MOVER",
+      "variant": "",
+      "kind": "driver",
+      "category": "transducers",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/transducers/mover",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Compliance-with-IATA-Dangerous-Goods-Regulation-Pakaging-Instruction-953_Mover.pdf?v=ms9fkn84",
+        "https://www.powersoft.com/api/media/file/EPA-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmgf",
+        "https://www.powersoft.com/api/media/file/PS_MOVER_UG.pdf?v=ms9fk7zg",
+        "https://www.powersoft.com/api/media/file/PS_Mover_DS_EN.pdf?v=ms9fk7wr",
+        "https://www.powersoft.com/api/media/file/REACH-CE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmii",
+        "https://www.powersoft.com/api/media/file/RoHsCE-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmhh",
+        "https://www.powersoft.com/api/media/file/RoHsChina-Declaration-of-Conformity-Powersoft.pdf?v=ms9fkmi0",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Construction MOVER ID",
+          "label": "Dimensions (L x H x W)",
+          "value": "90 mm x 90 mm x 90 mm (3.5 in x 3.5 in x 3.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Construction MOVER DD",
+          "label": "Dimensions (L x H x W)",
+          "value": "90 mm x 116 mm x 90 mm (3.54 in x 4.57 in x 3.54 in)",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Construction MOVER DD",
+          "label": "Weight",
+          "value": "2.44 kg (4.4 lb)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Dimensions (L x H x W)",
+          "value": "90 mm x 90 mm x 90 mm (3.5 in x 3.5 in x 3.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Dimensions (L x H x W)",
+          "value": "90 mm x 116 mm x 90 mm (3.54 in x 4.57 in x 3.54 in)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Weight",
+          "value": "2.44 kg (4.4 lb)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "powersoft-spixel",
+      "manufacturer_id": "powersoft",
+      "model": "SPIXEL",
+      "variant": "",
+      "kind": "driver",
+      "category": "transducers",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/transducers/spixel",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/SPIXEL-_Single-compact-full-range-radiating-source-for-OEM-Loudspeakers.pdf?v=ms9fjz9n",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Specifications",
+          "label": "Nominal diameter",
+          "value": "63.5 mm (2.5\")",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Specifications",
+          "label": "Net Weight",
+          "value": "0.26 kg (8.7 oz)",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Specifications",
+          "label": "Frequency range",
+          "value": "100 Hz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Specifications",
+          "label": "Sd",
+          "value": "22.1 cm² (3.4 sq.in)",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Specifications",
+          "label": "Xlin",
+          "value": "± 3 mm (± 0.12\")",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Specifications",
+          "label": "Xmech",
+          "value": "± 5 mm (± 0.19\")",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Specifications",
+          "label": "Active power handling (typ.)",
+          "value": "5 W",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Specifications",
+          "label": "Continuous power handling",
+          "value": "50 VA",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Specifications",
+          "label": "Voice coil diameter",
+          "value": "25 mm (1\")",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Specifications",
+          "label": "Surround shape",
+          "value": "Roll",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Specifications",
+          "label": "Surround material",
+          "value": "Water/UV treated foam",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Specifications",
+          "label": "Cone shape",
+          "value": "Curvilinear",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Specifications",
+          "label": "Cone material",
+          "value": "Water/UV treated paper",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Specifications",
+          "label": "Spider",
+          "value": "Progressive cloth",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Specifications",
+          "label": "Magnet material",
+          "value": "NdFeB",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Specifications",
+          "label": "Peak force",
+          "value": "± 50 N",
+          "notes": ""
+        },
+        {
+          "key": "table.0.0",
+          "section": "Published table 1",
+          "label": "Nominal diameter",
+          "value": "63.5 mm (2.5\")",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "Net Weight",
+          "value": "0.26 kg (8.7 oz)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "Frequency range",
+          "value": "100 Hz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "table.0.3",
+          "section": "Published table 1",
+          "label": "Sd",
+          "value": "22.1 cm² (3.4 sq.in)",
+          "notes": ""
+        },
+        {
+          "key": "table.0.4",
+          "section": "Published table 1",
+          "label": "Xlin",
+          "value": "± 3 mm (± 0.12\")",
+          "notes": ""
+        },
+        {
+          "key": "table.0.5",
+          "section": "Published table 1",
+          "label": "Xmech",
+          "value": "± 5 mm (± 0.19\")",
+          "notes": ""
+        },
+        {
+          "key": "table.0.6",
+          "section": "Published table 1",
+          "label": "Active power handling (typ.)",
+          "value": "5 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.7",
+          "section": "Published table 1",
+          "label": "Continuous power handling",
+          "value": "50 VA",
+          "notes": ""
+        },
+        {
+          "key": "table.0.8",
+          "section": "Published table 1",
+          "label": "Voice coil diameter",
+          "value": "25 mm (1\")",
+          "notes": ""
+        },
+        {
+          "key": "table.0.9",
+          "section": "Published table 1",
+          "label": "Surround shape",
+          "value": "Roll",
+          "notes": ""
+        },
+        {
+          "key": "table.0.10",
+          "section": "Published table 1",
+          "label": "Surround material",
+          "value": "Water/UV treated foam",
+          "notes": ""
+        },
+        {
+          "key": "table.0.11",
+          "section": "Published table 1",
+          "label": "Cone shape",
+          "value": "Curvilinear",
+          "notes": ""
+        },
+        {
+          "key": "table.0.12",
+          "section": "Published table 1",
+          "label": "Cone material",
+          "value": "Water/UV treated paper",
+          "notes": ""
+        },
+        {
+          "key": "table.0.13",
+          "section": "Published table 1",
+          "label": "Spider",
+          "value": "Progressive cloth",
+          "notes": ""
+        },
+        {
+          "key": "table.0.14",
+          "section": "Published table 1",
+          "label": "Magnet material",
+          "value": "NdFeB",
+          "notes": ""
+        },
+        {
+          "key": "table.0.15",
+          "section": "Published table 1",
+          "label": "Peak force",
+          "value": "± 50 N",
+          "notes": ""
+        },
+        {
+          "key": "table.1.1",
+          "section": "Published table 2",
+          "label": "Nominal impedance",
+          "value": "4 Ω | 100 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.1.2",
+          "section": "Published table 2",
+          "label": "Minimum impedance",
+          "value": "3.2 Ω | 85.8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.1.3",
+          "section": "Published table 2",
+          "label": "Sensitivity",
+          "value": "93.9 dB SPL | 92.3 dB SPL",
+          "notes": ""
+        },
+        {
+          "key": "table.1.4",
+          "section": "Published table 2",
+          "label": "Fs",
+          "value": "213 Hz | 200 Hz",
+          "notes": ""
+        },
+        {
+          "key": "table.1.5",
+          "section": "Published table 2",
+          "label": "Re",
+          "value": "2.5 Ω | 72.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "table.1.6",
+          "section": "Published table 2",
+          "label": "Qes",
+          "value": "0.21 | 0.24",
+          "notes": ""
+        },
+        {
+          "key": "table.1.7",
+          "section": "Published table 2",
+          "label": "Qms",
+          "value": "9.1 | 7.0",
+          "notes": ""
+        },
+        {
+          "key": "table.1.8",
+          "section": "Published table 2",
+          "label": "Qts",
+          "value": "0.21 | 0.23",
+          "notes": ""
+        },
+        {
+          "key": "table.1.9",
+          "section": "Published table 2",
+          "label": "Vas",
+          "value": "0.21 L (12.7 cu.in) | 0.24 L (14.5 cu.in)",
+          "notes": ""
+        },
+        {
+          "key": "table.1.10",
+          "section": "Published table 2",
+          "label": "η0",
+          "value": "0.92 % | 0.77 %",
+          "notes": ""
+        },
+        {
+          "key": "table.1.11",
+          "section": "Published table 2",
+          "label": "Mms",
+          "value": "1.9 g (0.06 oz) | 1.8 g (0.06 oz)",
+          "notes": ""
+        },
+        {
+          "key": "table.1.12",
+          "section": "Published table 2",
+          "label": "Cms",
+          "value": "293 µm/N | 352 µm/N",
+          "notes": ""
+        },
+        {
+          "key": "table.1.13",
+          "section": "Published table 2",
+          "label": "Rms",
+          "value": "0.379 kg/s | 0.323 kg/s",
+          "notes": ""
+        },
+        {
+          "key": "table.1.14",
+          "section": "Published table 2",
+          "label": "Bl",
+          "value": "5.4 N/A | 26.5 N/A",
+          "notes": ""
+        },
+        {
+          "key": "table.1.15",
+          "section": "Published table 2",
+          "label": "Motor strength (beta)",
+          "value": "11.7 N²/W | 9.7 N²/W",
+          "notes": ""
+        },
+        {
+          "key": "table.1.16",
+          "section": "Published table 2",
+          "label": "Le (10 kHz)",
+          "value": "0.130 mH | 2.423 mH",
+          "notes": ""
+        },
+        {
+          "key": "table.1.17",
+          "section": "Published table 2",
+          "label": "EBP",
+          "value": "1014 | 833",
+          "notes": ""
+        },
+        {
+          "key": "table.1.18",
+          "section": "Published table 2",
+          "label": "Winding material",
+          "value": "CCAW | Copper",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    }
+  ]
+}

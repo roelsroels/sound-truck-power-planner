@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "bc-speakers",
+      "name": "B&C Speakers",
+      "website": "https://www.bcspeakers.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "bc-speakers-000000000000000300000001",
+      "manufacturer_id": "bc-speakers",
+      "model": "DE35",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "tweeter",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/tweeter/1.25/8/DE35",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "25 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "50 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108 dB",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "3.5 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "5 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "32 mm (1.25 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.3 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "Polyester",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minFrequencyRange",
+          "section": "hfSpecs",
+          "label": "Min frequency range",
+          "value": "3.5",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.maxFrequencyRange",
+          "section": "hfSpecs",
+          "label": "Max frequency range",
+          "value": "18",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "46 mm (1.8 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.55 kg (1.21 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.58 kg (1.28 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "105x105x65 mm (4.13x4.13x2.56 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000300000002",
+      "manufacturer_id": "bc-speakers",
+      "model": "D32",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "tweeter",
+      "status": "archived",
+      "source_url": "https://www.bcspeakers.com/en/products/tweeter/archive/1.25/8/D32",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "0",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "0",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated minimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "0",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "0",
+          "notes": "Applied RMS Voltage is set to 2.83 V for 8 ohms Nominal Impedance."
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "0 min / 0 max",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "0",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "0",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0 kg / 0 lb",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    }
+  ]
+}

@@ -1,0 +1,1910 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "bc-speakers",
+      "name": "B&C Speakers",
+      "website": "https://www.bcspeakers.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "bc-speakers-000000000000000900000001",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB08CX21",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB08CX21",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "2 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "12  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "108x97 mm (4.25x3.82 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "6 mm diameter holes on the PCB  at 96 mm x 84 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.41 kg (0.9 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.44 kg (0.97 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000002",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB12CXT",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB12CXT",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "2 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "6  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "143x108 mm (5.63x4.25 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "6 mm diameter holes on the PCB  at 131 mm x 96 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.6 kg (1.32 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.64 kg (1.41 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "135x150x40 mm (5.31x5.91x1.57 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000003",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB12CX32",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB12CX32",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "1.8 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "12  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "108x97 mm (4.25x3.82 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "6 mm diameter holes on the PCB  at 96 mm x 84 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.35 kg (0.77 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.38 kg (0.84 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000004",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB15CX40",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB15CX40",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "1.4 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "6  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "143x108 mm (5.63x4.25 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "6 mm diameter holes on the PCB  at 131 mm x 96 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.62 kg (1.37 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.66 kg (1.46 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "135x150x40 mm (5.31x5.91x1.57 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000005",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB10NCX",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB10NCX",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "12  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "116x105 mm (4.57x4.13 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "6 mm diameter holes on the PCB  at 104 mm x 93 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.61 kg (1.34 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.64 kg (1.41 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000006",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB12NCX",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB12NCX",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "1.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "12  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "116x105 mm (4.57x4.13 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "6 mm diameter holes on the PCB  at 104 mm x 93 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.48 kg (1.06 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.51 kg (1.12 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000007",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB464V2",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB464V2",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.customField",
+          "section": "generalSpecs",
+          "label": "Wiring Info: ",
+          "value": "Connect the W +/- filter output to the MF section of the DCX464, and the T +/- filter output to the HF section.",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.nominalImpedance",
+          "section": "generalSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.notes",
+          "section": "generalSpecs",
+          "label": "Notes",
+          "value": "Also available in 16 ohm (FB46416V2)",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "3.6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "105x137 mm (4.13x5.39 in)",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.notes",
+          "section": "crossOverSpecs",
+          "label": "Notes",
+          "value": "Frequency response and Impedance graphs measured on ME464 horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4 mm diameter holes on the PCB at 127 mm x 95 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.73 kg (1.61 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.77 kg (1.7 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "147x117x58 mm (5.79x4.61x2.28 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000008",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB464",
+      "variant": "16 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/16/FB464",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.customField",
+          "section": "generalSpecs",
+          "label": "Wiring Info:",
+          "value": "Connect the W +/- filter output to the MF section of the DCX464, and the T +/- filter output to the HF section.",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.nominalImpedance",
+          "section": "generalSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "3.6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "100x110 mm (3.94x4.33 in)",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.notes",
+          "section": "crossOverSpecs",
+          "label": "Notes",
+          "value": "Frequency response and Impedance graphs measured on ME464 horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4 mm diameter holes on the PCB at 100 mm x 90 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.36 kg (0.79 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.39 kg (0.86 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000009",
+      "manufacturer_id": "bc-speakers",
+      "model": "FBU128",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FBU128",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "1.38 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "12  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "132x116 mm (5.20x4.57 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "6 mm diameter holes on the PCB at 118 mm x 102 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.55 kg (1.21 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.6 kg (1.32 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "140x140x70 mm (5.51x5.51x2.76 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000010",
+      "manufacturer_id": "bc-speakers",
+      "model": "FBCXN36",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FBCXN36",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "1 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "12  - 6 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "100x76 mm (3.94x2.99 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "Four 4 mm diameter holes on the PCB at 90 mm x 66 mm for mounting",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.22 kg (0.49 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.25 kg (0.54 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000012",
+      "manufacturer_id": "bc-speakers",
+      "model": "FBCXN88",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FBCXN88",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "1.6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "173x120 mm (6.81x4.72 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "Five 6 mm diameter holes on PCB for crossover filter fixing",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.65 kg (1.43 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.69 kg (1.52 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "180x130x55 mm (7.1x5.1x2.2 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000013",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB10CX64",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB10CX64",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "2.1 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 18 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "173x120 mm (6.81x4.72 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "Five 6 mm diameter holes on the PCB  for crossover filter fixing",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.6 kg (1.32 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.64 kg (1.41 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "180x130x55 mm (7.1x5.1x2.2 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000014",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB354",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB354",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.customField",
+          "section": "generalSpecs",
+          "label": "Wiring Info:",
+          "value": "Connect the W +/- filter output to the MF section of the DCX354, and the T +/- filter output to the HF section.",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.nominalImpedance",
+          "section": "generalSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "5.6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "100x110 mm (3.94x4.33 in)",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.notes",
+          "section": "crossOverSpecs",
+          "label": "Notes",
+          "value": "Frequency response and Impedance graphs measured on ME464 horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4 mm diameter holes on the PCB at 100 mm x 90 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.37 kg (0.82 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.4 kg (0.87 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000015",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB354",
+      "variant": "16 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/16/FB354",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.customField",
+          "section": "generalSpecs",
+          "label": "Wiring Info: ",
+          "value": "Connect the W +/- filter output to the MF section of the DCX354, and the T +/- filter output to the HF section.",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.nominalImpedance",
+          "section": "generalSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "5.6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "100x110 mm (3.94x4.33 in)",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.notes",
+          "section": "crossOverSpecs",
+          "label": "Notes",
+          "value": "Frequency response and Impedance graphs measured on ME464 horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4 mm diameter holes on the PCB at 100 mm x 90 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.37 kg (0.82 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.4 kg (0.87 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-000000000000000900000016",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB464",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB464",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.customField",
+          "section": "generalSpecs",
+          "label": "Wiring Info:",
+          "value": "Connect the W +/- filter output to the MF section of the DCX464, and the T +/- filter output to the HF section.",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.nominalImpedance",
+          "section": "generalSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "3.6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "100x110 mm (3.94x4.33 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4 mm diameter holes on the PCB at 100 mm x 90 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.36 kg (0.79 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.39 kg (0.86 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "120x125x35 mm (4.72x4.92x1.38 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-664f112b559eeab7e5bf4a9f",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB354V2",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/8/FB354V2",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.customField",
+          "section": "generalSpecs",
+          "label": "Wiring Info:",
+          "value": "Connect the W +/- filter output to the MF section of the DCX354, and the T +/- filter output to the HF section.",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.nominalImpedance",
+          "section": "generalSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "5.6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "105x137 mm (4.13x5.39 in)",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.notes",
+          "section": "crossOverSpecs",
+          "label": "Notes",
+          "value": "Frequency response and Impedance graphs measured on ME464 horn",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4 mm diameter holes on the PCB at 127 mm x 95 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.55 kg (1.21 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.59 kg (1.3 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "147x117x58 mm (5.79x4.61x2.28 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-664f136e559eeab7e5bfe69b",
+      "manufacturer_id": "bc-speakers",
+      "model": "FB354V2",
+      "variant": "16 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/0/16/FB354V2",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.customField",
+          "section": "generalSpecs",
+          "label": "Wiring Info:",
+          "value": "Connect the W +/- filter output to the MF section of the DCX354, and the T +/- filter output to the HF section.",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.nominalImpedance",
+          "section": "generalSpecs",
+          "label": "Nominal Impedance",
+          "value": "16 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "5.6 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "18  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "105x137 mm (4.13x5.39 in)",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.notes",
+          "section": "crossOverSpecs",
+          "label": "Notes",
+          "value": "Frequency response and Impedance graphs measured on ME464 horn",
+          "notes": ""
+        },
+        {
+          "key": "params.vas",
+          "section": "params",
+          "label": "Vas",
+          "value": "0 ft3",
+          "notes": ""
+        },
+        {
+          "key": "params.xmax",
+          "section": "params",
+          "label": "Xmax",
+          "value": "0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.customField",
+          "section": "shippingMounting",
+          "label": "Other details",
+          "value": "4 mm diameter holes on the PCB at 127 mm x 95 mm",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.53 kg (1.17 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.57 kg (1.26 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "147x117x58 mm (5.79x4.61x2.28 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-66fbc323ece4838ce5d81905",
+      "manufacturer_id": "bc-speakers",
+      "model": "FBCLX64",
+      "variant": "8 Ω",
+      "kind": "accessory",
+      "category": "crossovers",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/crossovers/undefined/8/FBCLX64",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "crossOverSpecs.nominalImpedance",
+          "section": "crossOverSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.frequency",
+          "section": "crossOverSpecs",
+          "label": "Crossover Frequency",
+          "value": "1.7 kHz",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.filterType",
+          "section": "crossOverSpecs",
+          "label": "Filter Type",
+          "value": "Two Way",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.slope",
+          "section": "crossOverSpecs",
+          "label": "Slope",
+          "value": "24  - 12 dB/oct",
+          "notes": ""
+        },
+        {
+          "key": "crossOverSpecs.overallDimension",
+          "section": "crossOverSpecs",
+          "label": "Overall Dimensions",
+          "value": "173x120 mm (6.81x4.72 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "0.64 kg (1.41 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "0.68 kg (1.5 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "180x130x55 mm (7.1x5.1x2.2 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    }
+  ]
+}

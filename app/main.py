@@ -11,13 +11,24 @@ from pathlib import Path
 from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.responses import HTMLResponse, Response
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel, Field, ConfigDict, field_validator
+from pydantic import ValidationError, BaseModel, Field, ConfigDict, field_validator
 
-from . import storage, spec_lookup
+from . import storage, spec_lookup, library
 from .report import build_pdf
 from .revision import build_revision
 
 WEB = Path(__file__).resolve().parent.parent / 'web'
+
+class LibraryComponent(BaseModel):
+    model_config = ConfigDict(extra='forbid')
+    product_id: str = Field(pattern=library.ID)
+    manufacturer: str = Field(min_length=1, max_length=120)
+    model: str = Field(min_length=1, max_length=150)
+    variant: str = Field(default='', max_length=100)
+    quantity: int = Field(ge=1, le=100)
+    source_url: str = Field(max_length=1000)
+    _url = field_validator('source_url')(library.http_url)
+
 
 class Equipment(BaseModel):
     model_config = ConfigDict(extra='forbid')
@@ -36,6 +47,7 @@ class Equipment(BaseModel):
     reference_basis: str = Field(default='',max_length=500)
     design_basis: str = Field(default='',max_length=500)
     confidence: str = Field(default='estimate',pattern=r'^(verified|mixed|estimate)$')
+    library_components: list[LibraryComponent] = Field(default_factory=list, max_length=64)
 
     @field_validator('source_url')
     @classmethod
@@ -88,7 +100,7 @@ def create_app(db_path=None, admin_token=None):
     async def security_headers(request, call_next):
         response = await call_next(request)
         request_path = request.url.path
-        if request_path in ('/', '/api/health'):
+        if request_path in ('/', '/api/health') or request_path.startswith('/api/v3/library'):
             response.headers['Cache-Control'] = 'no-store'
         elif request_path.startswith('/assets/'):
             response.headers['Cache-Control'] = (
@@ -131,6 +143,43 @@ def create_app(db_path=None, admin_token=None):
             message=str(exc)
             code=429 if "limit reached" in message else (422 if "Only official" in message or "Invalid" in message else 502)
             raise HTTPException(status_code=code,detail=message)
+
+    @app.get('/api/v3/library')
+    def product_library():
+        return library.manifest(path)
+
+    @app.get('/api/v3/library/schema')
+    def library_schema():
+        return library.Pack.model_json_schema()
+
+    @app.get('/api/v3/library/products/{id}')
+    def library_product(id: str):
+        product = library.snapshot(path)[1].get(id)
+        if product is None:
+            raise HTTPException(status_code=404, detail='Product not found')
+        return product
+
+    async def read_pack(request):
+        content = bytearray()
+        async for chunk in request.stream():
+            content.extend(chunk)
+            if len(content) > 8_000_000:
+                raise HTTPException(status_code=413, detail='Library file exceeds 8 MB')
+        try:
+            return library.Pack.model_validate_json(content)
+        except ValidationError as exc:
+            first = exc.errors(include_input=False, include_url=False)[0]
+            raise HTTPException(status_code=422, detail='Invalid library: ' + '.'.join(map(str, first['loc'])) + ': ' + first['msg'])
+
+    @app.post('/api/v3/library/validate')
+    async def validate_library(request: Request):
+        # Validation only: browser imports never alter the public library.
+        return (await read_pack(request)).model_dump(mode='json')
+
+    @app.post('/api/v3/library/import')
+    async def import_library(request: Request, x_admin_token: str | None = Header(default=None)):
+        admin_required(x_admin_token)
+        return library.import_pack(path, await read_pack(request))
 
     @app.get('/api/v1/catalog',response_model=list[Equipment])
     def catalogue():

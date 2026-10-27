@@ -1,0 +1,1066 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "bc-speakers",
+      "name": "B&C Speakers",
+      "website": "https://www.bcspeakers.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "bc-speakers-000000000000000600000002",
+      "manufacturer_id": "bc-speakers",
+      "model": "18HTX100",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "triaxial",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/triaxial/18/8/18HTX100",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.nominalDiameter",
+          "section": "generalSpecs",
+          "label": "Nominal Diameter",
+          "value": "460 mm (18 in)",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.frequencyRange",
+          "section": "generalSpecs",
+          "label": "Frequency Range",
+          "value": "44 Hz - 18000 Hz",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.dispersionAngle",
+          "section": "generalSpecs",
+          "label": "Dispersion Angle",
+          "value": "60 °",
+          "notes": "Included by –6 dB down points."
+        },
+        {
+          "key": "lfSpecs.nominalImpedance",
+          "section": "lfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.minimumImpedance",
+          "section": "lfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.6 Ω",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.nominalPowerHandling",
+          "section": "lfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "800 W",
+          "notes": "2 hours test made with continuous pink noise signal within the range Fs-10Fs. Power calculated on rated minimum impedance. Loudspeaker in free air."
+        },
+        {
+          "key": "lfSpecs.continuousPowerHandling",
+          "section": "lfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "1600 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "lfSpecs.sensitivity",
+          "section": "lfSpecs",
+          "label": "Sensitivity",
+          "value": "100 dB",
+          "notes": "Applied RMS Voltage is set to 2.83V"
+        },
+        {
+          "key": "lfSpecs.frequencyRange",
+          "section": "lfSpecs",
+          "label": "Frequency Range",
+          "value": "44 Hz - 800 Hz",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.voiceCoilDiameter",
+          "section": "lfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.windingMaterial",
+          "section": "lfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.formerMaterial",
+          "section": "lfSpecs",
+          "label": "Former Material",
+          "value": "Glass Fibre",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.windingDepth",
+          "section": "lfSpecs",
+          "label": "Winding Depth",
+          "value": "25.1 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.magneticGapDepth",
+          "section": "lfSpecs",
+          "label": "Magnetic Gap Depth",
+          "value": "10.2 mm (0.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.fluxDensity",
+          "section": "lfSpecs",
+          "label": "Flux Density",
+          "value": "1.5 T",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.wooferConeTreatment",
+          "section": "lfSpecs",
+          "label": "Woofer Cone Treatment",
+          "value": "TWP Waterproof Both Sides",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalImpedance",
+          "section": "mfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "110 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated\r\nminimum impedance."
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "220 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "110 dB",
+          "notes": "Applied RMS Voltage is set to 2.83V"
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.5 kHz - 5.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.6 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.21 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minFrequencyRange",
+          "section": "mfSpecs",
+          "label": "Min frequency range",
+          "value": "0.5",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.maxFrequencyRange",
+          "section": "mfSpecs",
+          "label": "Max frequency range",
+          "value": "5.5",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "9 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "80 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated\r\nminimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "160 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "110 dB",
+          "notes": "Applied RMS Voltage is set to 2.83V"
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "3.5 kHz - 18 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "65 mm (2.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "2.14 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minFrequencyRange",
+          "section": "hfSpecs",
+          "label": "Min frequency range",
+          "value": "3.5",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.maxFrequencyRange",
+          "section": "hfSpecs",
+          "label": "Max frequency range",
+          "value": "18",
+          "notes": ""
+        },
+        {
+          "key": "params.fs",
+          "section": "params",
+          "label": "Fs",
+          "value": "44 Hz",
+          "notes": ""
+        },
+        {
+          "key": "params.re",
+          "section": "params",
+          "label": "Re",
+          "value": "5.4 Ω",
+          "notes": ""
+        },
+        {
+          "key": "params.qes",
+          "section": "params",
+          "label": "Qes",
+          "value": "0.34",
+          "notes": ""
+        },
+        {
+          "key": "params.qms",
+          "section": "params",
+          "label": "Qms",
+          "value": "6.3",
+          "notes": ""
+        },
+        {
+          "key": "params.qts",
+          "section": "params",
+          "label": "Qts",
+          "value": "0.32",
+          "notes": ""
+        },
+        {
+          "key": "params.vas",
+          "section": "params",
+          "label": "Vas",
+          "value": "173 dm³ (6.11 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "params.sd",
+          "section": "params",
+          "label": "Sd",
+          "value": "1210 cm² (187.55 in²)",
+          "notes": ""
+        },
+        {
+          "key": "params.etaZero",
+          "section": "params",
+          "label": "η0",
+          "value": "4.3 %",
+          "notes": ""
+        },
+        {
+          "key": "params.xmax",
+          "section": "params",
+          "label": "Xmax",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "params.xvar",
+          "section": "params",
+          "label": "Xvar",
+          "value": "13 mm",
+          "notes": ""
+        },
+        {
+          "key": "params.mms",
+          "section": "params",
+          "label": "Mms",
+          "value": "158.5 g",
+          "notes": ""
+        },
+        {
+          "key": "params.bl",
+          "section": "params",
+          "label": "Bl",
+          "value": "26.3 Tm",
+          "notes": ""
+        },
+        {
+          "key": "params.le",
+          "section": "params",
+          "label": "Le",
+          "value": "1.16 mH",
+          "notes": ""
+        },
+        {
+          "key": "params.ebp",
+          "section": "params",
+          "label": "EBP",
+          "value": "129 Hz",
+          "notes": ""
+        },
+        {
+          "key": "params.notes",
+          "section": "params",
+          "label": "Notes",
+          "value": "Thiele-Small parameters are measured after a high level 20 Hz sine wave preconditioning test.",
+          "notes": ""
+        },
+        {
+          "key": "design.magnetMaterial",
+          "section": "design",
+          "label": "Magnet material",
+          "value": "Neodymium Ring",
+          "notes": ""
+        },
+        {
+          "key": "design.wooferConeTreatment",
+          "section": "design",
+          "label": "Woofer cone treatment",
+          "value": "TWP Waterproof Both Sides",
+          "notes": ""
+        },
+        {
+          "key": "design.recommendedEnclosure",
+          "section": "design",
+          "label": "Recommended enclosure",
+          "value": "0 dm3 / 0 ft3",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "460 mm (18.11 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.boltCircleDiameter",
+          "section": "shippingMounting",
+          "label": "Bolt Circle Diameter",
+          "value": "440 mm (17.32 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "423 mm (16.65 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "299 mm (11.77 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.flangeAndGasketThickness",
+          "section": "shippingMounting",
+          "label": "Flange and Gasket Thickness",
+          "value": "16 mm (0.63 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "12.65 kg (27.89 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingUnits",
+          "section": "shippingMounting",
+          "label": "Shipping Units",
+          "value": "1 pcs",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingWeight",
+          "section": "shippingMounting",
+          "label": "Shipping Weight",
+          "value": "14.55 kg (32.08 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "570x570x340 mm (22.44x22.44x13.39 in)",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    },
+    {
+      "id": "bc-speakers-679789b87860e72bbc6b70a5",
+      "manufacturer_id": "bc-speakers",
+      "model": "15HTX100",
+      "variant": "8 Ω",
+      "kind": "driver",
+      "category": "triaxial",
+      "status": "current",
+      "source_url": "https://www.bcspeakers.com/en/products/triaxial/15/8/15HTX100",
+      "datasheet_urls": [],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "generalSpecs.nominalDiameter",
+          "section": "generalSpecs",
+          "label": "Nominal Diameter",
+          "value": "380 mm (15 in)",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.frequencyRange",
+          "section": "generalSpecs",
+          "label": "Frequency Range",
+          "value": "52 Hz - 20000 Hz",
+          "notes": ""
+        },
+        {
+          "key": "generalSpecs.dispersionAngle",
+          "section": "generalSpecs",
+          "label": "Dispersion Angle",
+          "value": "60 °",
+          "notes": "Horizontal, included by –6 dB down points."
+        },
+        {
+          "key": "generalSpecs.wooferConeTreatment",
+          "section": "generalSpecs",
+          "label": "Woofer Cone Treatment",
+          "value": "TWP Waterproof Both Sides",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.nominalImpedance",
+          "section": "lfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.minimumImpedance",
+          "section": "lfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7 Ω",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.nominalPowerHandling",
+          "section": "lfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "800 W",
+          "notes": "2 hours test made with continuous pink noise signal within the range Fs-10Fs. Power calculated on rated minimum impedance. Loudspeaker in free air."
+        },
+        {
+          "key": "lfSpecs.continuousPowerHandling",
+          "section": "lfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "1600 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "lfSpecs.sensitivity",
+          "section": "lfSpecs",
+          "label": "Sensitivity",
+          "value": "99 dB",
+          "notes": "Applied RMS Voltage is set to 2.83V"
+        },
+        {
+          "key": "lfSpecs.frequencyRange",
+          "section": "lfSpecs",
+          "label": "Frequency Range",
+          "value": "52 Hz - 1000 Hz",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.voiceCoilDiameter",
+          "section": "lfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "100 mm (4 in)",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.windingMaterial",
+          "section": "lfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.formerMaterial",
+          "section": "lfSpecs",
+          "label": "Former Material",
+          "value": "Glass Fibre",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.windingDepth",
+          "section": "lfSpecs",
+          "label": "Winding Depth",
+          "value": "25.1 mm (1 in)",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.magneticGapDepth",
+          "section": "lfSpecs",
+          "label": "Magnetic Gap Depth",
+          "value": "10.2 mm (0.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "lfSpecs.fluxDensity",
+          "section": "lfSpecs",
+          "label": "Flux Density",
+          "value": "1.5 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.throatDiameter",
+          "section": "mfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalImpedance",
+          "section": "mfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.minimumImpedance",
+          "section": "mfSpecs",
+          "label": "Minimum Impedance",
+          "value": "7.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.nominalPowerHandling",
+          "section": "mfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "90 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated\r\nminimum impedance."
+        },
+        {
+          "key": "mfSpecs.continuousPowerHandling",
+          "section": "mfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "180 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "mfSpecs.sensitivity",
+          "section": "mfSpecs",
+          "label": "Sensitivity",
+          "value": "108.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83V"
+        },
+        {
+          "key": "mfSpecs.frequencyRange",
+          "section": "mfSpecs",
+          "label": "Frequency Range",
+          "value": "0.5 kHz - 5.5 kHz",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.recommendedCrossover",
+          "section": "mfSpecs",
+          "label": "Recommended Crossover",
+          "value": "0.7 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "mfSpecs.voiceCoilDiameter",
+          "section": "mfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "76 mm (3 in)",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.windingMaterial",
+          "section": "mfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.inductance",
+          "section": "mfSpecs",
+          "label": "Inductance",
+          "value": "0.26 mH",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.fluxDensity",
+          "section": "mfSpecs",
+          "label": "Flux Density",
+          "value": "1.9 T",
+          "notes": ""
+        },
+        {
+          "key": "mfSpecs.diaphragmMaterial",
+          "section": "mfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.throatDiameter",
+          "section": "hfSpecs",
+          "label": "Throat Diameter",
+          "value": "0 mm / 0 in",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalImpedance",
+          "section": "hfSpecs",
+          "label": "Nominal Impedance",
+          "value": "8 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.minimumImpedance",
+          "section": "hfSpecs",
+          "label": "Minimum Impedance",
+          "value": "6.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.nominalPowerHandling",
+          "section": "hfSpecs",
+          "label": "Nominal Power Handling",
+          "value": "50 W",
+          "notes": "2 hour test made with continuous pink noise signal within the range from the recommended crossover frequency to 20 kHz. Power calculated on rated\r\nminimum impedance."
+        },
+        {
+          "key": "hfSpecs.continuousPowerHandling",
+          "section": "hfSpecs",
+          "label": "Continuous Power Handling",
+          "value": "100 W",
+          "notes": "Power on Continuous Program is defined as 3 dB greater than the Nominal rating."
+        },
+        {
+          "key": "hfSpecs.sensitivity",
+          "section": "hfSpecs",
+          "label": "Sensitivity",
+          "value": "108.5 dB",
+          "notes": "Applied RMS Voltage is set to 2.83V"
+        },
+        {
+          "key": "hfSpecs.frequencyRange",
+          "section": "hfSpecs",
+          "label": "Frequency Range",
+          "value": "5 kHz - 20 kHz",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.recommendedCrossover",
+          "section": "hfSpecs",
+          "label": "Recommended Crossover",
+          "value": "4.5 kHz",
+          "notes": "12 dB/oct. or higher slope high-pass filter."
+        },
+        {
+          "key": "hfSpecs.voiceCoilDiameter",
+          "section": "hfSpecs",
+          "label": "Voice Coil Diameter",
+          "value": "51 mm (2 in)",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.windingMaterial",
+          "section": "hfSpecs",
+          "label": "Winding Material",
+          "value": "Aluminium",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.inductance",
+          "section": "hfSpecs",
+          "label": "Inductance",
+          "value": "0.1 mH",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.fluxDensity",
+          "section": "hfSpecs",
+          "label": "Flux Density",
+          "value": "1.95 T",
+          "notes": ""
+        },
+        {
+          "key": "hfSpecs.diaphragmMaterial",
+          "section": "hfSpecs",
+          "label": "Diaphragm Material",
+          "value": "HT Polymer Ring",
+          "notes": ""
+        },
+        {
+          "key": "params.fs",
+          "section": "params",
+          "label": "Fs",
+          "value": "52 Hz",
+          "notes": ""
+        },
+        {
+          "key": "params.re",
+          "section": "params",
+          "label": "Re",
+          "value": "5.5 Ω",
+          "notes": ""
+        },
+        {
+          "key": "params.qes",
+          "section": "params",
+          "label": "Qes",
+          "value": "0.305",
+          "notes": ""
+        },
+        {
+          "key": "params.qms",
+          "section": "params",
+          "label": "Qms",
+          "value": "5.9",
+          "notes": ""
+        },
+        {
+          "key": "params.qts",
+          "section": "params",
+          "label": "Qts",
+          "value": "0.29",
+          "notes": ""
+        },
+        {
+          "key": "params.vas",
+          "section": "params",
+          "label": "Vas",
+          "value": "78 dm³ (2.75 ft³)",
+          "notes": ""
+        },
+        {
+          "key": "params.sd",
+          "section": "params",
+          "label": "Sd",
+          "value": "855 cm² (132.5 in²)",
+          "notes": ""
+        },
+        {
+          "key": "params.etaZero",
+          "section": "params",
+          "label": "η0",
+          "value": "3.5 %",
+          "notes": ""
+        },
+        {
+          "key": "params.xmax",
+          "section": "params",
+          "label": "Xmax",
+          "value": "10 mm (0.4 in)",
+          "notes": ""
+        },
+        {
+          "key": "params.xvar",
+          "section": "params",
+          "label": "Xvar",
+          "value": "8.5 mm",
+          "notes": ""
+        },
+        {
+          "key": "params.mms",
+          "section": "params",
+          "label": "Mms",
+          "value": "125 g",
+          "notes": ""
+        },
+        {
+          "key": "params.bl",
+          "section": "params",
+          "label": "Bl",
+          "value": "27 Tm",
+          "notes": ""
+        },
+        {
+          "key": "params.le",
+          "section": "params",
+          "label": "Le",
+          "value": "0.9 mH",
+          "notes": ""
+        },
+        {
+          "key": "params.ebp",
+          "section": "params",
+          "label": "EBP",
+          "value": "170 Hz",
+          "notes": ""
+        },
+        {
+          "key": "params.notes",
+          "section": "params",
+          "label": "Notes",
+          "value": "Thiele-Small parameters are measured after a high level 20 Hz sine wave preconditioning test.",
+          "notes": ""
+        },
+        {
+          "key": "design.surroundShape",
+          "section": "design",
+          "label": "Surround shape",
+          "value": "Triple Roll",
+          "notes": ""
+        },
+        {
+          "key": "design.coneShape",
+          "section": "design",
+          "label": "Cone shape",
+          "value": "Curvilinear",
+          "notes": ""
+        },
+        {
+          "key": "design.magnetMaterial",
+          "section": "design",
+          "label": "Magnet material",
+          "value": "Neodymium Ring",
+          "notes": ""
+        },
+        {
+          "key": "design.spider",
+          "section": "design",
+          "label": "Spider",
+          "value": "Double Silicone",
+          "notes": ""
+        },
+        {
+          "key": "design.poleDesign",
+          "section": "design",
+          "label": "Pole design",
+          "value": "T-Pole",
+          "notes": ""
+        },
+        {
+          "key": "design.wooferConeTreatment",
+          "section": "design",
+          "label": "Woofer cone treatment",
+          "value": "TWP Waterproof Both Sides",
+          "notes": ""
+        },
+        {
+          "key": "design.recommendedEnclosure",
+          "section": "design",
+          "label": "Recommended enclosure",
+          "value": "0 dm3 / 0 ft3",
+          "notes": ""
+        },
+        {
+          "key": "design.recomendedLoading",
+          "section": "design",
+          "label": "Recomended loading",
+          "value": "Vented Box",
+          "notes": ""
+        },
+        {
+          "key": "design.coneMaterial",
+          "section": "design",
+          "label": "Cone material",
+          "value": "Treated Paper",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.overallDiameter",
+          "section": "shippingMounting",
+          "label": "Overall Diameter",
+          "value": "393 mm (15.5 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.boltCircleDiameter",
+          "section": "shippingMounting",
+          "label": "Bolt Circle Diameter",
+          "value": "372 mm (14.65 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.baffleCutoutDiameter",
+          "section": "shippingMounting",
+          "label": "Baffle Cutout Diameter",
+          "value": "355 mm (14 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.depth",
+          "section": "shippingMounting",
+          "label": "Depth",
+          "value": "261 mm (10.28 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.flangeAndGasketThickness",
+          "section": "shippingMounting",
+          "label": "Flange and Gasket Thickness",
+          "value": "15 mm (0.6 in)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.netWeight",
+          "section": "shippingMounting",
+          "label": "Net Weight",
+          "value": "10.8 kg (23.8 lb)",
+          "notes": ""
+        },
+        {
+          "key": "shippingMounting.shippingBox",
+          "section": "shippingMounting",
+          "label": "Shipping Box",
+          "value": "mm /  in",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "none"
+    }
+  ]
+}

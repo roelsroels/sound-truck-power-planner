@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "powersoft",
+      "name": "Powersoft",
+      "website": "https://www.powersoft.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "powersoft-dc-rider",
+      "manufacturer_id": "powersoft",
+      "model": "DC Rider",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "onboard-amplifiers",
+      "status": "current",
+      "source_url": "https://www.powersoft.com/en/products/onboard-amplifiers/dc-rider",
+      "datasheet_urls": [
+        "https://www.powersoft.com/api/media/file/CS_Powersoft_NewBuilding_def.pdf",
+        "https://www.powersoft.com/api/media/file/Declaration-of-Conformity-DoC-Powersoft-DCRIDER_January2026.pdf?v=ms9fjz93",
+        "https://www.powersoft.com/api/media/file/PS_DCRIDER_DS.pdf?v=ms9fk96s",
+        "https://www.powersoft.com/api/media/file/PS_DCRIDER_UG.pdf?v=ms9fk9c6",
+        "https://www.powersoft.com/api/media/file/UK-Declaration-of-Conformity-DoC-Powersoft-DCRIDER_January-2026.pdf?v=ms9fjz8j",
+        "https://www.powersoft.com/files/2025/03/PWS-ITA_General-Terms-and-Conditions-of-Sale_FINAL-25.10.2024.pdf",
+        "https://www.powersoft.com/files/2025/11/CGA-PWS-ENG-2025.pdf"
+      ],
+      "checked_at": "2026-10-27",
+      "specs": [
+        {
+          "key": "table.0.0",
+          "section": "Published table 1",
+          "label": "Model",
+          "value": "Power per channel | Total Power",
+          "notes": ""
+        },
+        {
+          "key": "table.0.1",
+          "section": "Published table 1",
+          "label": "408",
+          "value": "8x 50 W | 400 W",
+          "notes": ""
+        },
+        {
+          "key": "table.0.2",
+          "section": "Published table 1",
+          "label": "8016",
+          "value": "16x 50 W | 800 W",
+          "notes": ""
+        }
+      ],
+      "electrical": null,
+      "power_input": "dc"
+    }
+  ]
+}

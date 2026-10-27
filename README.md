@@ -176,3 +176,14 @@ includes `frontend_revision` to identify the frontend in the running container.
 After pulling an update, rebuild and recreate the app with
 `docker compose up -d --build`, then reload the page. A container restart alone
 does not rebuild the application image.
+
+
+## Manufacturer product library
+
+Browse sourced B&C and Powersoft product/impedance variants from the equipment
+inventory. Inspect published specifications and documents, then combine components
+into one profile per AC-fed amplifier/active cabinet. Passive driver ratings never
+become mains consumption. Basic keeps the normal quantity workflow; Advanced also
+provides personal JSON library imports. Other brands and complete cabinets use the
+same versioned format. See [library documentation](docs/library.md) for imports,
+source coverage, shared libraries, schema and refresh instructions.
