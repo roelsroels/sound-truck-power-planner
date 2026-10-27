@@ -77,7 +77,7 @@ python -m app.library manufacturer.json
 ### Personal browser import
 
 Advanced → Product library → Import another manufacturer accepts a JSON pack up
-to 8 MB. The server validates it without writing to the public library or fetching
+to 8 MB and 20,000 specification fields. The server validates it without writing to the public library or fetching
 its URLs. The browser merges by product ID and saves the imported library locally.
 Export the browser library to back it up or move it to another browser. A quota
 failure leaves the previously saved library intact. Browser libraries are separate
@@ -118,3 +118,5 @@ page retains its original retrieval date. Review changed counts, variants, sourc
 and specifications before committing; an importer is not independent verification.
 Additional manufacturers can supply the neutral JSON format directly or have a
 new offline adapter added here. No scraper runs during normal app use.
+
+Shared administration and processing budgets are documented in [security controls](security.md).

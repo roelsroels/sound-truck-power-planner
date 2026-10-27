@@ -8,6 +8,10 @@ services:
     environment:
       DB_PATH: /data/planner.sqlite3
       ADMIN_TOKEN: ${ADMIN_TOKEN:-}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:-}
+      FORWARDED_ALLOW_IPS: ${FORWARDED_ALLOW_IPS:-127.0.0.1}
+      ENABLE_API_DOCS: ${ENABLE_API_DOCS:-false}
+      ENABLE_REMOTE_INSPECTION: ${ENABLE_REMOTE_INSPECTION:-true}
     volumes:
       - planner_data:/data
     read_only: true
@@ -18,7 +22,13 @@ services:
     cap_drop:
       - ALL
     pids_limit: 128
-    mem_limit: 256m
+    mem_limit: 384m
+    cpus: 1.0
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
 
 volumes:
   planner_data:

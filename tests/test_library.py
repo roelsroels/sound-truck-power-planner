@@ -9,7 +9,7 @@ from app import library
 
 @pytest.fixture
 def client(tmp_path):
-    with TestClient(create_app(str(tmp_path / 'test.sqlite3'), admin_token='test-secret')) as c:
+    with TestClient(create_app(str(tmp_path / 'test.sqlite3'), admin_token='test-secret-for-local-tests-only-123456')) as c:
         yield c
 
 
@@ -45,7 +45,7 @@ def test_future_manufacturer_validation_is_read_only_and_import_is_admin_only(cl
     assert client.post('/api/v3/library/validate', json=pack).status_code == 200
     assert len(client.get('/api/v3/library').json()['products']) == count
     assert client.post('/api/v3/library/import', json=pack).status_code == 403
-    response = client.post('/api/v3/library/import', json=pack, headers={'X-Admin-Token':'test-secret'})
+    response = client.post('/api/v3/library/import', json=pack, headers={'X-Admin-Token':'test-secret-for-local-tests-only-123456'})
     assert response.status_code == 200
     assert response.json()['products'] == 1
     assert len(client.get('/api/v3/library').json()['products']) == count + 1
@@ -53,7 +53,7 @@ def test_future_manufacturer_validation_is_read_only_and_import_is_admin_only(cl
     assert len(client.get('/api/v1/catalog').json()) == 4
     # Upsert updates, rather than duplicating the product.
     pack['products'][0]['model'] = 'Updated model'
-    client.post('/api/v3/library/import', json=pack, headers={'X-Admin-Token':'test-secret'})
+    client.post('/api/v3/library/import', json=pack, headers={'X-Admin-Token':'test-secret-for-local-tests-only-123456'})
     assert len(client.get('/api/v3/library').json()['products']) == count + 1
     assert client.get('/api/v3/library/products/example-audio-passive-cabinet-8').json()['model'] == 'Updated model'
 
@@ -70,15 +70,15 @@ def test_invalid_pack_rejected_before_write(client, mutation):
     elif mutation == 'nonfinite':
         p.update(kind='amplifier',power_input='ac',electrical={'reference_va':'NaN','basis':'invalid'})
     elif mutation == 'unknown-field': p['invented_power'] = 500
-    assert client.post('/api/v3/library/import', json=pack, headers={'X-Admin-Token':'test-secret'}).status_code == 422
+    assert client.post('/api/v3/library/import', json=pack, headers={'X-Admin-Token':'test-secret-for-local-tests-only-123456'}).status_code == 422
     assert client.get('/api/v3/library/products/example-audio-passive-cabinet-8').status_code == 404
 
 
 def test_import_survives_restart_and_bundle_does_not_overwrite_it(tmp_path):
     path = str(tmp_path / 'test.sqlite3')
-    with TestClient(create_app(path, admin_token='secret')) as client:
+    with TestClient(create_app(path, admin_token='test-secret-for-local-tests-only-123456')) as client:
         pack = example_pack()
-        assert client.post('/api/v3/library/import', json=pack, headers={'X-Admin-Token':'secret'}).status_code == 200
+        assert client.post('/api/v3/library/import', json=pack, headers={'X-Admin-Token':'test-secret-for-local-tests-only-123456'}).status_code == 200
     with TestClient(create_app(path)) as client:
         assert client.get('/api/v3/library/products/example-audio-passive-cabinet-8').status_code == 200
         assert len(client.get('/api/v1/catalog').json()) == 4
@@ -111,5 +111,5 @@ def test_bad_second_product_cannot_partially_import(client):
     pack = example_pack()
     second = copy.deepcopy(pack['products'][0]);second['id'] = 'example-audio-second'
     second['kind'] = 'incorrect-type';pack['products'].append(second)
-    assert client.post('/api/v3/library/import',json=pack,headers={'X-Admin-Token':'test-secret'}).status_code == 422
+    assert client.post('/api/v3/library/import',json=pack,headers={'X-Admin-Token':'test-secret-for-local-tests-only-123456'}).status_code == 422
     assert client.get('/api/v3/library/products/example-audio-passive-cabinet-8').status_code == 404

@@ -8,7 +8,9 @@ from ipaddress import ip_address
 from threading import Lock
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
-from urllib.request import HTTPRedirectHandler, Request, build_opener
+from urllib.request import HTTPRedirectHandler, HTTPSHandler, ProxyHandler, Request, build_opener
+from http.client import HTTPSConnection
+import ssl
 import json
 import re
 import socket
@@ -61,21 +63,54 @@ def allowed_url(url):
             or parts.username or parts.password or parts.fragment
             or not parts.path.startswith("/en/products/")):
         raise ValueError("Only official HTTPS manufacturer product pages are accepted")
-    # Guard against accidental private-address DNS results.
-    try:
-        addresses = socket.getaddrinfo(parts.hostname,443,type=socket.SOCK_STREAM)
-    except OSError as exc:
-        raise ValueError("Official manufacturer hostname could not be resolved") from exc
-    if not addresses:
-        raise ValueError("Official manufacturer hostname could not be resolved")
-    for result in addresses:
-        addr = ip_address(result[4][0])
-        if not addr.is_global:
-            raise ValueError("Manufacturer host did not resolve to a public address")
+    public_addresses(parts.hostname)
     return parts.geturl()
 
+
+def public_addresses(host):
+    if host not in HOSTS:
+        raise ValueError('Only official manufacturer hosts are accepted')
+    try:
+        addresses = socket.getaddrinfo(host,443,type=socket.SOCK_STREAM)
+    except OSError as exc:
+        raise ValueError('Official manufacturer hostname could not be resolved') from exc
+    if not addresses or any(not ip_address(result[4][0]).is_global for result in addresses):
+        raise ValueError('Manufacturer host did not resolve to public addresses')
+    return list(dict.fromkeys(result[4][0] for result in addresses))[:16]
+
+
+class PinnedHTTPSConnection(HTTPSConnection):
+    def __init__(self,host,addresses,**kwargs):
+        self.public_ips=addresses
+        self.verified_context=ssl.create_default_context()
+        super().__init__(host,context=self.verified_context,**kwargs)
+
+    def connect(self):
+        if self._tunnel_host:
+            raise ValueError('Proxy tunnels are not supported')
+        last=None
+        for address in self.public_ips:
+            raw=None
+            try:
+                raw=socket.create_connection((address,self.port),self.timeout)
+                self.sock=self.verified_context.wrap_socket(raw,server_hostname=self.host)
+                return
+            except OSError as exc:
+                if raw is not None:raw.close()
+                last=exc
+        raise last or OSError('No public destination available')
+
+
+class PinnedHTTPSHandler(HTTPSHandler):
+    def https_open(self,request):
+        # Resolve, validate, then connect to those exact IPs. TLS still checks the
+        # original manufacturer hostname; no DNS lookup occurs in connect().
+        addresses=public_addresses(urlsplit(request.full_url).hostname)
+        return self.do_open(lambda host,**kwargs:PinnedHTTPSConnection(host,addresses,**kwargs),request)
+
+
 def _fetch(url):
-    opener = build_opener(NoRedirect())
+    opener = build_opener(ProxyHandler({}),NoRedirect(),PinnedHTTPSHandler())
     req = Request(url, headers={"User-Agent":"SoundTruckPlanner/2.0 (+product-spec-inspection)",
                                 "Accept":"text/html"})
     with opener.open(req, timeout=6) as response:

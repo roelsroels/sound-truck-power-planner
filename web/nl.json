@@ -563,5 +563,19 @@
   "Project equipment limit reached.": "Het maximumaantal apparaten in dit project is bereikt.",
   "Show more products": "Meer producten tonen",
   "Library products": "Bibliotheekproducten",
-  "Product details": "Productgegevens"
+  "Product details": "Productgegevens",
+  "Project file exceeds 2 MB": "Het projectbestand is groter dan 2 MB",
+  "Request body exceeds the route size limit": "Het verzoek is groter dan toegestaan",
+  "Operation rate limit reached; retry later": "Te veel aanvragen. Probeer het later opnieuw.",
+  "Service busy; retry shortly": "De dienst is bezet. Probeer het zo opnieuw.",
+  "Operation timed out; retry later": "De verwerking duurde te lang. Probeer het later opnieuw.",
+  "Invalid request data": "Ongeldige invoergegevens",
+  "Invalid or unavailable input; check the data and source": "Ongeldige of niet beschikbare invoer. Controleer de gegevens en de bron.",
+  "Remote inspection is disabled; use the product library": "Online broncontrole staat uit. Gebruik de productbibliotheek.",
+  "Check the project and equipment values before exporting.": "Controleer de project- en apparatuurgegevens voordat je exporteert.",
+  "Request rate limit reached; retry later": "Te veel aanvragen. Probeer het later opnieuw.",
+  "Operation exceeded its resource budget": "De verwerking is te groot. Verklein de invoer en probeer opnieuw.",
+  "Operation could not process the supplied data": "De ingevoerde gegevens konden niet worden verwerkt.",
+  "Request body read timed out": "Het uploaden duurde te lang. Probeer opnieuw.",
+  "Invalid input at {0}": "Ongeldige invoer bij {0}"
 }

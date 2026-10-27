@@ -8,24 +8,42 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.12'
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
-      - run: pip install -r requirements.txt pytest httpx
+      - run: pip install --require-hashes --only-binary=:all: -r requirements.txt
+      - run: pip install pytest==9.1.1 httpx==0.28.1 pip-audit==2.10.1
+      - name: Audit locked runtime dependencies
+        run: pip-audit -r requirements.txt --disable-pip --no-deps
       - run: python -m pytest -q
       - run: node --check web/app.mjs && node --check web/calc.mjs && node --check web/v2.mjs && node --check web/v2calc.mjs && node --check web/supply.mjs && node --check web/i18n.mjs && node --check web/planner.mjs && node --check web/notifications.mjs && node --check web/library.mjs
       - run: node tests/calc.test.mjs && node tests/v2.test.mjs && node tests/lookup.test.mjs && node tests/supply.test.mjs && node tests/i18n.test.mjs && node tests/planner.test.mjs && node tests/notifications.test.mjs && node tests/library.test.mjs
       - run: docker build -t sound-truck-power-planner:test .
+      - name: Exercise the isolated worker under production container limits
+        run: >-
+          docker run --rm --read-only --memory=384m --cpus=1 --pids-limit=128
+          --cap-drop=ALL --security-opt=no-new-privileges:true
+          --tmpfs /tmp:rw,noexec,nosuid,size=16m
+          --entrypoint python sound-truck-power-planner:test -m app.smoke
+      - name: Scan production image for fixable high/critical vulnerabilities
+        uses: aquasecurity/trivy-action@8f28faec26515256b6d22074d1d2a8986f4cbd87
+        with:
+          image-ref: sound-truck-power-planner:test
+          format: table
+          ignore-unfixed: true
+          vuln-type: os,library
+          severity: HIGH,CRITICAL
+          exit-code: '1'
       - name: Verify embedded source revision
         run: >-
           docker run --rm --entrypoint python sound-truck-power-planner:test
           -c 'import sys; from pathlib import Path; from app.revision import build_revision; assert build_revision()["revision"] == sys.argv[1], build_revision(); assert not Path("/opt/planner/.git").exists()'
           "$GITHUB_SHA"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         if: success()
         with:
           name: sample-engineering-report

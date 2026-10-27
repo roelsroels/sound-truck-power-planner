@@ -90,6 +90,8 @@ class Pack(Record):
 
     @model_validator(mode='after')
     def references(self):
+        if sum(len(p.specs) for p in self.products) > 20000:
+            raise ValueError('A pack can contain at most 20000 specification fields')
         ids = {m.id for m in self.manufacturers}
         if len(ids) != len(self.manufacturers) or len({p.id for p in self.products}) != len(self.products):
             raise ValueError('Duplicate manufacturer or product IDs')

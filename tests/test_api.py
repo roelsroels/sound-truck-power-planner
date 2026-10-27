@@ -4,7 +4,7 @@ from app.main import create_app
 
 @pytest.fixture
 def client(tmp_path):
-    with TestClient(create_app(str(tmp_path/'test.sqlite3'),admin_token='test-secret')) as c:
+    with TestClient(create_app(str(tmp_path/'test.sqlite3'),admin_token='test-secret-for-local-tests-only-123456')) as c:
         yield c
 
 def test_seed_and_example(client):
@@ -23,7 +23,7 @@ def test_public_catalog_is_read_only(client):
 def test_admin_update_persists(client):
     item=client.get('/api/v1/catalog').json()[0]
     item['design_va']=7000
-    h={'X-Admin-Token':'test-secret'}
+    h={'X-Admin-Token':'test-secret-for-local-tests-only-123456'}
     assert client.put('/api/v1/catalog/'+item['id'],json=item,headers=h).status_code==200
     assert next(e for e in client.get('/api/v1/catalog').json() if e['id']==item['id'])['design_va']==7000
     assert client.delete('/api/v1/catalog/'+item['id'],headers=h).status_code==200
@@ -32,9 +32,9 @@ def test_admin_update_persists(client):
 def test_reject_bad_payload(client):
     item=client.get('/api/v1/catalog').json()[0]
     item['power_factor']=1.5
-    assert client.put('/api/v1/catalog/'+item['id'],json=item,headers={'X-Admin-Token':'test-secret'}).status_code==422
+    assert client.put('/api/v1/catalog/'+item['id'],json=item,headers={'X-Admin-Token':'test-secret-for-local-tests-only-123456'}).status_code==422
     item['power_factor']=0.95
-    assert client.put('/api/v1/catalog/different',json=item,headers={'X-Admin-Token':'test-secret'}).status_code==400
+    assert client.put('/api/v1/catalog/different',json=item,headers={'X-Admin-Token':'test-secret-for-local-tests-only-123456'}).status_code==400
 
 def test_pdf_report_export(client):
     project=client.get('/api/v1/example').json()
@@ -79,8 +79,8 @@ def test_report_battery_values_follow_scenario(client,monkeypatch,mode,uses_batt
     project.update(power_mode=mode,battery_installed_kwh=120,inverter_kva=40)
     project['vehicle'].update(generator_weight_kg=1200,battery_weight_kg=2200,other_weight_kg=300)
     equipment=client.get('/api/v1/catalog').json()
-    response=client.post('/api/v1/reports/engineering.pdf',json={'project':project,'equipment':equipment})
-    assert response.status_code==200
+    document=report.build_pdf(project,equipment)
+    assert document.startswith(b'%PDF')
     labels={row[0] for row in recorded}
     for label in ('Standalone battery requirement','Battery configured','Inverter configured'):
         assert (label in labels)==uses_battery

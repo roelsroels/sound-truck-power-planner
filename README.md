@@ -65,7 +65,7 @@ curl -X PUT 'http://127.0.0.1:8080/api/v1/catalog/my-cabinet' \
 
 ## V1.1 PDF export
 
-Use **Download engineering PDF** from the browser. This creates a report with deliberately prominent planning-only warnings. There is no external PDF service, CDN, account, or new persistent volume. The server-side PDF endpoint is `POST /api/v1/reports/engineering.pdf`, with bounded input validation; it is public so normal visitors can export their own projects. Nginx can enforce its existing request-size and rate limits. The values are independent calculations from the submitted equipment profiles, not browser-supplied result totals.
+Use **Download engineering PDF** from the browser. This creates a report with deliberately prominent planning-only warnings. There is no external PDF service, CDN, account, or new persistent volume. The server-side PDF endpoint is `POST /api/v1/reports/engineering.pdf`, with bounded input validation and resource admission; it is public so normal visitors can export their own projects. Nginx can enforce its existing request-size and rate limits. The values are independent calculations from the submitted equipment profiles, not browser-supplied result totals.
 
 ## Version upgrades / backup
 
@@ -187,3 +187,17 @@ become mains consumption. Basic keeps the normal quantity workflow; Advanced als
 provides personal JSON library imports. Other brands and complete cabinets use the
 same versioned format. See [library documentation](docs/library.md) for imports,
 source coverage, shared libraries, schema and refresh instructions.
+
+
+## Security hardening
+
+Public PDF/library/inspection requests now have early body/read-time/rate limits
+and one isolated processing slot. Shared writes authenticate before body parsing.
+Errors do not echo submitted input. API documentation is disabled by default.
+Runtime dependencies are upgraded and locked with hashes; CI audits dependencies
+and the production image. See [security controls and proxy guidance](docs/security.md).
+
+**If you configured ADMIN_TOKEN:** it must now be 32–256 ASCII characters; rotate
+a shorter token before rebuilding. Leaving it empty still disables shared writes.
+Normal public use needs no new settings. The optional generic proxy example is
+provided for review; the update does not replace your existing HTTPS proxy.

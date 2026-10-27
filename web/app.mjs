@@ -40,7 +40,7 @@ function bind(){
   $('save').addEventListener('click',()=>{localStorage.setItem('soundtruck.project.v1',JSON.stringify(project));notify('Project saved in this browser.')});
   $('export').addEventListener('click',()=>download(`${fileBase()}.json`,JSON.stringify(project,null,2),'application/json'));
   $('import').addEventListener('click',()=>$('importfile').click());
-  $('importfile').addEventListener('change',async e=>{const file=e.target.files[0];if(!file)return;try{const next=JSON.parse(await file.text());validateProject(next);project=next;populateControls();render();notify('Imported project. Save it if you want it retained.')}catch(e){notify('Import failed: '+e.message)}e.target.value=''});
+  $('importfile').addEventListener('change',async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>2000000)throw Error(t('Project file exceeds 2 MB'));const next=JSON.parse(await file.text());validateProject(next);project=next;populateControls();render();notify('Imported project. Save it if you want it retained.')}catch(e){notify('Import failed: '+e.message)}e.target.value=''});
   $('reset').addEventListener('click',()=>{if(!confirm(t('Reset this project to the original test configuration?')))return;project=structuredClone(example);populateControls();render();notify('Example restored (not yet saved).')});
   $('downloadPDF').addEventListener('click',async ()=>{
     const button=$('downloadPDF');button.disabled=true;button.textContent='Preparing PDF…';
@@ -49,7 +49,7 @@ function bind(){
         method:'POST',headers:{'Content-Type':'application/json'},
         body:JSON.stringify({project:{...project,language:getLanguage()},equipment:allEquipment().filter(e=>project.units.some(u=>u.equipment_id===e.id))})
       });
-      if(!response.ok)throw Error('Report service returned HTTP '+response.status);
+      if(!response.ok){const problem=await response.json().catch(()=>({}));throw Error(t(response.status===422?'Check the project and equipment values before exporting.':problem.detail||'Report service returned HTTP '+response.status))}
       downloadBlob(`${fileBase()}-engineering.pdf`,await response.blob());
       notify('Engineering PDF prepared.');
     }catch(error){notify('PDF export failed: '+error.message)}
@@ -128,7 +128,7 @@ function populateControls(){
   $('vehicleType').value=project.vehicle?.type??'';
   for(const [id,key] of [['deckLength','deck_length_m'],['deckWidth','deck_width_m'],['payload','payload_kg']])$(id).value=project.vehicle?.[key]??'';
 }
-function validateProject(p){if(!p||p.version!==1||typeof p.name!=='string'||!Array.isArray(p.units)||p.units.length>300||!Array.isArray(p.custom_equipment||[])||(p.custom_equipment||[]).length>250||typeof p.vehicle!=='object'||p.vehicle===null)throw Error('Unsupported or invalid project file');for(const u of p.units){if(!u||typeof u.equipment_id!=='string'||!PHASES.includes(u.phase))throw Error('Invalid cabinet data')}for(const e of p.custom_equipment||[]){if(!e||typeof e.id!=='string'||!Number.isFinite(Number(e.reference_va))||!Number.isFinite(Number(e.design_va)))throw Error('Invalid equipment specification')}}
+function validateProject(p){if(!p||p.version!==1||typeof p.name!=='string'||p.name.length>120||JSON.stringify(p).length>2000000||!Array.isArray(p.units)||p.units.length>300||!Array.isArray(p.custom_equipment||[])||(p.custom_equipment||[]).length>250||typeof p.vehicle!=='object'||p.vehicle===null)throw Error('Unsupported or invalid project file');for(const u of p.units){if(!u||typeof u.equipment_id!=='string'||!PHASES.includes(u.phase))throw Error('Invalid cabinet data')}for(const e of p.custom_equipment||[]){if(!e||typeof e.id!=='string'||e.id.length>64||typeof e.name!=='string'||e.name.length>120||['drivers','amplifier','reference_basis','design_basis','source_url'].some(k=>e[k]!=null&&(typeof e[k]!=='string'||e[k].length>1000))||!Number.isFinite(Number(e.reference_va))||!Number.isFinite(Number(e.design_va)))throw Error('Invalid equipment specification')}}
 function allEquipment(){return [...catalogue,...(project.custom_equipment||[])]}
 function render(){
   const all=allEquipment(),byId=new Map(all.map(e=>[e.id,e])),r=calculate(project,catalogue);
