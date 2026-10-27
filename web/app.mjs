@@ -20,7 +20,7 @@ function update(prop,value){project[prop]=value;render();}
 function dateNumber(id,pathFn,key,nullWhenEmpty=false){const el=$(id);el.addEventListener('change',()=>{const raw=el.value;pathFn()[key]=(nullWhenEmpty&&raw==='')?null:Number(raw);render()})}
 function bind(){
   initNotifications();
-  $('viewMode').value=view;
+  for(const input of $('viewMode').querySelectorAll('input'))input.checked=input.value===view;
   $('viewMode').addEventListener('change',e=>{
     view=normalizeView(e.target.value);
     try{localStorage.setItem('soundtruck.view',view)}catch{/* Browser storage is optional. */}
