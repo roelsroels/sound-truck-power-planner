@@ -44,7 +44,7 @@ jobs:
           docker run --rm --entrypoint python sound-truck-power-planner:test
           -c 'import sys; from pathlib import Path; from app.revision import build_revision; assert build_revision()["revision"] == sys.argv[1], build_revision(); assert not Path("/opt/planner/.git").exists()'
           "$GITHUB_SHA"
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: success()
         with:
           name: sample-engineering-report
