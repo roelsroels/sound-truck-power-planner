@@ -15,7 +15,8 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
         with:
           node-version: '22'
-      - run: pip install --require-hashes --only-binary=:all: -r requirements.txt
+      - run: |
+          pip install --require-hashes --only-binary=:all: -r requirements.txt
       - run: pip install pytest==9.1.1 httpx==0.28.1 pip-audit==2.10.1
       - name: Audit locked runtime dependencies
         run: pip-audit -r requirements.txt --disable-pip --no-deps
