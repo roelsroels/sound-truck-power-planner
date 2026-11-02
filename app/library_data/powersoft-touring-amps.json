@@ -318,7 +318,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "786ca00a624db48daf8d6c64.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K10_gallery-cardL_front-1-800x391.webp?v=mug842ud",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-k10-dsp",
@@ -629,7 +636,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "1012c5e4a5c66a4ad4f98feb.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K10DSP_gallery-cardL_front-1-800x391.webp?v=mug842zd",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-k2",
@@ -940,7 +954,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "8d53562c38064b14f3d1d7b6.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K2_gallery-cardL_front-1-800x391.webp?v=mug841m5",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-k2-dsp",
@@ -1251,7 +1272,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "748ed08a03ead5dd26012ef5.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K2DSP_gallery-cardL_front-1-800x391.webp?v=mug841t3",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-k20",
@@ -1563,7 +1591,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "f914787c7d8e3ba763e54b58.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K20_gallery-cardL_front-1-800x391.webp?v=mug8436f",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-k20-dsp",
@@ -1875,7 +1910,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "6f73e0d069d3716fd3eefd47.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K20DSP_gallery-cardL_front-1-800x391.webp?v=mug845nt",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-k3",
@@ -2186,7 +2228,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "7b77a08c443a3d4913f0f430.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K3_gallery-cardL_front-1-800x391.webp?v=mug8424e",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-k3-dsp",
@@ -2497,7 +2546,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "47f5b0260eef439a8899113b.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K3_DSP-1-800x259.webp?v=mug842a0",
+        "representative": false,
+        "width": 720,
+        "height": 233
+      }
     },
     {
       "id": "powersoft-k6",
@@ -2808,7 +2864,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "ca5338658bfaccdbd04e0626.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K6_gallery-cardL_front-1-800x391.webp?v=mug842ge",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-k6-dsp",
@@ -3119,7 +3182,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "3f0260481b5b6db0843f4924.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/K6DSP_gallery-cardL_front-1-800x391.webp?v=mug842mj",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m14d",
@@ -3422,7 +3492,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "4c988bc5caffa3ac48f19fed.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M14D_gallery-cardL_front-1-800x391.webp?v=mug84016",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m14d-hdsp-eth",
@@ -3723,7 +3800,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "3f1fe73097882f974f2362c0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M14D_DSP_gallery-cardL_front-1-800x391.webp?v=mug84074",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m20d",
@@ -4027,7 +4111,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "698a801ccfb436430087a2a6.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M20D_gallery-cardL_front-1-800x391.webp?v=mug840cx",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m20d-hdsp-eth",
@@ -4328,7 +4419,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d7aaf5148ca7db0547ffe7b5.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M20D_DSP_gallery-cardL_front-1-800x391.webp?v=mug840je",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m28q",
@@ -4635,7 +4733,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "814a240e6fb225b4ca0fbc2c.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M28Q_gallery-cardL_front-1-800x391.webp?v=mug840zn",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m28q-hdsp-eth",
@@ -4936,7 +5041,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "925c28c0e62df21c453be578.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M28Q_DSP_gallery-cardL_front-1-800x391.webp?v=mug8414y",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m30d",
@@ -5242,7 +5354,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "3bf05e276e91057fefc6c069.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M30D_gallery-cardL_front-1-800x391.webp?v=mug840nx",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m30d-hdsp-eth",
@@ -5542,7 +5661,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "9708f234710725fc338c17f8.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M30D_DSP_gallery-cardL_front-1-800x391.webp?v=mug840u6",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m50q",
@@ -5861,7 +5987,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "7f1b7832358c3e8ef1df3ce4.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M50Q_gallery-cardL_front-1-800x391.webp?v=mug841bx",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m50q-hdsp-eth",
@@ -6162,7 +6295,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "095d02cfb9227bcef11f340d.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M50Q_DSP_gallery-cardL_front-1-800x391.webp?v=mug841gd",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-t302",
@@ -6402,7 +6542,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "7e05c60f2a6d9b01109831e5.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/T302_gallery-cardL_front-2-800x391.webp?v=mug83uk6",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-t302-a",
@@ -6639,7 +6786,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "49e435f3a39a34484ff61ded.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/T302A_gallery-cardL_front-1-800x391.webp?v=mug84b8y",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-t304",
@@ -6879,7 +7033,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "e1342f6dc9307f48dda15c7a.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/T304_gallery-cardL_front-2-800x391.webp?v=mug83vcu",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-t602",
@@ -7119,7 +7280,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "21826ea66b34ae098d10de8d.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/T602_gallery-cardL_front-2-800x391.webp?v=mug83v1l",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-t604",
@@ -7359,7 +7527,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "8b88fb785cf589fdf5f40760.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/T604_gallery-cardL_front-2-800x391.webp?v=mug83vhy",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-t902",
@@ -7597,7 +7772,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "1c18443584489308b3085906.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/T902_gallery-cardL_front-1024x500-2-800x391.webp?v=mug83urh",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-t904",
@@ -7837,7 +8019,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "41a15940d663b1a10a06c17e.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/T904_gallery-cardL_front-1024x500-2-800x391.webp?v=mug83vtr",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-unica-t-10k8",
@@ -7918,7 +8107,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "70cb23e6a9e53bd3f5f5c6c7.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica4T-8T-1-800x283.webp?v=mug84h1k",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-unica-t-20k4",
@@ -7999,7 +8195,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "70cb23e6a9e53bd3f5f5c6c7.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica4T-8T-1-800x283.webp?v=mug84h1k",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-x4",
@@ -8255,7 +8458,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "1b105b489ee5411c3246f6ad.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/X4_gallery-cardL_front-1-800x391.webp?v=mug83pgs",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-x4l",
@@ -8480,7 +8690,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "3b3ac7855086c7c6b1022dc8.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/X4L_gallery-cardL_front-1-800x391.webp?v=mug83q3y",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-x8",
@@ -8736,7 +8953,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "3a1bd6773119988b02ddb0aa.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/X8_gallery-cardL_front-1-800x391.webp?v=mug83psz",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     }
   ]
 }

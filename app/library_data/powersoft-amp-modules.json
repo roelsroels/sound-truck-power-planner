@@ -207,7 +207,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "855c5fca92874b3150f6e324.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/D-Cell504_cardOEM-1.png?v=mug8460x",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-d-cell504-is",
@@ -401,7 +408,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "ad4342ff6176552c5c983e18.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/D-Cell504_IS_cardOEM-1.png?v=mug84645",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-digimod-1000",
@@ -555,7 +569,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "811ee9a22736250c1048db14.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Digimod_1000_cardOEM-1.png?v=mug81tw4",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-digimod-1000nps",
@@ -678,7 +699,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "05ea1701f685031da4a9ea7c.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Digimod_1000NPS_cardOEM-1.png?v=mug81tt3",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-digimod-1500",
@@ -818,7 +846,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "2e9d751f64e4e8f5af99720d.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Digimod_1500_cardOEM-1.png?v=mug81tpl",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-digimod-2000-hv",
@@ -957,7 +992,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "bde975cc849f0ccc199232ec.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Digimod_2000HV_cardOEM-1.png?v=mug845ur",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-digimod-3000pfc",
@@ -1149,7 +1191,14 @@
         "power_factor": null,
         "basis": "Power consumption: 1/8 of max output power @ 4 Ω: 600 VA"
       },
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "ce9861907094138cb9e43c0a.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Digimod_3000PFC_cardOEM-1.png?v=mug845xw",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-digimod-3004pfc2",
@@ -1344,7 +1393,14 @@
         "power_factor": null,
         "basis": "Power consumption: 1/8 of max output power @ 4 Ω: 600 VA"
       },
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "b50d93fdbe5a9b28f10a5194.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Digimod_3004PFC2_cardOEM-1.png?v=mug83g7y",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-digimod-3004pfc4",
@@ -1539,7 +1595,14 @@
         "power_factor": null,
         "basis": "Power consumption: 1/8 of max output power @ 8 Ω: 600 VA"
       },
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "eb30465c09ecccf264924021.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Digimod_3004PFC4_cardOEM-1.png?v=mug83fx0",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-digimod-500",
@@ -1678,7 +1741,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "1b4b42924fe6c5666bc61b72.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Digimod_500_cardOEM-1.png?v=mug845qy",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-ipalmod",
@@ -1852,7 +1922,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "1cbbf0a029cd1a4ca6b4d8ba.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Ipalmod_gallery-cardL_front-1-800x391.webp?v=mug828sc",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-litemod",
@@ -2038,7 +2115,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "eab4b755ff07f24eb6d05d97.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Litemod_cardOEM-1.png?v=mug83gh8",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-litemod-4hc",
@@ -2294,7 +2378,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "6fe0e8f18188ad4f1e3f1d0a.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Litemod4HC_cardOEM-1.png?v=mug83gb9",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-litemod-4hv",
@@ -2547,7 +2638,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "6d6b15c484f2044c8f8849bb.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/LItemod4HV_gallery-cardL_front-1024x500-1-800x391.webp?v=mug83g4n",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-litemod-hv",
@@ -2733,7 +2831,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "574f3b7c8168b44869bf43c8.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/LitemodHV_cardOEM-1.png?v=mug83ged",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     },
     {
       "id": "powersoft-m-drive",
@@ -2891,7 +2996,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d1382f13e5a074e05ee82198.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M-Drive_gallery-cardL_front-1-800x391.webp?v=mug83goi",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-minimod-4",
@@ -3147,7 +3259,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "179f26266622e7bbc9728721.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Minimod4_cardOEM-1.png?v=mug83gkd",
+        "representative": false,
+        "width": 600,
+        "height": 360
+      }
     }
   ]
 }

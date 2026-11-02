@@ -594,5 +594,9 @@
   "Equipment": "Apparatuur",
   "Reference / unit": "Referentie / stuk",
   "Planning / unit": "Ontwerp / stuk",
-  "Actions": "Acties"
+  "Actions": "Acties",
+  "Series image": "Afbeelding van de serie",
+  "Product image": "Productafbeelding",
+  "Manufacturer image": "Afbeelding van fabrikant",
+  "No product image available.": "Geen productafbeelding beschikbaar."
 }

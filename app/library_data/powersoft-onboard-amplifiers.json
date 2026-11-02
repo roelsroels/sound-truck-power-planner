@@ -51,7 +51,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "dc"
+      "power_input": "dc",
+      "image": {
+        "asset": "be9a73cde65fe68368bb05bf.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/DCRider-2-800x392.webp?v=mug7yemp",
+        "representative": false,
+        "width": 720,
+        "height": 353
+      }
     }
   ]
 }

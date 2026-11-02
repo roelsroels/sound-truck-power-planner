@@ -60,7 +60,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "dc"
+      "power_input": "dc",
+      "image": {
+        "asset": "a9c2619acc92ff1a555fad5a.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/PS_NOTA142_front-1-1600x900.webp?v=mvaxluxk",
+        "representative": false,
+        "width": 720,
+        "height": 405
+      }
     }
   ]
 }

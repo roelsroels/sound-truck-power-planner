@@ -57,7 +57,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "79e44b2267b51d8718f4cef3.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M-Force_gallery-cardL_front-1-800x391.webp?v=mug84702",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m-force-02",
@@ -108,7 +115,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "79e44b2267b51d8718f4cef3.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M-Force_gallery-cardL_front-1-800x391.webp?v=mug84702",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m-force-301p01",
@@ -159,7 +173,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "35b395c9634e676e8c7cd0aa.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M-Force301P01_gallery-cardL_front-1-800x391.webp?v=mug846up",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-m-force-301p02",
@@ -213,7 +234,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "cae398741fc9e3000c16afa0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/M-Force301P02_gallery-cardL_front-1024x500-1-800x391.webp?v=mug879v4",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-mm-force",
@@ -515,7 +543,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "81d7d827e5fa618adb541462.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/1-Transparent-5-1536x864-800x450.webp?v=mug7yont",
+        "representative": false,
+        "width": 720,
+        "height": 405
+      }
     },
     {
       "id": "powersoft-mover",
@@ -584,7 +619,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "bda487a202c50987eb32cacb.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/MoverDD_gallery-cardL_front-1-800x391.webp?v=mug83jk2",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-spixel",
@@ -955,7 +997,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "1e6ac41482588165c6813d94.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/1-Transparent-4-1536x864-800x450.webp?v=mug7ynti",
+        "representative": false,
+        "width": 720,
+        "height": 405
+      }
     }
   ]
 }

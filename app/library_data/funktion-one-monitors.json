@@ -163,7 +163,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "126ae98e2af5de830a6d7f02.webp",
+        "source_url": "https://images.prismic.io/funktion-one/d0963c95-391c-4305-bbdc-a32f54004f88_PSM12_PointSource_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-psm15",
@@ -289,7 +296,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "6a9b4aa01b2d7a9a2798b1ef.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aWVL4wIvOtkhBXn6_PSM15angledLR1200.jpg?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-psm18",
@@ -445,7 +459,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "6165825ec50d834b54193069.webp",
+        "source_url": "https://images.prismic.io/funktion-one/9a62cc70-8a30-4795-8e57-3aaea38e1ed5_PSM18_Website_ProductImage.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-psm318",
@@ -637,7 +658,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "a6059f6049c1571d3728b564.webp",
+        "source_url": "https://images.prismic.io/funktion-one/e5f3fc8f-ad4d-412d-9ae9-915ac56cde3c_PS318_Website_ProductFeatured.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     }
   ]
 }

@@ -94,7 +94,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "350acfed28d452508ed75ec5.webp",
+        "source_url": "https://images.prismic.io/funktion-one/634dc633-c8a6-45f0-a090-e71b6b671d49_AX88+New.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-br118",
@@ -180,7 +187,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c902172fb98c01c9d20a09de.webp",
+        "source_url": "https://images.prismic.io/funktion-one/c91cdd59-ed40-4b24-91bb-9bc0a45f2716_BR118+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-ds210-mki",
@@ -296,7 +310,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "83b39c79ec61139d8946bc48.webp",
+        "source_url": "https://images.prismic.io/funktion-one/2e03f0ff-0874-450c-ba8d-1f5c8af14f3a_Group-of-Dance-Stacks-L.jpg?auto=compress,format",
+        "representative": false,
+        "width": 720,
+        "height": 412
+      }
     },
     {
       "id": "funktion-one-f101",
@@ -378,7 +399,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "38dd331d943bc0b2f0034425.webp",
+        "source_url": "https://images.prismic.io/funktion-one/978c719e-e552-410f-a7e5-d8cdeb3570d2_F101.jpg?auto=compress,format",
+        "representative": false,
+        "width": 250,
+        "height": 305
+      }
     },
     {
       "id": "funktion-one-f1201",
@@ -465,7 +493,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "b3cc183e51e2a0edb84027c6.webp",
+        "source_url": "https://images.prismic.io/funktion-one/0902cac8-546f-44ea-85a1-bafd52adfa48_F1201.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f215-mki",
@@ -546,7 +581,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "59c66bc9cd3e15f4cddd9f19.webp",
+        "source_url": "https://images.prismic.io/funktion-one/f4c26cc9-1508-42f0-8d6d-52bc4fc42688_F215+%28front%29+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f218-mki",
@@ -628,7 +670,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e363cd41444dfbc0c01f8a9e.webp",
+        "source_url": "https://images.prismic.io/funktion-one/739a105f-f0c1-491d-bbb0-4c65a4731e24_F218+-+Dance+Stack+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f221a",
@@ -718,7 +767,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "8b47e93d50f5d68d1568d5e6.webp",
+        "source_url": "https://images.prismic.io/funktion-one/07fafe7f-88be-4b86-b24e-dd98624c0be5_F221A_600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f5",
@@ -799,7 +855,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "65a35ca9747455ff7103f31c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/9b564fd0-a1c3-4b18-aa23-b8384a7684b3_F5.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f81",
@@ -881,7 +944,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "789e1a0f570678becc9b9c26.webp",
+        "source_url": "https://images.prismic.io/funktion-one/af7f8bc2-c949-4c40-8194-e243902292c4_F81.jpg?auto=compress,format",
+        "representative": false,
+        "width": 250,
+        "height": 305
+      }
     },
     {
       "id": "funktion-one-f88",
@@ -966,7 +1036,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "48ee50a58c5a1cb7a16a74aa.webp",
+        "source_url": "https://images.prismic.io/funktion-one/cdaf9e59-8047-42c2-85d6-21b02bd11649_F88.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-infrabass-218",
@@ -1051,7 +1128,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f4789cda9db763e0420e8652.webp",
+        "source_url": "https://images.prismic.io/funktion-one/128ae903-ad26-4d26-85b5-f5935c2d2f1c_Infrabass.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-infrahorn",
@@ -1079,7 +1163,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "ce6cbe9a67011bfcdbf6e89e.webp",
+        "source_url": "https://images.prismic.io/funktion-one/0e982fa6-5146-4a01-ae79-4dc36668c334_Infrahorn_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-mb112",
@@ -1164,7 +1255,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "2eed63b7bdc87795927e1355.webp",
+        "source_url": "https://images.prismic.io/funktion-one/223e63db-2258-4b1c-ab04-e69d31cf971e_Funktion-One+MB112+Featured.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-mb212",
@@ -1249,7 +1347,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "2609ded982b920b84d866da4.webp",
+        "source_url": "https://images.prismic.io/funktion-one/dd0da9dd-0ee2-492c-b57b-73eebd282cff_MB212.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-mb308",
@@ -1330,7 +1435,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "bbcdb2c1974288d9de7d104a.webp",
+        "source_url": "https://images.prismic.io/funktion-one/9748069c-89fb-4ff2-b0ce-921366fe9057_MB308+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-microbass-210",
@@ -1411,7 +1523,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "db3a85e473608b0fc90b46c2.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ad8740b7-b318-4c4e-98a2-42569191a9ad_MB210+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-1",
@@ -1572,7 +1691,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "cdaef20f9c72d426f02a57df.webp",
+        "source_url": "https://images.prismic.io/funktion-one/29ad6212-9651-412a-b77b-b6d57823dae3_Res+1.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-1-5",
@@ -1727,7 +1853,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c290f163cf798048faa025d1.webp",
+        "source_url": "https://images.prismic.io/funktion-one/fce4adec-8232-4a1c-bacf-a6eaef593504_Res+1.5+Side.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-1-5tt",
@@ -1848,7 +1981,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "51335fe68d93eceb722985f9.webp",
+        "source_url": "https://images.prismic.io/funktion-one/1845b853-e4f9-4934-92b4-21e96ed3500d_Res+1.5TT.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-18",
@@ -1932,7 +2072,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "2995e611669205d41d2974f0.webp",
+        "source_url": "https://images.prismic.io/funktion-one/a20d8382-f07c-40f8-8160-3f9b2a47e228_Res18+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-2",
@@ -2056,7 +2203,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "93b552b7c7acf1c320bdc2c4.webp",
+        "source_url": "https://images.prismic.io/funktion-one/b9b0ed50-55b1-40ee-9554-8bdece6651e2_RES2_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-2-mki",
@@ -2173,7 +2327,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c3a2a5dcbda6ff7f8fc34d91.webp",
+        "source_url": "https://images.prismic.io/funktion-one/b2b3aac9-e2a2-4f57-abdb-0afc27d3948e_Res+2+mk1+AI+Upscale+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-2a",
@@ -2303,7 +2464,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "cf7d984ab8a8bf39c03f8b32.webp",
+        "source_url": "https://images.prismic.io/funktion-one/530fa1f2-15f4-413e-8f81-6be826b885f8_Res2A_600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-2sh",
@@ -2390,7 +2558,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "3600e0f1133d7689303ce062.webp",
+        "source_url": "https://images.prismic.io/funktion-one/6ad91a8e-ad51-4b10-8b0b-30099337fa95_RES2SH_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-3",
@@ -2543,7 +2718,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "784dd0493a58f3bc83d7b84a.webp",
+        "source_url": "https://images.prismic.io/funktion-one/c1e340f1-eb07-417a-b508-f5c5df396725_Funktion-One+Resolution+3+%28side%29+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-3eh",
@@ -2659,7 +2841,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "af0e5ec14763b7060ee9166f.webp",
+        "source_url": "https://images.prismic.io/funktion-one/e940b3dd-a3cf-4161-a306-72522c10931e_R3EH.jpg?auto=compress,format",
+        "representative": false,
+        "width": 250,
+        "height": 305
+      }
     },
     {
       "id": "funktion-one-res-3sh",
@@ -2775,7 +2964,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "78a896248da65849305eec89.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ae559e66-f4d5-409c-aae9-f0a30683a7ec_R3SH.jpg?auto=compress,format",
+        "representative": false,
+        "width": 250,
+        "height": 305
+      }
     },
     {
       "id": "funktion-one-res-4d",
@@ -2893,7 +3089,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c0be5597649591aa2b9a4e9e.webp",
+        "source_url": "https://images.prismic.io/funktion-one/faebdbc5-999c-4b9f-b4e4-7ef9e63fd652_Res_downfill+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-4e",
@@ -3051,7 +3254,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "ef3dbd0a321a9719d55b2463.webp",
+        "source_url": "https://images.prismic.io/funktion-one/e78e0458-8aaf-45da-9b18-998f5b2589a7_Res+4E+New.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-4s",
@@ -3202,7 +3412,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "d4731a1da5683ae4e013cf83.webp",
+        "source_url": "https://images.prismic.io/funktion-one/181dafe6-2763-453e-afb5-46ea1823c950_Res+4S+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-4t",
@@ -3357,7 +3574,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "30aeb5065c730284f9a44732.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aK7WzGGNHVfTOW0-_R4T_300dpi600x600.jpg?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-5e",
@@ -3514,7 +3738,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "bed646837558cb9afadc9841.webp",
+        "source_url": "https://images.prismic.io/funktion-one/016b4ced-db17-45a8-b9d5-74a9b136880b_Res+5.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-5s",
@@ -3666,7 +3897,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "3f8ae1d4eee2d4e56bd1f943.webp",
+        "source_url": "https://images.prismic.io/funktion-one/c6f057d7-e9fd-4cb3-9c6e-31e7c8250b85_Res+5S+AI+Upscale+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-5t",
@@ -3822,7 +4060,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c02df33668f84a391166c63b.webp",
+        "source_url": "https://images.prismic.io/funktion-one/247c2828-27eb-43a5-b687-694f4918e4ec_Resolution+5+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-res-9",
@@ -3973,7 +4218,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "1199f8bb1f280d301c076742.webp",
+        "source_url": "https://images.prismic.io/funktion-one/8b903e7f-0b6e-4085-9ff4-3f3f6fa8db41_R9+AI+Upscale+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-rm12",
@@ -4090,7 +4342,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "126ae98e2af5de830a6d7f02.webp",
+        "source_url": "https://images.prismic.io/funktion-one/d0963c95-391c-4305-bbdc-a32f54004f88_PSM12_PointSource_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-rm15",
@@ -4207,7 +4466,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "1a3eee63c4d48ea1bf0d87e1.webp",
+        "source_url": "https://images.prismic.io/funktion-one/660451e0-b6c5-41aa-9fb7-b7b988364e02_RM15+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-satellite-tweeter-pod",
@@ -4281,7 +4547,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "74cfa2efa507f18cf8f16c01.webp",
+        "source_url": "https://images.prismic.io/funktion-one/70c5cbc9-2eeb-4436-ac10-1d37477a71f7_TweeterPod_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-sb210a",
@@ -4362,7 +4635,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "dd0c48a0523b452fb50d68df.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ce86d18e-5b5c-4d36-9efb-f37e202ff89d_SB210-Angle.jpg?auto=compress,format",
+        "representative": false,
+        "width": 250,
+        "height": 291
+      }
     }
   ]
 }

@@ -97,7 +97,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c9e6fdfa15927482a7363154.webp",
+        "source_url": "https://images.prismic.io/funktion-one/cf390a2a-8058-473d-8680-4aeecfd0127f_Funktion-One+F101.2.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f1201-2",
@@ -188,7 +195,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "8a7c0a3603b3fea9e718288a.webp",
+        "source_url": "https://images.prismic.io/funktion-one/30904df4-da97-434d-930b-9b2e7b58e2a7_Funktion-One+F1201.2.jpg?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f5-2",
@@ -277,7 +291,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f4a49b8a7bf9b64db2434f01.webp",
+        "source_url": "https://images.prismic.io/funktion-one/1ea9d2aa-87d9-4f2b-aa6c-731207e88bab_F5.2+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f55",
@@ -364,7 +385,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4f30030a0a417e7c73a61aae.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ad2d26d0-1581-41fd-a3ca-efbe17ab6974_F55.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f61",
@@ -454,7 +482,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "a4b999ce3bff82d1ca47c21e.webp",
+        "source_url": "https://images.prismic.io/funktion-one/Z6EF35bqstJ9-LmO_Fuktion-OneF61VioletangleSmaller.jpg?auto=format,compress",
+        "representative": false,
+        "width": 720,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f81-2",
@@ -545,7 +580,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "58f80a67d27b05185386bb57.webp",
+        "source_url": "https://images.prismic.io/funktion-one/86597f8a-57b8-4eca-aa94-c5c550310532_F81.2.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-sb10",
@@ -636,7 +678,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c1390c41b29b0c8c17074059.webp",
+        "source_url": "https://images.prismic.io/funktion-one/834667dd-9884-4cee-b126-beb66f1f956d_Funktion-One+SB10+Bass.jpg?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-sb10a",
@@ -685,7 +734,14 @@
           "notes": "Passive cabinet weight/connectors have not been copied to the powered variant."
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c1390c41b29b0c8c17074059.webp",
+        "source_url": "https://images.prismic.io/funktion-one/834667dd-9884-4cee-b126-beb66f1f956d_Funktion-One+SB10+Bass.jpg?auto=compress,format",
+        "representative": true,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-sb12",
@@ -771,7 +827,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "8e948031733df3f0c26a63f9.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aWTqdQIvOtkhBTw4_SB12_Website.jpg?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-sb212lp",
@@ -857,7 +920,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "db49b59a3d978332841e4a79.webp",
+        "source_url": "https://images.prismic.io/funktion-one/Z4ZntpbqstJ99bXY_SB212LPWeb.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-sb8",
@@ -947,7 +1017,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4dbbf569206d2af3b2a002ed.webp",
+        "source_url": "https://images.prismic.io/funktion-one/b0eab8a2-8f36-4702-a33f-fc42b0a8f257_SB8+New.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-sb8a",
@@ -995,7 +1072,14 @@
           "notes": "Passive cabinet weight/connectors have not been copied to the powered variant."
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4dbbf569206d2af3b2a002ed.webp",
+        "source_url": "https://images.prismic.io/funktion-one/b0eab8a2-8f36-4702-a33f-fc42b0a8f257_SB8+New.png?auto=compress,format",
+        "representative": true,
+        "width": 455,
+        "height": 480
+      }
     }
   ]
 }

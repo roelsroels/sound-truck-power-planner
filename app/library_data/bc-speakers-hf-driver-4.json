@@ -176,7 +176,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "8d0348767ca6479ac10251fe.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/dh450hlx-02-a.jpg",
+        "representative": false,
+        "width": 501,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-679b3b2a1fd2ef752b6a4318",
@@ -346,7 +353,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "f1e1fc38d5929b425225009a.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/dh350hheatsink-00.jpg",
+        "representative": false,
+        "width": 572,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-679b43f61fd2ef752b6cd3b1",
@@ -530,7 +544,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "1cc3a2c539aea51229574e3a.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/dh450hheatsink-00.jpg",
+        "representative": false,
+        "width": 549,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-679b9cf31fd2ef752b84f9b8",
@@ -714,7 +735,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "1cc3a2c539aea51229574e3a.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/dh450hheatsink-00.jpg",
+        "representative": false,
+        "width": 549,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-67b5f8e1b68b51bd1f4a481c",
@@ -884,7 +912,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "f1e1fc38d5929b425225009a.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/dh350hheatsink-00.jpg",
+        "representative": false,
+        "width": 572,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-67b5f9cbb68b51bd1f4a93e7",
@@ -1054,7 +1089,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "f1e1fc38d5929b425225009a.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/dh350hheatsink-00.jpg",
+        "representative": false,
+        "width": 572,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-68b6ba63562bb436087a77e8",
@@ -1217,7 +1259,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "8e17166882483da47975204a.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/de120tn.jpg",
+        "representative": false,
+        "width": 497,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-69675c869203bb264f5b07a1",
@@ -1366,7 +1415,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "01ad7e306f70597611324b3e.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/de640-00.jpg",
+        "representative": false,
+        "width": 592,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-696762f69203bb264f5ca2cf",
@@ -1515,7 +1571,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "01ad7e306f70597611324b3e.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/de640-00.jpg",
+        "representative": false,
+        "width": 592,
+        "height": 480
+      }
     }
   ]
 }

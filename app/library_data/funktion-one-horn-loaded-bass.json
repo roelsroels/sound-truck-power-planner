@@ -111,7 +111,14 @@
           "notes": "https://funktion-one.com/product/ds15/"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "67d2b68c199a60744d0292e7.webp",
+        "source_url": "https://images.prismic.io/funktion-one/d0b49990-42c6-495c-bef2-739bf292ae53_Dance+Stack+DS15+Focus.jpg?auto=compress,format",
+        "representative": false,
+        "width": 559,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f115-mkii",
@@ -198,7 +205,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "d5b7ee716efb67aa3bcf7bb4.webp",
+        "source_url": "https://images.prismic.io/funktion-one/66e27c96-4bff-45c1-8551-78dadee658b9_F115+2.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f118-mkii",
@@ -286,7 +300,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "3e8095b410f2eebbf8199eaf.webp",
+        "source_url": "https://images.prismic.io/funktion-one/cbac779c-a7ab-40fa-9400-4b5587c85de2_F118MKII_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f121",
@@ -374,7 +395,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "25c9ac1cfb15c3560f905a9c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/690b3ed6-84ca-4601-810a-ddf01ac7f8ea_F121_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f124",
@@ -460,7 +488,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "bce8ef00f780314a84586021.webp",
+        "source_url": "https://images.prismic.io/funktion-one/2dcf1918-45f7-4675-8e43-b59e2229b16f_F124.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f132",
@@ -542,7 +577,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "bc257f6d993b3eef64c8415c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/578c3b4d-593b-4255-bd4d-3de778b1c881_F132.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f215-mkii",
@@ -629,7 +671,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "54c3fdc846ff55fe84b03382.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ajFOoo1P9HI4UkmK_Funktion-OneF215Mk2Edit.jpg?auto=format,compress",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f218-mkii",
@@ -716,7 +765,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "fd4710ec6ceaee33c786668e.webp",
+        "source_url": "https://images.prismic.io/funktion-one/f296473d-2ce2-4d13-8e69-b56414805b46_F218+Mk2.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f221",
@@ -804,7 +860,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "ae0515d95ddc78ba2abf5e35.webp",
+        "source_url": "https://images.prismic.io/funktion-one/249c402a-accc-41b7-8f31-ef7c637d9f5b_F221.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f315",
@@ -886,7 +949,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "9a3d41b28064a15edb4a9fe7.webp",
+        "source_url": "https://images.prismic.io/funktion-one/f13847bd-b29d-48de-b475-d93840164e4c_F315_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     }
   ]
 }

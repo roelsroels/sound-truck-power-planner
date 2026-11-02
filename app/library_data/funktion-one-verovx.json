@@ -93,7 +93,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "6b12f7f53999d00d2b204240.webp",
+        "source_url": "https://images.prismic.io/funktion-one/58e11b3b-b790-45e0-ab11-3de99d8fc20a_V124+v2.png?auto=compress,format&rect=28,66,1387,1462&w=1450&h=1528",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-vx-v221",
@@ -180,7 +187,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "59ad3eaee7873656a0446a6a.webp",
+        "source_url": "https://images.prismic.io/funktion-one/bbe73614-8074-4617-a474-43b936a7e5cc_V221.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-vx90",
@@ -342,7 +356,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "b22344bae6166a9bac7a394f.webp",
+        "source_url": "https://images.prismic.io/funktion-one/97ed6d87-abd4-432b-9326-eae8401c1e97_Vero+VX90+Angle.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     }
   ]
 }

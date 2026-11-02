@@ -533,7 +533,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "fe093513ebde2ae77db1c18a.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2023_01_25_17_08_48_134_18HTX100front.jpg",
+        "representative": false,
+        "width": 479,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-679789b87860e72bbc6b70a5",
@@ -1060,7 +1067,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "426d168690edae7009fae6ff.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/15htx100front.jpg",
+        "representative": false,
+        "width": 498,
+        "height": 480
+      }
     }
   ]
 }

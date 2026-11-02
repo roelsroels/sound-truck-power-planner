@@ -4,8 +4,8 @@ The library is separate from the planner's mains-load catalogue. Drivers, passiv
 cabinets, amplifiers, active cabinets and accessories have independent product
 records. Different impedance/model variants have different stable IDs. Each
 record retains its official source, source retrieval date, published specification
-fields, test-condition notes, and available PDF links. Images, PDF files and
-marketing descriptions are not redistributed.
+fields, test-condition notes, and available PDF links. Small product-photo previews
+are bundled separately; PDF files and marketing descriptions are not redistributed.
 
 The bundled snapshot contains B&C's current and archived component listings and
 Powersoft's published amplifier/transducer listings, and Funktion-One's current
@@ -146,7 +146,7 @@ The public application does not contact the CMS or scrape manufacturer pages.
 Audio-output tables published only as images are transcribed in
 `scripts/funktion_one_supplements.json`, with source URLs and measurement conditions.
 Re-review these facts on a refresh; a changed source-image URL stops the import.
-Image-only technical tables/drawings remain linked as source documents; images and
+Image-only technical tables/drawings remain linked as source documents; these and
 PDFs are not redistributed or exhaustively transcribed. A source page may contain
 conflicting figures or apply family-wide conditions: these remain labelled rather
 than being silently normalised. DSP-only family properties do not describe a
@@ -158,3 +158,37 @@ mentioning a powered companion do not turn F61/F5.2 or passive bass cabinets int
 mains loads. The powered entries retain only explicitly variant-specific facts;
 passive weights/connectors are not copied over. Supply VA and power factor remain
 unknown until documented for the actual complete AC-fed assembly.
+
+
+## Product-photo previews
+
+The right-hand product detail panel displays a contained, proportionally scaled
+manufacturer photograph. Shared family/series photos are labelled. Photos remain
+attributed to their manufacturers, with the official product page linked. Unavailable
+photos show a neutral message, including when a local asset fails to load.
+
+Previews are prepared ahead of deployment, not fetched from manufacturer websites
+by visitors or by the running API. Only the selected product image is requested;
+there is no catalogue-wide browser preload. This preserves the same-origin image
+CSP and requires no reverse-proxy changes. Identical previews share one asset.
+
+After refreshing any manufacturer packs, run from the repository root:
+
+```sh
+python scripts/import_product_images.py
+```
+
+This maintenance command requires curl, the locked Pillow dependency, and network
+access to the allowlisted official sites/CDNs. It writes WebP files no larger than
+720 × 480 pixels to `web/library-images/`, and optional image metadata to the packs.
+Original downloads and the coverage report stay under `work/product-image-cache/`
+and must not be committed. Review the report and previews before publishing.
+The current snapshot covers 706 of 707 variants with 539 shared images (about
+7.2 MB total). The archived B&C 6NDL44 page publishes no product photograph.
+
+Future manufacturer adapters can supply the same optional image metadata: a
+24-hex-character `.webp` asset basename, original photo source URL, dimensions,
+and a flag for representative series imagery. Bundle the matching local asset
+at maintenance time. Runtime imports cannot trigger downloads or supply remote
+image URLs as display assets. Manufacturer-specific discovery belongs in the
+maintenance importer; unknown manufacturers retain the no-image fallback.

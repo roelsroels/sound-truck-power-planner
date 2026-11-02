@@ -51,6 +51,15 @@ class Electrical(Record):
         return self
 
 
+class ProductImage(Record):
+    asset: str = Field(pattern=r'^[a-f0-9]{24}\.webp$')
+    source_url: str = Field(max_length=2000)
+    representative: bool = False
+    width: int = Field(gt=0, le=2048)
+    height: int = Field(gt=0, le=2048)
+    _source = field_validator('source_url')(http_url)
+
+
 class Product(Record):
     id: str = Field(pattern=ID)
     manufacturer_id: str = Field(pattern=ID)
@@ -65,6 +74,7 @@ class Product(Record):
     checked_at: date
     specs: list[Specification] = Field(default_factory=list, max_length=600)
     electrical: Electrical | None = None
+    image: ProductImage | None = None
     _source = field_validator('source_url')(http_url)
 
     @field_validator('datasheet_urls')
@@ -126,7 +136,7 @@ def snapshot(path):
 def manifest(path):
     manufacturers, products = snapshot(path)
     return {'schema_version': 1, 'manufacturers': sorted(manufacturers.values(), key=lambda m: m['name']),
-            'products': [{**{k: v for k, v in p.items() if k not in ('specs','datasheet_urls','electrical')},
+            'products': [{**{k: v for k, v in p.items() if k not in ('specs','datasheet_urls','electrical','image')},
                           'spec_count': len(p['specs'])} for p in sorted(products.values(), key=lambda p: (p['manufacturer_id'], p['model'], p['variant']))]}
 
 

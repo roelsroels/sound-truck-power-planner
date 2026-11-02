@@ -351,7 +351,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "f717c778ab43903a0f634025.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2013_01_15_05_23_17_617_file",
+        "representative": false,
+        "width": 483,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000138",
@@ -689,7 +696,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "2dc96008d8d490ace1e06e55.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_10_10_15_17_525_5mdn38_00_sito.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000139",
@@ -1034,7 +1048,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "b54114da5cbd3d88559d5f37.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_03_14_10_08_21_597_10MBX64front.jpg",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000140",
@@ -1379,7 +1400,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "2ffcd13dc30747e5b7bd22d3.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_03_13_20_45_706_6ndl38_copia.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000141",
@@ -1724,7 +1752,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "2ffcd13dc30747e5b7bd22d3.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_03_13_20_45_706_6ndl38_copia.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000142",
@@ -2062,7 +2097,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "e41e1afcf2c626aa2548e098.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_06_00_30_30_124_6mdn44_00_sito.jpg",
+        "representative": false,
+        "width": 622,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000143",
@@ -2400,7 +2442,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "166fe7eee33c107994c52a2b.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_05_13_09_06_397_6MD38_00_sito.jpg",
+        "representative": false,
+        "width": 621,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000144",
@@ -2745,7 +2794,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "2c521af3146369b8c82ab3c7.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2014_05_27_15_26_32_528_8_FG_64_c_.jpg",
+        "representative": false,
+        "width": 482,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000145",
@@ -3083,7 +3139,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "4f6fd0022eba7fb13928ff20.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_06_12_49_08_508_8MDN51_00_sito.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000146",
@@ -3428,7 +3491,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "250d63bd0de10e0938a324a0.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_02_13_53_43_25_8ndl51rear.jpeg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000147",
@@ -3773,7 +3843,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "250d63bd0de10e0938a324a0.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_02_13_53_43_25_8ndl51rear.jpeg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000148",
@@ -4118,7 +4195,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "bf59a49571e66cb5ad10cf41.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_02_15_20_32_296_8ndl64_00.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000149",
@@ -4456,7 +4540,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "90c767793aff3216c6f64f84.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_10_06_50_53_332_8NW51_00_sito.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000150",
@@ -4794,7 +4885,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "90c767793aff3216c6f64f84.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_10_06_50_53_332_8NW51_00_sito.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000151",
@@ -5139,7 +5237,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "d51f900c3049c9ba51b77d19.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2014_11_25_09_17_09_976_6MBX44front_black_bis.jpg",
+        "representative": false,
+        "width": 482,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000152",
@@ -5484,7 +5589,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "3be06113af96f0ba97f30e87.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2016_06_06_15_20_19_338_8CL51front.jpg",
+        "representative": false,
+        "width": 479,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000153",
@@ -5829,7 +5941,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "32f1b2fb1a5076341f44bf57.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_10_12_34_23_783_18nbx100_00_sito.jpg",
+        "representative": false,
+        "width": 720,
+        "height": 440
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000154",
@@ -6167,7 +6286,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "08bcef577e1ab8f9b507621e.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2013_01_15_05_20_14_537_file",
+        "representative": false,
+        "width": 530,
+        "height": 429
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000155",
@@ -6512,7 +6638,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "ee27b0461a50467ba91a4d37.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2014_11_17_15_42_50_755_18RBX100front.jpg",
+        "representative": false,
+        "width": 484,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000156",
@@ -6857,7 +6990,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "171c3f66689f2bc2f5973b02.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/18sw100cucito-rear.jpg",
+        "representative": false,
+        "width": 580,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000157",
@@ -7202,7 +7342,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "8dd0ae0dbf9e98419b9fa4c7.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_09_09_21_05_134_18sw115_00.jpeg",
+        "representative": false,
+        "width": 720,
+        "height": 413
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000158",
@@ -7547,7 +7694,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "120f6523de94ab86dab8e328.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_09_09_24_33_14_18tbx100_00.jpeg",
+        "representative": false,
+        "width": 720,
+        "height": 413
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000159",
@@ -7892,7 +8046,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "bd2f9f48169319d9a18b21cb.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/front-riscalata.jpg",
+        "representative": false,
+        "width": 481,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000160",
@@ -8237,7 +8398,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "5ce73c942065dccfbfaccdff.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_10_12_25_38_468_15NBX100_00_sito.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000161",
@@ -8582,7 +8750,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "d6f997eeb6a138ca105fbdf8.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2018_09_10_12_18_02_308_15NW100_00.png",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000162",
@@ -8927,7 +9102,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "085d588908bdec5d98bde631.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_08_00_52_15_631_15sw100_00.jpeg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000163",
@@ -9272,7 +9454,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "643e3d02795d9a7db1aea265.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/15tbw100front.jpg",
+        "representative": false,
+        "width": 482,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000164",
@@ -9617,7 +9806,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "cdf7b292b3ddab2f6234f49f.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_08_14_37_09_848_15tbx100_00.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000165",
@@ -9962,7 +10158,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "97279b145c1a718b6d7b0c32.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_05_23_36_31_785_12NBX100rear_00.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000166",
@@ -10307,7 +10510,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "805130407453168496b15c6a.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_06_00_04_17_716_12nw100_00.jpeg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000167",
@@ -10652,7 +10862,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "0ca9ea263c192c8bffe65ecb.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_06_00_22_06_409_12nw76_00.jpeg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000168",
@@ -10990,7 +11207,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "2fc95dee057a69502fe7f5d0.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2013_01_15_05_17_46_758_file",
+        "representative": false,
+        "width": 530,
+        "height": 385
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000169",
@@ -11335,7 +11559,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "3760861685aaaec5d52afffc.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2013_01_15_05_19_56_856_file",
+        "representative": false,
+        "width": 530,
+        "height": 400
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000170",
@@ -11680,7 +11911,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "3063661729471bda3b71a334.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/15sw100cucito-rear.jpg",
+        "representative": false,
+        "width": 613,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000171",
@@ -12025,7 +12263,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "a8065b62a7e866c1c5cd546f.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_05_02_13_35_37_478_12NDL76_front.jpeg",
+        "representative": false,
+        "width": 494,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000172",
@@ -12363,7 +12608,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "d5027e10d83f1febb313b04b.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_06_09_07_03_934_320KC_003.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000173",
@@ -12708,7 +12960,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "3864c1cc63f2fd4958b3dc55.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_08_00_38_44_114_15RBX100_00.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000174",
@@ -13053,7 +13312,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "3864c1cc63f2fd4958b3dc55.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_08_00_38_44_114_15RBX100_00.jpg",
+        "representative": false,
+        "width": 679,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000175",
@@ -13398,7 +13664,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "3be06113af96f0ba97f30e87.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2016_06_06_15_20_19_338_8CL51front.jpg",
+        "representative": false,
+        "width": 479,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000100000176",
@@ -13743,7 +14016,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "d84c4cd2470671a6d30e0ea4.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2017_04_09_09_34_43_853_21sw115_00.jpeg",
+        "representative": false,
+        "width": 720,
+        "height": 413
+      }
     }
   ]
 }
