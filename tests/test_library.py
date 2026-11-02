@@ -144,3 +144,34 @@ def test_funktion_one_ranges_variants_and_safe_mains_values(client):
     active=details('SB8A')
     assert active['kind']=='active_cabinet' and active['electrical'] is None
     assert not any(s['label'] in ('Weight','Connectors') for s in active['specs'])
+
+
+def test_bundled_previews_are_local_bounded_and_details_only(client):
+    from PIL import Image
+    _, products = library.bundled()
+    previews = [p for p in products.values() if p.get('image')]
+    assert len(previews) >= 700
+    assert {p['manufacturer_id'] for p in previews} == {'bc-speakers', 'powersoft', 'funktion-one'}
+    for p in previews:
+        image = p['image']
+        with Image.open(Path('web/library-images') / image['asset']) as photo:
+            assert photo.format == 'WEBP'
+            assert photo.size == (image['width'], image['height'])
+            assert photo.width <= 720 and photo.height <= 480
+    assert all('image' not in p for p in client.get('/api/v3/library').json()['products'])
+    detail = client.get('/api/v3/library/products/' + previews[0]['id']).json()
+    assert detail['image'] == previews[0]['image']
+    response = client.get('/assets/library-images/' + detail['image']['asset'])
+    assert response.status_code == 200 and response.headers['content-type'] == 'image/webp'
+
+
+@pytest.mark.parametrize('changes', [
+    {'asset':'../secret.webp'}, {'asset':'https://example.com/photo.webp'},
+    {'asset':'data:image/png;base64,abc'}, {'source_url':'javascript:alert(1)'},
+    {'width':0}, {'height':10000},
+])
+def test_preview_metadata_cannot_inject_asset_paths(changes):
+    image = {'asset':'a'*24+'.webp', 'source_url':'https://example.com/photo.jpg',
+             'width':720, 'height':480, **changes}
+    with pytest.raises(ValueError):
+        library.ProductImage.model_validate(image)

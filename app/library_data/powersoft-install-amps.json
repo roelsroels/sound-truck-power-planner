@@ -259,7 +259,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "4f67fb5d3d1c1e3858594d1e.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Duecanali1604DSP_gallery-cardL_front-5-800x391.webp?v=mug83khf",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-duecanali-4804-dsp",
@@ -513,7 +520,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "e4aabc31445e82fc19ee4453.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Duecanali4804DSP_gallery-cardL_front-5-800x391.webp?v=mug83lbp",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-duecanali-6404-dsp",
@@ -764,7 +778,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "c657f8cad05dacd2a7181ade.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Duecanali6404DSP_gallery-cardL_front-4-800x391.webp?v=mug827xe",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-duecanali-804-dsp",
@@ -1020,7 +1041,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "748889375761719890d4ad39.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Duecanali804DSP_gallery-cardL_front-3-800x391.webp?v=mug8488e",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-duecanali-804-dsp-d",
@@ -1274,7 +1302,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "3913558b3aba9b7ba1ff57f1.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Duecanali804DSP_gallery-cardL_front-5-800x391.webp?v=mug83jy4",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-mezzo-322-a",
@@ -1524,7 +1559,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "1760c365039303004989bcb2.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Mezzo322A_gallery-cardL_front-2-800x391.webp?v=mug84d5s",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-mezzo-322-ad",
@@ -1773,7 +1815,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "1760c365039303004989bcb2.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Mezzo322A_gallery-cardL_front-2-800x391.webp?v=mug84d5s",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-mezzo-324-a",
@@ -2022,7 +2071,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "1760c365039303004989bcb2.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Mezzo322A_gallery-cardL_front-2-800x391.webp?v=mug84d5s",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-mezzo-602-a",
@@ -2271,7 +2327,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "2046c2c314e0f95a66f9a3b5.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Mezzo602A_gallery-cardL_front-2-800x391.webp?v=mug84cuq",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-mezzo-604-a",
@@ -2520,7 +2583,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "2046c2c314e0f95a66f9a3b5.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Mezzo604AD_gallery-cardL_front-1-800x391.webp?v=mug84df2",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-ottocanali-1204",
@@ -2748,7 +2818,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "997b97e9f27dc3840e2abe85.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Ottocanali1204DSP_gallery-cardL_front-1-800x391.webp?v=mug83vye",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-ottocanali-4k4",
@@ -2964,7 +3041,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "e294df1c45f20583984bf07d.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Ottocanali4k4_gallery-cardL_front-1-800x391.webp?v=mug8qi1b",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-prima-164",
@@ -3023,7 +3107,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "a417e5ecd59bd3b66b8c41f1.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/2-TransparentBG-2-e1778237526116-1-800x306.webp?v=mug8qezp",
+        "representative": false,
+        "width": 720,
+        "height": 275
+      }
     },
     {
       "id": "powersoft-prima-324",
@@ -3082,7 +3173,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "a417e5ecd59bd3b66b8c41f1.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/2-TransparentBG-2-e1778237526116-1-800x306.webp?v=mug8qezp",
+        "representative": false,
+        "width": 720,
+        "height": 275
+      }
     },
     {
       "id": "powersoft-quattrocanali-1204-dsp",
@@ -3337,7 +3435,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "18936f49a20c9052b3920f70.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Quattrocanali1204DSP_gallery-cardL_front-3-800x391.webp?v=mug8478q",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-quattrocanali-1204-dsp-d",
@@ -3592,7 +3697,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "c3ca3e8a3f9212fd25f5dbc4.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Quattrocanali1204DSP_gallery-cardL_front-5-800x391.webp?v=mug83lxd",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-quattrocanali-2404-dsp",
@@ -3845,7 +3957,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "5fb3a94b3c1c9b58ea24b6cd.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Quattrocanali2404DSP_gallery-cardL_front-3-800x391.webp?v=mug83oqp",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-quattrocanali-4804-dsp",
@@ -4098,7 +4217,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "02f2aaa6056ff402e6fa6b28.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Quattrocanali4804DSP_gallery-cardL_front-6-800x391.webp?v=mug83p60",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-quattrocanali-8804-dsp",
@@ -4349,7 +4475,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "2034eed6ab2e2002b684bf48.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Quattrocanali8804DSP_gallery-cardL_front-4-800x391.webp?v=mug827k6",
+        "representative": false,
+        "width": 720,
+        "height": 352
+      }
     },
     {
       "id": "powersoft-unica-12k4",
@@ -4486,7 +4619,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d3ac863de244415e982c9be0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica8M-4L-1-800x283.webp?v=mug84g6n",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-unica-16k4",
@@ -4623,7 +4763,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d3ac863de244415e982c9be0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica8M-4L-1-800x283.webp?v=mug84g6n",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-unica-1k8",
@@ -4760,7 +4907,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d3ac863de244415e982c9be0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica8M-4L-1-800x283.webp?v=mug84g6n",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-unica-2k8",
@@ -4897,7 +5051,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d3ac863de244415e982c9be0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica8M-4L-1-800x283.webp?v=mug84g6n",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-unica-4k8",
@@ -5034,7 +5195,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d3ac863de244415e982c9be0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica8M-4L-1-800x283.webp?v=mug84g6n",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-unica-5k4",
@@ -5171,7 +5339,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d3ac863de244415e982c9be0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica8M-4L-1-800x283.webp?v=mug84g6n",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-unica-8k8",
@@ -5308,7 +5483,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d3ac863de244415e982c9be0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica8M-4L-1-800x283.webp?v=mug84g6n",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     },
     {
       "id": "powersoft-unica-9k4",
@@ -5445,7 +5627,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "ac"
+      "power_input": "ac",
+      "image": {
+        "asset": "d3ac863de244415e982c9be0.webp",
+        "source_url": "https://www.powersoft.com/api/media/file/Unica8M-4L-1-800x283.webp?v=mug84g6n",
+        "representative": true,
+        "width": 720,
+        "height": 255
+      }
     }
   ]
 }

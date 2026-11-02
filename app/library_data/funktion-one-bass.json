@@ -92,7 +92,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "de41f3007172ec2863423de2.webp",
+        "source_url": "https://images.prismic.io/funktion-one/df9f1efd-a4bf-4066-98da-e25e84074055_BR115+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-br118-2",
@@ -179,7 +186,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4413d447f29a89e38b1ad835.webp",
+        "source_url": "https://images.prismic.io/funktion-one/Z8cmnRsAHJWomGvA_BR118AngleVb600x590.jpg?auto=format,compress",
+        "representative": false,
+        "width": 488,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-br121",
@@ -265,7 +279,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "7ba3f18d8a941bf2a6e21038.webp",
+        "source_url": "https://images.prismic.io/funktion-one/5786e4ca-334c-4da6-b546-4638d83cc8bc_BR121+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-br132",
@@ -292,7 +313,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "6c87f91f0837b006f679524c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/bd66e8c3-8904-448e-aa85-74b81035b34f_BR132+front3-resize.jpg?auto=compress,format",
+        "representative": false,
+        "width": 356,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-br218",
@@ -379,7 +407,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "6ba0b61cc3bcb69912ef2344.webp",
+        "source_url": "https://images.prismic.io/funktion-one/0445c2dc-3b0d-48d7-9678-e9fda9094554_BR218+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-br221",
@@ -466,7 +501,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "af788d912ab7062039b52fef.webp",
+        "source_url": "https://images.prismic.io/funktion-one/d91fd362-fa03-4052-aab7-9a487bd334f4_BR221+600x600.jpg?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     }
   ]
 }

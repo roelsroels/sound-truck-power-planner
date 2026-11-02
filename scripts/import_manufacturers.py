@@ -1,7 +1,8 @@
 """Import public technical facts from official B&C/Powersoft/Funktion-One product pages.
 
 Run from the repository root. No scraping runs in the web application.
-Only structured specifications are imported; images and marketing copy are not.
+Only structured specifications are imported here; run import_product_images.py
+afterwards to refresh local photo previews. Marketing copy is not imported.
 Add other manufacturers as version-1 JSON packs (see docs/library.md).
 """
 import argparse

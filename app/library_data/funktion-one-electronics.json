@@ -31,7 +31,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "9aea07ddaab111b5525457b1.webp",
+        "source_url": "https://images.prismic.io/funktion-one/a809735b-5dc2-4ea7-86fb-f9ee58d732d4_Polarity-check-3a.jpg?auto=compress,format",
+        "representative": true,
+        "width": 250,
+        "height": 305
+      }
     },
     {
       "id": "funktion-one-d-series",
@@ -231,7 +238,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-d100q",
@@ -445,7 +459,14 @@
           "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-d100q-dsp",
@@ -666,7 +687,14 @@
           "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-d120",
@@ -866,7 +894,14 @@
           "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-d20q",
@@ -1080,7 +1115,14 @@
           "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-d40q",
@@ -1294,7 +1336,14 @@
           "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-d40q-dsp",
@@ -1515,7 +1564,14 @@
           "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-d80q",
@@ -1729,7 +1785,14 @@
           "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-d80q-dsp",
@@ -1950,7 +2013,14 @@
           "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4011ce59b8daeb7aa986c608.webp",
+        "source_url": "https://images.prismic.io/funktion-one/ab2BV5GXnQHGYzNk_D100QDSP-V2squareweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-e-series",
@@ -1984,7 +2054,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "82b96f391294a285122f5d4d.webp",
+        "source_url": "https://images.prismic.io/funktion-one/1ce0302b-abc5-420c-9f6c-ae9d3ab822f2_E%2BSeries.png?auto=compress,format",
+        "representative": true,
+        "width": 481,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-e15",
@@ -2046,7 +2123,14 @@
           "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "82b96f391294a285122f5d4d.webp",
+        "source_url": "https://images.prismic.io/funktion-one/1ce0302b-abc5-420c-9f6c-ae9d3ab822f2_E%2BSeries.png?auto=compress,format",
+        "representative": true,
+        "width": 481,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-e25",
@@ -2108,7 +2192,14 @@
           "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "82b96f391294a285122f5d4d.webp",
+        "source_url": "https://images.prismic.io/funktion-one/1ce0302b-abc5-420c-9f6c-ae9d3ab822f2_E%2BSeries.png?auto=compress,format",
+        "representative": true,
+        "width": 481,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-e4-75",
@@ -2163,7 +2254,14 @@
           "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "82b96f391294a285122f5d4d.webp",
+        "source_url": "https://images.prismic.io/funktion-one/1ce0302b-abc5-420c-9f6c-ae9d3ab822f2_E%2BSeries.png?auto=compress,format",
+        "representative": true,
+        "width": 481,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f-series",
@@ -2273,7 +2371,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e432666aa7ab51bf86087e70.webp",
+        "source_url": "https://images.prismic.io/funktion-one/98795c4d-37c2-4d0f-b3e2-cdf9734d12a2_FSeries_Website_Product.png?auto=compress,format",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f100-2",
@@ -2411,7 +2516,14 @@
           "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e432666aa7ab51bf86087e70.webp",
+        "source_url": "https://images.prismic.io/funktion-one/98795c4d-37c2-4d0f-b3e2-cdf9734d12a2_FSeries_Website_Product.png?auto=compress,format",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f20q",
@@ -2549,7 +2661,14 @@
           "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e432666aa7ab51bf86087e70.webp",
+        "source_url": "https://images.prismic.io/funktion-one/98795c4d-37c2-4d0f-b3e2-cdf9734d12a2_FSeries_Website_Product.png?auto=compress,format",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f50q",
@@ -2680,7 +2799,14 @@
           "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e432666aa7ab51bf86087e70.webp",
+        "source_url": "https://images.prismic.io/funktion-one/98795c4d-37c2-4d0f-b3e2-cdf9734d12a2_FSeries_Website_Product.png?auto=compress,format",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-f80q",
@@ -2811,7 +2937,14 @@
           "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e432666aa7ab51bf86087e70.webp",
+        "source_url": "https://images.prismic.io/funktion-one/98795c4d-37c2-4d0f-b3e2-cdf9734d12a2_FSeries_Website_Product.png?auto=compress,format",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-id48x-matrix-signal-processor",
@@ -2885,7 +3018,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e7c24c2d29000174816654fc.webp",
+        "source_url": "https://images.prismic.io/funktion-one/c04fbaf8-d964-4893-8d38-31f81ca69b5b_ID48X_Website_Product.png?auto=compress,format",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-rp-signal-1",
@@ -2910,7 +3050,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "8d046e45562ac48e7e0d912b.webp",
+        "source_url": "https://images.prismic.io/funktion-one/65b7cfbb615e73009ec4083c_RPSignal1_Image.png?auto=format,compress",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-rp-speaker-1",
@@ -2935,7 +3082,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "de14a192fc89685d27bca4e4.webp",
+        "source_url": "https://images.prismic.io/funktion-one/65b7dad9615e73009ec40902_RPSpeaker1_Front.png?auto=format,compress",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-spatial-audio",
@@ -3035,7 +3189,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "6b04223dd5b7b717989d2f8e.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aedj-8BOoF08xK-W_HOLOPHONIX_Ultra_2026_w_Logo_100DPI_2400px.jpg?auto=format,compress",
+        "representative": true,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-tour-rack",
@@ -3061,7 +3222,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f3ee6b22285f70ca824ad4fc.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aXoILAIvOtkhCB_H_TourRackV2RackFront.jpg?auto=format,compress",
+        "representative": true,
+        "width": 402,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-vr1-remote-control-panel",
@@ -3086,7 +3254,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "640348a7435a0ec5ad35adf4.webp",
+        "source_url": "https://images.prismic.io/funktion-one/a73f0b1c-ed71-4512-8cc8-e46677a207b2_NST_Website_Product.png?auto=compress,format",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-xo2-audio-management-system",
@@ -3167,7 +3342,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "44afa7df17bbb4bdd1fff51c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/db2a1328-df80-4af4-a754-0b19e65097cd_XO2_Website_Product.jpg?auto=compress,format",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-xo4-audio-management-system",
@@ -3255,7 +3437,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "43bcdf245962b25c1c42389c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/a9bb69e7-cf59-4df5-a9e0-0e001d982479_XO4+Audio+Management.png?auto=compress,format",
+        "representative": true,
+        "width": 481,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-xo648",
@@ -3320,7 +3509,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "29f5dcd01ca2a2e2a361fa86.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aetwwMBOoF08xSAC_XO648lightsonweb.jpg?auto=format,compress",
+        "representative": true,
+        "width": 384,
+        "height": 480
+      }
     }
   ]
 }

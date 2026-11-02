@@ -201,7 +201,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "83be015df1a3453067f25857.webp",
+        "source_url": "https://images.prismic.io/funktion-one/65aea53a38f662e9dd2126b6_Evo2VltAngHi1200x1200.jpg?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-2l",
@@ -289,7 +296,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f26184030f52447bdc1532a8.webp",
+        "source_url": "https://images.prismic.io/funktion-one/Z4ZgJpbqstJ99bRb_Evo2LWeb-FrontwRigging-.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-2sh",
@@ -382,7 +396,14 @@
           "notes": "https://funktion-one.com/product/evo2shpa/"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "47621c9f31a4ff85e722cce3.webp",
+        "source_url": "https://images.prismic.io/funktion-one/Z4ZlWJbqstJ99bV3_Evo2SHAngle.jpg?auto=format,compress",
+        "representative": false,
+        "width": 529,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-6e",
@@ -548,7 +569,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e715f728be962577265f743c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/787266de-1b1b-48a2-98e6-778612f26533_Evo+6E+New.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-6eh",
@@ -676,7 +704,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "303d41ae7f6e0d07ae01e7de.webp",
+        "source_url": "https://images.prismic.io/funktion-one/fb57d5bd-cef7-446b-811e-5b9043552df9_Evo+6EH.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-6el",
@@ -765,7 +800,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "a4ddae9485a73a8030dce7e0.webp",
+        "source_url": "https://images.prismic.io/funktion-one/c492e8fb-b14f-46b6-9c59-abc35dd08b22_Evo+6EL.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-6sh",
@@ -895,7 +937,14 @@
           "notes": "https://funktion-one.com/product/evo-6sh-skeletal1/"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c6d4b305847a9866fa802805.webp",
+        "source_url": "https://images.prismic.io/funktion-one/7e5f840d-8029-48b7-99f5-9ba82d853d22_Evo+6SH+copy.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-7e",
@@ -1059,7 +1108,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "596213a968b31b37044d7318.webp",
+        "source_url": "https://images.prismic.io/funktion-one/bd5077ff-b073-48ae-8c35-d280407c932d_Evo+7E.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-7eh",
@@ -1186,7 +1242,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "303d41ae7f6e0d07ae01e7de.webp",
+        "source_url": "https://images.prismic.io/funktion-one/fb57d5bd-cef7-446b-811e-5b9043552df9_Evo+6EH.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-7el",
@@ -1275,7 +1338,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "a4ddae9485a73a8030dce7e0.webp",
+        "source_url": "https://images.prismic.io/funktion-one/c492e8fb-b14f-46b6-9c59-abc35dd08b22_Evo+6EL.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-7sh",
@@ -1404,7 +1474,14 @@
           "notes": "https://funktion-one.com/product/evo-7sh-skeletal1/"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "a72eb89d49303580ac8f9345.webp",
+        "source_url": "https://images.prismic.io/funktion-one/9770c7dd-c7b6-4ac5-a88b-bbc10aeeff20_Evo+7SH.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-7t",
@@ -1565,7 +1642,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f6ed0691194af0c255a29a3f.webp",
+        "source_url": "https://images.prismic.io/funktion-one/2adafd79-d552-419b-a2f0-fe34c8ad951f_Evo7T_Website_FeatureProduct.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-7th",
@@ -1691,7 +1775,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "c57d9349cb72ba966caea948.webp",
+        "source_url": "https://images.prismic.io/funktion-one/15b9dc83-b4f1-48d8-8398-9d4056bf1cef_EVO7TH_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evo-7tl",
@@ -1782,7 +1873,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "ff8ca8fb1c804967970e16f6.webp",
+        "source_url": "https://images.prismic.io/funktion-one/7e995a44-c05a-497c-884c-1dad92e1edff_Evo+7TL-215.png?auto=compress,format",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evolution-x",
@@ -1943,7 +2041,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "b90ff7850d375988cfd1e155.webp",
+        "source_url": "https://images.prismic.io/funktion-one/6dd0ea8b-db3d-4fbd-bc36-22626c2ed050_Evo+X+Product+Page.png?auto=compress,format",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-evolution-xsh",
@@ -2071,7 +2176,14 @@
           "notes": "https://funktion-one.com/product/evolution-xsh11/"
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "aff054bb944517171b771347.webp",
+        "source_url": "https://images.prismic.io/funktion-one/8fe63ae3-fb4b-4afc-9cc6-e5c938ca573e_Evo+XSH.jpg?auto=compress,format",
+        "representative": false,
+        "width": 391,
+        "height": 480
+      }
     }
   ]
 }

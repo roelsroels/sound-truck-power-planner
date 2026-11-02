@@ -22,3 +22,8 @@ assert.equal(filterProducts([driver,{...amp,status:'archived'}],{}).length,1);
 assert.equal(filterProducts([driver,{...amp,status:'archived'}],{archived:true,kind:'amplifier'}).length,1);
 assert.equal(filterProducts([{...driver,manufacturer_name:'Test Audio'}],{query:'test driver 8'}).length,1);
 console.log('Library assembly, passive-load accounting and filters passed.');
+
+const {productImageURL}=await import('../web/library.mjs');
+assert(productImageURL({asset:'a'.repeat(24)+'.webp'}).endsWith('/web/library-images/'+ 'a'.repeat(24)+'.webp'));
+for(const asset of ['../private.webp','https://example.com/p.webp','data:image/png,x','/assets/p.webp','a'.repeat(24)+'.webp?x'])assert.equal(productImageURL({asset}),null);
+assert.equal(productImageURL(null),null);

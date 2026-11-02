@@ -38,7 +38,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "2923bf63225db3837aa9107c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiAx_weQX7-eWqX-_BFP-E2.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-cfpk-2e67",
@@ -70,7 +77,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "1903683a158feeddad7ef5be.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA14AeQX7-eWqb8_CFPK-2E67.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-cfpk-2e67l",
@@ -102,7 +116,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "d06ea0a2eba8199fa288d131.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA0dAeQX7-eWqa5_CFPK-2E67L.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-fc-2e2",
@@ -134,7 +155,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "715b3dccaaaf1e0af6f01f43.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiFRbgeQX7-eWucR_FC-2E2.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-fc-2psm15",
@@ -166,7 +194,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "0de6abdaa4665d8050977f96.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiBBPQeQX7-eWqnC_FC-2PSM15.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-gk-e2",
@@ -196,7 +231,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "62d1ebf7e387a582e50ee7db.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aFFg9LNJEFaPYBpe_GK-E7.png?auto=format,compress&rect=0,0,600,600&w=600&h=600",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-gk-e6",
@@ -226,7 +268,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "42a1dd701a4d24db492aa8c7.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA81AeQX7-eWqjD_GK-E6.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-gk-e6h",
@@ -258,7 +307,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "cec40e3dce01bb98ac10878b.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA70geQX7-eWqh7_GK-E67H.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-gk-e7",
@@ -290,7 +346,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "42a1dd701a4d24db492aa8c7.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA81AeQX7-eWqjD_GK-E6.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-gk-e7h",
@@ -322,7 +385,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "cec40e3dce01bb98ac10878b.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA70geQX7-eWqh7_GK-E67H.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-gk-ex",
@@ -354,7 +424,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "b70ffabc99d3de620aa6f900.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA9iQeQX7-eWqjv_GK-EX.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-gsb-vx",
@@ -386,7 +463,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "a87e276f971d3c39a53007f6.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiAz-AeQX7-eWqaN_GSB-VX.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-sta-2m8",
@@ -418,7 +502,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "edc623a1b8fafd90cb277a85.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiBCxAeQX7-eWqoO_STA-2M8.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-stc-200-bfp",
@@ -450,7 +541,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4e0ec1adb4c3f951fbb55d3b.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiBGoQeQX7-eWqq5_STC-200-BFP.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-tsfk-2e7",
@@ -482,7 +580,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f6772cd874f6cd60a47a8b3e.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA2YAeQX7-eWqcU_TSFK-2E7.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-tsfk-3e7",
@@ -514,7 +619,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "3952425e9a5f7bfe2e5d845c.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA2ogeQX7-eWqcx_TSFK-3E7.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-wb-e2",
@@ -546,7 +658,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "39acc25258e7a5ba93fee70a.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA-JAeQX7-eWqj9_WB-E2.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-wb-e2l",
@@ -578,7 +697,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "9deea8ee87cd1c27d22bd44a.webp",
+        "source_url": "https://images.prismic.io/funktion-one/frx9aHtANXHNHHzL_WB-E2L.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-wb-e67",
@@ -610,7 +736,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "e52cd8857757fe4f46e4e3e7.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA3qweQX7-eWqep_WB-E67.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-wb-e67h",
@@ -642,7 +775,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "a4527cc169c32bc4237245cc.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA4KQeQX7-eWqfN_WB-E67H.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-wb-ex",
@@ -674,7 +814,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4272f75f32d64785c2931a80.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA9IweQX7-eWqjc_WB-EX.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-whhm100-1201",
@@ -706,7 +853,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "0ae965b1793593051a6c54b0.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA-5geQX7-eWqkv_WHHM100-1201.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-wmb-f5",
@@ -738,7 +892,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "43be939885c62b7c1df4c9b6.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA_SQeQX7-eWqle_WMB-F5.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-wme100",
@@ -770,7 +931,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "d38587aa685a4350fa276025.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiAyUQeQX7-eWqYQ_WME100-101.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-wms50",
@@ -803,7 +971,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "cc450dc03b95a6144ebf1b3d.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiAytgeQX7-eWqYr_WMS50.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-f101",
@@ -835,7 +1010,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "cac248270973dc6233f85802.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA_8weQX7-eWql8_YK-F101.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-f1201",
@@ -867,7 +1049,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "603732d6923b981bebc77376.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA_kAeQX7-eWqls_YK-F1201.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-f5",
@@ -899,7 +1088,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "390edce38d8812e2265351a3.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiBAiAeQX7-eWqms_YK-F5.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-f81",
@@ -931,7 +1127,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "03c28352ff710307c99014e9.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiBASQeQX7-eWqmV_YK-F81.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-se-x",
@@ -963,7 +1166,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "aba8e3414eb5139380399533.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiAziAeQX7-eWqZq_YK-SE-X.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-se6",
@@ -995,7 +1205,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f12342251ad9ad84d3b0919b.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA3VgeQX7-eWqeE_YK-SE6.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-se6h",
@@ -1027,7 +1244,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "5123bc7b9e57ef6821b02a64.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA1LgeQX7-eWqbg_YK-SE6H.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-se7",
@@ -1059,7 +1283,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "84ea2538d021fc289103faee.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA3CgeQX7-eWqd1_YK-SE7.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-se7h",
@@ -1091,7 +1322,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "4774461a11ec7d1212e8b605.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiA1cAeQX7-eWqbo_YK-SE7H.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-spsm15",
@@ -1123,7 +1361,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f3f45ec364bb66d424aba97e.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiBCFgeQX7-eWqn6_YK-SPSM15.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-yk-upsm15",
@@ -1155,7 +1400,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "f6e8c9345f80dce0bb0fa37d.webp",
+        "source_url": "https://images.prismic.io/funktion-one/aiBBtQeQX7-eWqnX_YK-UPSM15.png?auto=format,compress",
+        "representative": false,
+        "width": 480,
+        "height": 480
+      }
     }
   ]
 }

@@ -128,7 +128,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "7f165bb555be7d6fa39bdcfd.webp",
+        "source_url": "https://images.prismic.io/funktion-one/363c16f5-3d81-4d80-aa1b-8eaa08a8db37_DS210_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     }
   ]
 }

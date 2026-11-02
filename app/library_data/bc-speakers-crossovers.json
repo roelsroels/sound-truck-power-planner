@@ -106,7 +106,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "060e139d001f12fc4dda97f1.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2020_11_25_14_39_13_625_FB08CX21.png",
+        "representative": false,
+        "width": 625,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000002",
@@ -206,7 +213,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "1bb42e9e48880bd6213e29b3.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2020_11_25_15_40_57_542_FB12CXT.png",
+        "representative": false,
+        "width": 621,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000003",
@@ -306,7 +320,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "37982c26b32d2332ee9ea13b.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2020_11_25_15_55_10_232_FB12CX32.png",
+        "representative": false,
+        "width": 686,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000004",
@@ -406,7 +427,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "8f6beda2b655a696aed0171e.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2020_11_25_16_12_32_134_FB15CX40.png",
+        "representative": false,
+        "width": 665,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000005",
@@ -506,7 +534,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "aef2899bcee478ba7400a178.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2020_11_25_16_25_04_807_FB10NCX.png",
+        "representative": false,
+        "width": 608,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000006",
@@ -606,7 +641,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "e98c477d2f77222d43d07f18.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2020_11_25_16_36_11_78_FB12NCX.png",
+        "representative": false,
+        "width": 633,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000007",
@@ -734,7 +776,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "640a9f64700d6feaae419b8f.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2024_02_14_16_42_19_567_FB464_V2.jpg",
+        "representative": false,
+        "width": 692,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000008",
@@ -848,7 +897,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "4911e8d9bb9ae6f2309ed04e.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2020_11_25_17_13_44_440_FB46416.png",
+        "representative": false,
+        "width": 660,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000009",
@@ -948,7 +1004,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "044ef3cdaaccd6591bd1df1f.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2021_02_09_12_01_48_5_FBU128_00.jpg",
+        "representative": false,
+        "width": 639,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000010",
@@ -1048,7 +1111,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "82517cd4c0fc804dd225c809.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2021_06_09_11_45_53_656_FBCXN36_picture.jpg",
+        "representative": false,
+        "width": 702,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000012",
@@ -1148,7 +1218,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "76dc145d6e0d3d44965629c1.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2021_05_17_14_12_03_222_FBCXN88_foto.jpg",
+        "representative": false,
+        "width": 720,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000013",
@@ -1248,7 +1325,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "3c662363332d8201ece84f43.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2021_09_23_09_34_38_320_20210921_121248.jpg",
+        "representative": false,
+        "width": 483,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000014",
@@ -1362,7 +1446,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "c6d5a36b006067029a75341d.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2023_05_03_12_10_19_432_FB354_8_PPX3.3.jpg",
+        "representative": false,
+        "width": 600,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000015",
@@ -1476,7 +1567,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "c6d5a36b006067029a75341d.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2023_05_03_12_10_19_432_FB354_8_PPX3.3.jpg",
+        "representative": false,
+        "width": 600,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-000000000000000900000016",
@@ -1583,7 +1681,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "4911e8d9bb9ae6f2309ed04e.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/2020_11_25_17_13_44_440_FB46416.png",
+        "representative": false,
+        "width": 660,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-664f112b559eeab7e5bf4a9f",
@@ -1697,7 +1802,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "12f614bebbdc742a1ffc97b4.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/FB354-V2_8ohm.jpg",
+        "representative": false,
+        "width": 640,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-664f136e559eeab7e5bfe69b",
@@ -1825,7 +1937,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "12f614bebbdc742a1ffc97b4.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/FB354-V2_8ohm.jpg",
+        "representative": false,
+        "width": 640,
+        "height": 480
+      }
     },
     {
       "id": "bc-speakers-66fbc323ece4838ce5d81905",
@@ -1904,7 +2023,14 @@
         }
       ],
       "electrical": null,
-      "power_input": "none"
+      "power_input": "none",
+      "image": {
+        "asset": "c28cd173d508f4636e555c49.webp",
+        "source_url": "https://bcspeakers.com/uploads/products/images/fbclx64-foto.jpg",
+        "representative": false,
+        "width": 720,
+        "height": 454
+      }
     }
   ]
 }

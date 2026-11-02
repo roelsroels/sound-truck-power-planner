@@ -93,7 +93,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "62d2982073331f2bfb2ec521.webp",
+        "source_url": "https://images.prismic.io/funktion-one/58e11b3b-b790-45e0-ab11-3de99d8fc20a_V124+v2.png?auto=format,compress",
+        "representative": false,
+        "width": 455,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-vero-v132",
@@ -176,7 +183,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "8574f90bdde804ee1d34cb9f.webp",
+        "source_url": "https://images.prismic.io/funktion-one/85e84260-239e-41f8-ae4b-eb8112715349_F132_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-vero-v221",
@@ -263,7 +277,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "1741a6cb9c66edbcf3f76ac2.webp",
+        "source_url": "https://images.prismic.io/funktion-one/e729d574-012d-4320-bb8b-a06ef3395a65_V221_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-vero-v315",
@@ -347,7 +368,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "8d4001bdfee554d69dfca0c9.webp",
+        "source_url": "https://images.prismic.io/funktion-one/f4399087-09eb-44c3-bd99-0122bd0a5453_V315_Website_Product.png?auto=compress,format",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-vero-v60",
@@ -466,7 +494,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "ea91f1c876a84c512f4999bf.webp",
+        "source_url": "https://images.prismic.io/funktion-one/898478fe-f2dd-4360-9b20-a82d05406717_V60_Website_Product.png?auto=compress,format&rect=40,47,634,793&w=720&h=900",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     },
     {
       "id": "funktion-one-vero-v90",
@@ -585,7 +620,14 @@
           "notes": ""
         }
       ],
-      "electrical": null
+      "electrical": null,
+      "image": {
+        "asset": "eb6dce54d043f0f6eb70ceae.webp",
+        "source_url": "https://images.prismic.io/funktion-one/e996fb3f-d239-4ced-90b9-a43b69738115_V90_Website_Product.png?auto=compress,format&rect=44,42,643,804&w=720&h=900",
+        "representative": false,
+        "width": 384,
+        "height": 480
+      }
     }
   ]
 }
