@@ -18,7 +18,32 @@ let view='basic';
 try{view=normalizeView(localStorage.getItem('soundtruck.view'))}catch{/* Default to the basic view. */}
 function update(prop,value){project[prop]=value;render();}
 function dateNumber(id,pathFn,key,nullWhenEmpty=false){const el=$(id);el.addEventListener('change',()=>{const raw=el.value;pathFn()[key]=(nullWhenEmpty&&raw==='')?null:Number(raw);render()})}
+function syncSourceChoices(){
+  for(const group of document.querySelectorAll('[data-choice-for]')){
+    const select=$(group.dataset.choiceFor);
+    for(const input of group.querySelectorAll('input'))input.checked=input.value===select.value;
+  }
+}
+function initSourceChoices(){
+  for(const group of document.querySelectorAll('[data-choice-for]')){
+    const select=$(group.dataset.choiceFor);
+    for(const option of select.options){
+      const label=document.createElement('label'),input=document.createElement('input'),text=document.createElement('span');
+      input.type='radio';input.name=select.id+'Choice';input.value=option.value;input.className='sr-only';
+      // Use canonical English text: options may already be translated at startup.
+      text.textContent={mobile:'Mobile / truck',fixed:'Fixed / venue',generator:'Generator-only',battery:'Battery-only',hybrid:'Hybrid (screening)'}[option.value]||option.textContent;
+      label.append(input,text);group.append(label);
+    }
+    group.addEventListener('change',event=>{
+      select.value=event.target.value;
+      document.querySelector('.source-settings').open=true;
+      select.dispatchEvent(new Event('change',{bubbles:true}));
+    });
+    select.hidden=true;group.hidden=false;
+  }
+}
 function bind(){
+  initSourceChoices();
   initNotifications();
   for(const input of $('viewMode').querySelectorAll('input'))input.checked=input.value===view;
   $('viewMode').addEventListener('change',e=>{
@@ -114,6 +139,7 @@ function bind(){
     const btn=e.target.closest('[data-remove]');if(!btn)return;project.units.splice(Number(btn.dataset.remove),1);render()});
 }
 function populateControls(){
+  document.querySelector('.source-settings').open=project.setup_mode==='fixed'||project.power_mode!=='generator';
   $('setupMode').value=project.setup_mode==='fixed'?'fixed':'mobile';
   for(const phase of PHASES)$('venue'+phase).value=project.venue_supply?.[phase]??'';
   $('projectName').value=project.name??'';
@@ -134,6 +160,7 @@ function allEquipment(){return [...catalogue,...(project.custom_equipment||[])]}
 function render(){
   const all=allEquipment(),byId=new Map(all.map(e=>[e.id,e])),r=calculate(project,catalogue);
   document.body.dataset.view=view;
+  syncSourceChoices();
   const fixed=project.setup_mode==='fixed',venue=venueSupply(project,r);
   for(const element of document.querySelectorAll('[data-generator-only]'))element.hidden=project.power_mode==='battery';
   for(const element of document.querySelectorAll('[data-battery-only]'))element.hidden=!r.usesBattery;
@@ -141,7 +168,7 @@ function render(){
   $('powerResults').classList.toggle('generator-only',!r.usesBattery);
   $('venuePanel').hidden=!fixed;
   $('vehicle').hidden=fixed;$('vehicleNav').hidden=fixed||view==='basic';
-  $('sourceTitle').textContent=fixed?'Venue supply & generator fallback':view==='basic'?'Power source':'Generator & storage';
+  $('sourceTitle').textContent=fixed?'Venue supply & generator fallback':'Power supply';
   $('scenarioLabel').textContent=fixed?'Fallback power source':'Power source';
   $('generatorTitle').textContent=fixed?'Generator fallback if venue supply is unavailable or insufficient':'Generator option';
   $('venueRequirements').replaceChildren();
@@ -159,9 +186,9 @@ function render(){
   }).join('')||`<p class="hint">${esc(t('No cabinets. Add equipment above.'))}</p>`;
   $('equipmentType').innerHTML=all.map(e=>`<option value="${esc(e.id)}">${esc(e.name)} · ${esc(e.amplifier)}</option>`).join('');
   $('unitCount').textContent=(project.units||[]).filter(u=>byId.has(u.equipment_id)).length;
-  $('unitList').innerHTML=(project.units||[]).map((u,i)=>{const e=byId.get(u.equipment_id);if(!e)return `<div class="unit-row"><div>Missing: ${esc(u.equipment_id)}</div><div></div><div></div><button class="remove" data-remove="${i}" aria-label="Remove missing item">×</button></div>`;return `<div class="unit-row"><div class="unit-main"><strong data-user-content>${esc(e.name)}</strong><small data-user-content>${esc(e.drivers)}</small><small class="unit-power">${esc(t(`Reference: ${Number(e.reference_va).toFixed(0)} VA · Planning: ${Number(e.design_va).toFixed(0)} VA`))}</small></div><select aria-label="Phase for ${esc(e.name)}" data-phase="${i}">${PHASES.map(p=>`<option value="${p}" ${u.phase===p?'selected':''}>${p}</option>`).join('')}</select><button class="secondary edit-unit" data-edit="${i}" aria-label="Customise ${esc(e.name)}">Edit</button><button class="remove" data-remove="${i}" aria-label="Remove ${esc(e.name)}">×</button></div>`}).join('')||'<p class="hint">No cabinets. Add equipment above.</p>';
-  $('referenceLoad').textContent=num(r.referenceKW,1)+' kW';
-  $('designLoad').textContent=num(r.designVA/1000,1)+' kVA';
+  $('unitList').innerHTML=(project.units||[]).map((u,i)=>{const e=byId.get(u.equipment_id);if(!e)return `<div class="unit-row"><div>Missing: ${esc(u.equipment_id)}</div><div>—</div><div>—</div><div></div><span></span><button class="remove" data-remove="${i}" aria-label="Remove missing item">×</button></div>`;return `<div class="unit-row"><div class="unit-main"><strong data-user-content>${esc(e.name)}</strong><small data-user-content>${esc(e.drivers)}</small></div><div class="unit-value"><span class="mobile-column-label">${esc(t('Reference / unit'))}</span>${Number(e.reference_va).toFixed(0)} VA</div><div class="unit-value"><span class="mobile-column-label">${esc(t('Planning / unit'))}</span>${Number(e.design_va).toFixed(0)} VA</div><select aria-label="Phase for ${esc(e.name)}" data-phase="${i}">${PHASES.map(p=>`<option value="${p}" ${u.phase===p?'selected':''}>${p}</option>`).join('')}</select><button class="secondary edit-unit" data-edit="${i}" aria-label="Customise ${esc(e.name)}">Edit</button><button class="remove" data-remove="${i}" aria-label="Remove ${esc(e.name)}">×</button></div>`}).join('')||'<p class="hint">No cabinets. Add equipment above.</p>';
+  $('referenceLoad').textContent=num(r.averageKW,2)+' kW';
+  $('designLoad').textContent=num(r.designVA/1000,2)+' kVA';
   $('suggestedGenerator').textContent=r.suggestedKVA+' kVA';
   $('batteryCapacity').textContent=num(r.batteryNominalKWh,0)+' kWh';
   $('powerVerdict').className='verdict'+(r.generatorOK?'':' warn');
