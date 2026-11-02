@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-vx-v124",
+      "manufacturer_id": "funktion-one",
+      "model": "VX V124",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "verovx",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/v124/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2461fb46-840f-4be1-abcf-4f91aff7d8e2_Vero+VX+Nov_2022_+webHR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/3d67a2ec-e582-4db6-b4e7-225b65cfa577_F124-F1-TD%3DT0220-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/55d0aba0-d10e-4bad-9266-9fdecf108a16_F124-F1-2DM%3DT0222-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9e3fd306-e4ca-473c-b0c4-2a6acb28a857_Funktion-One_F124_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d07b1807-e73a-43ef-ad93-2349bc07ebe1_F124-F1-3DM%3DT0223-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fbf4eee3-bd14-4a51-883d-812095a7a6a8_F124-F1-DD%3DT0221-00.PDF",
+        "https://images.prismic.io/funktion-one/84198778-5290-407c-917d-90fb3fabd69e_F124-F1-WD%3DT0120-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Driver",
+          "value": "24\" dual voice coil",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Operating band",
+          "value": "20Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Power (AES)",
+          "value": "2 x 750W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "35Hz - 160Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "103kg (227lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-vx-v221",
+      "manufacturer_id": "funktion-one",
+      "model": "VX V221",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "verovx",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/v221/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/0aece5aa-b707-4fa1-a165-b2a69debe49a_F221-F1-3DM%3DT0219-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2461fb46-840f-4be1-abcf-4f91aff7d8e2_Vero+VX+Nov_2022_+webHR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/407c5ec9-9006-43f0-9123-c5d6d7095210_F221-F1-TD%3DT0216-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ac660d65-b425-43d4-bfda-9c1542e64d21_F221-F1-2DM%3DT0218-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b944a7e3-aad8-4552-a1ca-ab4415818b9e_Funktion-One_F221_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c2e40bae-3221-479d-b09f-7df26561898a_F221-F1-DD%3DT0217-00.pdf",
+        "https://images.prismic.io/funktion-one/3753139b-465e-42f1-8589-f86569e2d72d_F221-F1-WD%3DT0119-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 21\"",
+          "label": "Driver",
+          "value": "2 x 21\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 21\"",
+          "label": "Operating band",
+          "value": "20Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 21\"",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 21\"",
+          "label": "Power (AES)",
+          "value": "2 x 750W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 21\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "40Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "130kg (288lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-vx90",
+      "manufacturer_id": "funktion-one",
+      "model": "VX90",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "verovx",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/vx90/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/10706e5a-7613-40c5-8737-f450d1b75245_VX-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2461fb46-840f-4be1-abcf-4f91aff7d8e2_Vero+VX+Nov_2022_+webHR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/85382029-f3f3-4336-a934-81b4af038d0b_Funktion+One+Vero+VX90+v2.1.gll",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b232089e-ac7e-43de-a049-41c8cb4e8306_VX+Rigging+Manual_V1_32.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc25906c-1d9a-461b-b91c-12199f294282_Funktion-One_VX90_Spec_Sheet.pdf",
+        "https://images.prismic.io/funktion-one/2563de41-3b6b-47c3-82a1-a6e0d92d34ef_VX90-F1-WD%3DT0137-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/ZmCTLZm069VX1fRc_VX-DOLLY-F1-3DM%3DT0271-00.dwg?auto=format,compress?auto=compress,format",
+        "https://images.prismic.io/funktion-one/ZmCTWJm069VX1fRe_VX-DOLLY%2BDOK-F1-3DM%3DT0275-00.dwg?auto=format,compress?auto=compress,format",
+        "https://images.prismic.io/funktion-one/ZmCTfZm069VX1fRg_VX-FRAME-F1-3DM%3DT0267-00.dwg?auto=format,compress?auto=compress,format",
+        "https://images.prismic.io/funktion-one/ZmCTrpm069VX1fRs_VX-MBEAM-F1-3DM%3DT0259-00.dwg?auto=format,compress?auto=compress,format",
+        "https://images.prismic.io/funktion-one/ZmCTvZm069VX1fRu_VX-FBEAM-F1-3DM%3DT0263-00.dwg?auto=format,compress?auto=compress,format",
+        "https://images.prismic.io/funktion-one/Zp_DhR5LeNNTxbdm_GSB-VX-F1-3DM%3DT0249-00.dwg?auto=format,compress?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 12\"",
+          "label": "Driver",
+          "value": "2 x 12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 12\"",
+          "label": "Operating band",
+          "value": "45/85Hz - 280Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 12\"",
+          "label": "Power (AES)",
+          "value": "2 x 400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 12\"",
+          "label": "Nominal impedance",
+          "value": "2 x 16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1 x 8\"",
+          "label": "Driver",
+          "value": "1 x 8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1 x 8\"",
+          "label": "Operating band",
+          "value": "280Hz – 5kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1 x 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "107dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1 x 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1 x 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1 x 1\"",
+          "label": "Driver",
+          "value": "1 x 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1 x 1\"",
+          "label": "Operating band",
+          "value": "5kHz – 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1 x 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "109dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1 x 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1 x 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "70kg",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° Horizontal / 13° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NLT8MP",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

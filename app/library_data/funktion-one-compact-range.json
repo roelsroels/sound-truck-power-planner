@@ -1,0 +1,1001 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-f101-2",
+      "manufacturer_id": "funktion-one",
+      "model": "F101.2",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f101.2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/410d7ace-3db0-4216-a52e-64195da4d7b2_YK-F101-F1-AD%3DT0058-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/64a1ebe0-3451-4b43-9223-865bbaeccf13_WME100-101-F1-AD%3DT0061-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/85bd6170-a360-4340-988c-d9f56a82ae6b_F101.2-F1-3DM%3DT0049-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z6noK5bqstJ9-bFi_F101.2.IP-F1-DS%3DD0082-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ae1e3b7b-105e-4f9d-86a5-e3c1a8bd7d1b_Funktion-One+F101.2.gll",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3ac884f-0ba9-4ddd-acd0-978fcf603cb0_Funktion-One_F101.2_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/caa4c9d6-b0dd-480e-aa85-c23daa75dad3_F101.2-F1-TD%3DT0045-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e6221219-b7f1-4987-b5b9-80828e749670_F101.2-F1-DD%3DT0046-00.PDF",
+        "https://images.prismic.io/funktion-one/31cb3b6a-1ea0-4ba3-93f0-333ccb3e5c27_F101_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/481e7842-bc32-453d-8c6a-562d364b7777_F101.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/aW9W3gIvOtkhBuq2_F101.2-F1-2DM%3DT0048-01.dwg?auto=format,compress?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\" + 1\"",
+          "label": "Driver",
+          "value": "10\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\" + 1\"",
+          "label": "Operating band",
+          "value": "100Hz - 20kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\" + 1\"",
+          "label": "Power (AES)",
+          "value": "150W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "100Hz - 20kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "10kg (22lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° x 60°",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4 and 1 x Phoenix",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f1201-2",
+      "manufacturer_id": "funktion-one",
+      "model": "F1201.2",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f1201.2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/0686a877-1f2c-4910-9978-3800f6dfe5a5_WHHM100-1201-F1-AD%3DT0052-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/0e6146e3-e38f-47b3-9af7-c1a379fae6f1_Funktion-One_F1201_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/20c5293f-997d-4aeb-a6f6-be05c12f907c_F1201.2-F1-3DM%3DT0083-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2b03c9da-cd59-41f5-87ab-19d4c6022afa_F1201.2-F1-DD%3DT0081-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/87c0bfdd-1b9e-4366-9686-b5eb80cfcd9c_YK-F1201-F1-AD%3DT0051-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z6noWJbqstJ9-bFn_F1201.2IP-F1-DS%3DD0083-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Zw6QjoF3NbkBXeMA_F1201.2.gll",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a5f817ec-d4b1-4e46-af58-cc8e439c5b91_F1201.2-F1-TD%3DT0080-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e0d9dbe3-a096-403e-a5b1-cb2a11a74735_F1201.2-F1-2DM%3DF0082-00.dwg",
+        "https://images.prismic.io/funktion-one/2743a262-5235-419f-be2d-f0fd2d1aedec_F1201_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/f5d7728b-97ec-42d3-967c-18d1153ab851_F1201.2-F1-WD%3DT0084-00_1.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\" + 1\"",
+          "label": "Driver",
+          "value": "12\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\" + 1\"",
+          "label": "Operating band",
+          "value": "55/85Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\" + 1\"",
+          "label": "Power (AES)",
+          "value": "350W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "55Hz - 20kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "21kg (46.3lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° x 60°",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4 and 1 x Phoenix",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f5-2",
+      "manufacturer_id": "funktion-one",
+      "model": "F5.2",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f5.2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/34b5ba62-225a-471e-9472-fb62e6f76aa1_WMB-F5-F1-AD%3DT0059-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/39d3832c-9e60-4038-8242-81ab29855b50_F5.2-F1-TD%3DT0035-02.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4e1b26b7-3f0f-43af-91bf-f04350e7c134_YK-F5-F1-AD%3DT0056-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2Qh25bqstJ98rf__F5.2-F1-DS%3DD0014-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z6nnQ5bqstJ9-bE__F5.2IP-F1-DS%3DD0079-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZuBWDRoQrfVKl7Fz_F5.2-F1-3DM%3DT0038-01.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b1f6f507-7519-4913-86fe-e7851874219b_F5.2-F1-DD%3DT0036-02.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/feaeb95e-f5a7-4a2a-9aec-c6dcbd5b0589_F5.2-F1-2DM%3DT0037-01.dwg",
+        "https://images.prismic.io/funktion-one/Z2QB6ZbqstJ98q7G_F5.2-F1-WD%3DT0039-02.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 5”",
+          "label": "Driver",
+          "value": "5”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 5”",
+          "label": "Operating band",
+          "value": "150Hz - 13kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 5”",
+          "label": "Sensitivity at 1m",
+          "value": "90dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 5”",
+          "label": "Power (AES)",
+          "value": "30W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 5”",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "150Hz - 13kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "2.7kg (5.9lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Conical",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4 and 1 x Phoenix",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f55",
+      "manufacturer_id": "funktion-one",
+      "model": "F55",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f55/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/0b46db66-d84e-4afe-af2f-54b6fbd2e7c8_F55-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/18ca46ce-3d97-411b-823c-5aa0bf7a6a1d_Funktion-One_F55_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/3e7d90eb-3077-49f9-9cf1-5e19ea4eb53f_F55_EaseData.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/5e3d5a4c-8d64-4ea7-b4b8-b83e249b0407_F55+User+Guide+v1.1-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/837f9391-fcfb-448c-a4d7-469d631209ef_F55-A-3D-DWG_2106.dwg",
+        "https://images.prismic.io/funktion-one/da835bde-c223-4e05-bf2c-327656c2630a_F55-F1-WD%3DT0109-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/ffa72503-b6a5-40e6-bf34-b08e869f6d2c_F55_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 5\"",
+          "label": "Driver",
+          "value": "2 x 5\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 5\"",
+          "label": "Operating band",
+          "value": "160Hz - 13kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 5\"",
+          "label": "Sensitivity at 1m",
+          "value": "95dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 5\"",
+          "label": "Power (AES)",
+          "value": "60W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 5\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "160Hz - 13kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "3.5kg (7.5lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° x 45°",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4 or Phoenix",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f61",
+      "manufacturer_id": "funktion-one",
+      "model": "F61",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f61/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5Dn1pbqstJ99uzh_YK-F61-F1-AD%3DT0305-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DnnZbqstJ99uzK_F61-F1-TD%3DT0279-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DnppbqstJ99uzW_F61-F1-DD%3DT0280-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DnsJbqstJ99uzZ_F61-F1-2DM%3DT0281-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DnuZbqstJ99uzc_F61-F1-3DM%3DT0282-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DnxpbqstJ99uzf_WMS50-61-F1-AD%3DT0304-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aBTvcvIqRLdaB1GT_F61-F1-DS%3DD0074-02.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aBTw6PIqRLdaB1Gh_F61IP-F1-DS%3DD0080-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aC3nGSdWJ-7kSZ0i_Funktion-OneF61.gll",
+        "https://images.prismic.io/funktion-one/Z5DlxpbqstJ99uyP_F61-F1-WD%3DT0283-00.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 6\" + 1\"",
+          "label": "Driver",
+          "value": "6\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 6\" + 1\"",
+          "label": "Operating band",
+          "value": "100Hz - 20kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 6\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "92dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 6\" + 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 6\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "100Hz - 20kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "5.25kg (11.5lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° x 60°",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4 and 1 x Phoenix",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f81-2",
+      "manufacturer_id": "funktion-one",
+      "model": "F81.2",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f81.2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/27a655da-d019-4576-9f12-bc93ad2f8c1e_F81.2-F1-DD%3DT0041-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/3e5e9906-5342-4052-abd6-c66bc6a4d7ed_WMS50-81-F1-AD%3DT0060-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/421368ce-54b4-4eaf-8ce5-7fac40dd37e2_Funktion-One+F81.2.gll",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4a5755ff-11b1-4420-a63d-956a75bcfda0_F81.2-F1-TD%3DT0040-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8dbfecbc-1a18-4100-89c9-9618faf04225_F81.2-F1-2DM%3DT0043-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z6nn9pbqstJ9-bFf_F81.2IP-F1-DS%3DD0081-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c09e0b53-9f15-445b-8307-8ea255878dd3_F81.2_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/cc282400-9530-470e-92bf-211115df6871_F81.2-F1-3DM%3DT0044-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e5671d2b-adda-4fb2-947b-70a249dff8c1_YK-F81-F1-AD%3DT0057-01.PDF",
+        "https://images.prismic.io/funktion-one/25285d81-bd7f-4683-bc51-d36fa8afcf0f_F81.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/b7f358ca-4ae3-484b-986c-76bf791abbc1_F81_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 8\" + 1\"",
+          "label": "Driver",
+          "value": "8\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 8\" + 1\"",
+          "label": "Operating band",
+          "value": "100Hz - 20kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 8\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "98dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 8\" + 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 8\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "100Hz - 20kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "5kg (11.5lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° x 60°",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4 and 1 x Phoenix",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-sb10",
+      "manufacturer_id": "funktion-one",
+      "model": "SB10",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/sb10-compact-range/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/6063ab52-6285-449a-9f71-0b793fa910ba_SB10-F1-2DM%3DT0077-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6335275d-96ea-4132-b35f-e629ef4ed60a_SB10A-F1-TD%3DT0148-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8846a8f8-dde4-45ad-86b0-5f980b621a80_SB10A-F1-DS%3DD0066-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9d02c023-26c4-4077-9aea-c76b22b1d5bd_SB10-F1-TD%3DT0075-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XkIpbqstJ97yLu_SB10-F1-3DM%3DT0078-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z6nou5bqstJ9-bF8_SB10IP-F1-DS%3DD0084-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZiZ0KvPdc1huKraO_SB10-F1-DS%3DD0021-02.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Zv6dWbVsGrYSwVqO_SB8A_SB10A_User_Guide_V1.2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d98950a3-c3c1-4c64-87f6-cfbfea43259f_SB10-F1-DD%3DT0076-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e443f0a4-afcb-4657-8690-beb90ca03d8e_SB10A-F1-DD%3DT0149-00.pdf",
+        "https://images.prismic.io/funktion-one/46e1cf1f-20e5-48e2-a479-ff4d3d53329c_SB10-F1-WD%3DT0079-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10”",
+          "label": "Driver",
+          "value": "10”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10”",
+          "label": "Operating band",
+          "value": "40Hz - 130Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10”",
+          "label": "Sensitivity at 1m",
+          "value": "98dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10”",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10”",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "45Hz - 300Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "19kg (42lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-sb10a",
+      "manufacturer_id": "funktion-one",
+      "model": "SB10A",
+      "variant": "",
+      "kind": "active_cabinet",
+      "category": "compact-range",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/sb10-compact-range/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/6063ab52-6285-449a-9f71-0b793fa910ba_SB10-F1-2DM%3DT0077-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6335275d-96ea-4132-b35f-e629ef4ed60a_SB10A-F1-TD%3DT0148-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8846a8f8-dde4-45ad-86b0-5f980b621a80_SB10A-F1-DS%3DD0066-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9d02c023-26c4-4077-9aea-c76b22b1d5bd_SB10-F1-TD%3DT0075-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XkIpbqstJ97yLu_SB10-F1-3DM%3DT0078-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z6nou5bqstJ9-bF8_SB10IP-F1-DS%3DD0084-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZiZ0KvPdc1huKraO_SB10-F1-DS%3DD0021-02.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Zv6dWbVsGrYSwVqO_SB8A_SB10A_User_Guide_V1.2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d98950a3-c3c1-4c64-87f6-cfbfea43259f_SB10-F1-DD%3DT0076-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e443f0a4-afcb-4657-8690-beb90ca03d8e_SB10A-F1-DD%3DT0149-00.pdf",
+        "https://images.prismic.io/funktion-one/46e1cf1f-20e5-48e2-a479-ff4d3d53329c_SB10-F1-WD%3DT0079-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "variant.channels",
+          "section": "Powered variant",
+          "label": "Amplifier channels",
+          "value": "3; satellite outputs",
+          "notes": ""
+        },
+        {
+          "key": "variant.supply",
+          "section": "Powered variant",
+          "label": "Power supply",
+          "value": "100–240V universal",
+          "notes": "Consumption is not published as VA."
+        },
+        {
+          "key": "variant.path",
+          "section": "Powered variant",
+          "label": "Signal path",
+          "value": "Analogue",
+          "notes": "Passive cabinet weight/connectors have not been copied to the powered variant."
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-sb12",
+      "manufacturer_id": "funktion-one",
+      "model": "SB12",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/sb12-compact-range/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5py1JbqstJ9-Ale_SB12-F1-2DM%3DT0308-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5py3JbqstJ9-Alf_SB12-F1-3DM%3DT0309-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5pyxJbqstJ9-Alb_SB12-F1-TD%3DT0306-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5pyzJbqstJ9-Ald_SB12-F1-DD%3DT0307-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aWToPwIvOtkhBTtK_SB12-F1-DS%3DD0077-05.pdf",
+        "https://images.prismic.io/funktion-one/Z5DnGpbqstJ99uyu_SB12-F1-WD%3DT0310-00_1.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12”",
+          "label": "Driver",
+          "value": "12”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12”",
+          "label": "Operating band",
+          "value": "35Hz - 150Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12”",
+          "label": "Sensitivity at 1m",
+          "value": "97dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12”",
+          "label": "Power (AES)",
+          "value": "350W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12”",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "42Hz - 150Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "28kg (62lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-sb212lp",
+      "manufacturer_id": "funktion-one",
+      "model": "SB212LP",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/sb212lp-compact-range/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DpFpbqstJ99u0E_SB212LP-F1-TD%3DT0226-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DpH5bqstJ99u0K_SB212LP-F1-DD%3DT0227-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DpJpbqstJ99u0P_SB212LP-F1-2DM%3DT0228-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5DpLpbqstJ99u0S_SB212LP-F1-3DM%3DT0229-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5pyB5bqstJ9-AlE_SB212LP-F1-DS%3DD0073-02.pdf",
+        "https://images.prismic.io/funktion-one/Z5DnRpbqstJ99uyz_SB212LP-F1-WD%3DT0230-00_1.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12”",
+          "label": "Driver",
+          "value": "12”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12”",
+          "label": "Operating band",
+          "value": "32Hz - 150Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12”",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12”",
+          "label": "Power (AES)",
+          "value": "700W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12”",
+          "label": "Nominal impedance",
+          "value": "4Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "32Hz - 300Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "50kg (110lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-sb8",
+      "manufacturer_id": "funktion-one",
+      "model": "SB8",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "compact-range",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/sb8-compact-range/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/24c34440-ede3-4a66-b09c-0bf08bfb2a77_SB8A-F1-DD%3DT0147-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/46a4e4d3-697f-48aa-88ff-e656c532a379_SB8-F1-DS%3DD0020-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4bb729b1-bcfc-46ae-b789-39dec69eb229_SB8-F1-DD%3DT0071-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6ebaea9e-7f04-471d-b42e-7b80ddfb87f1_SB8A-F1-TD%3DT0146-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/700dd7c1-1fe5-43a7-bc59-f49169612e7c_SB8A-F1-DS%3DD0065-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9511215d-1376-49c9-b1b9-95ee997dd8fe_SB8-F1-TD%3DT0070-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XkRJbqstJ97yL4_SB8-F1-3DM%3DT0073-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Zv6dWbVsGrYSwVqO_SB8A_SB10A_User_Guide_V1.2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d960ee50-a458-40b8-b9ae-804b6ba798c1_SB8-F1-2DM%3DT0072-00.dwg",
+        "https://images.prismic.io/funktion-one/4194661e-8e22-4191-9510-e8eb9ef5b7cd_SB8-F1-WD%3DT0074-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 8”",
+          "label": "Driver",
+          "value": "8”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 8”",
+          "label": "Operating band",
+          "value": "50Hz - 300Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 8”",
+          "label": "Sensitivity at 1m",
+          "value": "95dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 8”",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 8”",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50Hz - 300Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "14kg (38.8lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-sb8a",
+      "manufacturer_id": "funktion-one",
+      "model": "SB8A",
+      "variant": "",
+      "kind": "active_cabinet",
+      "category": "compact-range",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/sb8-compact-range/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/24c34440-ede3-4a66-b09c-0bf08bfb2a77_SB8A-F1-DD%3DT0147-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/46a4e4d3-697f-48aa-88ff-e656c532a379_SB8-F1-DS%3DD0020-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4bb729b1-bcfc-46ae-b789-39dec69eb229_SB8-F1-DD%3DT0071-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6ebaea9e-7f04-471d-b42e-7b80ddfb87f1_SB8A-F1-TD%3DT0146-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/700dd7c1-1fe5-43a7-bc59-f49169612e7c_SB8A-F1-DS%3DD0065-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9511215d-1376-49c9-b1b9-95ee997dd8fe_SB8-F1-TD%3DT0070-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XkRJbqstJ97yL4_SB8-F1-3DM%3DT0073-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Zv6dWbVsGrYSwVqO_SB8A_SB10A_User_Guide_V1.2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d960ee50-a458-40b8-b9ae-804b6ba798c1_SB8-F1-2DM%3DT0072-00.dwg",
+        "https://images.prismic.io/funktion-one/4194661e-8e22-4191-9510-e8eb9ef5b7cd_SB8-F1-WD%3DT0074-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "variant.channels",
+          "section": "Powered variant",
+          "label": "Amplifier channels",
+          "value": "3; satellite outputs",
+          "notes": ""
+        },
+        {
+          "key": "variant.supply",
+          "section": "Powered variant",
+          "label": "Power supply",
+          "value": "100–240V universal",
+          "notes": "Consumption is not published as VA."
+        },
+        {
+          "key": "variant.path",
+          "section": "Powered variant",
+          "label": "Signal path",
+          "value": "Analogue",
+          "notes": "Passive cabinet weight/connectors have not been copied to the powered variant."
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

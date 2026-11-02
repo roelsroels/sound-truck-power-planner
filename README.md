@@ -180,7 +180,7 @@ does not rebuild the application image.
 
 ## Manufacturer product library
 
-Browse sourced B&C and Powersoft product/impedance variants from the equipment
+Browse sourced B&C, Powersoft and Funktion-One product/model variants from the equipment
 inventory. Inspect published specifications and documents, then combine components
 into one profile per AC-fed amplifier/active cabinet. Passive driver ratings never
 become mains consumption. Basic keeps the normal quantity workflow; Advanced also

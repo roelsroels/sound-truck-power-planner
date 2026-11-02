@@ -1,0 +1,1161 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-bfp-e2",
+      "manufacturer_id": "funktion-one",
+      "model": "BFP-E2",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/bfp-e2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiAyJAeQX7-eWqYF_BFP-E2-F1-AD%3DT0252-02.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Butterfly plate for 1x or 2x Evo 2",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-2, evo2l",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-cfpk-2e67",
+      "manufacturer_id": "funktion-one",
+      "model": "CFPK-2E67",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/cfpk-2e67/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA2AQeQX7-eWqb-_CFPK-2E67-F1-AD%3DT0068-02.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Installation flyplate kit for 2x Evo 6E or Evo 7E",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-6e, evo-7e",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-cfpk-2e67l",
+      "manufacturer_id": "funktion-one",
+      "model": "CFPK-2E67L",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/cfpk-2e67l/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA02AeQX7-eWqbR_CFPK-2E67L-F1-AD%3DT0069-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Installation flyplate kit for 2x Evo 6/7E & Evo 6/7EL",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-6e, evo-6el, evo-7e, evo-7el1",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-fc-2e2",
+      "manufacturer_id": "funktion-one",
+      "model": "FC-2E2",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/fc-2e2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiFRkgeQX7-eWucT_FC-2E2-F1-AD%3DT0333-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Flight case for 2x Evo 2",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-2",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-fc-2psm15",
+      "manufacturer_id": "funktion-one",
+      "model": "FC-2PSM15",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/fc-2psm15/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiBBZweQX7-eWqnO_FC-2PSM15-F1-AD%3DT0324-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Flight case for two PSM15",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "psm15",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-gk-e2",
+      "manufacturer_id": "funktion-one",
+      "model": "GK-E2",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/gk-e2/",
+      "datasheet_urls": [],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Grille kit for Evo 2",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-2",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-gk-e6",
+      "manufacturer_id": "funktion-one",
+      "model": "GK-E6",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/gk-e6/",
+      "datasheet_urls": [],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Grille kit for Evo 6E",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-6e",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-gk-e6h",
+      "manufacturer_id": "funktion-one",
+      "model": "GK-E6H",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/gk-e6h/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA7TweQX7-eWqhj_GK-E67H-F1-AD%3DT0009-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Grille kit for Evo 6EH",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-6eh",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-gk-e7",
+      "manufacturer_id": "funktion-one",
+      "model": "GK-E7",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/gk-e7/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA8pweQX7-eWqi5_GK-E7-F1-AD%3DT0019-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Grille kit for Evo 7E, 7T & 7TL",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-7e, evo-7t, evo-7tl-215",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-gk-e7h",
+      "manufacturer_id": "funktion-one",
+      "model": "GK-E7H",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/gk-e7h/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA7TweQX7-eWqhj_GK-E67H-F1-AD%3DT0009-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Grille kit for Evo 7EH & 7TH",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-7th, evo-7eh1",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-gk-ex",
+      "manufacturer_id": "funktion-one",
+      "model": "GK-EX",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/gk-ex/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA9nQeQX7-eWqjy_GK-EX-F1-AD%3DT0008-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Grille kit for Evolution X",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evolution-x",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-gsb-vx",
+      "manufacturer_id": "funktion-one",
+      "model": "GSB-VX",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/gsb-vx/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA0RQeQX7-eWqaz_GSB-VX-F1-AD%3DT0246-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Ground stack board for 4x VX90",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "vx90, v221, v124, f218-mk2, f121",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-sta-2m8",
+      "manufacturer_id": "funktion-one",
+      "model": "STA-2M8",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/sta-2m8/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiBEwQeQX7-eWqpo_STA-2M8-F1-AD%3DT0327-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Stand top adaptor for PSM15 on 35mm speaker pole, includes fixings.",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "psm15",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-stc-200-bfp",
+      "manufacturer_id": "funktion-one",
+      "model": "STC-200-BFP",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/stc-200-bfp/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiBGyQeQX7-eWqrV_STC-200-BFP-F1-AD%3DT0319-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Swivel Truss Clamp for BFP-E2",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-2",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-tsfk-2e7",
+      "manufacturer_id": "funktion-one",
+      "model": "TSFK-2E7",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/tsfk-2e7/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA2eQeQX7-eWqca_TSFK-2E7-F1-AD%3DT0162-00.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Touring flying kit for 2-wide Evo 7T arrays",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-7t, evo-7th, evo-7tl-215",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-tsfk-3e7",
+      "manufacturer_id": "funktion-one",
+      "model": "TSFK-3E7",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/tsfk-3e7/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA2uQeQX7-eWqdb_TSFK-3E7-F1-AD%3DT0163-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Touring flying kit for 3-wide Evo 7T arrays",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-7t, evo-7th, evo-7tl-215",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-wb-e2",
+      "manufacturer_id": "funktion-one",
+      "model": "WB-E2",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/wb-e2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA-RAeQX7-eWqkC_WB-E2-F1-AD%3DT0276-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Wheel board for Evo 2",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-2",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-wb-e2l",
+      "manufacturer_id": "funktion-one",
+      "model": "WB-E2L",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/wb-e2l/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/8JCNA-DPH19o9a3y_WB-E2L-F1-AD%3DT0332-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Wheel board for 2x Evo 2L",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo2l",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-wb-e67",
+      "manufacturer_id": "funktion-one",
+      "model": "WB-E67",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/wb-e67/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA37geQX7-eWqez_WB-E67-F1-AD%3DT0017-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Evo 6/7 Full Size Wheel Board",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-6e, evo-7e, evo-7t, evo-7tl-215, evo-6el, evo-7el1",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-wb-e67h",
+      "manufacturer_id": "funktion-one",
+      "model": "WB-E67H",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/wb-e67h/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA4TAeQX7-eWqfU_WB-E67H-F1-AD%3DT0010-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Wheel board for Evo 6EH, 7EH & 7TH",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-7th, evo-7eh1, evo-6eh",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-wb-ex",
+      "manufacturer_id": "funktion-one",
+      "model": "WB-EX",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/wb-ex/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA9cAeQX7-eWqju_WB-EX-F1-AD%3DT0007-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Wheel board for Evolution X",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evolution-x",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-whhm100-1201",
+      "manufacturer_id": "funktion-one",
+      "model": "WHHM100-1201",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/whhm100-1201/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA_AweQX7-eWqk6_WHHM100-1201-F1-AD%3DT0052-00.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Wall mount bracket for F1201.2",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "f1201.2",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-wmb-f5",
+      "manufacturer_id": "funktion-one",
+      "model": "WMB-F5",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/wmb-f5/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA_ZgeQX7-eWqli_WMB-F5-F1-AD%3DT0059-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Wall mount bracket for F5.2 & F5",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "f5.2, f5_mk1",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-wme100",
+      "manufacturer_id": "funktion-one",
+      "model": "WME100",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/wme100/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiAybweQX7-eWqYU_WME100-101-F1-AD%3DT0061-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Wall mount bracket for F101.2, F101, F1201 & F88",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "f101.2, f101-mk1, f1201, f88",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-wms50",
+      "manufacturer_id": "funktion-one",
+      "model": "WMS50",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/wms50/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiAy0QeQX7-eWqYx_WMS50-61-F1-AD%3DT0304-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiAy7geQX7-eWqYz_WMS50-81-F1-AD%3DT0060-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Wall mount bracket for F61, F81.2 & F81",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "f61, f81.2, f81-1",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-f101",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-F101",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-f101/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiBAGQeQX7-eWqmD_YK-F101-F1-AD%3DT0058-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke bracket kit for F101.2 & F101",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "f101.2, f101-mk1",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-f1201",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-F1201",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-f1201/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA_uweQX7-eWqlx_YK-F1201-F1-AD%3DT0051-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke bracket kit for F1201.2 & F1201",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "f1201.2, f1201",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-f5",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-F5",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-f5/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiBAqgeQX7-eWqm1_YK-F5-F1-AD%3DT0056-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke bracket kit for F5.2 & F5",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "f5_mk1, f5.2",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-f81",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-F81",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-f81/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiBAbQeQX7-eWqme_YK-F81-F1-AD%3DT0057-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke bracket kit for F81.2 & F81",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "f81.2, f81-1",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-se-x",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-SE-X",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-se-x/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiAzyAeQX7-eWqaB_YK-SE-X-F1-AD%3DT0006-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke kit for Evolution X",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evolution-x",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-se6",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-SE6",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-se6/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA3cQeQX7-eWqei_YK-SE6-F1-AD%3DT0016-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke kit for Evo 6E (suspension only)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-6e",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-se6h",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-SE6H",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-se6h/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA1UweQX7-eWqbk_YK-SE6H-F1-AD%3DT0053-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke kit for Evo 6EH (suspension only)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-6eh",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-se7",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-SE7",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-se7/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA3IgeQX7-eWqd3_YK-SE7-F1-AD%3DT0067-01.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke kit for Evo 7E (suspension only)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-7e",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-se7h",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-SE7H",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-se7h/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiA1gweQX7-eWqbq_YK-SE7H-F1-AD%3DT0054-01.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Yoke kit for Evo 7EH (suspension only)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "evo-7eh1",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-spsm15",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-SPSM15",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-spsm15/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiBCPgeQX7-eWqn-_YK-SPSM15-F1-AD%3DT0325-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Simple Yoke bracket kit for PSM15",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "psm15",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-yk-upsm15",
+      "manufacturer_id": "funktion-one",
+      "model": "YK-UPSM15",
+      "variant": "",
+      "kind": "accessory",
+      "category": "accessories",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/accessories/yk-upsm15/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aiBB1AeQX7-eWqne_YK-UPSM15-F1-AD%3DT0326-00.PDF"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Accessory",
+          "label": "Application / compatibility",
+          "value": "Universal Yoke bracket kit for PSM15",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Accessory",
+          "label": "Compatible products",
+          "value": "psm15",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

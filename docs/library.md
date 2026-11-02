@@ -8,7 +8,8 @@ fields, test-condition notes, and available PDF links. Images, PDF files and
 marketing descriptions are not redistributed.
 
 The bundled snapshot contains B&C's current and archived component listings and
-Powersoft's published amplifier/transducer listings. Specifications mean the
+Powersoft's published amplifier/transducer listings, and Funktion-One's current
+ranges, Heritage archive, electronics and hardware accessories. Specifications mean the
 fields published on those product pages: they are not a claim that every figure
 from every PDF has been transcribed or independently verified. Consult the linked
 original datasheets, including revision-specific conditions, before engineering a
@@ -42,7 +43,7 @@ weight is not silently used as the weight of the completed cabinet.
 ## Another manufacturer, including complete cabinets
 
 There is no manufacturer allowlist in the schema or frontend. For example,
-Funktion-One can be imported as `passive_cabinet` or `active_cabinet`, rather than
+Complete speakers are imported as `passive_cabinet` or `active_cabinet`, rather than
 pretending complete cabinets are raw drivers. Impedance options need separate
 product IDs. Use `specs` for any additional technical fields: adding a manufacturer
 or a new specification does not require UI/database migrations.
@@ -111,8 +112,8 @@ From a development checkout with network access:
 python scripts/import_manufacturers.py --cache work/manufacturer-cache --output app/library_data
 ```
 
-The importer uses only Python's standard library, fetches from the two official
-hosts, caches pages, limits concurrency, retries transient failures, and fails if
+The importer uses only Python's standard library, fetches from the official manufacturer
+hosts and Funktion-One’s public Prismic CMS, caches pages, limits concurrency, retries transient failures, and fails if
 page structures no longer match. Use an empty cache for a fresh snapshot. A cached
 page retains its original retrieval date. Review changed counts, variants, sources
 and specifications before committing; an importer is not independent verification.
@@ -120,3 +121,40 @@ Additional manufacturers can supply the neutral JSON format directly or have a
 new offline adapter added here. No scraper runs during normal app use.
 
 Shared administration and processing budgets are documented in [security controls](security.md).
+
+### Funktion-One snapshot
+
+The 2026-11-02 snapshot covers all 150 unique hardware page listings discovered
+from the official ranges, including the Heritage archive and accessories index.
+Five repeated speaker listings are merged with their alternate sources retained.
+Model-specific D/F/E amplifier tables and the explicitly documented SB8A/SB10A
+powered variants bring the snapshot to 162 selectable model/variant records,
+including 40 archived products. Software downloads are not hardware components.
+
+Refresh just this manufacturer with:
+
+```sh
+python scripts/import_manufacturers.py --manufacturer funktion-one --cache work/manufacturer-cache
+```
+
+Funktion-One's public structured CMS records supply the technical tables, cabinet
+figures, electronics specification lists, technical conditions and document URLs.
+This also recovers the published data behind empty/broken dotted-model page links.
+No CMS credentials are needed; only the published master reference is used.
+The public application does not contact the CMS or scrape manufacturer pages.
+
+Audio-output tables published only as images are transcribed in
+`scripts/funktion_one_supplements.json`, with source URLs and measurement conditions.
+Re-review these facts on a refresh; a changed source-image URL stops the import.
+Image-only technical tables/drawings remain linked as source documents; images and
+PDFs are not redistributed or exhaustively transcribed. A source page may contain
+conflicting figures or apply family-wide conditions: these remain labelled rather
+than being silently normalised. DSP-only family properties do not describe a
+non-DSP model. Published maximum mains current or suggested circuit-breaker values
+are retained as specifications, never converted into reference/planning VA.
+
+SB8/SB10 are passive; optional SB8A/SB10A are separate powered entries. Descriptions
+mentioning a powered companion do not turn F61/F5.2 or passive bass cabinets into
+mains loads. The powered entries retain only explicitly variant-specific facts;
+passive weights/connectors are not copied over. Supply VA and power factor remain
+unknown until documented for the actual complete AC-fed assembly.

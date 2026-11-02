@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-br115",
+      "manufacturer_id": "funktion-one",
+      "model": "BR115",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/br115/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/0ba39a7a-f231-46b9-b245-d6144f73db68_BR115-F1-2DM%3DT0166-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6d05d4b7-10da-490e-aaeb-c09e1aaa81b1_BR115-F1-DD%3DT0165-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e599794d-7122-48a6-b137-258726c4a63d_Funktion-One_BR115_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/eb4ffd85-4eea-4d40-bbba-b73c1ec82b66_BR115-F1-TD%3DT0164-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ffdaed58-530b-498c-88e2-e93fd965b87a_BR115-F1-3DM%3DT0167-00.dwg",
+        "https://images.prismic.io/funktion-one/d34121c0-76a9-4549-84bf-4dd8c72436ee_BR115-F1-WD%3DT0121-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15”",
+          "label": "Driver",
+          "value": "15”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15”",
+          "label": "Operating band",
+          "value": "45Hz - 100Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15”",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15”",
+          "label": "Power (AES)",
+          "value": "500W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15”",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "55Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "33kg (73lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-br118-2",
+      "manufacturer_id": "funktion-one",
+      "model": "BR118.2",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/br118.2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5on1JbqstJ99_ar_BR118.2-F1-DD%3DT0285-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5onypbqstJ99_an_BR118.2-F1-TD%3DT0284-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5pyp5bqstJ9-AlY_BR118.2-F1-DS%3DD0072-02.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z6nokpbqstJ9-bFs_BR118.2IP-F1-DS%3DD0085-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z_fVsuvxEdbNO2vY_BR118.2-F1-3DM%3DT0287-01.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z_faYevxEdbNO20-_BR118.2-F1-2DM%3DT0286-01.dwg",
+        "https://images.prismic.io/funktion-one/Z5Dm45bqstJ99uym_BR118.2-F1-WD%3DT0288-00_1.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 18”",
+          "label": "Driver",
+          "value": "18”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 18”",
+          "label": "Operating band",
+          "value": "35Hz - 100Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 18”",
+          "label": "Sensitivity at 1m",
+          "value": "101dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 18”",
+          "label": "Power (AES)",
+          "value": "550W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 18”",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "45Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "43kg (95lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-br121",
+      "manufacturer_id": "funktion-one",
+      "model": "BR121",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/br121/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/0e3582e8-c7d4-491e-85d4-3d04e5bd9427_BR121-F1-2DM%3DT0174-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/32d62d89-e6f6-42c4-8de4-8c0805851d76_BR121-F1-TD%3DT0172-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8774ab22-8a4e-45c2-bf00-a277aa329f24_BR121-F1-DD%3DT0173-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8d182a10-ec99-4184-9079-e4027a0f77c4_Funktion-One_BR121_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fed8f6bb-53ee-426e-9a01-003d0cc7e90d_BR121-F1-3DM%3DT0175-00.dwg",
+        "https://images.prismic.io/funktion-one/ef6f923e-f176-478e-ad73-2b95b2d545dd_BR121-F1-WD%3DT0124-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 21\"",
+          "label": "Driver",
+          "value": "21\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 21\"",
+          "label": "Operating band",
+          "value": "25Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 21\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 21\"",
+          "label": "Power (AES)",
+          "value": "650W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 21\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "40Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "66kg (146lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-br132",
+      "manufacturer_id": "funktion-one",
+      "model": "BR132",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/br132/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/43db8eb5-ceaa-4346-ba2e-4ad611301439_BR132A_2017.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d2c37fab-6c8a-4918-af6b-c7e3428a9d50_BR132-A-3D-DWG_2106.dwg",
+        "https://images.prismic.io/funktion-one/aee33a78-a592-4d61-8812-0bb8ab99dbd1_BR132_techical.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Documentation",
+          "label": "Technical data",
+          "value": "See the linked official technical tables and documents; no tabulated text values are published.",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-br218",
+      "manufacturer_id": "funktion-one",
+      "model": "BR218",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/br218/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/7c60b736-f783-4eff-a098-6e3ebbf969ba_BR218-F1-2DM%3DT0178-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ae5c4153-b9a1-4676-bc78-da93163ecfa7_BR218-F1-DD%3DT0177-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b9ac374f-9808-45f5-8386-fed62b205d67_Funktion-One_BR218_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ca1c7c0a-b7bc-473e-8f56-7bbcbce620c7_BR218-F1-TD%3DT0176-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e62a0900-5fb5-440c-8537-a01387e5d226_BR218-F1-3DM%3DT0179-00.dwg",
+        "https://images.prismic.io/funktion-one/0e6d43ab-3183-47d3-aade-7bb15fc1d37d_BR218_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/412d0a50-ab77-4f9b-a7c7-720cf019d00b_BR218-F1-WD%3DT0123-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 18\"",
+          "label": "Driver",
+          "value": "2 x 18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 18\"",
+          "label": "Operating band",
+          "value": "35Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 18\"",
+          "label": "Power (AES)",
+          "value": "2 x 550W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 18\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "45Hz - 125Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "70kg (152lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-br221",
+      "manufacturer_id": "funktion-one",
+      "model": "BR221",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/br221/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2ef922f5-67b7-4671-9e98-a6892feb27bc_BR221-F1-2DM%3DT0182-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/365d96a7-0e04-4ea2-9760-6ab86f0161e0_Funktion-One_BR221_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a99a3c15-ecf2-413c-9009-028c1a21a870_BR221-F1-TD%3DT0180-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/bbb5e8f4-bb0a-4815-b404-92d2ca81ab4c_BR221-F1-3DM%3DT0183-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f01aa94f-a221-4d47-a26c-43b726e66f3e_BR221-F1-DD%3DT0181-00.pdf",
+        "https://images.prismic.io/funktion-one/40f00806-4cd0-49a6-9d63-d6116bec1c7a_BR221_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/640b8dc8-5f97-40d1-bb7e-65e52a57eda2_BR221-F1-WD%3DT0125-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 21”",
+          "label": "Driver",
+          "value": "2 x 21”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 21”",
+          "label": "Operating band",
+          "value": "25Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 21”",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 21”",
+          "label": "Power (AES)",
+          "value": "2 x 650W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 21”",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "32Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "120kg (265lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

@@ -1,0 +1,2077 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-evo-2",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 2",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/7ff2203f-0621-4271-8a18-5f0f9cd0207e_Evo2-F1-2DM%3DT0233-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0Ryoq8jQArT1RYm_Evo2-F1-DS%3DD0069-02.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XreZbqstJ97yRC_Evo2-F1-3DM%3DT0234-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VQBJbqstJ98uhw_Evo2-F1-DD%3DT0232-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Znrq4pbWFbowe2PV_WB-E2-F1-AD%3DT0276-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZnrqjpbWFbowe2PG_Evo2-F1-TD%3DT0231-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Znrqw5bWFbowe2PQ_BFP-E2-F1-AD%3DT0252-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZuL1cbVsGrYSvTJh_Funktion-OneEvo2v1.0.gll",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aF0g3nfc4bHWivrP_Evo2UserGuideV2.0.pdf",
+        "https://images.prismic.io/funktion-one/65c21755615e73009ec4540c_Evo2-F1-WD=T0235-00.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "60/85Hz - 280Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "600W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\" (Tri-amp)",
+          "label": "Driver",
+          "value": "8\" (Tri-amp)",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\" (Tri-amp)",
+          "label": "Operating band",
+          "value": "280Hz - 5kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\" (Tri-amp)",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\" (Tri-amp)",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\" (Tri-amp)",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1\" (Tri-amp)",
+          "label": "Driver",
+          "value": "1\" (Tri-amp)",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1\" (Tri-amp)",
+          "label": "Operating band",
+          "value": "5kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1\" (Tri-amp)",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1\" (Tri-amp)",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1\" (Tri-amp)",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Driver 8\" + 1\" (Bi-amp)",
+          "label": "Driver",
+          "value": "8\" + 1\" (Bi-amp)",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Driver 8\" + 1\" (Bi-amp)",
+          "label": "Operating band",
+          "value": "280Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Driver 8\" + 1\" (Bi-amp)",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Driver 8\" + 1\" (Bi-amp)",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.19",
+          "section": "Driver 8\" + 1\" (Bi-amp)",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.20",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "85Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.21",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "36kg (80lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.22",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.23",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8 (triamp) or NL4 (biamp) option",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-2l",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 2L",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo2l/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/SSWfjNumvnxlCeQ9_Evo2L-F1-TD%3DT0294-02.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/UliSbmVfRN7yEDbW_Evo2L-F1-DD%3DT0295-02.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5ondJbqstJ99_aI_Evo2L-F1-3DM%3DT0297-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Znrqw5bWFbowe2PQ_BFP-E2-F1-AD%3DT0252-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aF0g3nfc4bHWivrP_Evo2UserGuideV2.0.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ad-KnZ1ZCF7ETNuk_Evo2L-F1-DS%3DD0075-02.pdf",
+        "https://images.prismic.io/funktion-one/EM951KBYpUxnK__4_Evo2L-F1-WD%3DT0298-02.png?auto=format,compress",
+        "https://images.prismic.io/funktion-one/wJI2-g3U9VIf2Clw_Evo2L-F1-2DM%3DT0296-01.dwg?auto=format,compress?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "60/85Hz - 280Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "600W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "85Hz - 280Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "21kg (46lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8 or NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-2sh",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 2SH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo2sh/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5onB5bqstJ99_Zy_Evo2SH-F1-TD%3DT0289-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5onDpbqstJ99_Zz_Evo2SH-F1-DD%3DT0290-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5onF5bqstJ99_Z1_Evo2SH-F1-2DM%3DT0291-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5onH5bqstJ99_Z2_Evo2SH-F1-3DM%3DT0292-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z5pyW5bqstJ9-AlP_Evo2SH-F1-DS%3DD0076-01.pdf",
+        "https://images.prismic.io/funktion-one/Z5DmqJbqstJ99uyh_Evo2SH-F1-WD%3DT0296-00_1.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 8\" + 1\"",
+          "label": "Driver",
+          "value": "8\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 8\" + 1\"",
+          "label": "Operating band",
+          "value": "280Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 8\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 8\" + 1\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 8\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "280Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "10kg (22lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        },
+        {
+          "key": "range.public-address",
+          "section": "Range listings",
+          "label": "Also listed in",
+          "value": "public-address",
+          "notes": "https://funktion-one.com/product/evo2shpa/"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-6e",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 6E",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-6e/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1f33711c-e7b2-41c7-95d2-df54911a66cf_YK-SE6-F1-AD%3DT0016-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2a0e358f-788c-42d1-90f4-bcd0ee0a5b1f_New+Ground+Stack+Straps-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/3c215aa9-5259-4277-9fba-3cd48f64f544_Funktion-One_Evo6E_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/77544d54-54a2-4389-9663-63a55da7f7c3_EVO6_3-way_PRELIM.gll.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/7acd0d1e-4d65-44a1-a0f1-4160c89f4010_GK-E6-F1-AD%3DT0018-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0Xh0pbqstJ97yJg_Evo6E-F1-3DM%3DT0014-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VPkpbqstJ98uhn_Evo6E-F1-DD%3DT0012-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZnrqK5bWFbowe2O6_Evo6E-F1-TD%3DT0011-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aa8039e1-1105-40e5-8d91-664212846082_WB-E67-F1-AD%3DT0017-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aeim2sBOoF08xNDo_CFPK-2E67L-F1-AD%3DT0069-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aeimrMBOoF08xNDa_CFPK-2E67-F1-AD%3DT0068-02.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c5b6c39d-e49f-4133-a652-d4bfd60e7d6b_Evo6E-F1-2DM%3DT0013-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d9ab4836-1354-47a5-a4f0-2a8e4c693b7f_Evo6E%2BEvo6EL+Flyplate+Guide.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/ef3ca298-f232-4f94-ab6f-db27cde524dd_Evo6E-F1-WD%3DT0015-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "85Hz - 220Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "220Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4.9V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "24Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 5.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "32Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "70Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "57kg (126lbs) without wheelboard",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-6eh",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 6EH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-6eh/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1a53548f-5bbd-4a88-a3b5-2d3d0fefb3e1_YK-SE6H-F1-AD%3DT0053-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2a0e358f-788c-42d1-90f4-bcd0ee0a5b1f_New+Ground+Stack+Straps-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/37769703-4028-409d-8c6c-11f90b21fcc2_Evo6EH-F1-TD%3DT0020-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/3cec9b09-09f4-4d76-9c64-82caa0b9d8e7_Funktion-One_Evo6EH_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/41805f7a-6150-4657-a229-97808ec7e646_EVO6EH-V10.gll.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9e3a3ea5-d0d3-44a4-be75-5f00ba9694e0_Evo6EH-F1-2DM%3DT0022-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XiLpbqstJ97yJz_Evo6EH-F1-3DM%3DT0023-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VPeZbqstJ98uhk_Evo6EH-F1-DD%3DT0021-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b14922ea-5b30-40c9-8a7c-0a215d823b8f_WB-E67H-F1-AD%3DT0010-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b9b0be83-4d44-4216-9827-c9cd4a237479_GK-E67H-F1-AD%3DT0009-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/7b118261-99ee-4f22-a9fc-214f309c3fa8_Evo6EH-F1-WD%3DT0024-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "200Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4.9V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "24Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 5.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "32Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "38kg (84lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Neutrik NL4 or NL8 option",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-6el",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 6EL",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-6el/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1b61103a-37ff-4714-9ef2-c3ee8be48092_Funktion-One_Evo6EL_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/32bbac2d-52ff-430c-9469-b9c79f6fee1e_Evo6EL-F1-2DM%3DT0027-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6b9784ae-afec-4808-8891-6d1f9fe82535_Evo6EL-F1-DD%3DT0026-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XiBJbqstJ97yJp_Evo6EL-F1-3DM%3DT0028-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a9441c0b-8643-4286-a367-eea18f19091d_Evo6EL-F1-TD%3DT0025-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aeim2sBOoF08xNDo_CFPK-2E67L-F1-AD%3DT0069-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/57b96e2c-1f5c-4cae-9b0a-c08f14f35afa_Evo6EL-F1-WD%3DT0029-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "85Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "70Hz - 300Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "30kg (66lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4 or NL8 option",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-6sh",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 6SH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-6sh-skeletal/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1f9ceb10-beda-4c23-8d2d-1fd45409d89a_Evo6SH-F1-2DM%3DT0032-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/7931aacf-0dec-41f5-a350-ee4e3cea6a81_Funktion-One_Evo6SH_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/80ee867c-3864-4236-912d-ad921ba16214_EVO6SH.gll.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XicZbqstJ97yJ9_Evo6SH-F1-3DM%3DT0033-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VO85bqstJ98uhT_Evo6SH-F1-DD%3DT0031-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d352daa4-2066-4379-a481-62f1f32ddf35_Evo6SH-F1-TD%3DT0030-00.PDF",
+        "https://images.prismic.io/funktion-one/16c155dc-0688-46eb-b290-239259e3ac01_Evo6SH-F1-WD%3DT0034-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "200Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4.9V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "24Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 5.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "32Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "20.5kg (45lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Neutrik NL4 or Junction box option",
+          "notes": ""
+        },
+        {
+          "key": "range.public-address",
+          "section": "Range listings",
+          "label": "Also listed in",
+          "value": "public-address",
+          "notes": "https://funktion-one.com/product/evo-6sh-skeletal1/"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-7e",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 7E",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-7e/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2a0e358f-788c-42d1-90f4-bcd0ee0a5b1f_New+Ground+Stack+Straps-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/45dc168c-0538-444e-a185-433751ec9f67_Funktion-One_Evo7E_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8052937a-a0d4-41eb-9f30-3448d21471f6_Evo7E-F1-TD%3DT0062-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XiqZbqstJ97yKK_Evo7E-F1-3DM%3DT0065-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VO4ZbqstJ98uhS_Evo7E-F1-DD%3DT0063-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aa8039e1-1105-40e5-8d91-664212846082_WB-E67-F1-AD%3DT0017-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aee15888-4ab1-419f-b800-92e43d074b8e_Evo7E-F1-2DM%3DT0064-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aeim2sBOoF08xNDo_CFPK-2E67L-F1-AD%3DT0069-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aeimrMBOoF08xNDa_CFPK-2E67-F1-AD%3DT0068-02.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b326ad58-f280-49a1-b73f-0fd4f6193cb5_YK-SE7-F1-AD%3DT0067-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/bcc1283e-f783-4ec6-b765-2393a0d52411_GK-E7-F1-AD%3DT0019-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/7bd98a0e-3097-4a6d-8c1c-78bde74ac626_Evo7E-F1-WD%3DT0066-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "85Hz - 220Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "220Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4.9V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "24Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 5.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "32Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "70Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "61kg (134lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "40° Horizontal x 20° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-7eh",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 7EH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-7eh1/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/25c3eb02-3101-45ce-a53b-15ec243f059f_YK-SE7H-F1-AD%3DT0054-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2a0e358f-788c-42d1-90f4-bcd0ee0a5b1f_New+Ground+Stack+Straps-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/3e093e6d-9d02-4eae-8d26-555982d4120c_Evo7EH-F1-TD%3DT0085-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9930a840-522b-4688-8905-9b62084e8cd7_Evo7EH-F1-2DM%3DT0087-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0Xi8JbqstJ97yKb_Evo7EH-F1-3DM%3DT0088-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VOzZbqstJ98uhP_Evo7EH-F1-DD%3DT0086-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a3d1b151-f192-48ae-8d3f-ce8576d52687_Funktion-One_Evo7EH_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b14922ea-5b30-40c9-8a7c-0a215d823b8f_WB-E67H-F1-AD%3DT0010-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b9b0be83-4d44-4216-9827-c9cd4a237479_GK-E67H-F1-AD%3DT0009-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/0abfafdf-bfe2-4368-892c-7a97477759c8_Evo7EH-F1-WD%3DT0089-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "200Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4.9V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "24Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 5.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "32Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "41kg (90lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "40° Horizontal x 20° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2x Neutrik NL4 or NL8 option",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-7el",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 7EL",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-7el1/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/014b31bf-3139-49cc-9cd8-9f0ba530c2c3_Evo7EL-F1-TD%3DT0090-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/089df182-ab55-495a-bf8f-e5ea56afeb82_Evo7EL-F1-2DM%3DT0092-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/442b3fc5-fd47-4292-a12c-2eee4ddd89a6_Evo7EL-F1-DD%3DT0091-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4acf25bf-10e5-4eb7-a53b-a73e8d58edcf_Funktion-One_Evo7EL_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0Xix5bqstJ97yKR_Evo7EL-F1-3DM%3DT0093-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aeim2sBOoF08xNDo_CFPK-2E67L-F1-AD%3DT0069-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/7021a711-0dc9-4bed-8ee7-5e0d77fa0521_Evo7EL-F1-WD-T0094-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "85Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "70Hz - 300Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "32kg (70.5lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-7sh",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 7SH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-7sh-skeletal/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XjHJbqstJ97yKg_Evo7SH-F1-3DM%3DT0098-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VOnpbqstJ98ug__Evo7SH-F1-DD%3DT0096-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a1a5cf78-2314-496a-a1d1-735dfedd8d7d_Evo7SH-F1-2DM%3DT0097-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/bfab7316-24e4-4db7-8522-73d889621977_Evo7SH-F1-TD%3DT0095-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c0305dbd-39be-4e84-b359-d6fd40e2e2df_Funktion-One_Evo7SH_Spec_Sheet.pdf",
+        "https://images.prismic.io/funktion-one/75c73a08-ed60-438a-8863-f77a0c5309aa_Evo7SH-F1-WD%3DT0099-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "200Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4.9V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "24Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 5.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "32Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "23kg (51lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "40° Horizontal x 20° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Neutrik NL4 or Junction box option",
+          "notes": ""
+        },
+        {
+          "key": "range.public-address",
+          "section": "Range listings",
+          "label": "Also listed in",
+          "value": "public-address",
+          "notes": "https://funktion-one.com/product/evo-7sh-skeletal1/"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-7t",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 7T",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-7t/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2a0e358f-788c-42d1-90f4-bcd0ee0a5b1f_New+Ground+Stack+Straps-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6c37df70-7d1f-49db-8703-31fb295fc457_Evo7T-F1-2DM%3DT0152-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/854f1463-935b-4571-bbf2-dd1e166d405f_Evo7T-F1-TD%3DT0150-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/94bca4de-a856-4c0a-95aa-9c3280a54341_Funktion-One_Evo7T_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VPpJbqstJ98uhp_Evo7T-F1-DD%3DT0151-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZfgpPcmUzjad_UbC_TSFK-3E7-F1-AD%3DT0163-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aac632ba-5c4c-4066-9606-59965358ea2e_TSFK-2E7-F1-AD%3DT0162-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f9654c9e-fad8-4c84-b3e7-12e1329497f5_Evo7T-F1-3DM%3DT0153-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/a66645ec-72a3-4362-85ca-ae856d582681_Evo7T-F1-WD%3DT0100%3D00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "85Hz - 220Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "220Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4.9V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "24Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 5.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "32Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "70Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "70kg (154lbs) without wheelboard",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "40° Horizontal x 20° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-7th",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 7TH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-7th/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2a0e358f-788c-42d1-90f4-bcd0ee0a5b1f_New+Ground+Stack+Straps-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/5470ac40-92c2-4dee-a648-0d1eddfdc72a_Evo7TH-F1-TD%3DT0154-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/85dc4b8d-574b-4597-920e-76bf4fc6e6b2_Evo7TH-F1-3DM%3DT0157-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VPypbqstJ98uhs_Evo7TH-F1-DD%3DT0155-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZfgpPcmUzjad_UbC_TSFK-3E7-F1-AD%3DT0163-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aac632ba-5c4c-4066-9606-59965358ea2e_TSFK-2E7-F1-AD%3DT0162-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ccf70b34-daa6-4b9e-b6fe-e604c0356e02_Evo7TH-F1-2DM%3DT0156-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e6ccb1d3-93e3-4bfe-91a8-3ecd9e0ed7df_Funktion-One_Evo7TH_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/6f3e7b5d-af4f-4390-b269-286b86cc1ed8_Evo7TH-F1-WD%3DT0101-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "200Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4.9V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "24Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 5.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "32Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "44kg (97lbs) without wheelboard",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "40° Horizontal x 20° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evo-7tl",
+      "manufacturer_id": "funktion-one",
+      "model": "Evo 7TL",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evo-7tl-215/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2a0e358f-788c-42d1-90f4-bcd0ee0a5b1f_New+Ground+Stack+Straps-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/37f9ba41-e0da-4c94-95fd-178168c2a177_Funktion-One_Evo7TL_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/892094c6-fa01-4bcb-a395-1231d070d9ef_Evo7TL-F1-3DM%3DT0161-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9db4c569-317e-40db-a3eb-c5abc354296a_Evo7TL-F1-TD%3DT0158-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZfgpPcmUzjad_UbC_TSFK-3E7-F1-AD%3DT0163-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aac632ba-5c4c-4066-9606-59965358ea2e_TSFK-2E7-F1-AD%3DT0162-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b3811688-12ae-4d08-8df9-a4536c94bfb4_Evo+Brochure+2022+HR.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d6994927-666e-4d28-9b55-873c14bbfb58_Evo7TL-F1-2DM%3DT0160-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e5b598bf-fcee-4278-bab0-42f069c7fccd_Evo7TL-F1-DD%3DT0159-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc712f5f-f051-42c3-9722-9505e6a2ed33_Evo+Ground+Stack+System.pdf",
+        "https://images.prismic.io/funktion-one/c3babd69-aaac-46c3-90a1-7caf761e5d69_Evo7TL-F1-WD%3DT0102-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 15\"",
+          "label": "Driver",
+          "value": "2 x 15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 15\"",
+          "label": "Operating band",
+          "value": "65Hz - 300Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 15\"",
+          "label": "Power (AES)",
+          "value": "2 x 400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 15\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "65Hz - 300 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "61kg (135lbs) without wheelboard",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evolution-x",
+      "manufacturer_id": "funktion-one",
+      "model": "Evolution X",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evolution-x/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0Xk25bqstJ97yM7_EX-F1-3DM%3DT0004-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VQSpbqstJ98uh6_EX-F1-DD%3DT0002-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VQmJbqstJ98uh-_Funktion-OneEvolutionX.gll",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZessfXUurf2G3NzE_EvolutionX-F1-DS%3DD0001-02.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZestRHUurf2G3Nzi_Evolution_X_User_Guide_V1.3.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZfsqtwmzsfHOGJQm_EX-F1-TD%3DT0001-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZfsrIwmzsfHOGJQ6_WB-EX-F1-AD%3DT0007-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZoVw5x5LeNNTww0__GK-EX-F1-AD%3DT0008-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZoVzxB5LeNNTwxAv_YK-SEX-F1-AD%3DT0006-01.pdf",
+        "https://images.prismic.io/funktion-one/ZoVE0x5LeNNTwwSn_EX-F1-WD%3DT0005-00.png?auto=format%2Ccompress&rect=0%2C9%2C1191%2C750&w=1191&h=750",
+        "https://images.prismic.io/funktion-one/ZoVw5B5LeNNTww05_EX-F1-2DM%3DT0003-00.dwg?auto=format,compress?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "35/85Hz - 280Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "280Hz - 5kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "107dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "109dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "47kg (103lbs) without wheelboard",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° Horizontal x 13° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-evolution-xsh",
+      "manufacturer_id": "funktion-one",
+      "model": "Evolution XSH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "evolution",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/evolution-xsh1/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XjeZbqstJ97yLI_EXSH-F1-3DM%3DT0143-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z2VP4ZbqstJ98uhu_EXSH-F1-DD%3DT0141-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZfstrwmzsfHOGJSO_EXSH-F1-TD%3DT0140-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZogKYx5LeNNTw009_EvolutionXSH-F1-DS%3DD0002-01.pdf",
+        "https://images.prismic.io/funktion-one/Zfst-gmzsfHOGJSZ_EXSH-F1-2DM%3DT0142-00.dwg?auto=format,compress?auto=compress,format",
+        "https://images.prismic.io/funktion-one/fe6a9c38-7c0e-4029-8128-2ac81c2ab436_Evo+XSH+Website+Drawing.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "280Hz - 5kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "107dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "109dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "280Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "13.5kg (30lbs) (including yoke)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° Horizontal x 13° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        },
+        {
+          "key": "range.public-address",
+          "section": "Range listings",
+          "label": "Also listed in",
+          "value": "public-address",
+          "notes": "https://funktion-one.com/product/evolution-xsh11/"
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

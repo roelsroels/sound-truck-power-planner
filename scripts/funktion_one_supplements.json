@@ -1,0 +1,136 @@
+{
+  "reviewed_at": "2026-11-02",
+  "description": "Reviewed factual transcription of official image-only amplifier output tables. No images or marketing copy redistributed. Re-review against source tables on refresh.",
+  "amplifiers": {
+    "d-series": {
+      "source_url": "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format",
+      "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms.",
+      "models": {
+        "D20Q": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "175 W × 4",
+          "Audio output at 4 Ω": "350 W × 4",
+          "Audio output at 2.7 Ω": "480 W × 4",
+          "Audio output at 2 Ω": "360 W × 4",
+          "Bridged audio output at 8 Ω": "700 W × 2",
+          "Bridged audio output at 4 Ω": "650 W × 2"
+        },
+        "D40Q": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "500 W × 4",
+          "Audio output at 4 Ω": "1000 W × 4",
+          "Audio output at 2.7 Ω": "1400 W × 4",
+          "Audio output at 2 Ω": "1200 W × 4",
+          "Bridged audio output at 8 Ω": "2000 W × 2",
+          "Bridged audio output at 4 Ω": "2400 W × 2"
+        },
+        "D40Q-DSP": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "500 W × 4",
+          "Audio output at 4 Ω": "1000 W × 4",
+          "Audio output at 2.7 Ω": "1400 W × 4",
+          "Audio output at 2 Ω": "1200 W × 4",
+          "Bridged audio output at 8 Ω": "2000 W × 2",
+          "Bridged audio output at 4 Ω": "2400 W × 2",
+          "DSP": "8 processing channels (4 amplifier outputs plus 4 auxiliary outputs)"
+        },
+        "D80Q": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "1000 W × 4",
+          "Audio output at 4 Ω": "2000 W × 4",
+          "Audio output at 2.7 Ω": "2200 W × 4",
+          "Audio output at 2 Ω": "2000 W × 4",
+          "Bridged audio output at 8 Ω": "4000 W × 2",
+          "Bridged audio output at 4 Ω": "4000 W × 2"
+        },
+        "D80Q-DSP": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "1000 W × 4",
+          "Audio output at 4 Ω": "2000 W × 4",
+          "Audio output at 2.7 Ω": "2200 W × 4",
+          "Audio output at 2 Ω": "2000 W × 4",
+          "Bridged audio output at 8 Ω": "4000 W × 2",
+          "Bridged audio output at 4 Ω": "4000 W × 2",
+          "DSP": "8 processing channels (4 amplifier outputs plus 4 auxiliary outputs)"
+        },
+        "D100Q": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "1400 W × 4",
+          "Audio output at 4 Ω": "2700 W × 4",
+          "Audio output at 2.7 Ω": "3700 W × 4",
+          "Audio output at 2 Ω": "3500 W × 4",
+          "Bridged audio output at 8 Ω": "5600 W × 2",
+          "Bridged audio output at 4 Ω": "7000 W × 2"
+        },
+        "D100Q-DSP": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "1400 W × 4",
+          "Audio output at 4 Ω": "2700 W × 4",
+          "Audio output at 2.7 Ω": "3700 W × 4",
+          "Audio output at 2 Ω": "3500 W × 4",
+          "Bridged audio output at 8 Ω": "5600 W × 2",
+          "Bridged audio output at 4 Ω": "7000 W × 2",
+          "DSP": "8 processing channels (4 amplifier outputs plus 4 auxiliary outputs)"
+        },
+        "D120": {
+          "Output channels": "2",
+          "Audio output at 8 Ω": "2400 W × 2",
+          "Audio output at 4 Ω": "4600 W × 2",
+          "Audio output at 2.7 Ω": "6250 W × 2",
+          "Audio output at 2 Ω": "6800 W × 2"
+        }
+      }
+    },
+    "f-series": {
+      "source_url": "https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress",
+      "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified.",
+      "models": {
+        "F20Q": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "250 W × 4",
+          "Audio output at 4 Ω": "500 W × 4",
+          "Audio output at 2.7 Ω": "1000 W × 4"
+        },
+        "F50Q": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "625 W × 4",
+          "Audio output at 4 Ω": "1250 W × 4"
+        },
+        "F80Q": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "1000 W × 4",
+          "Audio output at 4 Ω": "2000 W × 4"
+        },
+        "F100-2": {
+          "Output channels": "2",
+          "Audio output at 8 Ω": "1500 W × 2",
+          "Audio output at 4 Ω": "3000 W × 2",
+          "Audio output at 2.7 Ω": "5000 W × 2"
+        }
+      }
+    },
+    "e-series": {
+      "source_url": "https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format",
+      "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified.",
+      "models": {
+        "E15": {
+          "Output channels": "2",
+          "Audio output at 8 Ω": "425 W × 2",
+          "Audio output at 4 Ω": "750 W × 2",
+          "Audio output at 2 Ω": "1400 W × 2"
+        },
+        "E25": {
+          "Output channels": "2",
+          "Audio output at 8 Ω": "650 W × 2",
+          "Audio output at 4 Ω": "1250 W × 2",
+          "Audio output at 2 Ω": "2200 W × 2"
+        },
+        "E4-75": {
+          "Output channels": "4",
+          "Audio output at 8 Ω": "775 W × 4",
+          "Audio output at 4 Ω": "900 W × 4"
+        }
+      }
+    }
+  }
+}
