@@ -1,0 +1,892 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-ds15",
+      "manufacturer_id": "funktion-one",
+      "model": "DS15",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/ds15-bass/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/27681974-c14c-450a-bd72-6da38faf3756_Funktion-One_DS15_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XkjpbqstJ97yMS_DS15-F1-3DM%3DT0278-00.dwg",
+        "https://images.prismic.io/funktion-one/b5da3539-60ef-49da-b944-5ebd7a5ea463_DS15-F1-WD%3DT0126-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/f93cd548-f7ee-40f8-b78d-5a9789885712_DS15_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "105Hz - 220Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "90Hz - 270Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "49kg (108lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        },
+        {
+          "key": "alias.9",
+          "section": "Driver 15\" / dance-stack",
+          "label": "Operating band",
+          "value": "105 - 220Hz",
+          "notes": "https://funktion-one.com/product/ds15/"
+        },
+        {
+          "key": "alias.10",
+          "section": "Cabinet / dance-stack",
+          "label": "Nominal dispersion",
+          "value": "-",
+          "notes": "https://funktion-one.com/product/ds15/"
+        },
+        {
+          "key": "range.dance-stack",
+          "section": "Range listings",
+          "label": "Also listed in",
+          "value": "dance-stack",
+          "notes": "https://funktion-one.com/product/ds15/"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f115-mkii",
+      "manufacturer_id": "funktion-one",
+      "model": "F115 MkII",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f115-mk2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/7eec8879-d054-4dff-91a8-c25a8b37a906_F115_MK2-F1-2DM%3DT0198-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8bc938ae-b303-4451-a59c-834424bbff6c_F115_MK2-F1-TD%3DT0196-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/99509985-1276-4e4c-af23-a33d5b6bca5d_F115_MK2-F1-3DM%3DT0199-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ad756b25-06f3-4019-81d0-a175ed004f50_Funktion-One_F115MkII_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ecc597f8-1277-4770-8ee4-a2347470e20d_F115_MK2-F1-DD%3DT0197-00.PDF",
+        "https://images.prismic.io/funktion-one/826d05ef-8a88-4445-9b84-487d531eb119_F115_MK2-F1-WD%3DT0113-00+.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/ae8c4494-03d5-43ef-812a-2edb279dd73e_F115_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "55/85Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "34kg (75lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f118-mkii",
+      "manufacturer_id": "funktion-one",
+      "model": "F118 MkII",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f118-mk2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1a358475-d8da-43b5-be65-9d5c3ac20688_F118_MK2-F1-DD%3DT0205-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/YggdijIA6zAkUJLX_F118-MkII_DataSheet_v1.1_2026-02.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XlAJbqstJ97yND_F118_MK2-F1-3DM%3DT0207-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/be606dc9-b7a4-4b20-b1ad-6300a1ca4d62_1300.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/cfc282ad-6e2f-4db9-8050-2ca2a6141dc9_F118_MK2-F1-TD%3DT0204-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/dbff924f-72fd-49d8-9072-967d57eef851_F118_MK2-F1-2DM%3DT0206-00.dwg",
+        "https://images.prismic.io/funktion-one/390e2020-301f-4a78-ab5f-4462025434a0_F118_MK2-F1-WD%3DT0116-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/aa20fb41-403e-4aca-9b1b-7d27932a01e4_F118_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 18\"",
+          "label": "Driver",
+          "value": "18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 18\"",
+          "label": "Operating band",
+          "value": "25Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 18\"",
+          "label": "Power (AES)",
+          "value": "450W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 18\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50 - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "50kg (110lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f121",
+      "manufacturer_id": "funktion-one",
+      "model": "F121",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f121/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/255a64c4-eadb-463d-a00d-dc9609ce0205_F121-F1-2DM%3DT0214-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/65c39b9a9be9a5b998b58127_F121-F1-TD%3DT0212-02.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/78b5160c-cdd3-4b95-9984-49d1bbcce181_F121-F1-DD%3DT0213-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XrOZbqstJ97yQ4_F121-F1-3DM%3DT0215-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ZtWvQUaF0TcGJq7k_Funktion-One_F121_Spec_Sheet_2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/be606dc9-b7a4-4b20-b1ad-6300a1ca4d62_1300.pdf",
+        "https://images.prismic.io/funktion-one/f540fb5b-0eed-4e2f-8857-320593c90805_F121-F1-WD%3DT0118-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/fa9c57a9-d7d3-461d-9092-2e821955a464_F121_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 21\"",
+          "label": "Driver",
+          "value": "21\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 21\"",
+          "label": "Operating band",
+          "value": "20Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 21\"",
+          "label": "Sensitivity at 1m",
+          "value": "101dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 21\"",
+          "label": "Power (AES)",
+          "value": "750W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 21\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "40Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "72kg (159lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f124",
+      "manufacturer_id": "funktion-one",
+      "model": "F124",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f124/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/3d67a2ec-e582-4db6-b4e7-225b65cfa577_F124-F1-TD%3DT0220-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/55d0aba0-d10e-4bad-9266-9fdecf108a16_F124-F1-2DM%3DT0222-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9e3fd306-e4ca-473c-b0c4-2a6acb28a857_Funktion-One_F124_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d07b1807-e73a-43ef-ad93-2349bc07ebe1_F124-F1-3DM%3DT0223-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fbf4eee3-bd14-4a51-883d-812095a7a6a8_F124-F1-DD%3DT0221-00.PDF",
+        "https://images.prismic.io/funktion-one/84198778-5290-407c-917d-90fb3fabd69e_F124-F1-WD%3DT0120-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Driver",
+          "value": "24\" dual voice coil",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Operating band",
+          "value": "20Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Power (AES)",
+          "value": "2 x 750W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "35Hz - 160Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "103kg (227lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f132",
+      "manufacturer_id": "funktion-one",
+      "model": "F132",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f132/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/364dcb76-b4a1-4018-8eb9-bb97ae344ae1_F132-A-3D-DWG_2106.dwg",
+        "https://images.prismic.io/funktion-one/5f26ff9a-9ce0-49c3-9106-00fb4e03c3d3_F132_Tech+Drawing.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Driver",
+          "value": "1 x Linear motor with 32” cone",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Operating band",
+          "value": "20Hz - 50Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Sensitivity at 1m",
+          "value": "134dB at 0dBu",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Power (AES)",
+          "value": "5000W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Nominal impedance",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "25Hz - 60Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "208kg (458lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Analogue XLR input and link out, Powercon True (20A), RJ45 for RS485 remote control and firmware update",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f215-mkii",
+      "manufacturer_id": "funktion-one",
+      "model": "F215 MkII",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f215-mk2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1e2aba1c-5944-4f65-acc6-322af58e6924_Funktion-One_F215MkII_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8hM82zWkaIhYz5g0_F215_MK2-F1-DD%3DT0201-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/HNubnnhdOvAKJm55_F215_MK2-F1-TD%3DT0200-01.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XkaZbqstJ97yL__F215_MK2-F1-3DM%3DT0203-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/bf531523-0a56-4821-9486-590cc68b0b3d_F215_MK2-F1-2DM%3DT0202-00.dwg",
+        "https://images.prismic.io/funktion-one/b3162a5d-7a13-45bd-8636-afbd69ae545f_F215mkII_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/d353ee42-a0f3-4a67-ba8e-c06221976cc3_F215_MK2-F1-WD%3DT0114-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 15\"",
+          "label": "Driver",
+          "value": "2 x 15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 15\"",
+          "label": "Operating band",
+          "value": "55/85Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 15\"",
+          "label": "Power (AES)",
+          "value": "2 x 400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 15\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "63kg (139lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f218-mkii",
+      "manufacturer_id": "funktion-one",
+      "model": "F218 MkII",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f218-mk2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1b3576f6-50d0-4604-a4a7-2e56018f0630_F218_MK2-F1-2DM%3DT0210-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XlHpbqstJ97yNJ_F218_MK2-F1-3DM%3DT0211-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a9a969ca-8f9a-4ebf-997c-16fa3c4c45a7_F218_MK2-F1-DD%3DT0209-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c55a7583-2879-494e-8367-9d3cbf8bce17_F218_MK2-F1-TD%3DT0208-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/uxPphzTkhG4QdWry_F218-MkII_DataSheet_v1.2_2026-01.pdf",
+        "https://images.prismic.io/funktion-one/477831da-8eb4-4cee-ac7f-02727388a88c_F218_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/7eacb1da-922b-4cea-8fe8-b74be38f87bf_F218_MK2-F1-WD%3DT0117-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 18\"",
+          "label": "Driver",
+          "value": "2 x 18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 18\"",
+          "label": "Operating band",
+          "value": "25Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "106dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 18\"",
+          "label": "Power (AES)",
+          "value": "2 x 450W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 18\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "93kg (204lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f221",
+      "manufacturer_id": "funktion-one",
+      "model": "F221",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f221/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/407c5ec9-9006-43f0-9123-c5d6d7095210_F221-F1-TD%3DT0216-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/Z0XrWJbqstJ97yQ9_F221-F1-3DM%3DT0219-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ac660d65-b425-43d4-bfda-9c1542e64d21_F221-F1-2DM%3DT0218-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b944a7e3-aad8-4552-a1ca-ab4415818b9e_Funktion-One_F221_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/be606dc9-b7a4-4b20-b1ad-6300a1ca4d62_1300.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c2e40bae-3221-479d-b09f-7df26561898a_F221-F1-DD%3DT0217-00.pdf",
+        "https://images.prismic.io/funktion-one/3753139b-465e-42f1-8589-f86569e2d72d_F221-F1-WD%3DT0119-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/88d5731f-8f41-45b5-a39d-c356a434e26d_F221_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 21\"",
+          "label": "Driver",
+          "value": "2 x 21\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 21\"",
+          "label": "Operating band",
+          "value": "20Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 21\"",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 21\"",
+          "label": "Power (AES)",
+          "value": "2 x 750W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 21\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "40Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "130kg (288lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f315",
+      "manufacturer_id": "funktion-one",
+      "model": "F315",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "horn-loaded-bass",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/f315/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/5a400252-1c5f-4094-9bb0-ae3c82035287_Funktion-One_F315_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ae3f67bb-5fed-47b0-9c8d-82f54ab84e5a_F315-webdxf.dxf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 3 x 15\"",
+          "label": "Driver",
+          "value": "3 x 15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 3 x 15\"",
+          "label": "Operating band",
+          "value": "85Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 3 x 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "101dB at 1.6V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 3 x 15\"",
+          "label": "Power (AES)",
+          "value": "1200W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 3 x 15\"",
+          "label": "Nominal impedance",
+          "value": "2.7Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "81kg (178lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "1x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

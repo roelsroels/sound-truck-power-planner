@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-vero-v124",
+      "manufacturer_id": "funktion-one",
+      "model": "Vero V124",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "vero",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/v1241vero/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/3d67a2ec-e582-4db6-b4e7-225b65cfa577_F124-F1-TD%3DT0220-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/43579517-3243-4a75-b002-859eda36af46_VERO+Brochure_Compressed.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/55d0aba0-d10e-4bad-9266-9fdecf108a16_F124-F1-2DM%3DT0222-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9e3fd306-e4ca-473c-b0c4-2a6acb28a857_Funktion-One_F124_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d07b1807-e73a-43ef-ad93-2349bc07ebe1_F124-F1-3DM%3DT0223-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fbf4eee3-bd14-4a51-883d-812095a7a6a8_F124-F1-DD%3DT0221-00.PDF",
+        "https://images.prismic.io/funktion-one/84198778-5290-407c-917d-90fb3fabd69e_F124-F1-WD%3DT0120-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Driver",
+          "value": "24\" dual voice coil",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Operating band",
+          "value": "20Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Power (AES)",
+          "value": "2 x 750W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 24\" dual voice coil",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "35Hz - 160Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "103kg (227lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-vero-v132",
+      "manufacturer_id": "funktion-one",
+      "model": "Vero V132",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "vero",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/v132/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/364dcb76-b4a1-4018-8eb9-bb97ae344ae1_F132-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/43579517-3243-4a75-b002-859eda36af46_VERO+Brochure_Compressed.pdf",
+        "https://images.prismic.io/funktion-one/5f26ff9a-9ce0-49c3-9106-00fb4e03c3d3_F132_Tech+Drawing.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Driver",
+          "value": "1 x Linear motor with 32” cone",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Operating band",
+          "value": "20Hz - 50Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Sensitivity at 1m",
+          "value": "134dB at 0dBu",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Power (AES)",
+          "value": "5000W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 1 x Linear motor with 32” cone",
+          "label": "Nominal impedance",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "26Hz - 60Hz (-10dB points: 20Hz - 75Hz)",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "208kg (458lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Analogue XLR input and link out, Powercon True (20A), RJ45 for RS485 remote control and firmware update",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-vero-v221",
+      "manufacturer_id": "funktion-one",
+      "model": "Vero V221",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "vero",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/v221vero/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/0aece5aa-b707-4fa1-a165-b2a69debe49a_F221-F1-3DM%3DT0219-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/407c5ec9-9006-43f0-9123-c5d6d7095210_F221-F1-TD%3DT0216-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9cd7f9da-b918-49f1-92f1-992a64a704d7_Vero+VX+Brochure.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ac660d65-b425-43d4-bfda-9c1542e64d21_F221-F1-2DM%3DT0218-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b944a7e3-aad8-4552-a1ca-ab4415818b9e_Funktion-One_F221_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c2e40bae-3221-479d-b09f-7df26561898a_F221-F1-DD%3DT0217-00.pdf",
+        "https://images.prismic.io/funktion-one/3753139b-465e-42f1-8589-f86569e2d72d_F221-F1-WD%3DT0119-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 21\"",
+          "label": "Driver",
+          "value": "2 x 21\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 21\"",
+          "label": "Operating band",
+          "value": "20Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 21\"",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 21\"",
+          "label": "Power (AES)",
+          "value": "2 x 750W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 21\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "40Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "130kg (288lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-vero-v315",
+      "manufacturer_id": "funktion-one",
+      "model": "Vero V315",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "vero",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/v315/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/43579517-3243-4a75-b002-859eda36af46_VERO+Brochure_Compressed.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/5a400252-1c5f-4094-9bb0-ae3c82035287_Funktion-One_F315_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a600e254-dc06-4264-a4ec-063e2409e628_Vero+User+Guide+29_04_2018+%28v0.96%29.pdf",
+        "https://images.prismic.io/funktion-one/688bc768-129e-46d1-b341-7e3697ba0ced_V315-F1-WD%3DT0136-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 3 x 15\"",
+          "label": "Driver",
+          "value": "3 x 15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 3 x 15\"",
+          "label": "Operating band",
+          "value": "50Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 3 x 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "106dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 3 x 15\"",
+          "label": "Power (AES)",
+          "value": "1500W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 3 x 15\"",
+          "label": "Nominal impedance",
+          "value": "2.7Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50Hz to 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "116kg",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "1 x Neutrik NLT4MP",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-vero-v60",
+      "manufacturer_id": "funktion-one",
+      "model": "VERO V60",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "vero",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/v60/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/43579517-3243-4a75-b002-859eda36af46_VERO+Brochure_Compressed.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a600e254-dc06-4264-a4ec-063e2409e628_Vero+User+Guide+29_04_2018+%28v0.96%29.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aa8265b1-b8d7-4487-954e-acc0087f552b_Funktion-One_V60_Spec_Sheet.pdf",
+        "https://images.prismic.io/funktion-one/2b9d1654-edd1-437c-83c1-809740c32e25_V60-F1-WD%3DT0135-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 10\"",
+          "label": "Driver",
+          "value": "2 x 10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 10\"",
+          "label": "Operating band",
+          "value": "200Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 3.4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 10\"",
+          "label": "Power (AES)",
+          "value": "500W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 10\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 3 x 1.4\"",
+          "label": "Driver",
+          "value": "3 x 1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 3 x 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 3 x 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 3.1V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 3 x 1.4\"",
+          "label": "Power (AES)",
+          "value": "225W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 3 x 1.4\"",
+          "label": "Nominal impedance",
+          "value": "10Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "115kg",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "60° horizontal x 6° vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Syntax SPK 8 (male and female)",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-vero-v90",
+      "manufacturer_id": "funktion-one",
+      "model": "VERO V90",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "vero",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/v90/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/43579517-3243-4a75-b002-859eda36af46_VERO+Brochure_Compressed.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/5fdfc51b-7c33-4155-98a3-654c3240d540_Funktion-One_V90__Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a600e254-dc06-4264-a4ec-063e2409e628_Vero+User+Guide+29_04_2018+%28v0.96%29.pdf",
+        "https://images.prismic.io/funktion-one/256565e9-5d06-41a2-98b6-f9d01145269a_V90-F1-WD%3DT0134-00WHITE.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 10\"",
+          "label": "Driver",
+          "value": "2 x 10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 10\"",
+          "label": "Operating band",
+          "value": "200Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "110dB at 3.4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 10\"",
+          "label": "Power (AES)",
+          "value": "500W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 10\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Driver",
+          "value": "2 x 1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Power (AES)",
+          "value": "150W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "107kg",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° horizontal x 12º vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Syntax SPK 8 (male and female)",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

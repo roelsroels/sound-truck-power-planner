@@ -1,0 +1,643 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-psm12",
+      "manufacturer_id": "funktion-one",
+      "model": "PSM12",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "monitors",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/psm12-point-source/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/21d0dad2-6b40-42c7-ad64-509595199f04_PSM12-F1-DD%3DT0185-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/5e9fd992-1981-459d-96b2-979adc9ef188_Funktion-One_PSM12_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/706bef11-a233-4220-8750-ec415db1636e_PSM12-F1-2DM%3DT0186-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9980661a-e75e-4e69-94fd-dc8240adb08a_PSM12-F1-3DM%3DT0187-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c695e874-7883-4ab5-a97c-b4ad21bec408_PSM12-F1-TD%3DT0184-00.pdf",
+        "https://images.prismic.io/funktion-one/b813bf7d-8431-4be5-b78c-c588c3c10d14_PSM12-F1-WD%3DT0130-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/fff1bdb6-2a96-4d0f-b15e-fe4846f3e76b_PSM12_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "40Hz - 2.5kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "101dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1.4\"",
+          "label": "Driver",
+          "value": "1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1.4\"",
+          "label": "Operating band",
+          "value": "2.5kHz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1.4\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1.4\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 12\" + 1.4\" (Passive mode)",
+          "label": "Driver",
+          "value": "12\" + 1.4\" (Passive mode)",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 12\" + 1.4\" (Passive mode)",
+          "label": "Operating band",
+          "value": "40Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 12\" + 1.4\" (Passive mode)",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 12\" + 1.4\" (Passive mode)",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 12\" + 1.4\" (Passive mode)",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "65Hz - 17kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "23kg (50lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "70° Conical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-psm15",
+      "manufacturer_id": "funktion-one",
+      "model": "PSM15",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "monitors",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/psm15/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/Ec5TUmvf1GpP1Uw8_PSM15_User_Guide_V1.1.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aUliXnNYClf9ok-P_PSM15-F1-TD%3DT0320-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aUliaHNYClf9ok-T_PSM15-F1-DD%3DT0321-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aUligHNYClf9ok-b_FC-2PSM15-F1-AD%3DT0324-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aUlim3NYClf9ok-i_STA-2M8-F1-AD%3DT0327-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aUljGXNYClf9ok-0_YK-UPSM15-F1-AD%3DT0326-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aUlj_HNYClf9ok_j_YK-SPSM15-F1-AD%3DT0325-00.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aWYn0QIvOtkhBbt2_PSM15-F1-DS%3DD0086-01.pdf",
+        "https://images.prismic.io/funktion-one/aUliSnNYClf9ok-G_PSM15-F1-3DM%3DT0323-00.dwg?auto=format,compress?auto=compress,format",
+        "https://images.prismic.io/funktion-one/aUliVHNYClf9ok-K_PSM15-F1-2DM%3DT0322-00.dwg?auto=format,compress?auto=compress,format",
+        "https://images.prismic.io/funktion-one/aWYk-QIvOtkhBboq_PSM15-F1-WD%3DT0328-00.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver MHF",
+          "label": "Driver",
+          "value": "MHF",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver MHF",
+          "label": "Operating band",
+          "value": "1kHz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver MHF",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver MHF",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver MHF",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 15\" (LF)",
+          "label": "Driver",
+          "value": "15\" (LF)",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 15\" (LF)",
+          "label": "Operating band",
+          "value": "60Hz - 1kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 15\" (LF)",
+          "label": "Sensitivity at 1m",
+          "value": "96dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 15\" (LF)",
+          "label": "Power (AES)",
+          "value": "600W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 15\" (LF)",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "80Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "28kg (62lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 70° Vertical (rotatable by 90°)",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x NLT4M",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-psm18",
+      "manufacturer_id": "funktion-one",
+      "model": "PSM18",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "monitors",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/psm18-point-source/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/3c237f2b-8ddb-4ee9-965d-53dfe2beb507_PSM18-F1-TD%3DT0188-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/acUOSZGXnQHGY_Gv_PSM18-F1-DS%3DD0048-03.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b56a6dad-9998-4bb9-9c7c-95d4c4430c6f_PSM18-F1-3DM%3DT0191-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ea790306-99b2-48df-a6b0-bbeff320f0b2_PSM18-F1-DD%3DT0189-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ec979c45-a6d7-493f-8e92-33df2828b4b8_PSM18-F1-2DM%3DT0190-00.dwg",
+        "https://images.prismic.io/funktion-one/6dacb49f-074d-4f55-abfe-bd2d6732a4aa_PSM18-F1-WD%3DT0131-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 18\"",
+          "label": "Driver",
+          "value": "18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 18\"",
+          "label": "Operating band",
+          "value": "30Hz - 694Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 18\"",
+          "label": "Power (AES)",
+          "value": "600W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 18\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Driver",
+          "value": "5\" + VHF (V1)",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Operating band",
+          "value": "694Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Power (AES)",
+          "value": "80W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver MF + HF (V2)",
+          "label": "Driver",
+          "value": "MF + HF (V2)",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver MF + HF (V2)",
+          "label": "Operating band",
+          "value": "600Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver MF + HF (V2)",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver MF + HF (V2)",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver MF + HF (V2)",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "35kg (77lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "70° Conical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-psm318",
+      "manufacturer_id": "funktion-one",
+      "model": "PSM318",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "monitors",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/psm318-dj/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2c59d966-6c3e-4d6a-9d24-314ec8a103f4_PSM318-F1-3DM%3DT0195-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/43510c7e-e5d5-4cae-a9e9-72f7ec8b68c5_PSM318-F1-DD%3DT0193-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/97b61903-bb75-4830-a871-e75155cff928_PSM318-F1-TD%3DT0192-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/acUOZZGXnQHGY_Gz_PSM318-F1-DS%3DD0049-05.pdf",
+        "https://images.prismic.io/funktion-one/3b96fc44-d96e-4dcd-ae0a-ec28d493d679_PSM318-F1-WD%3DT0132-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/6a517322-5d7e-45fb-89be-d3d7d4d0a44a_PSM318_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/aGajxnfc4bHWjBcu_PSM318-F1-2DM%3DT0194-01.dwg?auto=format,compress?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 18\" (PSM318L)",
+          "label": "Driver",
+          "value": "2 x 18\" (PSM318L)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 18\" (PSM318L)",
+          "label": "Operating band",
+          "value": "25Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 18\" (PSM318L)",
+          "label": "Sensitivity at 1m",
+          "value": "101dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 18\" (PSM318L)",
+          "label": "Power (AES)",
+          "value": "1100W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 18\" (PSM318L)",
+          "label": "Nominal impedance",
+          "value": "4Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 18\"",
+          "label": "Driver",
+          "value": "18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 18\"",
+          "label": "Operating band",
+          "value": "85Hz - 694Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 18\"",
+          "label": "Power (AES)",
+          "value": "600W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 18\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Driver",
+          "value": "5\" + VHF (V1)",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Operating band",
+          "value": "694Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Power (AES)",
+          "value": "80W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 5\" + VHF (V1)",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Driver MF + HF (V2)",
+          "label": "Driver",
+          "value": "MF + HF (V2)",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Driver MF + HF (V2)",
+          "label": "Operating band",
+          "value": "600Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Driver MF + HF (V2)",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Driver MF + HF (V2)",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.19",
+          "section": "Driver MF + HF (V2)",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.20",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "30Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.21",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "107kg (236lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.22",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "70° Conical",
+          "notes": ""
+        },
+        {
+          "key": "published.23",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Neutrik NL8 connection to lower section with NL4 glanded lead to top section",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

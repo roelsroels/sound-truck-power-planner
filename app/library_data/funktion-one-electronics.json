@@ -1,0 +1,3326 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-aspc1-polarity-checker",
+      "manufacturer_id": "funktion-one",
+      "model": "ASPC1 Polarity Checker",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/aspc1-polarity-checker/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/df39756c-b8a6-43f5-afa0-cae46b5f7d8d_ASPC1_PerformanceFeatures.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Documentation",
+          "label": "Technical data",
+          "value": "See the linked official technical tables and documents; no tabulated text values are published.",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d-series",
+      "manufacturer_id": "funktion-one",
+      "model": "D Series",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Additional information / Weight",
+          "label": "D100Q-DSP",
+          "value": "12.5kg (27.6lbs), Boxed (shipping) 14.5kg (32.0lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Additional information / Weight",
+          "label": "D80Q-DSP",
+          "value": "11.0kg (24.2lbs), Boxed (shipping) 13.0kg (28.7lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Additional information / Weight",
+          "label": "D40Q-DSP",
+          "value": "10.0kg (22.0lbs), Boxed (shipping) 12.0kg (26.5lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Additional information / Weight",
+          "label": "D20Q",
+          "value": "5.1kg (11.3lbs), Boxed 5.9kg (13.0lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Additional information / Weight",
+          "label": "D120",
+          "value": "12.25kg (27.0lbs), Boxed 14.25kg (31.4lbs",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.19",
+          "section": "Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.20",
+          "section": "Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": ""
+        },
+        {
+          "key": "published.21",
+          "section": "Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": ""
+        },
+        {
+          "key": "published.22",
+          "section": "Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": ""
+        },
+        {
+          "key": "published.23",
+          "section": "Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": ""
+        },
+        {
+          "key": "published.24",
+          "section": "Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": ""
+        },
+        {
+          "key": "published.25",
+          "section": "Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d100q",
+      "manufacturer_id": "funktion-one",
+      "model": "D100Q",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.17",
+          "section": "Family documentation / Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.18",
+          "section": "Family documentation / Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.19",
+          "section": "Family documentation / Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.20",
+          "section": "Family documentation / Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.21",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.22",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.23",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.24",
+          "section": "Family documentation / Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.25",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "1400 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "2700 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "3700 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "3500 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-8",
+          "section": "Selected model",
+          "label": "Bridged audio output at 8 Ω",
+          "value": "5600 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-4",
+          "section": "Selected model",
+          "label": "Bridged audio output at 4 Ω",
+          "value": "7000 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d100q-dsp",
+      "manufacturer_id": "funktion-one",
+      "model": "D100Q-DSP",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.17",
+          "section": "Family documentation / Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.18",
+          "section": "Family documentation / Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.19",
+          "section": "Family documentation / Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.20",
+          "section": "Family documentation / Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.21",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.22",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.23",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.24",
+          "section": "Family documentation / Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.25",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "1400 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "2700 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "3700 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "3500 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-8",
+          "section": "Selected model",
+          "label": "Bridged audio output at 8 Ω",
+          "value": "5600 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-4",
+          "section": "Selected model",
+          "label": "Bridged audio output at 4 Ω",
+          "value": "7000 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.dsp",
+          "section": "Selected model",
+          "label": "DSP",
+          "value": "8 processing channels (4 amplifier outputs plus 4 auxiliary outputs)",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d120",
+      "manufacturer_id": "funktion-one",
+      "model": "D120",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.17",
+          "section": "Family documentation / Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.18",
+          "section": "Family documentation / Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.19",
+          "section": "Family documentation / Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.20",
+          "section": "Family documentation / Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.21",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.22",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.23",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.24",
+          "section": "Family documentation / Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.25",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "2400 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "4600 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "6250 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "6800 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d20q",
+      "manufacturer_id": "funktion-one",
+      "model": "D20Q",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.17",
+          "section": "Family documentation / Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.18",
+          "section": "Family documentation / Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.19",
+          "section": "Family documentation / Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.20",
+          "section": "Family documentation / Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.21",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.22",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.23",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.24",
+          "section": "Family documentation / Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.25",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "175 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "350 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "480 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "360 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-8",
+          "section": "Selected model",
+          "label": "Bridged audio output at 8 Ω",
+          "value": "700 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-4",
+          "section": "Selected model",
+          "label": "Bridged audio output at 4 Ω",
+          "value": "650 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d40q",
+      "manufacturer_id": "funktion-one",
+      "model": "D40Q",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.17",
+          "section": "Family documentation / Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.18",
+          "section": "Family documentation / Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.19",
+          "section": "Family documentation / Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.20",
+          "section": "Family documentation / Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.21",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.22",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.23",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.24",
+          "section": "Family documentation / Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.25",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "500 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "1000 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "1400 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "1200 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-8",
+          "section": "Selected model",
+          "label": "Bridged audio output at 8 Ω",
+          "value": "2000 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-4",
+          "section": "Selected model",
+          "label": "Bridged audio output at 4 Ω",
+          "value": "2400 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d40q-dsp",
+      "manufacturer_id": "funktion-one",
+      "model": "D40Q-DSP",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.17",
+          "section": "Family documentation / Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.18",
+          "section": "Family documentation / Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.19",
+          "section": "Family documentation / Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.20",
+          "section": "Family documentation / Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.21",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.22",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.23",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.24",
+          "section": "Family documentation / Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.25",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "500 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "1000 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "1400 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "1200 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-8",
+          "section": "Selected model",
+          "label": "Bridged audio output at 8 Ω",
+          "value": "2000 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-4",
+          "section": "Selected model",
+          "label": "Bridged audio output at 4 Ω",
+          "value": "2400 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.dsp",
+          "section": "Selected model",
+          "label": "DSP",
+          "value": "8 processing channels (4 amplifier outputs plus 4 auxiliary outputs)",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d80q",
+      "manufacturer_id": "funktion-one",
+      "model": "D80Q",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.17",
+          "section": "Family documentation / Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.18",
+          "section": "Family documentation / Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.19",
+          "section": "Family documentation / Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.20",
+          "section": "Family documentation / Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.21",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.22",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.23",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.24",
+          "section": "Family documentation / Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.25",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "1000 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "2000 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "2200 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "2000 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-8",
+          "section": "Selected model",
+          "label": "Bridged audio output at 8 Ω",
+          "value": "4000 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-4",
+          "section": "Selected model",
+          "label": "Bridged audio output at 4 Ω",
+          "value": "4000 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-d80q-dsp",
+      "manufacturer_id": "funktion-one",
+      "model": "D80Q-DSP",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/d-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Control",
+          "value": "Globcon software (via Ethernet)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "ADC and DAC resolution",
+          "value": "24bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Internal sample rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / DSP",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / System",
+          "label": "Amplifier voltage gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / System",
+          "label": "V2",
+          "value": "Universal voltage PFC supply (100-240V)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Additional information / System",
+          "label": "V1",
+          "value": "Factory set for either 115 or 230V operation",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Additional information / System",
+          "label": "Suggested circuit breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Additional information / System",
+          "label": "Mains connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "1U = 44mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Additional information / Dimensions",
+          "label": "Published technical note",
+          "value": "2U = 88mm x 482mm x 458mm",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.17",
+          "section": "Family documentation / Published specifications",
+          "label": "ADC / DAC Resolution",
+          "value": "24 bit",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.18",
+          "section": "Family documentation / Published specifications",
+          "label": "Internal DSP Sample Rate",
+          "value": "96kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.19",
+          "section": "Family documentation / Published specifications",
+          "label": "Supported input sample rates",
+          "value": "32-192kHz",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.20",
+          "section": "Family documentation / Published specifications",
+          "label": "Amplifier Voltage Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.21",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V2)",
+          "value": "100-240V AC universal PFC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.22",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range (V1)",
+          "value": "115V/230V AC nominal 50-60Hz (factory set)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.23",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Current",
+          "value": "20A maximum",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.24",
+          "section": "Family documentation / Published specifications",
+          "label": "Suggested Circuit Breaker",
+          "value": "C32",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.25",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "1000 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "2000 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "2200 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "2000 W × 4",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-8",
+          "section": "Selected model",
+          "label": "Bridged audio output at 8 Ω",
+          "value": "4000 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.bridged-audio-output-at-4",
+          "section": "Selected model",
+          "label": "Bridged audio output at 4 Ω",
+          "value": "4000 W × 2",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        },
+        {
+          "key": "model.dsp",
+          "section": "Selected model",
+          "label": "DSP",
+          "value": "8 processing channels (4 amplifier outputs plus 4 auxiliary outputs)",
+          "notes": "Published audio output, not mains consumption. Continuous music; crest factor 4.8 (14 dB). 2.7 ohm ratings are the highest single-ended output; output is reduced at 2 ohms. Source: https://images.prismic.io/funktion-one/50c43ecf-25d6-4df8-9c39-196e5f7823da_Output+Power+table.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-e-series",
+      "manufacturer_id": "funktion-one",
+      "model": "E Series",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/e-series1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/919ae6cf-894c-40cf-91a2-718334afa411_E-SERIES_TECHNICALDRAWING.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/d4ca7625-e36c-470b-ad24-5ad15eca60b2_E-SERIESPERFORMANCE.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Additional information / DIMENSIONS",
+          "label": "Published technical note",
+          "value": "88mm high x 482mm wide x 428mm deep",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The E-Series amplifiers have an opposite airflow to that of the F-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-e15",
+      "manufacturer_id": "funktion-one",
+      "model": "E15",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/e-series1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/919ae6cf-894c-40cf-91a2-718334afa411_E-SERIES_TECHNICALDRAWING.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/d4ca7625-e36c-470b-ad24-5ad15eca60b2_E-SERIESPERFORMANCE.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information / DIMENSIONS",
+          "label": "Published technical note",
+          "value": "88mm high x 482mm wide x 428mm deep",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The E-Series amplifiers have an opposite airflow to that of the F-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "425 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "750 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "1400 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-e25",
+      "manufacturer_id": "funktion-one",
+      "model": "E25",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/e-series1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/919ae6cf-894c-40cf-91a2-718334afa411_E-SERIES_TECHNICALDRAWING.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/d4ca7625-e36c-470b-ad24-5ad15eca60b2_E-SERIESPERFORMANCE.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information / DIMENSIONS",
+          "label": "Published technical note",
+          "value": "88mm high x 482mm wide x 428mm deep",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The E-Series amplifiers have an opposite airflow to that of the F-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "650 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "1250 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-2",
+          "section": "Selected model",
+          "label": "Audio output at 2 Ω",
+          "value": "2200 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-e4-75",
+      "manufacturer_id": "funktion-one",
+      "model": "E4-75",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/e-series1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/919ae6cf-894c-40cf-91a2-718334afa411_E-SERIES_TECHNICALDRAWING.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/d4ca7625-e36c-470b-ad24-5ad15eca60b2_E-SERIESPERFORMANCE.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information / DIMENSIONS",
+          "label": "Published technical note",
+          "value": "88mm high x 482mm wide x 428mm deep",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The E-Series amplifiers have an opposite airflow to that of the F-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "775 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "900 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/c3b67847-c4d2-4128-bf3f-dd7c41b7aa82_E-SERIESOUTPUT.png?auto=compress,format"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f-series",
+      "manufacturer_id": "funktion-one",
+      "model": "F Series",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/f-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress",
+        "https://images.prismic.io/funktion-one/d285ec3d-f1fb-40fd-abda-55f5240531a9_PERFORMANCFEATURE_FSERIES.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Additional information",
+          "label": "Published technical note",
+          "value": "DIMENSIONS\n483mm x 510mm x 88mm. Includes rear rack support. 19'' rack mount enclosure",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Additional information / WEIGHT",
+          "label": "Published technical note",
+          "value": "10kg (F20Q, F50Q & F80Q); 12kg (F100-2)",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The F-Series amplifiers have an opposite airflow to that of the E-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "Links to control software download for amplifiers with built-in DSP",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Additional information / PLEASE NOTE",
+          "label": "For Windows >> https",
+          "value": "//nstaudio.com/software/dnet/D-Net_Setup.exe",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Additional information / PLEASE NOTE",
+          "label": "For MAC OS >> https",
+          "value": "//nstaudio.com/software/dnetmac/D-Net_Installer.dmg",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Published specifications",
+          "label": "Nominal System Gain",
+          "value": "32dB",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Published specifications",
+          "label": "Total Harmonic Distortion",
+          "value": "Typical 0.05% at 4Ω, 1kHz THD+N",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Published specifications",
+          "label": "Frequency Response",
+          "value": "20Hz - 20kHz ±0.5dB",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Published specifications",
+          "label": "Audio Signal Outputs",
+          "value": "speakON",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Published specifications",
+          "label": "Power Range",
+          "value": "185V-240V AC",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Published specifications",
+          "label": "System Cooling",
+          "value": "High CFM 80mm fan",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f100-2",
+      "manufacturer_id": "funktion-one",
+      "model": "F100-2",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/f-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress",
+        "https://images.prismic.io/funktion-one/d285ec3d-f1fb-40fd-abda-55f5240531a9_PERFORMANCFEATURE_FSERIES.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Published technical note",
+          "value": "DIMENSIONS\n483mm x 510mm x 88mm. Includes rear rack support. 19'' rack mount enclosure",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / WEIGHT",
+          "label": "Published technical note",
+          "value": "10kg (F20Q, F50Q & F80Q); 12kg (F100-2)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The F-Series amplifiers have an opposite airflow to that of the E-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "Links to control software download for amplifiers with built-in DSP",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "For Windows >> https",
+          "value": "//nstaudio.com/software/dnet/D-Net_Setup.exe",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "For MAC OS >> https",
+          "value": "//nstaudio.com/software/dnetmac/D-Net_Installer.dmg",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Published specifications",
+          "label": "Nominal System Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Published specifications",
+          "label": "Total Harmonic Distortion",
+          "value": "Typical 0.05% at 4Ω, 1kHz THD+N",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Published specifications",
+          "label": "Frequency Response",
+          "value": "20Hz - 20kHz ±0.5dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Published specifications",
+          "label": "Audio Signal Outputs",
+          "value": "speakON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range",
+          "value": "185V-240V AC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.12",
+          "section": "Family documentation / Published specifications",
+          "label": "System Cooling",
+          "value": "High CFM 80mm fan",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "1500 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "3000 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "5000 W × 2",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f20q",
+      "manufacturer_id": "funktion-one",
+      "model": "F20Q",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/f-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress",
+        "https://images.prismic.io/funktion-one/d285ec3d-f1fb-40fd-abda-55f5240531a9_PERFORMANCFEATURE_FSERIES.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Published technical note",
+          "value": "DIMENSIONS\n483mm x 510mm x 88mm. Includes rear rack support. 19'' rack mount enclosure",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / WEIGHT",
+          "label": "Published technical note",
+          "value": "10kg (F20Q, F50Q & F80Q); 12kg (F100-2)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The F-Series amplifiers have an opposite airflow to that of the E-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "Links to control software download for amplifiers with built-in DSP",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "For Windows >> https",
+          "value": "//nstaudio.com/software/dnet/D-Net_Setup.exe",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "For MAC OS >> https",
+          "value": "//nstaudio.com/software/dnetmac/D-Net_Installer.dmg",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Published specifications",
+          "label": "Nominal System Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Published specifications",
+          "label": "Total Harmonic Distortion",
+          "value": "Typical 0.05% at 4Ω, 1kHz THD+N",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Published specifications",
+          "label": "Frequency Response",
+          "value": "20Hz - 20kHz ±0.5dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Published specifications",
+          "label": "Audio Signal Outputs",
+          "value": "speakON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range",
+          "value": "185V-240V AC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.12",
+          "section": "Family documentation / Published specifications",
+          "label": "System Cooling",
+          "value": "High CFM 80mm fan",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "250 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "500 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-2-7",
+          "section": "Selected model",
+          "label": "Audio output at 2.7 Ω",
+          "value": "1000 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f50q",
+      "manufacturer_id": "funktion-one",
+      "model": "F50Q",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/f-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress",
+        "https://images.prismic.io/funktion-one/d285ec3d-f1fb-40fd-abda-55f5240531a9_PERFORMANCFEATURE_FSERIES.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Published technical note",
+          "value": "DIMENSIONS\n483mm x 510mm x 88mm. Includes rear rack support. 19'' rack mount enclosure",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / WEIGHT",
+          "label": "Published technical note",
+          "value": "10kg (F20Q, F50Q & F80Q); 12kg (F100-2)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The F-Series amplifiers have an opposite airflow to that of the E-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "Links to control software download for amplifiers with built-in DSP",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "For Windows >> https",
+          "value": "//nstaudio.com/software/dnet/D-Net_Setup.exe",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "For MAC OS >> https",
+          "value": "//nstaudio.com/software/dnetmac/D-Net_Installer.dmg",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Published specifications",
+          "label": "Nominal System Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Published specifications",
+          "label": "Total Harmonic Distortion",
+          "value": "Typical 0.05% at 4Ω, 1kHz THD+N",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Published specifications",
+          "label": "Frequency Response",
+          "value": "20Hz - 20kHz ±0.5dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Published specifications",
+          "label": "Audio Signal Outputs",
+          "value": "speakON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range",
+          "value": "185V-240V AC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.12",
+          "section": "Family documentation / Published specifications",
+          "label": "System Cooling",
+          "value": "High CFM 80mm fan",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "625 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "1250 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f80q",
+      "manufacturer_id": "funktion-one",
+      "model": "F80Q",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/f-series/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress",
+        "https://images.prismic.io/funktion-one/d285ec3d-f1fb-40fd-abda-55f5240531a9_PERFORMANCFEATURE_FSERIES.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Family documentation / Additional information",
+          "label": "Published technical note",
+          "value": "DIMENSIONS\n483mm x 510mm x 88mm. Includes rear rack support. 19'' rack mount enclosure",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.1",
+          "section": "Family documentation / Additional information / WEIGHT",
+          "label": "Published technical note",
+          "value": "10kg (F20Q, F50Q & F80Q); 12kg (F100-2)",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.2",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "The F-Series amplifiers have an opposite airflow to that of the E-Series amplifiers and therefore, when used together in a rack it is advisable to place the F-Series at the top of the rack.",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.3",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "Published technical note",
+          "value": "Links to control software download for amplifiers with built-in DSP",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.4",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "For Windows >> https",
+          "value": "//nstaudio.com/software/dnet/D-Net_Setup.exe",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.5",
+          "section": "Family documentation / Additional information / PLEASE NOTE",
+          "label": "For MAC OS >> https",
+          "value": "//nstaudio.com/software/dnetmac/D-Net_Installer.dmg",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.6",
+          "section": "Family documentation / Published specifications",
+          "label": "Nominal System Gain",
+          "value": "32dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.7",
+          "section": "Family documentation / Published specifications",
+          "label": "Total Harmonic Distortion",
+          "value": "Typical 0.05% at 4Ω, 1kHz THD+N",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.8",
+          "section": "Family documentation / Published specifications",
+          "label": "Frequency Response",
+          "value": "20Hz - 20kHz ±0.5dB",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.9",
+          "section": "Family documentation / Published specifications",
+          "label": "Audio Signal Outputs",
+          "value": "speakON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.10",
+          "section": "Family documentation / Published specifications",
+          "label": "Mains Connector",
+          "value": "powerCON",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.11",
+          "section": "Family documentation / Published specifications",
+          "label": "Power Range",
+          "value": "185V-240V AC",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "published.12",
+          "section": "Family documentation / Published specifications",
+          "label": "System Cooling",
+          "value": "High CFM 80mm fan",
+          "notes": "Family-level data; DSP properties apply only to DSP-equipped models. "
+        },
+        {
+          "key": "model.output-channels",
+          "section": "Selected model",
+          "label": "Output channels",
+          "value": "4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-8",
+          "section": "Selected model",
+          "label": "Audio output at 8 Ω",
+          "value": "1000 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        },
+        {
+          "key": "model.audio-output-at-4",
+          "section": "Selected model",
+          "label": "Audio output at 4 Ω",
+          "value": "2000 W × 4",
+          "notes": "Published per-channel audio output; not mains consumption. A dash in the source remains unspecified. Source: https://images.prismic.io/funktion-one/ZuROBLVsGrYSvWvG_FSeriesOutput.png?auto=format,compress"
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-id48x-matrix-signal-processor",
+      "manufacturer_id": "funktion-one",
+      "model": "ID48X Matrix Signal Processor",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/id48x-matrix-signal-processor/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/ee30b5ed-f85c-4873-a5f2-3691472c7525_ID48X_PerformanceFeatures.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Published specifications",
+          "label": "Analogue Inputs",
+          "value": "4 x e-balanced",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Published specifications",
+          "label": "AES Inputs",
+          "value": "2 x 2 balanced",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Published specifications",
+          "label": "Analogue Outputs",
+          "value": "8 x e-balanced",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Published specifications",
+          "label": "AES",
+          "value": "4 x 2 e-balanced",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Published specifications",
+          "label": "Frequency Response",
+          "value": "12Hz – 32kHz +0.2dB",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Published specifications",
+          "label": "Latency",
+          "value": "0.427mS",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Published specifications",
+          "label": "Power",
+          "value": "90-250VAC",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Published specifications",
+          "label": "THD+N",
+          "value": "0.00029%",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-rp-signal-1",
+      "manufacturer_id": "funktion-one",
+      "model": "RP-Signal-1",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/rpsignal1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/65b7cfbc615e73009ec4083d_RPSignal1_Table.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Documentation",
+          "label": "Technical data",
+          "value": "See the linked official technical tables and documents; no tabulated text values are published.",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-rp-speaker-1",
+      "manufacturer_id": "funktion-one",
+      "model": "RP-Speaker-1",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/rpspeaker1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/65b7dada615e73009ec40903_RP1Speaker1_Performance.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Documentation",
+          "label": "Technical data",
+          "value": "See the linked official technical tables and documents; no tabulated text values are published.",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-spatial-audio",
+      "manufacturer_id": "funktion-one",
+      "model": "Spatial Audio",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/spatial-audio/",
+      "datasheet_urls": [],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Additional information",
+          "label": "Number of virtual sources",
+          "value": "- Unlimited (user-defined)\nNumber of spatialisation algorithm buses: \n- Unlimited (user-defined)\n\nSound object formats (virtual sources):\n- Mono, Stereo, Multichannel\nAmbisonics stream input formats:\n- A-Format, B-Format, HOA Stream, Zylia, Eigenmike\n\nDirect to Master:\n- Direct routing to output (spatial algorithm processing bypass)\n\nSupported spatialisation algorithms:\n- WFS (Wave Field Synthesis) 2D, and 3D\n- HOA (Higher-Order Ambisonics) 2D, and 3D, up to 7th order Ambisonics\n- VBAP (Vector-Base Amplitude Panning) 2D, and 3D\n- VBIP (Vector-Base Intensity Panning) 2D, and 3D\n- LBAP (Layer-Based Amplitude Panning) 3D\n- KNN (K-Nearest Neighbours) 2D, and 3D\n- Angular 2D\n- Stereo Panning, Stereo AB, Stereo XY\n- Binaural (for headphones) with support of SOFA HRTF files\n- Transaural (for stereophonic system)\n\nOutput standards / loudspeaker positioning:\nFree loudspeaker positioning to fit any custom loudspeaker layout from stereo to full 3D sphere (azimuth and elevation).",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Additional information",
+          "label": "Outputs can also be configured to standard output formats (for example to record an automatic downmix of the performance)",
+          "value": "- Channel-based setup:\n- any ITU standard (e.g. 5.1, 7.1, 22.2, etc.),\n- Stereo panning,\n- AB/XY microphone simulation for more realistic results,\n- Binaural\n\nReverberation:\n- 3D-immersive algorithmic reverberation\n- Object-based simulation and independent control of direct sound, early reflections and late reverberation parameters\n- Automatic level option based on source positioning and distance\n- Model based on perceptual studies of distance\n\nProcessing options:\n- Trim (-80, +30dB) and Gain (-60, +12dB) adjustments for sources, buses and master\n- Adjustable delay (from 0 to 5000 ms) on sources, buses and outputs\n- Equaliser and dynamic processing options on each source, bus, with fully adjustable bands and shelves available\n- Equaliser for each reverberation stage\n- Equaliser available on each audio output (loudspeaker)Loudspeaker gain and delay adjustment on each spatialisation bus, individually(with automatic computation mode based on loudspeaker positioning)\n\nMonitoring\n- Integrated binaural monitoring of sources and the loudspeaker setup\n\nSubwoofer management:\n- LFE channel with adjustable HPF filter (2nd order IIR filter, 12 dB/oct) and equaliser and dynamics processing.\n- User-defined subwoofer buses, using any available algorithm\n\nControl and remote:\nLocal control (with a computer screen, keyboard and mouse, not provided)Remote control with the web remote interface, accessible from any computer on the same network, with Google Chrome or Chromium-based web browsers. Embedded tech support tools for remote troubleshooting\n\nExternal control protocol:\n‘HOLOSCORE’ plug-in for any major DAW for real-time automation capabilities. Open Sound Control (OSC): send and receive control messages for all parameters. ADM-OSC: send and receive unified control messages for selected parameters. Yamaha external-link (CL, QL and DM series)Support for head tracking accessories",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Additional information",
+          "label": "Automatic start",
+          "value": "Fully automated booting procedure, with a user-definable preset automatically loaded at startup, for easy operation on basic setups\n\nAutomatic reboot: Fully automated reboot after power outage",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Published specifications",
+          "label": "Audio Channels",
+          "value": "Up to 128 x 128 (depending on licence)",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Published specifications",
+          "label": "Scalability",
+          "value": "Up to 512 x 512 audio channels with optional expansion card",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Published specifications",
+          "label": "Format",
+          "value": "Dante®AoIP Network",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Published specifications",
+          "label": "Connections",
+          "value": "2 × etherCON(2.5 Gbps) Ethernet Ports(Primary and Secondary)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Published specifications",
+          "label": "Power supply",
+          "value": "Dual redundant PSUs with automatic failover",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Published specifications",
+          "label": "Operating voltage",
+          "value": "100-240V AC, 50/60 Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Published specifications",
+          "label": "Mains connector",
+          "value": "2 x powerCON",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Published specifications",
+          "label": "Supported sample rates",
+          "value": "44.1 kHz, 48 kHz, 88.2 kHz, 96 kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Published specifications",
+          "label": "Supported bit depth",
+          "value": "24 bit PCM",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-tour-rack",
+      "manufacturer_id": "funktion-one",
+      "model": "Tour Rack",
+      "variant": "",
+      "kind": "amplifier",
+      "category": "electronics",
+      "power_input": "ac",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/tourrack/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/65b7dabf615e73009ec408fe_TourRack_Table.png?auto=format,compress",
+        "https://images.prismic.io/funktion-one/65b7dac0615e73009ec408ff_TourRack_Performance.png?auto=format,compress"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Documentation",
+          "label": "Technical data",
+          "value": "See the linked official technical tables and documents; no tabulated text values are published.",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-vr1-remote-control-panel",
+      "manufacturer_id": "funktion-one",
+      "model": "VR1 Remote Control Panel",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/vr1-remote-control-panel/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/bd8a0f98-6324-4cf2-84d4-12e6eb90fa36_VR1_Performance.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Documentation",
+          "label": "Technical data",
+          "value": "See the linked official technical tables and documents; no tabulated text values are published.",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-xo2-audio-management-system",
+      "manufacturer_id": "funktion-one",
+      "model": "XO2 Audio Management System",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/xo2-audio-management-system/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/f4189f00-a6ce-4bf7-9e8c-9b2bdd7627f1_XO2+PERFORMANCE.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Additional information",
+          "label": "Published technical note",
+          "value": "DIMENSION\n44mm high x 482mm wide x 305mm deep\n\nAudioCore Compatibility\nPlease note that the XO2 does not support remote control",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Published specifications",
+          "label": "Inputs",
+          "value": "2 x e-balanced",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Published specifications",
+          "label": "Outputs",
+          "value": "6 x e-balanced",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Published specifications",
+          "label": "Frequency Range",
+          "value": "20Hz - @20kHZ",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Published specifications",
+          "label": "Distortion",
+          "value": "<0.02%@1kHz +18dBm",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Published specifications",
+          "label": "Maximum Delay",
+          "value": "650 mS",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Published specifications",
+          "label": "Min Step Size",
+          "value": "0.3 µS",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Published specifications",
+          "label": "Input Gain",
+          "value": "+6dB to -40dB (0.1dB steps)",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Published specifications",
+          "label": "Output Gain",
+          "value": "+15dB to -40dB (0.1dB steps) + mute",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-xo4-audio-management-system",
+      "manufacturer_id": "funktion-one",
+      "model": "XO4 Audio Management System",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/xo4-audio-management-system/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/cefdf7b5-3ba3-4070-b6fa-ed8309da1ea3_XO4_Performance.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Additional information",
+          "label": "Published technical note",
+          "value": "DIMENSIONS\n44mm high x 482mm wide x 305mm deep",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Additional information",
+          "label": "Published technical note",
+          "value": "AudioCore Compatibility \nXO4A version is network ready with enhanced communications (running at up to 115k for faster downloads and high resolution remote metering) – control up to 32 processors remotely via AudioCore, either via a standard balanced line (on RS485) or connected to the network via our Walkabout WiFi kit.",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Published specifications",
+          "label": "Inputs",
+          "value": "4 x e-balanced",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Published specifications",
+          "label": "Outputs",
+          "value": "8 x e-balanced",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Published specifications",
+          "label": "Frequency Range",
+          "value": "20Hz - @20kHZ",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Published specifications",
+          "label": "Distortion",
+          "value": "<0.02%@1kHz +18dBm",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Published specifications",
+          "label": "Maximum Delay",
+          "value": "650 mS",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Published specifications",
+          "label": "Min Step Size",
+          "value": "0.3 µS",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Published specifications",
+          "label": "Input Gain",
+          "value": "+6dB to -40dB (0.1dB steps)",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Published specifications",
+          "label": "Output Gain",
+          "value": "+15dB to -40dB (0.1dB steps) + mute",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-xo648",
+      "manufacturer_id": "funktion-one",
+      "model": "XO648",
+      "variant": "",
+      "kind": "accessory",
+      "category": "electronics",
+      "power_input": "unknown",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product-system/xo648/",
+      "datasheet_urls": [],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Published specifications",
+          "label": "Inputs",
+          "value": "4x Analogue (balanced XLR),\n4x AES3 (shared with XLR C&D),\n4x Dante (RJ45),\nAutomatic failover between two source formats",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Published specifications",
+          "label": "Outputs",
+          "value": "8x Analogue (balanced XLR),\n8x AES3 (shared with XLRs 2,4,6,8),\n8x Dante (RJ45)",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Published specifications",
+          "label": "Control",
+          "value": "Ethernet (RJ45) via Globcon software,\nGPIO",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Published specifications",
+          "label": "Processing",
+          "value": "ADC and DAC resolution: 24 bit,\nInternal sample rate: 96 kHz,\nInput sample rates: 32-192 kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Published specifications",
+          "label": "System",
+          "value": "Mains voltage: 60-230VAC nominal 50-60Hz,\nMains power: <40W,\nMains connector:  IEC C13",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Published specifications",
+          "label": "Dimensions",
+          "value": "1U = 44mm x 482mm x 305mm",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Published specifications",
+          "label": "Weight",
+          "value": "3.5kg (7.7lbs), Boxed (shipping) 5kg (11lbs)",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

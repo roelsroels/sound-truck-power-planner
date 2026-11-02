@@ -1,4 +1,4 @@
-"""Import public technical facts from official B&C/Powersoft product pages.
+"""Import public technical facts from official B&C/Powersoft/Funktion-One product pages.
 
 Run from the repository root. No scraping runs in the web application.
 Only structured specifications are imported; images and marketing copy are not.
@@ -63,7 +63,7 @@ class Importer:
     def __init__(self, cache):
         self.cache = Path(cache); self.cache.mkdir(parents=True, exist_ok=True)
     def fetch(self, url):
-        if urlparse(url).hostname not in ('www.bcspeakers.com', 'www.powersoft.com'):
+        if urlparse(url).hostname not in ('www.bcspeakers.com', 'www.powersoft.com', 'funktion-one.com', 'funktion-one.cdn.prismic.io'):
             raise ValueError('Unexpected manufacturer host')
         file = self.cache / (sha256(url.encode()).hexdigest() + '.html')
         if file.exists(): return file.read_text()
@@ -79,6 +79,13 @@ class Importer:
     def checked_at(self, url):
         file = self.cache / (sha256(url.encode()).hexdigest() + '.html')
         return datetime.fromtimestamp(file.stat().st_mtime, timezone.utc).date().isoformat()
+    def funktion_one(self):
+        try:
+            from .funktion_one import collect
+        except ImportError:
+            from funktion_one import collect
+        return collect(self)
+
     def bc(self):
         host = 'https://www.bcspeakers.com'
         def loader(content):
@@ -177,10 +184,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--cache', default='work/manufacturer-cache')
     parser.add_argument('--output', default='app/library_data')
-    parser.add_argument('--manufacturer', choices=['bc', 'powersoft', 'all'], default='all')
+    parser.add_argument('--manufacturer', choices=['bc', 'powersoft', 'funktion-one', 'all'], default='all')
     args = parser.parse_args(); importer = Importer(args.cache); out = Path(args.output); out.mkdir(parents=True, exist_ok=True)
-    for name in (['bc','powersoft'] if args.manufacturer == 'all' else [args.manufacturer]):
-        manufacturer, products = getattr(importer, name)()
+    for name in (['bc','powersoft','funktion-one'] if args.manufacturer == 'all' else [args.manufacturer]):
+        manufacturer, products = getattr(importer, name.replace('-','_'))()
         if not products or len({p['id'] for p in products}) != len(products): raise ValueError('Empty or duplicate catalogue')
         # Separate small category packs keep reviews and repository tools manageable.
         for old in out.glob(manufacturer['id'] + '-*.json'):

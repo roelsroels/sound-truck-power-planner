@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-ds210",
+      "manufacturer_id": "funktion-one",
+      "model": "DS210",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "dance-stack",
+      "power_input": "none",
+      "status": "current",
+      "source_url": "https://funktion-one.com/product/ds210/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/4b8bbcbc-9745-44cd-beb4-cba941aea5b4_2+x+DS210F+%2B+4+x+DS15F+Flyware.PDF",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8d3fed56-193c-4f02-b46d-4db703fbc2be_DS210F+%2B+2+DS15F+Metalwork+Assembly.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a41b0ccf-b4c5-416d-9eb9-cd97eebf4192_DS210-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/dff7b58e-39ed-4794-add6-766fa50dd64e_DS210-A-Dummy.STEP",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f823e17f-d8b1-41dd-a0e8-8eddf051d445_Funktion-One_DS210_Spec_Sheet.pdf",
+        "https://images.prismic.io/funktion-one/133be2c5-fba2-4e8a-ae3a-d1f74a3c6793_DS210_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/6fea7e4c-5eff-4e7a-aa0b-853cf1c29a53_DS210-F1-WD%3DT0127-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 10\"",
+          "label": "Driver",
+          "value": "2 x 10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 10\"",
+          "label": "Operating band",
+          "value": "220Hz - 4kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 3.5V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 10\"",
+          "label": "Power (AES)",
+          "value": "500W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 10\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Driver",
+          "value": "2 x 1.4\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Operating band",
+          "value": "4kHz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Sensitivity at 1m",
+          "value": "114dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Power (AES)",
+          "value": "150W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 2 x 1.4\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "64kg (141lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "100° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}

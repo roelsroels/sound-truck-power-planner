@@ -1,0 +1,4368 @@
+{
+  "schema_version": 1,
+  "manufacturers": [
+    {
+      "id": "funktion-one",
+      "name": "Funktion-One",
+      "website": "https://funktion-one.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "funktion-one-ax88",
+      "manufacturer_id": "funktion-one",
+      "model": "AX88",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/ax88/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/27ef527a-d380-4d8e-a81c-daa2b5adea17_AX88TripleClusterYoke.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/43ad388b-d7c2-4086-b206-713197a42bc6_AX88DoubleClusterYokeKit.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6eac61b9-ca16-4670-a5e5-017954f0d05e_Funktion-One_AX88_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8a084e95-71c2-4f02-bdbf-6a4be245aeb2_AX88CouplingBar.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/a7a2512b-26e3-42cc-a343-62dc60c71d9f_AX88FabricScrim.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d471d936-a2dc-4092-aace-712c29e60ce1_AX88-webdxf.dxf",
+        "https://images.prismic.io/funktion-one/01b1a5de-c8e1-4297-9b94-de80b4565c7c_AX88_TechDrawing.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/fec0e273-c33d-479c-b008-9c5060abd4cf_AX88_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 8\" + 1\"",
+          "label": "Driver",
+          "value": "2 x 8\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 8\" + 1\"",
+          "label": "Operating band",
+          "value": "180Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 8\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "108dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 8\" + 1\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 8\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "180Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "27kg (60lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "60° Horizontal x 55° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Wago terminal block",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-br118",
+      "manufacturer_id": "funktion-one",
+      "model": "BR118",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/br118/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/15ff035e-1f17-4aec-9cff-c127000ad189_BR118-F1-DD%3DT0169-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2f911573-9405-4034-ab2b-80540811a7ba_BR118-F1-TD%3DT0168-00.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4169e61e-4594-4a4b-a05a-1d48ee95284b_Funktion-One_BR118_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ac0d325a-5f3d-40fc-84c5-324f3b035900_BR118-F1-3DM%3DT0171-00.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fc910e41-c966-4edf-baf2-38fb7437ad44_BR118-F1-2DM%3DT0170-00.dwg",
+        "https://images.prismic.io/funktion-one/67f1a03d-930d-46d1-9cc9-4ccfd7ee7078_BR118-F1-WD%3DT0122-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 18”",
+          "label": "Driver",
+          "value": "18”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 18”",
+          "label": "Operating band",
+          "value": "25Hz - 85Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 18”",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 18”",
+          "label": "Power (AES)",
+          "value": "550W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 18”",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "45Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "38kg (84lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-ds210-mki",
+      "manufacturer_id": "funktion-one",
+      "model": "DS210 MKI",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/ds210mk1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/133be2c5-fba2-4e8a-ae3a-d1f74a3c6793_DS210_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 10\"",
+          "label": "Driver",
+          "value": "2 x 10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 10\"",
+          "label": "Operating band",
+          "value": "227Hz - 6kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "108dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 10\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 10\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 2 x 1\"",
+          "label": "Driver",
+          "value": "2 x 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 2 x 1\"",
+          "label": "Operating band",
+          "value": "5.5kHz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 2 x 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "109dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 2 x 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 2 x 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "200Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "64kg (141lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "100° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f101",
+      "manufacturer_id": "funktion-one",
+      "model": "F101",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/f101-mk1/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aAehX_IqRLdaBd6m_F101UserGuidev1.2.pdf",
+        "https://images.prismic.io/funktion-one/19119127-aa57-4f81-85ba-71e41bcdf576_F101_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\" + 1\"",
+          "label": "Driver",
+          "value": "10\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\" + 1\"",
+          "label": "Operating band",
+          "value": "100Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\" + 1\"",
+          "label": "Power (AES)",
+          "value": "150W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "100Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "10kg (22lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° x 70°",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4\nor phoenix installation connectors",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f1201",
+      "manufacturer_id": "funktion-one",
+      "model": "F1201",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/f1201/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/475cd0f0-8825-480c-9278-21ef5c716b63_F1201-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/7a6f38bf-2138-401a-8eac-93822d4603d5_F1201+User+Guide+v1.41.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9b7ccabc-cd43-4403-9386-d4b192cb9a2b_F1201_EaseData.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9cda8d3e-7ad9-4472-a3bb-a89df9761ba3_F1201-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d7d58ec9-dfd3-440a-81b7-8f7112e832a1_F1201_WebSheet2015.pdf",
+        "https://images.prismic.io/funktion-one/2743a262-5235-419f-be2d-f0fd2d1aedec_F1201_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/af4e6f25-cc1e-4e7a-b7b2-e1e0eef487f5_F1201-F1-WD%3DT0133-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\" + 1\"",
+          "label": "Driver",
+          "value": "12\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\" + 1\"",
+          "label": "Operating band",
+          "value": "80Hz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\" + 1\"",
+          "label": "Power (AES)",
+          "value": "350W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "18kg (39lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° Horizontal x 40° Vertical (rotatable)",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f215-mki",
+      "manufacturer_id": "funktion-one",
+      "model": "F215 MKI",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/f215-mk1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/470a1531-aeb4-469d-acf1-528289817fcb_F215_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 15\"",
+          "label": "Driver",
+          "value": "2 x 15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 15\"",
+          "label": "Operating band",
+          "value": "60Hz - 280Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 15\"",
+          "label": "Power (AES)",
+          "value": "2 x 400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 15\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "55Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "70kg (154lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f218-mki",
+      "manufacturer_id": "funktion-one",
+      "model": "F218 MKI",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/f218-mk1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/0d94b9bf-b539-451e-8c66-d31487e106a2_f218.gif?auto=compress,format",
+        "https://images.prismic.io/funktion-one/1747c783-4ea6-4966-9d7d-4fd5ba9482d5_IB218_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 18\"",
+          "label": "Driver",
+          "value": "2 x 18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 18\"",
+          "label": "Operating band",
+          "value": "25Hz - 125Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "106dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 18\"",
+          "label": "Power (AES)",
+          "value": "900W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 18\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω (4Ω parallel)",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "91.5kg (201lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f221a",
+      "manufacturer_id": "funktion-one",
+      "model": "F221A",
+      "variant": "",
+      "kind": "active_cabinet",
+      "category": "heritage",
+      "power_input": "ac",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/f221a/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/8151d614-2009-417d-a764-6430712b03a0_Backpack+DiagnosticV1016.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8ced3bb3-926f-4e3b-9e41-4dce8dc00603_A4_%26_A6_Manual_Live%21_Version.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/900acce3-521b-4fe9-b6a8-7a177490f38f_F221-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aK2F8GGNHVfTOT5j_FunktionNet_Firmware_Sept_13.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b944a7e3-aad8-4552-a1ca-ab4415818b9e_Funktion-One_F221_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/bb1bf6e4-031f-4461-ad76-b210d6708527_F221-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/be606dc9-b7a4-4b20-b1ad-6300a1ca4d62_1300.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f9822900-aaa6-4aa6-ab26-5fb6cb7d4e1d_FunktionNetInstaller+v1_11.zip",
+        "https://images.prismic.io/funktion-one/3753139b-465e-42f1-8589-f86569e2d72d_F221-F1-WD%3DT0119-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/88d5731f-8f41-45b5-a39d-c356a434e26d_F221_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 21\"",
+          "label": "Driver",
+          "value": "2 x 21\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 21\"",
+          "label": "Operating band",
+          "value": "20Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 21\"",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 21\"",
+          "label": "Power (AES)",
+          "value": "2 x 750W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 21\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "40Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "130kg (288lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f5",
+      "manufacturer_id": "funktion-one",
+      "model": "F5",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/f5_mk1/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2fcd7901-9203-4e99-8f12-1b19a0585004_F5_Specsheet2020.pdf"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 5”",
+          "label": "Driver",
+          "value": "5”",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 5”",
+          "label": "Operating band",
+          "value": "100Hz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 5”",
+          "label": "Sensitivity at 1m",
+          "value": "90dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 5”",
+          "label": "Power (AES)",
+          "value": "30W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 5”",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "150Hz - 13kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "2.7kg (5.9lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Conical",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4 or Phoenix",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f81",
+      "manufacturer_id": "funktion-one",
+      "model": "F81",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/f81-1/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/aAehI_IqRLdaBd6g_F81UserGuidev1.2.pdf",
+        "https://images.prismic.io/funktion-one/f4f8679d-d159-44d7-940c-a619d631dea7_F81_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 8\" + 1\"",
+          "label": "Driver",
+          "value": "8\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 8\" + 1\"",
+          "label": "Operating band",
+          "value": "110Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 8\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "98dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 8\" + 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 8\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "110Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "5kg (11.5lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° x 70°",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-f88",
+      "manufacturer_id": "funktion-one",
+      "model": "F88",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/f88/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/44275ef7-535e-455e-9512-2e6bb72ee87b_WME100_f88.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c89e8172-784c-40e1-bf1d-0ef973affa73_F88-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e0eb3cc3-db12-47de-9d2b-0ebfbd179ace_Funktion-One_F88_Spec_Sheet.pdf",
+        "https://images.prismic.io/funktion-one/0a2e5f18-0b6d-43d9-8406-596ee32f96db_F88-F1-WD%3DT0110-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/366d4cb8-07f9-4df7-8e38-95eee4634aba_F88_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 8\" HF Slot",
+          "label": "Driver",
+          "value": "2 x 8\" HF Slot",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 8\" HF Slot",
+          "label": "Operating band",
+          "value": "70Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 8\" HF Slot",
+          "label": "Sensitivity at 1m",
+          "value": "98dB at 2.4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 8\" HF Slot",
+          "label": "Power (AES)",
+          "value": "400W (S/N<1462 150W)",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 8\" HF Slot",
+          "label": "Nominal impedance",
+          "value": "6Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "70Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "13kg (28.5lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "110° x 40°",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-infrabass-218",
+      "manufacturer_id": "funktion-one",
+      "model": "Infrabass 218",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/ib218/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1b298602-767e-45ab-9596-b40fa22d24de_IB218-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c11e6c56-2361-4b49-8981-c035fe577bbc_IB218-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d6c9161e-618b-439d-882c-bba82ac13500_IB218-F1-DS%3DD0059-00.pdf",
+        "https://images.prismic.io/funktion-one/1747c783-4ea6-4966-9d7d-4fd5ba9482d5_IB218_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/39206cb9-48bb-4008-bee1-5ef0f26f140f_1459.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 18\"",
+          "label": "Driver",
+          "value": "2 x 18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 18\"",
+          "label": "Operating band",
+          "value": "20Hz - 80Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 18\"",
+          "label": "Power (AES)",
+          "value": "2 x 600W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 18\"",
+          "label": "Nominal impedance",
+          "value": "2 x 8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "25Hz - 80Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "90kg (198lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-infrahorn",
+      "manufacturer_id": "funktion-one",
+      "model": "Infrahorn",
+      "variant": "",
+      "kind": "accessory",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/infrahorn/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/ad391688-03a2-4da3-af30-15892852f54d_IH-D-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b4491af3-6eb1-42dc-9a3a-2b9bfa4445ac_Infrahorn-F1-DS%3DD0060-00.pdf",
+        "https://images.prismic.io/funktion-one/0b0ac0eb-dfcf-42c2-907b-263e21360198_IH-D_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/57eb58c7-e2c2-4e8c-b971-d5c2f18aa9ec_1486.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Documentation",
+          "label": "Technical data",
+          "value": "See the linked official technical tables and documents; no tabulated text values are published.",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-mb112",
+      "manufacturer_id": "funktion-one",
+      "model": "MB112",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/mb112/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/12f31099-6321-41e3-90f1-bd854e87f2cd_MB112-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2b44bc52-28d0-4016-b5ef-61cee3fb74b5_MB112-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b1b69c6e-46a3-479d-9ec7-5572001fa290_Funktion-One_MB112_Spec_Sheet.pdf",
+        "https://images.prismic.io/funktion-one/1753e93a-08af-4917-9b70-de893eb36cf2_MB112-F1-WD%3DT0111-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/242397ad-50e5-475c-9255-ebaaac359b4b_MB112_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "60Hz - 160Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 160Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "19.5kg (43lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-mb212",
+      "manufacturer_id": "funktion-one",
+      "model": "MB212",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/mb212/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/132d000d-6e88-47fa-b361-7a47962a9295_MB212-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6c4fde0d-bf46-4005-a1ab-237c51794411_Funktion-One_MB212_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/83f4260f-c51b-441f-8ed1-9dda289ab5ee_MB212-webdxf.dxf",
+        "https://images.prismic.io/funktion-one/242397ad-50e5-475c-9255-ebaaac359b4b_MB112_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/9aa3bc63-7a69-4578-88fb-264ae25f5e33_MB212-F1-WD%3DT0112-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 12\"",
+          "label": "Driver",
+          "value": "2 x 12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 12\"",
+          "label": "Operating band",
+          "value": "35Hz - 125Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "104dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 12\"",
+          "label": "Power (AES)",
+          "value": "600W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50Hz - 80Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "48kg (106lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-mb308",
+      "manufacturer_id": "funktion-one",
+      "model": "MB308",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/mb308/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/7f1b2d5e-0477-4e8b-bead-5554d50f0e99_MB210LP_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 3 x 8\"",
+          "label": "Driver",
+          "value": "3 x 8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 3 x 8\"",
+          "label": "Operating band",
+          "value": "60Hz - 140Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 3 x 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "101dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 3 x 8\"",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 3 x 8\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 140Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "28kg (62lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-microbass-210",
+      "manufacturer_id": "funktion-one",
+      "model": "Microbass 210",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/mb210/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/1857a8e1-36d9-47bb-b0aa-c04ce927e423_MB210_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 10\"",
+          "label": "Driver",
+          "value": "2 x 10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 10\"",
+          "label": "Operating band",
+          "value": "50Hz - 150Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 10\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 10\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50Hz - 150Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "34kg (75lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-1",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 1",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-1/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/0d505ac0-095c-4552-b976-905c637fd39c_R1-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/184a455d-1c5e-49f5-acf2-a7ab8a435a07_Res1-F1-DS%3DD0024-01.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/19d63810-1210-4d9b-99ee-add3688d3900_1312.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/23633dda-a3d1-4541-b810-912324f40736_1306.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/29882e8e-0600-42d1-adb2-776af18921d0_R1_UserManual_EN_1_0_0_1.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/49d8e953-50db-4cf5-807e-62e17918365f_1310.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9c7e5683-31fd-4431-bfc0-8b7df71b0f5c_R1-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d80e9d1e-f2da-4721-8e4f-ded28a584f34_1307.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ef455d56-631d-4c8b-97b6-147e744e80e2_1302-2.pdf",
+        "https://images.prismic.io/funktion-one/83b263c8-d2e6-4b5e-b0bf-5df8e4c7e9df_R1_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/ce1e8be5-0f61-450b-b47f-ff709aeab436_Res1-F1-WD%3DT0103-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "25Hz - 520Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "350W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 5\"",
+          "label": "Driver",
+          "value": "5\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 5\"",
+          "label": "Operating band",
+          "value": "520Hz - 15kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 5\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 3.5V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 5\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 5\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 12\" + 5\" (Optional PX1 Passive Module)",
+          "label": "Driver",
+          "value": "12\" + 5\" (Optional PX1 Passive Module)",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 12\" + 5\" (Optional PX1 Passive Module)",
+          "label": "Operating band",
+          "value": "25Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 12\" + 5\" (Optional PX1 Passive Module)",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 12\" + 5\" (Optional PX1 Passive Module)",
+          "label": "Power (AES)",
+          "value": "350W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 12\" + 5\" (Optional PX1 Passive Module)",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "65Hz - 15kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "19kg (42lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "40° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-1-5",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 1.5",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-1.5/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/33a231cb-19af-4afc-bb91-4a0a5d4d341b_R1point5-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/60ed72e2-fbdc-465c-941c-9f76746893de_Funktion-One_Res1.5_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9f0832f3-5751-45c5-aa65-2b863edf2422_R1_UserManual_EN_1_0_0_1.pdf",
+        "https://images.prismic.io/funktion-one/18ccd365-a96a-4f7b-a6cd-9a7cd4c7ad3d_RES1.5_TechnicalDrawing.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/7bcdf6da-cbb3-40f4-9551-e9e4f1ac205a_R1.5_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 18\"",
+          "label": "Driver",
+          "value": "18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 18\"",
+          "label": "Operating band",
+          "value": "55Hz - 595Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 18\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 18\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 5\"",
+          "label": "Driver",
+          "value": "5\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 5\"",
+          "label": "Operating band",
+          "value": "520Hz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 5\"",
+          "label": "Sensitivity at 1m",
+          "value": "110dB at 3.5V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 5\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 5\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 18\" + 5\" (Optional PX1.5 Passive Module)",
+          "label": "Driver",
+          "value": "18\" + 5\" (Optional PX1.5 Passive Module)",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 18\" + 5\" (Optional PX1.5 Passive Module)",
+          "label": "Operating band",
+          "value": "25Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 18\" + 5\" (Optional PX1.5 Passive Module)",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 18\" + 5\" (Optional PX1.5 Passive Module)",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 18\" + 5\" (Optional PX1.5 Passive Module)",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "55Hz - 15kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "29kg (64lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-1-5tt",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 1.5TT",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-1.5tt/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/319268d3-f377-49ad-958d-b705dc9b40e1_R1.5TT-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4a6278ce-7238-4b39-a3f4-ce6ca5566421_Funktion-One_Res1.5TT_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9f0832f3-5751-45c5-aa65-2b863edf2422_R1_UserManual_EN_1_0_0_1.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/b0a10fc0-b1d1-4b9d-8040-efb1d2799fd0_R1point5TT-webdxf.dxf",
+        "https://images.prismic.io/funktion-one/65e5c7a3-47dd-4b69-a8cd-849cd268572f_R1.5TT_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/6ae243c1-600d-4c15-b801-0e326789fddd_Res1.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 12\"",
+          "label": "Driver",
+          "value": "2 x 12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 12\"",
+          "label": "Operating band",
+          "value": "25Hz - 520Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 12\"",
+          "label": "Power (AES)",
+          "value": "700W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 12\"",
+          "label": "Nominal impedance",
+          "value": "4Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 5\"",
+          "label": "Driver",
+          "value": "5\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 5\"",
+          "label": "Operating band",
+          "value": "520Hz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 5\"",
+          "label": "Sensitivity at 1m",
+          "value": "110dB at 3.5V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 5\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 5\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "55Hz - 15kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "29kg (64lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "90° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-18",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 18",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-18/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/c11b8787-93fc-43d1-897c-009b4b9b2133_Res+4+series+UG+091213.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f5650a88-9f11-4fab-b53d-096c3443a853_Res+5+series+UG+091213.pdf",
+        "https://images.prismic.io/funktion-one/05b2939b-dae9-4004-93cb-378fc27f861e_R5_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/90ed4170-e4d0-4e8b-9d8d-6324e4ced0f2_R18_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 18\"",
+          "label": "Driver",
+          "value": "18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 18\"",
+          "label": "Operating band",
+          "value": "40Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 18\"",
+          "label": "Power (AES)",
+          "value": "450W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 18\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "40Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "41kg (90lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "Array dependent",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "NL4 Panel and captive lead in cable recess",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-2",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 2",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-2/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1025ec1d-c60b-4dbd-bc81-1ffd5f4df132_GSS-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/27b28c9a-a06d-4975-b7d8-584f562a17ec_FP22-K1.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2deeeb49-3b21-4764-aba2-f6196bf997b1_Funktion-One_Res2_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4f09a93d-3aa1-499b-8500-7337c4a8b503_R2-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/92213e87-36fe-4f7f-a696-aa6641a98aed_GroundStacks_April14-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/dcc55875-0a3a-4fbf-b42a-1785b84b4ab7_YK-SR2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e84feea2-bb65-4373-a4fc-4933828075bc_R2-A-3D-DWG_2106.dwg",
+        "https://images.prismic.io/funktion-one/31a0282d-16ea-4df4-aaaa-78d11c3a32ae_Res2-F1-WD%3DT0106-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/a228834b-2572-4e2a-9594-5a2e0d97945b_R2_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "28Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\" + 1\"",
+          "label": "Driver",
+          "value": "8\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\" + 1\"",
+          "label": "Operating band",
+          "value": "250Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "106dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\" + 1\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "48kg (106lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-2-mki",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 2 MKI",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-2mk1/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/5d023690-6ce7-414c-bcfb-aed57864b4df_res2.gif?auto=compress,format",
+        "https://images.prismic.io/funktion-one/a228834b-2572-4e2a-9594-5a2e0d97945b_R2_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "28Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\" + 1\"",
+          "label": "Driver",
+          "value": "8\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\" + 1\"",
+          "label": "Operating band",
+          "value": "250Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "106dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\" + 1\"",
+          "label": "Power (AES)",
+          "value": "80W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "42kg (92.5lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-2a",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 2A",
+      "variant": "",
+      "kind": "active_cabinet",
+      "category": "heritage",
+      "power_input": "ac",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-2a/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/1025ec1d-c60b-4dbd-bc81-1ffd5f4df132_GSS-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/27b28c9a-a06d-4975-b7d8-584f562a17ec_FP22-K1.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/2deeeb49-3b21-4764-aba2-f6196bf997b1_Funktion-One_Res2_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4f09a93d-3aa1-499b-8500-7337c4a8b503_R2-webdxf.dxf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/6d5473f5-a2c1-40d8-be58-310d43f6e039_2135.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8151d614-2009-417d-a764-6430712b03a0_Backpack+DiagnosticV1016.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/8ced3bb3-926f-4e3b-9e41-4dce8dc00603_A4_%26_A6_Manual_Live%21_Version.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/90f4dd47-8138-49a2-961c-68227e125000_1305.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/92213e87-36fe-4f7f-a696-aa6641a98aed_GroundStacks_April14-2.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/aK2F8GGNHVfTOT5j_FunktionNet_Firmware_Sept_13.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/d7293636-78db-4013-a5b8-fe971c4b134e_R2+Flying+Grids+and+Bridles.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/e84feea2-bb65-4373-a4fc-4933828075bc_R2-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f9822900-aaa6-4aa6-ab26-5fb6cb7d4e1d_FunktionNetInstaller+v1_11.zip",
+        "https://images.prismic.io/funktion-one/31a0282d-16ea-4df4-aaaa-78d11c3a32ae_Res2-F1-WD%3DT0106-00.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/a228834b-2572-4e2a-9594-5a2e0d97945b_R2_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "28Hz - 250Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\" + 1\"",
+          "label": "Driver",
+          "value": "8\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\" + 1\"",
+          "label": "Operating band",
+          "value": "250Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "106dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\" + 1\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "48kg (106lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-2sh",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 2SH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-2sh/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/19c6da92-94d0-4bba-8298-420e7d144237_RES2SH_EaseData.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4663eb87-d382-42c6-9d4d-0658f2113df0_Funktion-One_Res2SH_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4b0b62a7-3799-4764-a005-bde06e515dad_R2SH-M-Yoke-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/4fa9c9a6-81cb-4951-9bd8-adbc3e5b0831_R2SH-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c6a05615-5047-42c9-8923-af24ba2e1827_R2SH-webdxf.dxf",
+        "https://images.prismic.io/funktion-one/5c2a1e5e-7941-4daa-9fac-63d28960c2a0_R2SH_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/b95c1847-acf0-48c3-b339-46ba2acfe1ef_Res2SH-F1-WD%3DT0107-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 8\" + 1\"",
+          "label": "Driver",
+          "value": "8\" + 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 8\" + 1\"",
+          "label": "Operating band",
+          "value": "250Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 8\" + 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "106dB at 3.5V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 8\" + 1\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 8\" + 1\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "250Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "13kg (29lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Neutrik NL4 or Junction box option",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-3",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 3",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-3/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/c6a23843-1411-4c7a-8114-d60ba4ba0af2_GSS.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ec4c6d6e-e40e-458a-a288-d50b21d4d0a0_GroundStacks_April14.pdf",
+        "https://images.prismic.io/funktion-one/e29dca8c-7b9c-4539-9663-0f5ae82277b5_R3_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 18\"",
+          "label": "Driver",
+          "value": "18\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 18\"",
+          "label": "Operating band",
+          "value": "20Hz - 200Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 18\"",
+          "label": "Sensitivity at 1m",
+          "value": "103dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 18\"",
+          "label": "Power (AES)",
+          "value": "500W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 18\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "200Hz - 5.99Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5.55kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "50W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "45Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "76kg (167lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x EP6",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-3eh",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 3EH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-3eh/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/dc58eca3-45be-46ea-860d-2f6446a08cc6_R3EH_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "170Hz - 5.99Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5.55kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "50W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "170Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "26kg (57lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-3sh",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 3SH",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-3sh/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/3ba37a1c-81a5-4305-9900-b0c184dc30f1_R3SH_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 10\"",
+          "label": "Driver",
+          "value": "10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 10\"",
+          "label": "Operating band",
+          "value": "170Hz - 5.99Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 10\"",
+          "label": "Power (AES)",
+          "value": "250W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 10\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5.55kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "50W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "170Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "17kg (38lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Wago terminal block or Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-4d",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 4D",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-4d/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/c11b8787-93fc-43d1-897c-009b4b9b2133_Res+4+series+UG+091213.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f5650a88-9f11-4fab-b53d-096c3443a853_Res+5+series+UG+091213.pdf",
+        "https://images.prismic.io/funktion-one/a614ccf6-c5b7-40bb-8c3f-3aaf13fc5a59_R4D_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "445Hz - 5.77kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "108dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5.55kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "109dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "50W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "445Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "20kg (44lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "25° Horizontal x 50° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "EP6 panel and captive lead in cable recess",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-4e",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 4E",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-4e/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/2adea005-d00c-424e-b818-13953a82c218_R4E-A-3D-DWG_2106.dwg",
+        "https://funktion-one.cdn.prismic.io/funktion-one/7a16392d-1f2b-4401-9262-8f45f923e90e_FP42-K1.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/972c3159-6333-497b-ac8a-74684558c4d4_RES4_EASEDATA.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/9f77740d-feb6-4dc0-b66e-70f6355429ee_Funktion-One_Res4E_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c11b8787-93fc-43d1-897c-009b4b9b2133_Res+4+series+UG+091213.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c6a23843-1411-4c7a-8114-d60ba4ba0af2_GSS.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fb2acdf7-6003-4488-a74c-bb38e6cb793c_Wheelboard-and-Scrim_web.pdf",
+        "https://images.prismic.io/funktion-one/3edb8c90-e83b-44a2-9b7e-325c0e68f9f6_Res4E-F1-WD%3DT0108-00.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "114Hz - 445Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "445Hz - 5.77kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "108dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5.55kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "109dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "50W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "90Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "47 - 53kg",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x speakON NL8",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-4s",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 4S",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-4s/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/1f2b6137-8a7e-49cd-a655-7cf416d75add_R4S_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "114Hz - 445Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "445Hz - 5.77kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "108dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5.55kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "109dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "50W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "90Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "38 kg (84 lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Wago terminals",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-4t",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 4T",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-4t/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/972c3159-6333-497b-ac8a-74684558c4d4_RES4_EASEDATA.zip",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c11b8787-93fc-43d1-897c-009b4b9b2133_Res+4+series+UG+091213.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c6a23843-1411-4c7a-8114-d60ba4ba0af2_GSS.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fb2acdf7-6003-4488-a74c-bb38e6cb793c_Wheelboard-and-Scrim_web.pdf",
+        "https://images.prismic.io/funktion-one/3e214ba5-c47c-4c11-9909-4e8e81a94b6c_R4T_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "114Hz - 445Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "445Hz - 5.77kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "108dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 1\"",
+          "label": "Driver",
+          "value": "1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 1\"",
+          "label": "Operating band",
+          "value": "5.55kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "109dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 1\"",
+          "label": "Power (AES)",
+          "value": "50W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "90Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "46 kg (101lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "50° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "EP6 panel and captive lead in cable recess",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-5e",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 5E",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-5e/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/88420eec-31f7-4cd0-802f-db51fcc7a6c2_Funktion-One_Res5E_Spec_Sheet.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/c6a23843-1411-4c7a-8114-d60ba4ba0af2_GSS.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ec4c6d6e-e40e-458a-a288-d50b21d4d0a0_GroundStacks_April14.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f5650a88-9f11-4fab-b53d-096c3443a853_Res+5+series+UG+091213.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fb2acdf7-6003-4488-a74c-bb38e6cb793c_Wheelboard-and-Scrim_web.pdf",
+        "https://images.prismic.io/funktion-one/05b2939b-dae9-4004-93cb-378fc27f861e_R5_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/f14f511b-8dcd-4691-959a-13916db72fe9_Res5E+Technical+Drawing+2.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "114Hz - 445Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "445Hz - 7.55kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 2 x 1\"",
+          "label": "Driver",
+          "value": "2 x 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 2 x 1\"",
+          "label": "Operating band",
+          "value": "5.77kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 2 x 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "113dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 2 x 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 2 x 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "90Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "60kg (132lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "25° Horizontal x 20° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL8",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-5s",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 5S",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-5s/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/05b2939b-dae9-4004-93cb-378fc27f861e_R5_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/63bf7895-25eb-40bb-abe4-33ee070505a0_R5S_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "114Hz - 445Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "445Hz - 7.55kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 2 x 1\"",
+          "label": "Driver",
+          "value": "2 x 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 2 x 1\"",
+          "label": "Operating band",
+          "value": "5.77kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 2 x 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "113dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 2 x 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 2 x 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "90Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "50kg",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "25° Horizontal x 20° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Wago terminal",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-5t",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 5T",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-5t/",
+      "datasheet_urls": [
+        "https://funktion-one.cdn.prismic.io/funktion-one/c6a23843-1411-4c7a-8114-d60ba4ba0af2_GSS.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/ec4c6d6e-e40e-458a-a288-d50b21d4d0a0_GroundStacks_April14.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/f5650a88-9f11-4fab-b53d-096c3443a853_Res+5+series+UG+091213.pdf",
+        "https://funktion-one.cdn.prismic.io/funktion-one/fb2acdf7-6003-4488-a74c-bb38e6cb793c_Wheelboard-and-Scrim_web.pdf",
+        "https://images.prismic.io/funktion-one/05b2939b-dae9-4004-93cb-378fc27f861e_R5_scale.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/c821170b-e61c-45cc-8fdd-a532981afbeb_R5T_tech.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "114Hz - 445Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 8\"",
+          "label": "Driver",
+          "value": "8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 8\"",
+          "label": "Operating band",
+          "value": "445Hz - 7.55kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 8\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 8\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 2 x 1\"",
+          "label": "Driver",
+          "value": "2 x 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 2 x 1\"",
+          "label": "Operating band",
+          "value": "5.77kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 2 x 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "113dB at 4V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 2 x 1\"",
+          "label": "Power (AES)",
+          "value": "100W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 2 x 1\"",
+          "label": "Nominal impedance",
+          "value": "16Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "90Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "46kg (101lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "25° Horizontal x 20° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "EP6 panel and captive lead in cable recess",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-res-9",
+      "manufacturer_id": "funktion-one",
+      "model": "Res 9",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/res-9/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/652efe4c-4eee-4076-9a49-8b6f7bc05126_res9.gif?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 15\"",
+          "label": "Driver",
+          "value": "2 x 15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 15\"",
+          "label": "Operating band",
+          "value": "75Hz - 445Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "107dB at 2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 15\"",
+          "label": "Power (AES)",
+          "value": "700W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 15\"",
+          "label": "Nominal impedance",
+          "value": "4Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 2 x 8\"",
+          "label": "Driver",
+          "value": "2 x 8\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 2 x 8\"",
+          "label": "Operating band",
+          "value": "445Hz - 5.77kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 2 x 8\"",
+          "label": "Sensitivity at 1m",
+          "value": "111dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 2 x 8\"",
+          "label": "Power (AES)",
+          "value": "350W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 2 x 8\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Driver 4 x 1\"",
+          "label": "Driver",
+          "value": "4 x 1\"",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Driver 4 x 1\"",
+          "label": "Operating band",
+          "value": "5.55kHz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Driver 4 x 1\"",
+          "label": "Sensitivity at 1m",
+          "value": "113dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Driver 4 x 1\"",
+          "label": "Power (AES)",
+          "value": "200W",
+          "notes": ""
+        },
+        {
+          "key": "published.14",
+          "section": "Driver 4 x 1\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.15",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "75Hz - 18kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.16",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "68kg (150lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.17",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "25° Horizontal x 25° Vertical",
+          "notes": ""
+        },
+        {
+          "key": "published.18",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "Wago terminals",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-rm12",
+      "manufacturer_id": "funktion-one",
+      "model": "RM12",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/rm12/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/12b26b6d-6369-4b10-a4b0-97e01342084a_RM12_tech.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/fff1bdb6-2a96-4d0f-b15e-fe4846f3e76b_PSM12_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 12\"",
+          "label": "Driver",
+          "value": "12\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 12\"",
+          "label": "Operating band",
+          "value": "40Hz - 721Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 12\"",
+          "label": "Sensitivity at 1m",
+          "value": "100dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 12\"",
+          "label": "Power (AES)",
+          "value": "300W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 12\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 5\"",
+          "label": "Driver",
+          "value": "5\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 5\"",
+          "label": "Operating band",
+          "value": "721Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 5\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 3.5V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 5\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 5\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "65Hz - 15kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "20kg (45lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "25° x 50°",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-rm15",
+      "manufacturer_id": "funktion-one",
+      "model": "RM15",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/rm15/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/3ffa7210-e55d-428d-8963-e5aa471d1a39_RM15_tech.png?auto=compress,format",
+        "https://images.prismic.io/funktion-one/fff1bdb6-2a96-4d0f-b15e-fe4846f3e76b_PSM12_scale.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 15\"",
+          "label": "Driver",
+          "value": "15\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 15\"",
+          "label": "Operating band",
+          "value": "30Hz - 721Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 15\"",
+          "label": "Sensitivity at 1m",
+          "value": "102dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 15\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 15\"",
+          "label": "Nominal impedance",
+          "value": "8Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Driver 5\"",
+          "label": "Driver",
+          "value": "5\"",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Driver 5\"",
+          "label": "Operating band",
+          "value": "721Hz - Up",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Driver 5\"",
+          "label": "Sensitivity at 1m",
+          "value": "112dB at 3.5V",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Driver 5\"",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.9",
+          "section": "Driver 5\"",
+          "label": "Nominal impedance",
+          "value": "12Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.10",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "50Hz - 15kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.11",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "27kg (60lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.12",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "25° x 50°",
+          "notes": ""
+        },
+        {
+          "key": "published.13",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2 x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-satellite-tweeter-pod",
+      "manufacturer_id": "funktion-one",
+      "model": "Satellite Tweeter Pod",
+      "variant": "",
+      "kind": "passive_cabinet",
+      "category": "heritage",
+      "power_input": "none",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/satellite-tweeter-pod/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/2ee1769f-499e-41f0-94e7-6bbf078f25a2_SatalitteTweeter_Tech+Drawing.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 3x HF Slot",
+          "label": "Driver",
+          "value": "3x HF Slot",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 3x HF Slot",
+          "label": "Operating band",
+          "value": "5kHz - up",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 3x HF Slot",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.2V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 3x HF Slot",
+          "label": "Power (AES)",
+          "value": "75W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 3x HF Slot",
+          "label": "Nominal impedance",
+          "value": "5Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "5kHz - 20kHz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "360°",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "1x Neutrik NL4",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    },
+    {
+      "id": "funktion-one-sb210a",
+      "manufacturer_id": "funktion-one",
+      "model": "SB210A",
+      "variant": "",
+      "kind": "active_cabinet",
+      "category": "heritage",
+      "power_input": "ac",
+      "status": "archived",
+      "source_url": "https://funktion-one.com/product/sb210a/",
+      "datasheet_urls": [
+        "https://images.prismic.io/funktion-one/83bf05c6-bdea-4f8d-bd26-830231e69728_SB210A-WEBTECH1.png?auto=compress,format"
+      ],
+      "checked_at": "2026-11-02",
+      "specs": [
+        {
+          "key": "published.0",
+          "section": "Driver 2 x 10\"",
+          "label": "Driver",
+          "value": "2 x 10\"",
+          "notes": ""
+        },
+        {
+          "key": "published.1",
+          "section": "Driver 2 x 10\"",
+          "label": "Operating band",
+          "value": "60Hz - 150Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.2",
+          "section": "Driver 2 x 10\"",
+          "label": "Sensitivity at 1m",
+          "value": "105dB at 2.8V",
+          "notes": ""
+        },
+        {
+          "key": "published.3",
+          "section": "Driver 2 x 10\"",
+          "label": "Power (AES)",
+          "value": "400W",
+          "notes": ""
+        },
+        {
+          "key": "published.4",
+          "section": "Driver 2 x 10\"",
+          "label": "Nominal impedance",
+          "value": "4Ω",
+          "notes": ""
+        },
+        {
+          "key": "published.5",
+          "section": "Cabinet",
+          "label": "Usable bandwidth (-3dB)",
+          "value": "60Hz - 150Hz",
+          "notes": ""
+        },
+        {
+          "key": "published.6",
+          "section": "Cabinet",
+          "label": "Weight",
+          "value": "43kg (95lbs)",
+          "notes": ""
+        },
+        {
+          "key": "published.7",
+          "section": "Cabinet",
+          "label": "Nominal dispersion",
+          "value": "N/A",
+          "notes": ""
+        },
+        {
+          "key": "published.8",
+          "section": "Cabinet",
+          "label": "Connectors",
+          "value": "2x XLR-TRS combo (input)\n2 x Neutrik NL4 (output)",
+          "notes": ""
+        }
+      ],
+      "electrical": null
+    }
+  ]
+}
