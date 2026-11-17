@@ -1,4 +1,4 @@
-FROM python:3.12-slim@sha256:12316debbfb86890f6b2d825820612741ba527ad5a44e3902759141d572bfe8f AS source-revision
+FROM python:3.15-slim@sha256:65a65fc7b30b06cb6df4930fd4650697cb23f4c2698ab81fc87e4b031bc36928 AS source-revision
 WORKDIR /build
 # Only HEAD and branch refs are allowed through .dockerignore; no Git config/history.
 # .gitignore keeps this COPY valid for source archives that have no .git directory.
@@ -6,7 +6,7 @@ COPY .git* ./
 COPY app/revision.py ./revision.py
 RUN python revision.py /build /build/build_revision.json
 
-FROM python:3.12-slim@sha256:12316debbfb86890f6b2d825820612741ba527ad5a44e3902759141d572bfe8f
+FROM python:3.15-slim@sha256:65a65fc7b30b06cb6df4930fd4650697cb23f4c2698ab81fc87e4b031bc36928
 ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 DB_PATH=/data/planner.sqlite3 FORWARDED_ALLOW_IPS=127.0.0.1
 WORKDIR /opt/planner
 COPY requirements.txt ./
